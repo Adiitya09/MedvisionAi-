@@ -1,0 +1,27 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+logs/
+
+data/
+
+# ML generated files
+checkpoints/
+outputs/
+saved_models/
+
+# Temporary dataset repository
+temp_Datasets_repo/

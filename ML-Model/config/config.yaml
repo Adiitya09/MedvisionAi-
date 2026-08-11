@@ -1,0 +1,124 @@
+# Research-grade configuration for the medical image classification pipeline.
+# Paths are relative to the project root unless overridden with environment
+# variables prefixed by MEDICAL_AI_ (for example, MEDICAL_AI_DATASET_DIR).
+
+project:
+  name: "ai-powered-multi-disease-detection"
+  seed: 42
+  output_dir: "outputs"
+  models_dir: "models"
+  checkpoints_dir: "checkpoints"
+  logs_dir: "logs"
+  saved_models_dir: "saved_models"
+
+data:
+  dataset_dir: "data"
+  train_dir: "data/Train"
+  validation_dir: "data/Validation"
+  test_dir: "data/Test"
+  image_height: 224
+  image_width: 224
+  channels: 3
+  batch_size: 32
+  cache: true
+  shuffle_buffer_size: 1024
+  num_parallel_calls: -1  # -1 maps to tf.data.AUTOTUNE.
+  class_balancing: "class_weights"  # Options: none, class_weights, oversample.
+
+augmentation:
+  enabled: true
+  random_flip: "horizontal"
+  rotation_factor: 0.10
+  zoom_factor: 0.15
+  brightness_factor: 0.15
+  contrast_factor: 0.15
+  random_crop_scale: 0.90
+
+model:
+  # The comparison pipeline evaluates every entry in candidates.
+  backbone: "efficientnetb0"
+  candidates:
+    - "mobilenetv2"
+    - "efficientnetb0"
+    - "resnet50"
+    - "densenet121"
+    - "inceptionv3"
+  pretrained_weights: "imagenet"
+  dropout_rate: 0.30
+  dense_units: 256
+  activation: "relu"
+
+training:
+  epochs: 50
+  optimizer: "adam"
+  learning_rate: 0.0001
+  loss: "sparse_categorical_crossentropy"
+  mixed_precision: true
+  early_stopping_patience: 10
+  reduce_lr_patience: 4
+  reduce_lr_factor: 0.5
+  min_learning_rate: 0.0000001
+  fine_tuning:
+    enabled: true
+    epochs: 15
+    learning_rate: 0.00001
+    # Unfreeze the final 20% of backbone layers; batch-normalization remains frozen.
+    trainable_fraction: 0.20
+
+cross_validation:
+  enabled: true
+  folds: 5
+  stratified: true
+
+tuning:
+  enabled: true
+  max_trials: 20
+  executions_per_trial: 1
+  objective: "val_accuracy"
+  search_space:
+    learning_rate: [0.00001, 0.001]
+    dropout: [0.20, 0.60]
+    dense_units: [128, 256, 512, 1024]
+    optimizers: ["adam", "adamw", "rmsprop"]
+    batch_sizes: [16, 32, 64]
+    activations: ["relu", "gelu", "swish"]
+
+tracking:
+  mlflow:
+    enabled: true
+    experiment_name: "medical-image-classification"
+    tracking_uri: ""  # Empty uses the project-local outputs/mlruns store.
+  tensorboard:
+    enabled: true
+
+evaluation:
+  average: "macro"
+  top_k: 5
+  save_predictions: true
+  save_roc_curves: true
+  save_precision_recall_curves: true
+  save_confusion_matrix: true
+
+explainability:
+  gradcam: true
+  integrated_gradients: true
+  integrated_gradients_steps: 64
+
+export:
+  saved_model: true
+  tflite:
+    enabled: true
+    formats: ["fp32", "fp16", "int8"]
+    representative_samples: 200
+  onnx:
+    enabled: true
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+  model_path: "models/best_model.keras"
+  class_names_path: "models/class_names.json"
+
+logging:
+  level: "INFO"
+  file_name: "pipeline.log"
