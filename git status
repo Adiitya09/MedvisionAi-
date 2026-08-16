@@ -1,0 +1,175 @@
+[1mdiff --git a/ML-Model/scripts/compare_transfer_models.py b/ML-Model/scripts/compare_transfer_models.py[m
+[1mdeleted file mode 100644[m
+[1mindex 56249da..0000000[m
+[1m--- a/ML-Model/scripts/compare_transfer_models.py[m
+[1m+++ /dev/null[m
+[36m@@ -1,285 +0,0 @@[m
+[31m-"""Train, evaluate, rank, and select transfer-learning backbones.[m
+[31m-[m
+[31m-Every candidate uses the same dataset splits and ProjectConfig hyperparameters.[m
+[31m-The winner is chosen by macro F1, then multiclass AUC, then accuracy.[m
+[31m-"""[m
+[31m-[m
+[31m-from __future__ import annotations[m
+[31m-[m
+[31m-import _bootstrap  # noqa: F401[m
+[31m-[m
+[31m-import csv[m
+[31m-import json[m
+[31m-import logging[m
+[31m-import shutil[m
+[31m-import time[m
+[31m-from pathlib import Path[m
+[31m-from typing import Callable[m
+[31m-[m
+[31m-import numpy as np[m
+[31m-import tensorflow as tf[m
+[31m-from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, roc_auc_score[m
+[31m-[m
+[31m-from config import CONFIG, ProjectConfig[m
+[31m-[m
+[31m-[m
+[31m-LOGGER = logging.getLogger(__name__)[m
+[31m-BACKBONES: dict[str, tuple[Callable, Callable]] = {[m
+[31m-    "mobilenetv2": ([m
+[31m-        tf.keras.applications.MobileNetV2,[m
+[31m-        tf.keras.applications.mobilenet_v2.preprocess_input,[m
+[31m-    ),[m
+[31m-    "efficientnetb0": ([m
+[31m-        tf.keras.applications.EfficientNetB0,[m
+[31m-        tf.keras.applications.efficientnet.preprocess_input,[m
+[31m-    ),[m
+[31m-    "resnet50": ([m
+[31m-        tf.keras.applications.ResNet50,[m
+[31m-        tf.keras.applications.resnet50.preprocess_input,[m
+[31m-    ),[m
+[31m-    "densenet121": ([m
+[31m-        tf.keras.applications.DenseNet121,[m
+[31m-        tf.keras.applications.densenet.preprocess_input,[m
+[31m-    ),[m
+[31m-    "inceptionv3": ([m
+[31m-        tf.keras.applications.InceptionV3,[m
+[31m-        tf.keras.applications.inception_v3.preprocess_input,[m
+[31m-    ),[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-def configure_logging() -> None:[m
+[31m-    logging.basicConfig([m
+[31m-        level=logging.INFO,[m
+[31m-        format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",[m
+[31m-    )[m
+[31m-[m
+[31m-[m
+[31m-def make_dataset([m
+[31m-    directory: Path, class_names: list[str] | None, training: bool, config: ProjectConfig[m
+[31m-) -> tf.data.Dataset:[m
+[31m-    """Build one consistent efficient tf.data pipeline for every candidate."""[m
+[31m-    dataset = tf.keras.utils.image_dataset_from_directory([m
+[31m-        directory,[m
+[31m-        labels="inferred",[m
+[31m-        label_mode="int",[m
+[31m-        class_names=class_names,[m
+[31m-        image_size=config.image_size,[m
+[31m-        batch_size=config.batch_size,[m
+[31m-        shuffle=training,[m
+[31m-        seed=config.random_seed,[m
+[31m-    )[m
+[31m-    if config.cache_datasets:[m
+[31m-        dataset = dataset.cache()[m
+[31m-    if training:[m
+[31m-        dataset = dataset.shuffle([m
+[31m-            config.shuffle_buffer_size, seed=config.random_seed, reshuffle_each_iteration=True[m
+[31m-        )[m
+[31m-    return dataset.prefetch(tf.data.AUTOTUNE)[m
+[31m-[m
+[31m-[m
+[31m-def augmentation(config: ProjectConfig) -> tf.keras.Sequential:[m
+[31m-    """Return the identical training-only augmentation stack for every model."""[m
+[31m-    crop_height = int(config.image_height * config.random_crop_scale)[m
+[31m-    crop_width = int(config.image_width * config.random_crop_scale)[m
+[31m-    return tf.keras.Sequential([m
+[31m-        [[m
+[31m-            tf.keras.layers.RandomCrop(crop_height, crop_width),[m
+[31m-            tf.keras.layers.Resizing(*config.image_size),[m
+[31m-            tf.keras.layers.RandomFlip("horizontal"),[m
+[31m-            tf.keras.layers.RandomRotation(config.rotation_factor),[m
+[31m-            tf.keras.layers.RandomZoom(config.zoom_factor),[m
+[31m-            tf.keras.layers.RandomBrightness(config.brightness_factor),[m
+[31m-            tf.keras.layers.RandomContrast(config.contrast_factor),[m
+[31m-        ],[m
+[31m-        name="augmentation",[m
+[31m-    )[m
+[31m-[m
+[31m-[m
+[31m-def build_model(name: str, class_count: int, config: ProjectConfig) -> tuple[tf.keras.Model, tf.keras.Model]:[m
+[31m-    """Create a frozen ImageNet feature extractor and uniform classifier head."""[m
+[31m-    factory, preprocessing = BACKBONES[name][m
+[31m-    base_model = factory(include_top=False, weights="imagenet", input_shape=config.input_shape)[m
+[31m-    base_model.trainable = False[m
+[31m-    inputs = tf.keras.Input(shape=config.input_shape, name="image")[m
+[31m-    x = augmentation(config)(inputs)[m
+[31m-    x = tf.keras.layers.Lambda(preprocessing, name="preprocessing")(x)[m
+[31m-    x = base_model(x, training=False)[m
+[31m-    x = tf.keras.layers.GlobalAveragePooling2D(name="global_average_pooling")(x)[m
+[31m-    x = tf.keras.layers.Dropout(config.dropout_rate, name="dropout")(x)[m
+[31m-    outputs = tf.keras.layers.Dense([m
+[31m-        class_count, activation="softmax", dtype="float32", name="predictions"[m
+[31m-    )(x)[m
+[31m-    model = tf.keras.Model(inputs, outputs, name=f"{name}_classifier")[m
+[31m-    model.compile([m
+[31m-        optimizer=tf.keras.optimizers.Adam(config.initial_learning_rate),[m
+[31m-        loss=tf.keras.losses.SparseCategoricalCrossentropy(),[m
+[31m-        metrics=[tf.keras.metrics.SparseCategoricalAccuracy(name="accuracy")],[m
+[31m-    )[m
+[31m-    return model, base_model[m
+[31m-[m
+[31m-[m
+[31m-def make_callbacks(model_path: Path, config: ProjectConfig) -> list[tf.keras.callbacks.Callback]:[m
+[31m-    """Create the same model-selection callbacks for all candidates."""[m
+[31m-    return [[m
+[31m-        tf.keras.callbacks.ModelCheckpoint([m
+[31m-            model_path, monitor="val_accuracy", mode="max", save_best_only=True[m
+[31m-        ),[m
+[31m-        tf.keras.callbacks.EarlyStopping([m
+[31m-            monitor="val_accuracy", mode="max", patience=config.early_stopping_patience,[m
+[31m-            restore_best_weights=True,[m
+[31m-        ),[m
+[31m-        tf.keras.callbacks.ReduceLROnPlateau([m
+[31m-            monitor="val_loss", factor=config.reduce_lr_factor,[m
+[31m-            patience=config.reduce_lr_patience, min_lr=config.min_learning_rate,[m
+[31m-        ),[m
+[31m-    ][m
+[31m-[m
+[31m-[m
+[31m-def evaluate_model(model: tf.keras.Model, test_data: tf.data.Dataset) -> dict[str, float]:[m
+[31m-    """Calculate fair, macro-averaged test metrics and inference latency."""[m
+[31m-    true_labels: list[int] = [][m
+[31m-    probabilities: list[np.ndarray] = [][m
+[31m-    elapsed_seconds = 0.0[m
+[31m-    image_count = 0[m
+[31m-    for images, labels in test_data:[m
+[31m-        start = time.perf_counter()[m
+[31m-        batch_probabilities = model(images, training=False).numpy()[m
+[31m-        elapsed_seconds += time.perf_counter() - start[m
+[31m-        image_count += len(images)[m
+[31m-        probabilities.append(batch_probabilities)[m
+[31m-        true_labels.extend(labels.numpy().astype(int).tolist())[m
+[31m-    y_true = np.asarray(true_labels)[m
+[31m-    y_score = np.concatenate(probabilities, axis=0)[m
+[31m-    y_pred = np.argmax(y_score, axis=1)[m
+[31m-    try:[m
+[31m-        auc = roc_auc_score([m
+[31m-            tf.keras.utils.to_categorical(y_true, y_score.shape[1]),[m
+[31m-            y_score,[m
+[31m-            multi_class="ovr",[m
+[31m-            average="macro",[m
+[31m-        )[m
+[31m-    except ValueError:[m
+[31m-        auc = float("nan")[m
+[31m-        LOGGER.warning("AUC unavailable; the test split lacks a required class.")[m
+[31m-    return {[m
+[31m-        "accuracy": float(accuracy_score(y_true, y_pred)),[m
+[31m-        "precision_macro": float(precision_score(y_true, y_pred, average="macro", zero_division=0)),[m
+[31m-        "recall_macro": float(recall_score(y_true, y_pred, average="macro", zero_division=0)),[m
+[31m-        "f1_macro": floa
