@@ -3,22 +3,26 @@
 Use ``MLflowExperimentTracker`` as a context manager and include its callback
 in ``model.fit``.  Compare completed runs from the command line:
 
-    python mlflow_tracking.py --compare
+    python tracking/mlflow_tracking.py --compare
 """
 
 from __future__ import annotations
-
-import _bootstrap  # noqa: F401
 
 import argparse
 import json
 import logging
 import subprocess
+import sys
 import tempfile
 import time
-from collections.abc import Iterable
+from collections.abc import Iterable, Sequence
 from pathlib import Path
 from typing import Any
+
+# Support direct execution without assuming a project-root working directory.
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 import mlflow
 import numpy as np
@@ -85,6 +89,25 @@ def collect_validation_metrics(
     }
 
 
+def _extract_learning_rate(optimizer: tf.keras.optimizers.Optimizer | None) -> float:
+    """Extract a numeric learning rate safely across Keras 2, Keras 3, and schedules."""
+    if optimizer is None:
+        return 0.0
+    lr = getattr(optimizer, "learning_rate", 0.0)
+    if callable(lr):
+        try:
+            iterations = getattr(optimizer, "iterations", 0)
+            return float(lr(iterations))
+        except Exception:
+            return 0.0
+    if hasattr(lr, "numpy"):
+        return float(lr.numpy())
+    try:
+        return float(lr)
+    except (TypeError, ValueError):
+        return 0.0
+
+
 class MLflowMetricsCallback(tf.keras.callbacks.Callback):
     """Log Keras metrics, learning rate, validation F1, and GPU use per epoch."""
 
@@ -99,9 +122,8 @@ class MLflowMetricsCallback(tf.keras.callbacks.Callback):
             for key, value in (logs or {}).items()
             if np.isscalar(value) and np.isfinite(value)
         }
-        optimizer = self.model.optimizer
-        learning_rate = tf.keras.backend.get_value(optimizer.learning_rate)
-        metrics["learning_rate"] = float(learning_rate)
+        optimizer = getattr(self.model, "optimizer", None)
+        metrics["learning_rate"] = _extract_learning_rate(optimizer)
         metrics.update(gpu_telemetry())
         if self.validation_dataset is not None:
             metrics.update(collect_validation_metrics(self.model, self.validation_dataset))
@@ -112,7 +134,7 @@ class MLflowExperimentTracker:
     """Manage an MLflow run around TensorFlow training and artifact logging.
 
     Example:
-        with MLflowExperimentTracker("efficientnetb0", params, validation_ds) as tracker:
+        with MLflowExperimentTracker("skin_efficientnetb0", params, validation_ds) as tracker:
             history = model.fit(train_ds, callbacks=[tracker.callback], ...)
             tracker.log_trained_model(model, history, class_names)
     """
@@ -152,10 +174,12 @@ class MLflowExperimentTracker:
             for key, value in self.parameters.items()
         }
         mlflow.log_params(serializable_parameters)
+        policy = getattr(tf.keras.mixed_precision, "global_policy", lambda: None)()
+        policy_name = getattr(policy, "name", str(policy)) if policy is not None else "float32"
         mlflow.log_params(
             {
                 "tensorflow_version": tf.__version__,
-                "mixed_precision_policy": tf.keras.mixed_precision.global_policy().name,
+                "mixed_precision_policy": policy_name,
                 "gpu_available": bool(tf.config.list_physical_devices("GPU")),
             }
         )
@@ -227,20 +251,34 @@ def compare_runs(experiment_name: str, config: ProjectConfig = CONFIG) -> Path:
     return output_path
 
 
-def parse_arguments() -> argparse.Namespace:
+def parse_arguments(arguments: Sequence[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--compare", action="store_true", help="Export a run comparison CSV.")
+    parser.add_argument(
+        "--dataset",
+        choices=("skin", "eye", "oral"),
+        default=None,
+        help="Optional disease domain identifier for the MLflow experiment.",
+    )
     parser.add_argument("--experiment", default=CONFIG.backbone, help="MLflow experiment name.")
-    return parser.parse_args()
+    return parser.parse_args(arguments)
 
 
-def main() -> None:
+def main(arguments: Sequence[str] | None = None) -> int:
     configure_logging()
-    arguments = parse_arguments()
-    if not arguments.compare:
-        raise SystemExit("Use --compare, or import MLflowExperimentTracker into train.py.")
-    compare_runs(arguments.experiment)
+    args = parse_arguments(arguments)
+    if not args.compare:
+        print("Use --compare to export a run comparison CSV, or import MLflowExperimentTracker into training workflows.")
+        return 0
+    experiment_name = args.dataset or args.experiment
+    try:
+        compare_runs(experiment_name)
+    except Exception as error:
+        LOGGER.exception("MLflow run comparison failed: %s", error)
+        print(f"MLflow run comparison error: {error}", file=sys.stderr)
+        return 1
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

@@ -157,18 +157,29 @@ def get_callbacks(dataset_name: str, model_name: str) -> list[tf.keras.callbacks
             mode="min",
             verbose=1,
         ),
-        tf.keras.callbacks.TensorBoard(
-            log_dir=str(tensorboard_path),
-            histogram_freq=1,
-            write_graph=True,
-            profile_batch=0,
-        ),
+    ]
+
+    try:
+        import tensorboard  # noqa: F401
+
+        callbacks.append(
+            tf.keras.callbacks.TensorBoard(
+                log_dir=str(tensorboard_path),
+                histogram_freq=1,
+                write_graph=True,
+                profile_batch=0,
+            )
+        )
+    except ImportError:
+        LOGGER.warning("TensorBoard is not installed; skipping TensorBoard logging callback.")
+
+    callbacks.append(
         tf.keras.callbacks.CSVLogger(
             filename=str(csv_path),
             separator=",",
             append=False,
-        ),
-    ]
+        )
+    )
 
     LOGGER.info("Created %d callbacks for %s/%s training.", len(callbacks), dataset_key, model_key)
     LOGGER.info("ModelCheckpoint path: %s", checkpoint_path)
