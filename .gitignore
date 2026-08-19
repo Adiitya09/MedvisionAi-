@@ -11,17 +11,28 @@ env/
 
 # Environment variables
 .env
+.env.*
 
 # Logs
 *.log
 logs/
 
+# Datasets and quarantine backups
 data/
+quarantine/
+temp_Datasets_repo/
 
-# ML generated files
+# ML generated models, checkpoints, and evaluation outputs
+models/*
+!models/.gitkeep
 checkpoints/
 outputs/
 saved_models/
+*.keras
+*.h5
+*.tflite
+*.onnx
 
-# Temporary dataset repository
-temp_Datasets_repo/
+# MLflow and experiment tracking
+mlruns/
+.mlflow/

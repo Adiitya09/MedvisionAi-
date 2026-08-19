@@ -27,6 +27,8 @@ Thumbs.db
 
 # Project data (large medical image datasets — not tracked in git)
 data/
+quarantine/
+temp_Datasets_repo/
 
 # Generated artifacts
 models/*
@@ -39,6 +41,11 @@ logs/*
 !logs/.gitkeep
 outputs/*
 !outputs/.gitkeep
+*.keras
+*.h5
+*.tflite
+*.onnx
+
 
 # ML experiment tracking
 mlruns/
