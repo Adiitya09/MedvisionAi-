@@ -2,15 +2,20 @@
 
 from __future__ import annotations
 
-import _bootstrap  # noqa: F401
 
 import argparse
+import json
 import logging
 import os
 import sys
 from pathlib import Path
 from time import perf_counter
 from typing import Any, Sequence
+
+# Enable direct execution without assuming a specific working directory.
+PROJECT_ROOT = Path(__file__).resolve().parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
@@ -60,6 +65,7 @@ def _require_config_value(attribute: str) -> Any:
 def _validate_configuration(
     dataset_name: str,
     model_name: str,
+    epochs: int | None = None,
 ) -> tuple[str, str, int]:
     """Validate CLI selections and required training settings from config.py."""
     for attribute in _REQUIRED_CONFIG_ATTRIBUTES:
@@ -67,11 +73,12 @@ def _validate_configuration(
 
     dataset_name = dataset_name.strip().lower()
     model_name = model_name.strip().lower()
-    epochs = _require_config_value("epochs")
+    if epochs is None:
+        epochs = _require_config_value("epochs")
     if not dataset_name:
         raise ValueError("dataset_name must be a non-empty dataset identifier.")
     if not isinstance(epochs, int) or isinstance(epochs, bool) or epochs < 1:
-        raise ValueError("CONFIG.epochs must be a positive integer.")
+        raise ValueError("epochs must be a positive integer.")
     if not isinstance(_require_config_value("batch_size"), int):
         raise ValueError("CONFIG.batch_size must be an integer.")
 
@@ -127,7 +134,7 @@ def _compile_model(model: tf.keras.Model) -> None:
     """Compile a model with defaults or optional future config overrides.
 
     Defaults are Adam with ``CONFIG.initial_learning_rate``, sparse categorical
-    cross-entropy, and accuracy/precision/recall metrics.
+    cross-entropy, and accuracy metric.
     """
     learning_rate = float(_require_config_value("initial_learning_rate"))
     configured_optimizer = _optional_config_value("optimizer", None)
@@ -147,11 +154,7 @@ def _compile_model(model: tf.keras.Model) -> None:
     )
     metrics = _optional_config_value(
         "metrics",
-        [
-            "accuracy",
-            tf.keras.metrics.Precision(name="precision"),
-            tf.keras.metrics.Recall(name="recall"),
-        ],
+        ["accuracy"],
     )
     if not isinstance(metrics, (list, tuple)) or not metrics:
         raise ValueError("CONFIG.metrics must be a non-empty list or tuple when provided.")
@@ -169,7 +172,11 @@ def _compile_model(model: tf.keras.Model) -> None:
     )
 
 
-def train(dataset_name: str, model_name: str) -> dict[str, float | Path | str]:
+def train(
+    dataset_name: str,
+    model_name: str,
+    epochs: int | None = None,
+) -> dict[str, float | Path | str]:
     """Run the complete configured training pipeline for one disease dataset.
 
     Returns:
@@ -183,14 +190,16 @@ def train(dataset_name: str, model_name: str) -> dict[str, float | Path | str]:
     CONFIG.create_project_directories()
     create_directories()
     logger = setup_logging()
-    dataset_name, model_name, epochs = _validate_configuration(dataset_name, model_name)
+    dataset_name, model_name, resolved_epochs = _validate_configuration(
+        dataset_name, model_name, epochs
+    )
     logger.info("Training dataset selected: %s", dataset_name)
     logger.info("Model selected: %s", model_name)
     logger.info(
         "Training settings | image size: %s | epochs: %d | batch size: %s | "
         "learning rate: %s",
         CONFIG.image_size,
-        epochs,
+        resolved_epochs,
         _require_config_value("batch_size"),
         _require_config_value("initial_learning_rate"),
     )
@@ -214,6 +223,16 @@ def train(dataset_name: str, model_name: str) -> dict[str, float | Path | str]:
         )
     logger.info("Detected %d classes: %s", len(class_names), class_names)
 
+    # Persist the exact detected class-index mapping for evaluation and inference.
+    class_names_path = CONFIG.class_names_path_for(dataset_name)
+    try:
+        class_names_path.parent.mkdir(parents=True, exist_ok=True)
+        class_names_path.write_text(json.dumps(class_names, indent=2), encoding="utf-8")
+        logger.info("Saved class-name mapping: %s", class_names_path)
+    except OSError as error:
+        logger.exception("Unable to save class-name mapping.")
+        raise RuntimeError(f"Unable to save class-name mapping to: {class_names_path}") from error
+
     model = _build_model(model_name, num_classes=len(class_names))
     _compile_model(model)
     print_model_summary(model)
@@ -226,7 +245,7 @@ def train(dataset_name: str, model_name: str) -> dict[str, float | Path | str]:
         history = model.fit(
             train_dataset,
             validation_data=validation_dataset,
-            epochs=epochs,
+            epochs=resolved_epochs,
             callbacks=callbacks,
             # The tf.data loader already shuffles the training split.
             shuffle=False,
@@ -255,6 +274,7 @@ def train(dataset_name: str, model_name: str) -> dict[str, float | Path | str]:
         "final_loss": final_loss,
         "training_time_seconds": training_time,
         "model_path": model_path,
+        "class_names_path": class_names_path,
         "history_plot_path": plot_path,
     }
     logger.info(
@@ -265,12 +285,14 @@ def train(dataset_name: str, model_name: str) -> dict[str, float | Path | str]:
         training_time,
     )
     logger.info("Final model saved: %s", model_path)
+    logger.info("Class-name mapping saved: %s", class_names_path)
     logger.info("Training plot saved: %s", plot_path)
     print(
         f"Final validation accuracy: {final_accuracy:.4f}\n"
         f"Final validation loss: {final_loss:.4f}\n"
         f"Training time: {training_time:.2f} seconds\n"
-        f"Model saved to: {model_path}"
+        f"Model saved to: {model_path}\n"
+        f"Class names saved to: {class_names_path}"
     )
     return results
 
@@ -292,6 +314,12 @@ def _parse_arguments(arguments: Sequence[str] | None = None) -> argparse.Namespa
         default=CONFIG.backbone,
         help="Transfer-learning backbone (default: CONFIG.backbone).",
     )
+    parser.add_argument(
+        "--epochs",
+        type=int,
+        default=None,
+        help="Number of training epochs (default: CONFIG.epochs).",
+    )
     return parser.parse_args(arguments)
 
 
@@ -299,7 +327,7 @@ def main(arguments: Sequence[str] | None = None) -> int:
     """Run parsed training selections and return an appropriate exit code."""
     try:
         args = _parse_arguments(arguments)
-        train(args.dataset, args.model)
+        train(args.dataset, args.model, epochs=args.epochs)
     except KeyboardInterrupt:
         LOGGER.warning("Training cancelled by user.")
         print("Training cancelled by user.")
