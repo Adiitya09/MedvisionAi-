@@ -26,7 +26,6 @@ temp_Datasets_repo/
 models/*
 !models/.gitkeep
 checkpoints/
-outputs/
 saved_models/
 *.keras
 *.h5
@@ -35,4 +34,4 @@ saved_models/
 
 # MLflow and experiment tracking
 mlruns/
-.mlflow/
+.mlflow/
