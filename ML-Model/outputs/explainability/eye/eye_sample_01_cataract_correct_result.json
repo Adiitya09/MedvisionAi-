@@ -1,0 +1,14 @@
+{
+  "image_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\data\\Test\\Eye disease\\C\\_253_1359558.jpg",
+  "image_filename": "_253_1359558.jpg",
+  "dataset": "eye",
+  "model": "eye_model.keras",
+  "predicted_class": "C",
+  "confidence": 0.9868884682655334,
+  "target_class": "C",
+  "target_class_index": 1,
+  "target_layer": "top_conv",
+  "original_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\eye\\eye_sample_01_cataract_correct_original.png",
+  "heatmap_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\eye\\eye_sample_01_cataract_correct_heatmap.png",
+  "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\eye\\eye_sample_01_cataract_correct_overlay.png"
+}

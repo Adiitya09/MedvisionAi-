@@ -1,0 +1,4 @@
+Dataset,Original Images,Removed Duplicates,Final Images,Train-Test Leakage After Cleaning,Classes,Imbalance Ratio
+Oral Cancer,1651,589,1062,0,2,1.25 : 1
+Eye Disease,10438,161,10277,0,7,7.59 : 1
+Skin Disease,22719,0,22719,0,8,25.68 : 1

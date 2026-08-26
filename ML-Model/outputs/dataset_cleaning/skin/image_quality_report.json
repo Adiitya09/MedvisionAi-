@@ -1,0 +1,51 @@
+{
+  "dataset": "skin",
+  "total_original_scanned": 22719,
+  "corrupted_images_detected": 0,
+  "non_rgb_images_detected": 1190,
+  "small_images_detected": 0,
+  "cleaned_images_verified": 22719,
+  "cleaned_corruptions": 0,
+  "classes_verified": [
+    "Acne",
+    "Actinic Keratosis",
+    "Basal Cell Carcinoma",
+    "Dermatofibroma",
+    "Melanocytic Nevus (Nevus)",
+    "Melanoma",
+    "Seborrheic Keratosis",
+    "Squamous Cell Carcinoma"
+  ],
+  "class_distribution_cleaned": {
+    "Train": {
+      "Acne": 2030,
+      "Actinic Keratosis": 577,
+      "Basal Cell Carcinoma": 1965,
+      "Dermatofibroma": 273,
+      "Melanocytic Nevus (Nevus)": 7010,
+      "Melanoma": 3837,
+      "Seborrheic Keratosis": 1977,
+      "Squamous Cell Carcinoma": 502
+    },
+    "Validation": {
+      "Acne": 253,
+      "Actinic Keratosis": 72,
+      "Basal Cell Carcinoma": 245,
+      "Dermatofibroma": 34,
+      "Melanocytic Nevus (Nevus)": 876,
+      "Melanoma": 479,
+      "Seborrheic Keratosis": 247,
+      "Squamous Cell Carcinoma": 62
+    },
+    "Test": {
+      "Acne": 255,
+      "Actinic Keratosis": 73,
+      "Basal Cell Carcinoma": 247,
+      "Dermatofibroma": 35,
+      "Melanocytic Nevus (Nevus)": 877,
+      "Melanoma": 481,
+      "Seborrheic Keratosis": 248,
+      "Squamous Cell Carcinoma": 64
+    }
+  }
+}

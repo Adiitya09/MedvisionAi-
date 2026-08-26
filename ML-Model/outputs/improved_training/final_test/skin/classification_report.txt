@@ -1,0 +1,14 @@
+                           precision    recall  f1-score   support
+
+                     Acne       0.97      0.90      0.93       255
+        Actinic Keratosis       0.45      0.85      0.59        73
+     Basal Cell Carcinoma       0.68      0.30      0.42       247
+           Dermatofibroma       0.18      0.69      0.28        35
+Melanocytic Nevus (Nevus)       0.79      0.74      0.77       877
+                 Melanoma       0.64      0.54      0.59       481
+     Seborrheic Keratosis       0.68      0.70      0.69       248
+  Squamous Cell Carcinoma       0.31      0.88      0.46        64
+
+                 accuracy                           0.67      2280
+                macro avg       0.59      0.70      0.59      2280
+             weighted avg       0.72      0.67      0.68      2280

@@ -1,0 +1,14 @@
+{
+  "image_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\data\\Test\\Oral Cancer\\NON CANCER\\382.jpeg",
+  "image_filename": "382.jpeg",
+  "dataset": "oral",
+  "model": "efficientnetb0_best_tuned.keras",
+  "predicted_class": "NON CANCER",
+  "confidence": 0.8263484835624695,
+  "target_class": "NON CANCER",
+  "target_class_index": 2,
+  "target_layer": "top_conv",
+  "original_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\oral\\oral_sample_01_noncancer_correct_original.png",
+  "heatmap_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\oral\\oral_sample_01_noncancer_correct_heatmap.png",
+  "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\oral\\oral_sample_01_noncancer_correct_overlay.png"
+}

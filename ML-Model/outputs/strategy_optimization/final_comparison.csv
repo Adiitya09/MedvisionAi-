@@ -1,0 +1,3 @@
+Domain,Baseline Accuracy,Phase 8D Accuracy,Phase 8E Accuracy,Acc Delta (8E vs Base),Baseline Macro F1,Phase 8D Macro F1,Phase 8E Macro F1,F1 Delta (8E vs Base),Phase 8D Macro Recall,Phase 8E Macro Recall,Selected Strategy
+Skin,76.32%,67.24%,73.86%,-2.46%,0.6851,0.5915,0.6617,-0.0234,0.6997,0.6739,Config 1 (Sqrt-Moderated Weights)
+Eye,68.13%,55.00%,64.44%,-3.69%,0.6125,0.5640,0.6358,+0.0233,0.6374,0.6216,Config 1 (Sqrt-Moderated Weights)

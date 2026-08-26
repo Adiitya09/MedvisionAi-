@@ -1,0 +1,38 @@
+[
+  {
+    "case_index": 1,
+    "image_filename": "157.jpeg",
+    "true_class": "CANCER",
+    "predicted_class": "CANCER 1",
+    "confidence": 0.7569183111190796,
+    "target_layer": "top_conv",
+    "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\error_analysis\\oral\\gradcam_error_cases\\error_case_01_CANCER_pred_CANCER 1_overlay.png"
+  },
+  {
+    "case_index": 2,
+    "image_filename": "070.jpeg",
+    "true_class": "CANCER",
+    "predicted_class": "NON CANCER",
+    "confidence": 0.4882836639881134,
+    "target_layer": "top_conv",
+    "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\error_analysis\\oral\\gradcam_error_cases\\error_case_02_CANCER_pred_NON CANCER_overlay.png"
+  },
+  {
+    "case_index": 3,
+    "image_filename": "077.jpeg",
+    "true_class": "CANCER",
+    "predicted_class": "CANCER 1",
+    "confidence": 0.3174983859062195,
+    "target_layer": "top_conv",
+    "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\error_analysis\\oral\\gradcam_error_cases\\error_case_03_CANCER_pred_CANCER 1_overlay.png"
+  },
+  {
+    "case_index": 4,
+    "image_filename": "083.jpeg",
+    "true_class": "CANCER",
+    "predicted_class": "CANCER 1",
+    "confidence": 0.3945096731185913,
+    "target_layer": "top_conv",
+    "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\error_analysis\\oral\\gradcam_error_cases\\error_case_04_CANCER_pred_CANCER 1_overlay.png"
+  }
+]

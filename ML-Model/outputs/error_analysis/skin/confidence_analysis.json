@@ -1,0 +1,31 @@
+{
+  "dataset": "skin",
+  "total_test_samples": 2280,
+  "total_correct": 1740,
+  "total_incorrect": 540,
+  "accuracy": 0.7631578947368421,
+  "macro_f1": 0.6851002649564445,
+  "weighted_f1": 0.7566959055563696,
+  "correct_confidence": {
+    "mean": 0.7949443459510803,
+    "std": 0.17447742819786072,
+    "median": 0.8452903032302856,
+    "min": 0.27710071206092834,
+    "max": 0.9999326467514038,
+    "q25": 0.680002748966217,
+    "q75": 0.9382930994033813
+  },
+  "incorrect_confidence": {
+    "mean": 0.5792900323867798,
+    "std": 0.16343790292739868,
+    "median": 0.5565622448921204,
+    "min": 0.21815377473831177,
+    "max": 0.964651346206665,
+    "q25": 0.4550475776195526,
+    "q75": 0.6952248215675354
+  },
+  "high_confidence_error_count": 95,
+  "high_confidence_error_pct": 17.59259259259259,
+  "low_confidence_error_count": 187,
+  "low_confidence_error_pct": 34.629629629629626
+}

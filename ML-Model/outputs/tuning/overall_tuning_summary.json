@@ -1,0 +1,41 @@
+[
+  {
+    "dataset": "skin",
+    "winning_backbone": "resnet50",
+    "best_trial_number": 3,
+    "best_trial_label": "higher_learning_rate",
+    "best_learning_rate": 0.0003,
+    "best_dropout": 0.3,
+    "best_fine_tune_layers": 0,
+    "best_validation_macro_f1": 0.7070187484670584,
+    "best_validation_accuracy": 0.7698412537574768,
+    "best_validation_loss": 0.5826754570007324,
+    "training_time_seconds": 2747.1859591999964
+  },
+  {
+    "dataset": "eye",
+    "winning_backbone": "resnet50",
+    "best_trial_number": 3,
+    "best_trial_label": "higher_learning_rate",
+    "best_learning_rate": 0.0003,
+    "best_dropout": 0.3,
+    "best_fine_tune_layers": 0,
+    "best_validation_macro_f1": 0.5998743508714391,
+    "best_validation_accuracy": 0.6663461327552795,
+    "best_validation_loss": 0.9108344316482544,
+    "training_time_seconds": 1263.094605499995
+  },
+  {
+    "dataset": "oral",
+    "winning_backbone": "efficientnetb0",
+    "best_trial_number": 3,
+    "best_trial_label": "higher_learning_rate",
+    "best_learning_rate": 0.0003,
+    "best_dropout": 0.3,
+    "best_fine_tune_layers": 0,
+    "best_validation_macro_f1": 0.47665333963806206,
+    "best_validation_accuracy": 0.5555555820465088,
+    "best_validation_loss": 0.9414768815040588,
+    "training_time_seconds": 134.68982929999765
+  }
+]

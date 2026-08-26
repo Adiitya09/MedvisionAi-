@@ -1,0 +1,14 @@
+{
+  "image_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\data\\Test\\FYP skin disease Dataset\\Acne\\levle3_126_jpg.rf.f8a83210ecae1ee13f571a90a20e0b40.jpg",
+  "image_filename": "levle3_126_jpg.rf.f8a83210ecae1ee13f571a90a20e0b40.jpg",
+  "dataset": "skin",
+  "model": "skin_model.keras",
+  "predicted_class": "Acne",
+  "confidence": 0.9997819066047668,
+  "target_class": "Acne",
+  "target_class_index": 0,
+  "target_layer": "top_conv",
+  "original_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\skin\\skin_sample_02_acne_correct_original.png",
+  "heatmap_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\skin\\skin_sample_02_acne_correct_heatmap.png",
+  "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\skin\\skin_sample_02_acne_correct_overlay.png"
+}

@@ -1,0 +1,25 @@
+split,class,image_count,pct_of_split
+Test,Acne,255,11.18421052631579
+Test,Actinic Keratosis,73,3.2017543859649127
+Test,Basal Cell Carcinoma,247,10.833333333333334
+Test,Dermatofibroma,35,1.5350877192982455
+Test,Melanocytic Nevus (Nevus),877,38.46491228070175
+Test,Melanoma,481,21.096491228070175
+Test,Seborrheic Keratosis,248,10.87719298245614
+Test,Squamous Cell Carcinoma,64,2.807017543859649
+Train,Acne,2030,11.171647130042375
+Train,Actinic Keratosis,577,3.175389356667217
+Train,Basal Cell Carcinoma,1965,10.813934290903088
+Train,Dermatofibroma,273,1.502393924385009
+Train,Melanocytic Nevus (Nevus),7010,38.577953882560124
+Train,Melanoma,3837,21.116064058114578
+Train,Seborrheic Keratosis,1977,10.879973584282649
+Train,Squamous Cell Carcinoma,502,2.7626437730449616
+Validation,Acne,253,11.155202821869487
+Validation,Actinic Keratosis,72,3.1746031746031744
+Validation,Basal Cell Carcinoma,245,10.802469135802468
+Validation,Dermatofibroma,34,1.4991181657848323
+Validation,Melanocytic Nevus (Nevus),876,38.62433862433862
+Validation,Melanoma,479,21.119929453262788
+Validation,Seborrheic Keratosis,247,10.890652557319223
+Validation,Squamous Cell Carcinoma,62,2.7336860670194003

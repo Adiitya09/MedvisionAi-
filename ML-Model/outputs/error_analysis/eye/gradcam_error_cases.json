@@ -1,0 +1,38 @@
+[
+  {
+    "case_index": 1,
+    "image_filename": "0_1kIM_62_ARMD.png",
+    "true_class": "A",
+    "predicted_class": "D",
+    "confidence": 0.7816815972328186,
+    "target_layer": "top_conv",
+    "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\error_analysis\\eye\\gradcam_error_cases\\error_case_01_A_pred_D_overlay.png"
+  },
+  {
+    "case_index": 2,
+    "image_filename": "0_aria_a_39_1.png",
+    "true_class": "A",
+    "predicted_class": "D",
+    "confidence": 0.7527287602424622,
+    "target_layer": "top_conv",
+    "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\error_analysis\\eye\\gradcam_error_cases\\error_case_02_A_pred_D_overlay.png"
+  },
+  {
+    "case_index": 3,
+    "image_filename": "0_1kIM_15_ARMD.png",
+    "true_class": "A",
+    "predicted_class": "D",
+    "confidence": 0.639428436756134,
+    "target_layer": "top_conv",
+    "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\error_analysis\\eye\\gradcam_error_cases\\error_case_03_A_pred_D_overlay.png"
+  },
+  {
+    "case_index": 4,
+    "image_filename": "0_1kIM_18_ARMD.png",
+    "true_class": "A",
+    "predicted_class": "D",
+    "confidence": 0.682273268699646,
+    "target_layer": "top_conv",
+    "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\error_analysis\\eye\\gradcam_error_cases\\error_case_04_A_pred_D_overlay.png"
+  }
+]

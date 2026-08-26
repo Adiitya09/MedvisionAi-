@@ -1,0 +1,14 @@
+{
+  "dataset": "eye",
+  "original_total_images": 10438,
+  "cleaned_total_images": 10277,
+  "removed_duplicate_instances": 161,
+  "original_train_test_leakage_groups": 26,
+  "original_train_val_leakage_groups": 28,
+  "original_val_test_leakage_groups": 4,
+  "original_within_split_duplicate_groups": 103,
+  "cleaned_train_test_leakage": 0,
+  "cleaned_train_val_leakage": 0,
+  "cleaned_val_test_leakage": 0,
+  "cleaned_within_split_duplicates": 0
+}

@@ -1,0 +1,21 @@
+{
+  "dataset": "skin",
+  "model_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\models\\tuning\\skin\\resnet50_best_tuned.keras",
+  "class_mapping_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\models\\skin_class_names.json",
+  "test_loss": 1.200331211090088,
+  "test_accuracy": 0.5429824561403509,
+  "macro_precision": 0.5684014220363913,
+  "macro_recall": 0.4177686564392715,
+  "macro_f1": 0.4157800094059333,
+  "weighted_precision": 0.5893098265738059,
+  "weighted_recall": 0.5429824561403509,
+  "weighted_f1": 0.5194780943658397,
+  "micro_precision": 0.5429824561403509,
+  "micro_recall": 0.5429824561403509,
+  "micro_f1": 0.5429824561403509,
+  "precision": 0.5684014220363913,
+  "recall": 0.4177686564392715,
+  "f1_score": 0.4157800094059333,
+  "roc_auc": 0.8961990989750412,
+  "test_samples": 2280
+}

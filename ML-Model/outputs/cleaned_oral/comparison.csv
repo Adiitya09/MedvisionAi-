@@ -1,0 +1,11 @@
+Metric,Old 4-Class Model,New Clean 2-Class Model,Absolute Change,Relative Improvement
+Test Accuracy,48.82%,87.12%,+38.30%,+78.44%
+Macro F1-Score,0.4262,0.8683,+0.4421,+103.73%
+Weighted F1-Score,0.4538,0.8713,+0.4175,+92.00%
+ROC-AUC,N/A (Multi-class with duplicates),0.9283,N/A,N/A
+Number of Classes,"4 (CANCER, CANCER 1, NON CANCER, NON CANCER 2)","2 (CANCER, NON CANCER)",-2 classes (Consolidated),Eliminated artificial subclass confusion
+Total Images in Dataset,"1,651","1,062",-589 duplicate/conflicting images,100% Unique samples
+Train-Test Leakage Groups,108 groups,0 groups (0.0%),-108 groups,100% Leakage Elimination
+Train-Val Leakage Groups,93 groups,0 groups (0.0%),-93 groups,100% Leakage Elimination
+Cross-Class Conflicts,1 group,0 groups (0.0%),-1 group,100% Label Consistency
+Class Imbalance Ratio,1.94 : 1,1.25 : 1,-0.69 (Better balanced),Nearly equal class distribution

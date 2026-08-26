@@ -1,0 +1,39 @@
+true_class,predicted_class,error_count,pct_of_true_class,pct_of_total_errors
+Melanoma,Melanocytic Nevus (Nevus),172,35.75883575883576,31.851851851851855
+Melanocytic Nevus (Nevus),Melanoma,75,8.551881413911062,13.88888888888889
+Basal Cell Carcinoma,Melanocytic Nevus (Nevus),47,19.02834008097166,8.703703703703704
+Melanocytic Nevus (Nevus),Seborrheic Keratosis,23,2.6225769669327255,4.2592592592592595
+Squamous Cell Carcinoma,Basal Cell Carcinoma,18,28.125,3.3333333333333335
+Basal Cell Carcinoma,Melanoma,17,6.882591093117409,3.148148148148148
+Seborrheic Keratosis,Melanoma,14,5.64516129032258,2.5925925925925926
+Squamous Cell Carcinoma,Melanoma,14,21.875,2.5925925925925926
+Basal Cell Carcinoma,Seborrheic Keratosis,13,5.263157894736842,2.4074074074074074
+Seborrheic Keratosis,Melanocytic Nevus (Nevus),12,4.838709677419355,2.2222222222222223
+Actinic Keratosis,Seborrheic Keratosis,11,15.068493150684931,2.037037037037037
+Actinic Keratosis,Basal Cell Carcinoma,10,13.698630136986301,1.8518518518518516
+Dermatofibroma,Seborrheic Keratosis,10,28.57142857142857,1.8518518518518516
+Melanoma,Basal Cell Carcinoma,10,2.079002079002079,1.8518518518518516
+Seborrheic Keratosis,Dermatofibroma,10,4.032258064516129,1.8518518518518516
+Acne,Seborrheic Keratosis,9,3.5294117647058822,1.6666666666666667
+Dermatofibroma,Melanocytic Nevus (Nevus),8,22.857142857142858,1.4814814814814816
+Melanoma,Seborrheic Keratosis,8,1.6632016632016633,1.4814814814814816
+Melanocytic Nevus (Nevus),Basal Cell Carcinoma,7,0.798175598631699,1.2962962962962963
+Squamous Cell Carcinoma,Melanocytic Nevus (Nevus),7,10.9375,1.2962962962962963
+Basal Cell Carcinoma,Actinic Keratosis,6,2.42914979757085,1.1111111111111112
+Basal Cell Carcinoma,Squamous Cell Carcinoma,6,2.42914979757085,1.1111111111111112
+Seborrheic Keratosis,Basal Cell Carcinoma,6,2.4193548387096775,1.1111111111111112
+Actinic Keratosis,Melanocytic Nevus (Nevus),4,5.47945205479452,0.7407407407407408
+Seborrheic Keratosis,Actinic Keratosis,4,1.6129032258064515,0.7407407407407408
+Dermatofibroma,Basal Cell Carcinoma,3,8.571428571428571,0.5555555555555556
+Actinic Keratosis,Acne,2,2.73972602739726,0.3703703703703704
+Dermatofibroma,Melanoma,2,5.714285714285714,0.3703703703703704
+Melanoma,Actinic Keratosis,2,0.4158004158004158,0.3703703703703704
+Seborrheic Keratosis,Acne,2,0.8064516129032258,0.3703703703703704
+Acne,Actinic Keratosis,1,0.39215686274509803,0.1851851851851852
+Acne,Melanocytic Nevus (Nevus),1,0.39215686274509803,0.1851851851851852
+Acne,Melanoma,1,0.39215686274509803,0.1851851851851852
+Actinic Keratosis,Dermatofibroma,1,1.36986301369863,0.1851851851851852
+Basal Cell Carcinoma,Acne,1,0.4048582995951417,0.1851851851851852
+Basal Cell Carcinoma,Dermatofibroma,1,0.4048582995951417,0.1851851851851852
+Melanocytic Nevus (Nevus),Dermatofibroma,1,0.11402508551881414,0.1851851851851852
+Melanoma,Squamous Cell Carcinoma,1,0.2079002079002079,0.1851851851851852

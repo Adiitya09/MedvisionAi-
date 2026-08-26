@@ -1,0 +1,9 @@
+{
+  "exact_duplicate_groups_count": 0,
+  "perceptual_duplicate_groups_count": 460,
+  "train_test_leakage_groups": 0,
+  "train_val_leakage_groups": 0,
+  "val_test_leakage_groups": 0,
+  "within_split_duplicate_groups": 0,
+  "leakage_details": []
+}

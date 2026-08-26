@@ -1,0 +1,21 @@
+{
+  "dataset": "oral",
+  "model_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\models\\tuning\\oral\\efficientnetb0_best_tuned.keras",
+  "class_mapping_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\models\\oral_class_names.json",
+  "test_loss": 1.0626534223556519,
+  "test_accuracy": 0.48823529411764705,
+  "macro_precision": 0.5077327327327327,
+  "macro_recall": 0.44998634905467205,
+  "macro_f1": 0.42622916044545117,
+  "weighted_precision": 0.4949090266737325,
+  "weighted_recall": 0.48823529411764705,
+  "weighted_f1": 0.45376060320048606,
+  "micro_precision": 0.48823529411764705,
+  "micro_recall": 0.48823529411764705,
+  "micro_f1": 0.48823529411764705,
+  "precision": 0.5077327327327327,
+  "recall": 0.44998634905467205,
+  "f1_score": 0.42622916044545117,
+  "roc_auc": 0.7750077568144265,
+  "test_samples": 170
+}

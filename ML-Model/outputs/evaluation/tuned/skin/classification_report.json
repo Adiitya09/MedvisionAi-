@@ -1,0 +1,63 @@
+{
+  "Acne": {
+    "precision": 0.9939393939393939,
+    "recall": 0.6431372549019608,
+    "f1-score": 0.780952380952381,
+    "support": 255.0
+  },
+  "Actinic Keratosis": {
+    "precision": 0.8571428571428571,
+    "recall": 0.0821917808219178,
+    "f1-score": 0.15,
+    "support": 73.0
+  },
+  "Basal Cell Carcinoma": {
+    "precision": 0.5857142857142857,
+    "recall": 0.3319838056680162,
+    "f1-score": 0.42377260981912146,
+    "support": 247.0
+  },
+  "Dermatofibroma": {
+    "precision": 0.24489795918367346,
+    "recall": 0.34285714285714286,
+    "f1-score": 0.2857142857142857,
+    "support": 35.0
+  },
+  "Melanocytic Nevus (Nevus)": {
+    "precision": 0.6438482886216467,
+    "recall": 0.7936145952109465,
+    "f1-score": 0.710929519918284,
+    "support": 877.0
+  },
+  "Melanoma": {
+    "precision": 0.423728813559322,
+    "recall": 0.15592515592515593,
+    "f1-score": 0.22796352583586627,
+    "support": 481.0
+  },
+  "Seborrheic Keratosis": {
+    "precision": 0.2979397781299525,
+    "recall": 0.7580645161290323,
+    "f1-score": 0.42775881683731515,
+    "support": 248.0
+  },
+  "Squamous Cell Carcinoma": {
+    "precision": 0.5,
+    "recall": 0.234375,
+    "f1-score": 0.3191489361702128,
+    "support": 64.0
+  },
+  "accuracy": 0.5429824561403509,
+  "macro avg": {
+    "precision": 0.5684014220363913,
+    "recall": 0.4177686564392715,
+    "f1-score": 0.4157800094059333,
+    "support": 2280.0
+  },
+  "weighted avg": {
+    "precision": 0.5893098265738059,
+    "recall": 0.5429824561403509,
+    "f1-score": 0.5194780943658397,
+    "support": 2280.0
+  }
+}

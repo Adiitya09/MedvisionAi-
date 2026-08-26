@@ -1,0 +1,47 @@
+{
+  "dataset": "eye",
+  "total_original_scanned": 10438,
+  "corrupted_images_detected": 0,
+  "non_rgb_images_detected": 0,
+  "small_images_detected": 0,
+  "cleaned_images_verified": 10277,
+  "cleaned_corruptions": 0,
+  "classes_verified": [
+    "A",
+    "C",
+    "D",
+    "G",
+    "H",
+    "M",
+    "N"
+  ],
+  "class_distribution_cleaned": {
+    "Train": {
+      "A": 408,
+      "C": 806,
+      "D": 2498,
+      "G": 1286,
+      "H": 329,
+      "M": 471,
+      "N": 2397
+    },
+    "Validation": {
+      "A": 51,
+      "C": 100,
+      "D": 312,
+      "G": 162,
+      "H": 41,
+      "M": 68,
+      "N": 299
+    },
+    "Test": {
+      "A": 52,
+      "C": 102,
+      "D": 314,
+      "G": 165,
+      "H": 42,
+      "M": 73,
+      "N": 301
+    }
+  }
+}

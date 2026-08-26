@@ -1,0 +1,50 @@
+{
+  "dataset": "oral_cleaned_2class",
+  "model": "efficientnetb0",
+  "num_classes": 2,
+  "class_names": [
+    "CANCER",
+    "NON CANCER"
+  ],
+  "test_samples": 163,
+  "accuracy": 0.8711656441717791,
+  "macro_precision": 0.8676651305683564,
+  "macro_recall": 0.8690255935861857,
+  "macro_f1": 0.8683106990343554,
+  "weighted_f1": 0.8712846002191719,
+  "roc_auc": 0.9283071230342276,
+  "confusion_matrix_raw": [
+    [
+      83,
+      11
+    ],
+    [
+      10,
+      59
+    ]
+  ],
+  "confusion_matrix_normalized": [
+    [
+      0.8829787234042553,
+      0.11702127659574468
+    ],
+    [
+      0.14492753623188406,
+      0.855072463768116
+    ]
+  ],
+  "per_class_metrics": {
+    "CANCER": {
+      "precision": 0.8924731182795699,
+      "recall": 0.8829787234042553,
+      "f1-score": 0.8877005347593583,
+      "support": 94.0
+    },
+    "NON CANCER": {
+      "precision": 0.8428571428571429,
+      "recall": 0.855072463768116,
+      "f1-score": 0.8489208633093526,
+      "support": 69.0
+    }
+  }
+}

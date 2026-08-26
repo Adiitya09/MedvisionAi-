@@ -1,0 +1,31 @@
+{
+  "dataset": "oral",
+  "total_test_samples": 170,
+  "total_correct": 83,
+  "total_incorrect": 87,
+  "accuracy": 0.48823529411764705,
+  "macro_f1": 0.42622916044545117,
+  "weighted_f1": 0.45376060320048606,
+  "correct_confidence": {
+    "mean": 0.5257821679115295,
+    "std": 0.12720811367034912,
+    "median": 0.5023725032806396,
+    "min": 0.2873484790325165,
+    "max": 0.8183094263076782,
+    "q25": 0.44805365800857544,
+    "q75": 0.6264110803604126
+  },
+  "incorrect_confidence": {
+    "mean": 0.4906398355960846,
+    "std": 0.10295198857784271,
+    "median": 0.4882836639881134,
+    "min": 0.3147551715373993,
+    "max": 0.7569183111190796,
+    "q25": 0.4071449935436249,
+    "q75": 0.561866044998169
+  },
+  "high_confidence_error_count": 1,
+  "high_confidence_error_pct": 1.1494252873563218,
+  "low_confidence_error_count": 45,
+  "low_confidence_error_pct": 51.724137931034484
+}

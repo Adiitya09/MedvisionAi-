@@ -1,0 +1,14 @@
+{
+  "image_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\data\\Test\\FYP skin disease Dataset\\Melanoma\\ISIC_0000290.jpg",
+  "image_filename": "ISIC_0000290.jpg",
+  "dataset": "skin",
+  "model": "skin_model.keras",
+  "predicted_class": "Basal Cell Carcinoma",
+  "confidence": 0.9206375479698181,
+  "target_class": "Basal Cell Carcinoma",
+  "target_class_index": 2,
+  "target_layer": "top_conv",
+  "original_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\skin\\skin_sample_04_melanoma_misclassified_original.png",
+  "heatmap_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\skin\\skin_sample_04_melanoma_misclassified_heatmap.png",
+  "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\skin\\skin_sample_04_melanoma_misclassified_overlay.png"
+}

@@ -1,0 +1,78 @@
+{
+  "domain": "skin",
+  "selected_champion_configuration": "Config 1 (Sqrt-Moderated Weights)",
+  "selection_metric": "Validation Macro F1",
+  "champion_validation_metrics": {
+    "config_id": "config_1",
+    "config_name": "Config 1 (Sqrt-Moderated Weights)",
+    "best_epoch": 8,
+    "val_accuracy": 0.7248677248677249,
+    "val_macro_f1": 0.6508008174918065,
+    "val_macro_recall": 0.6607486690399986,
+    "training_time_sec": 4095.7260444999956,
+    "checkpoint_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\checkpoints\\strategy_optimization\\skin\\skin_config_1_best.keras",
+    "recall_Squamous Cell Carcinoma": 0.5645161290322581,
+    "recall_Dermatofibroma": 0.29411764705882354,
+    "recall_Actinic Keratosis": 0.8333333333333334,
+    "recall_Melanoma": 0.534446764091858
+  },
+  "all_configurations": [
+    {
+      "config_id": "config_1",
+      "config_name": "Config 1 (Sqrt-Moderated Weights)",
+      "best_epoch": 8,
+      "val_accuracy": 0.7248677248677249,
+      "val_macro_f1": 0.6508008174918065,
+      "val_macro_recall": 0.6607486690399986,
+      "training_time_sec": 4095.7260444999956,
+      "checkpoint_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\checkpoints\\strategy_optimization\\skin\\skin_config_1_best.keras",
+      "recall_Squamous Cell Carcinoma": 0.5645161290322581,
+      "recall_Dermatofibroma": 0.29411764705882354,
+      "recall_Actinic Keratosis": 0.8333333333333334,
+      "recall_Melanoma": 0.534446764091858
+    },
+    {
+      "config_id": "config_2",
+      "config_name": "Config 2 (Power-0.75 Weights)",
+      "best_epoch": 8,
+      "val_accuracy": 0.7103174603174603,
+      "val_macro_f1": 0.6507230577012799,
+      "val_macro_recall": 0.6994900616820754,
+      "training_time_sec": 4083.4311360000065,
+      "checkpoint_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\checkpoints\\strategy_optimization\\skin\\skin_config_2_best.keras",
+      "recall_Squamous Cell Carcinoma": 0.6774193548387096,
+      "recall_Dermatofibroma": 0.5588235294117647,
+      "recall_Actinic Keratosis": 0.875,
+      "recall_Melanoma": 0.5407098121085595
+    },
+    {
+      "config_id": "config_3",
+      "config_name": "Config 3 (Sparse Focal Loss)",
+      "best_epoch": 8,
+      "val_accuracy": 0.736331569664903,
+      "val_macro_f1": 0.608341742923024,
+      "val_macro_recall": 0.5887095193858887,
+      "training_time_sec": 4213.810439400004,
+      "checkpoint_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\checkpoints\\strategy_optimization\\skin\\skin_config_3_best.keras",
+      "recall_Squamous Cell Carcinoma": 0.27419354838709675,
+      "recall_Dermatofibroma": 0.058823529411764705,
+      "recall_Actinic Keratosis": 0.6527777777777778,
+      "recall_Melanoma": 0.5469728601252609
+    },
+    {
+      "config_id": "config_4",
+      "config_name": "Config 4 (Unweighted Baseline)",
+      "best_epoch": 8,
+      "val_accuracy": 0.7367724867724867,
+      "val_macro_f1": 0.5975463733494325,
+      "val_macro_recall": 0.5775175867989295,
+      "training_time_sec": 4176.729435900001,
+      "checkpoint_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\checkpoints\\strategy_optimization\\skin\\skin_config_4_best.keras",
+      "recall_Squamous Cell Carcinoma": 0.16129032258064516,
+      "recall_Dermatofibroma": 0.058823529411764705,
+      "recall_Actinic Keratosis": 0.6527777777777778,
+      "recall_Melanoma": 0.5073068893528184
+    }
+  ],
+  "final_model_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\models\\strategy_optimization\\skin_efficientnetb0.keras"
+}

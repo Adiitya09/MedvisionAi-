@@ -232,11 +232,19 @@ def save_model(
     return path
 
 
-def load_model(filepath: str | Path) -> tf.keras.Model:
+def load_model(
+    filepath: str | Path,
+    custom_objects: dict[str, Any] | None = None,
+) -> tf.keras.Model:
     """Load a native Keras ``.keras`` model after validating its filepath."""
     path = _as_keras_path(filepath, must_exist=True)
+    custom: dict[str, Any] = {
+        "preprocess_input": tf.keras.applications.efficientnet.preprocess_input,
+    }
+    if custom_objects:
+        custom.update(custom_objects)
     try:
-        model = tf.keras.models.load_model(str(path))
+        model = tf.keras.models.load_model(str(path), custom_objects=custom)
     except (OSError, ValueError, TypeError, tf.errors.OpError) as error:
         LOGGER.exception("Failed to load model from %s", path)
         raise RuntimeError(f"Unable to load Keras model from: {path}") from error

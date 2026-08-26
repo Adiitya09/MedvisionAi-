@@ -1,0 +1,3 @@
+Dataset,Previous Baseline Accuracy,Improved Accuracy,Change (Acc),Previous Macro F1,Improved Macro F1,Change (Macro F1),Selected Configuration
+Skin Disease,76.32%,67.24%,-9.08%,0.6851,0.5915,-0.0936,Config B
+Eye Disease,68.13%,55.00%,-13.13%,0.6125,0.5640,-0.0485,Config B

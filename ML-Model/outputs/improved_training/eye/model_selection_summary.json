@@ -1,0 +1,22 @@
+{
+  "domain": "eye",
+  "selected_configuration": "Config B",
+  "selection_metric": "Validation Macro F1",
+  "config_a": {
+    "config_name": "Config A (Class-Weighted Frozen)",
+    "best_epoch": 6,
+    "best_val_macro_f1": 0.5226425045411716,
+    "best_val_accuracy": 0.5498547918683446,
+    "training_time_sec": 1164.0,
+    "checkpoint_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\checkpoints\\improved\\eye\\eye_config_a_best.keras"
+  },
+  "config_b": {
+    "config_name": "Config B (Class-Weighted Progressive Fine-Tuning)",
+    "best_epoch": 8,
+    "best_val_macro_f1": 0.5511328986784075,
+    "best_val_accuracy": 0.5488867376573088,
+    "training_time_sec": 1680.0,
+    "checkpoint_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\checkpoints\\improved\\eye\\eye_config_b_best.keras"
+  },
+  "final_model_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\models\\improved\\eye_efficientnetb0.keras"
+}

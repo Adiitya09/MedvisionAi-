@@ -1,0 +1,60 @@
+{
+  "trial_number": 3,
+  "trial_label": "higher_learning_rate",
+  "description": "Higher initial learning rate for faster adaptation (lr=3e-4, dropout=0.30)",
+  "dataset": "eye",
+  "backbone": "resnet50",
+  "learning_rate": 0.0003,
+  "batch_size": 32,
+  "dropout": 0.3,
+  "optimizer": "adam",
+  "fine_tune_layers": 0,
+  "fine_tuning_strategy": "frozen",
+  "parameter_count": 23602055,
+  "trainable_parameters": 14343,
+  "training_accuracy": 0.650772750377655,
+  "best_validation_accuracy": 0.6663461327552795,
+  "best_validation_loss": 0.9108344316482544,
+  "validation_macro_precision": 0.7785639630403193,
+  "validation_macro_recall": 0.5626984875748743,
+  "validation_macro_f1": 0.5998743508714391,
+  "validation_weighted_f1": 0.6486553765272799,
+  "best_epoch": 4,
+  "training_time_seconds": 1263.094605499995,
+  "validation_inference_time_seconds": 61.50343630000134,
+  "checkpoint_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\checkpoints\\eye_tuning_resnet50_trial_3_best.keras",
+  "history": {
+    "accuracy": [
+      0.4781358540058136,
+      0.6017730832099915,
+      0.6304061412811279,
+      0.650772750377655
+    ],
+    "loss": [
+      1.4536010026931763,
+      1.0818414688110352,
+      0.9957249760627747,
+      0.9440950751304626
+    ],
+    "val_accuracy": [
+      0.607692301273346,
+      0.6442307829856873,
+      0.6528846025466919,
+      0.6663461327552795
+    ],
+    "val_loss": [
+      1.0701556205749512,
+      0.962824285030365,
+      0.9339780807495117,
+      0.9108344316482544
+    ],
+    "learning_rate": [
+      0.0003000000142492354,
+      0.0003000000142492354,
+      0.0003000000142492354,
+      0.0003000000142492354
+    ]
+  },
+  "rank_by_validation_macro_f1": 1,
+  "is_best_configuration": true
+}

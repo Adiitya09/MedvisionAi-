@@ -1,0 +1,14 @@
+{
+  "image_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\data\\Test\\Eye disease\\A\\0_1kIM_62_ARMD.png",
+  "image_filename": "0_1kIM_62_ARMD.png",
+  "dataset": "eye",
+  "model": "eye_model.keras",
+  "predicted_class": "D",
+  "confidence": 0.7856435775756836,
+  "target_class": "D",
+  "target_class_index": 2,
+  "target_layer": "top_conv",
+  "original_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\error_analysis\\eye\\gradcam_error_cases\\error_case_01_A_pred_D_original.png",
+  "heatmap_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\error_analysis\\eye\\gradcam_error_cases\\error_case_01_A_pred_D_heatmap.png",
+  "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\error_analysis\\eye\\gradcam_error_cases\\error_case_01_A_pred_D_overlay.png"
+}

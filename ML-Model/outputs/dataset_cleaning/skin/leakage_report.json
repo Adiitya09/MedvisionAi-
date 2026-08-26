@@ -1,0 +1,14 @@
+{
+  "dataset": "skin",
+  "original_total_images": 22719,
+  "cleaned_total_images": 22719,
+  "removed_duplicate_instances": 0,
+  "original_train_test_leakage_groups": 0,
+  "original_train_val_leakage_groups": 0,
+  "original_val_test_leakage_groups": 0,
+  "original_within_split_duplicate_groups": 0,
+  "cleaned_train_test_leakage": 0,
+  "cleaned_train_val_leakage": 0,
+  "cleaned_val_test_leakage": 0,
+  "cleaned_within_split_duplicates": 0
+}

@@ -1,0 +1,589 @@
+dataset,leakage_category,duplicate_count,md5_hash,file_pairs
+oral,TRAIN_TEST_LEAKAGE,2,c720301019feb599f5cb6814b0047331,[train:CANCER] 001.jpeg <==> [test:CANCER 1] 002.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,e067d0c50817357e4b7083a78f4b6664,[train:CANCER] 016.jpeg <==> [test:CANCER 1] 017.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,721e5a042f0dee87a58f6635cb39ed04,[train:CANCER] 021.jpeg <==> [test:CANCER 1] 023.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,1f53332594aae655b3fb3a097159b2e0,[train:CANCER] 030.jpeg <==> [test:CANCER 1] 038.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,db6c6d583ae98dc2d85535ab2199e6c2,[train:CANCER] 037.jpeg <==> [test:CANCER 1] 046.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,d784097e74cc946816b2f859e433c688,[train:CANCER] 059.jpeg <==> [test:CANCER 1] 075.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,30f6e65c6755e01bd2404712559a2186,[train:CANCER] 065.jpeg <==> [test:CANCER 1] 083.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,ae46ed737fe7ba1c6733105573347f6f,[train:CANCER] 066.jpeg <==> [test:CANCER 1] 084.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,bd8d4aff0a46df784c220406b1455baa,[train:CANCER] 092.jpeg <==> [test:CANCER 1] 110.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,e4f985efc03a8854439d6e8602e9f849,[train:CANCER] 095.jpeg <==> [test:CANCER 1] 113.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,a4fe3c23774cf8d1ab7ac68e64324757,[train:CANCER] 104.jpeg <==> [test:CANCER 1] 122.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,bab00fd04f12a158fe25803d30a55a78,[train:CANCER] 122.jpeg <==> [test:CANCER 1] 141.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,9cf6708ae8a466bf7ce282a1d305bfe4,[train:CANCER] 132.jpeg <==> [test:CANCER 1] 152.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,030d6d3b713d39b3cfa776accf8ffadc,[train:CANCER] 155.jpeg <==> [test:CANCER 1] 175.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,0f866928d36c6c43760c653d5e5dd1f7,[train:CANCER] 163.jpeg <==> [test:CANCER 1] 182.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,4c2b642611ae55f85076bebf55d733ba,[train:CANCER] 194.jpeg <==> [test:CANCER 1] 214.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,4c474227e490466b65a8c94b62d0fe27,[train:CANCER] 209.jpeg <==> [test:CANCER 1] 229.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,9259fbd8dfe17e2bdf0fe0bd70622039,[train:CANCER] 227.jpeg <==> [test:CANCER 1] 249.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,719eb789b8d2a1671b77498e30dbe60b,[train:CANCER] 229.jpeg <==> [test:CANCER 1] 250.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,75cdfbd77bf0a184531a620d60b8a427,[train:CANCER] 237.jpeg <==> [test:CANCER 1] 259.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,cedbd00140a826c5c7ee889bde9fbf12,[train:CANCER] 240.jpeg <==> [test:CANCER 1] 262.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,97d8f51573e7bde246e99b8d38ec1099,[train:CANCER] 253.jpeg <==> [test:CANCER 1] 277.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,2da3a45f43758ebf049859b5d08fc548,[train:CANCER] 281.jpeg <==> [test:CANCER 1] 311.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,e0617c826dd266aaf61d688569f98c7e,[train:CANCER] 291.jpeg <==> [test:CANCER 1] 329.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,cb6abfc0c99eac5f18674744afc43400,[train:CANCER] 303.jpeg <==> [test:CANCER 1] 342.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,4c36aa04642e8637772967919deac4d9,[train:CANCER] 307.jpeg <==> [test:CANCER 1] 348.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,7bfcb2b17b37c75b913ad955d151e575,[train:CANCER] 309.jpeg <==> [test:CANCER 1] 352.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,6d8f3b733aa879845bc78ef947e138cb,[train:CANCER] 339.jpeg <==> [test:CANCER 1] 380.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,59b96572adff6e3e7d2a0c6ee469a5fa,[train:CANCER] 343.jpeg <==> [test:CANCER 1] 389.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,85a44755aa87b53427e80ed66160a309,[train:CANCER] 349.jpeg <==> [test:CANCER 1] 399.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,89eb68e3ce9867a731f39d22a8322042,[train:CANCER] 367.jpeg <==> [test:CANCER 1] 430.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,8ad1e13c18d330313512a2b60ead1a4e,[train:CANCER] 395.jpeg <==> [test:CANCER 1] 459.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,945d2c099ca4c40e538ebde0da3c3870,[train:CANCER] 419.jpeg <==> [test:CANCER 1] 485.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,df99fa9ff6a4abfa2fbea64731c40c46,[train:CANCER] 431.jpeg <==> [test:CANCER 1] 496.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,1627a28126721eb7e934d913d6879985,[train:CANCER 1] 078.jpeg <==> [test:CANCER] 061.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,1ec6d52494fab85f41cb81d42b5df573,[train:CANCER 1] 088.jpeg <==> [test:CANCER] 070.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,9475d3b9a0ed78c5e37dd7305a891295,[train:CANCER 1] 098.jpeg <==> [test:CANCER] 077.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,0e95011b46ed36d7d7ba2977fd2e789d,[train:CANCER 1] 102.jpeg <==> [test:CANCER] 083.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,b182371cf99d78cb897ccc5965e8779a,[train:CANCER 1] 125.jpeg <==> [test:CANCER] 107.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,a1f0bdecffeb39de2ee40808cb1b9065,[train:CANCER 1] 128.jpeg <==> [test:CANCER] 110.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,3f00c35d7dc3cd47ca54bdf0a2604229,[train:CANCER 1] 130.jpeg <==> [test:CANCER] 112.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,281eaaabff6c14478f809580edd8e0a6,[train:CANCER 1] 132.jpeg <==> [test:CANCER] 114.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,7834b305da6bcdab4495715df7e9db94,[train:CANCER 1] 135.jpeg <==> [test:CANCER] 116.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,51b7178a80a8ef608647e0e5d08a7363,[train:CANCER 1] 140.jpeg <==> [test:CANCER] 121.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,943c2bb2a69a33df5c12df81a5ad16e3,[train:CANCER 1] 148.jpeg <==> [test:CANCER] 126.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,cb52398ed4655f33f0c42c52a56ba53b,[train:CANCER 1] 156.jpeg <==> [test:CANCER] 135.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,c26f86e1cf9ba4c2af24eb48f85d6bea,[train:CANCER 1] 158.jpeg <==> [test:CANCER] 137.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,37f01a738994133d01dc4b11853f6054,[train:CANCER 1] 168.jpeg <==> [test:CANCER] 147.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,145dd6066ee6dc57650b860522d8bd1a,[train:CANCER 1] 177.jpeg <==> [test:CANCER] 157.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,01592b043e5a4b00d88252b4b4e602e1,[train:CANCER 1] 188.jpeg <==> [test:CANCER] 168.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,93b0b616a5a065d1573334d2f9fd7dcf,[train:CANCER 1] 200.jpeg <==> [test:CANCER] 181.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,f390856107acfe6ed7476c976da19b91,[train:CANCER 1] 208.jpeg <==> [test:CANCER] 187.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,cbfa0640a00fe84cd24e8ec101137055,[train:CANCER 1] 269.jpeg <==> [test:CANCER] 246.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,ca6589c5db7e71170b331ee5b9755e7b,[train:CANCER 1] 271.jpeg <==> [test:CANCER] 249.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,ad6e1353db8e071a18427034de4d5262,[train:CANCER 1] 273.jpeg <==> [test:CANCER] 251.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,1fc02f89df676a29e30df97692682d10,[train:CANCER 1] 279.jpeg <==> [test:CANCER] 255.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,10ea384f9359af507eca4d31bd466516,[train:CANCER 1] 281.jpeg <==> [test:CANCER] 258.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,2e09d1256382d5a0cede4b8435b7de27,[train:CANCER 1] 282.jpeg <==> [test:CANCER] 259.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,db4139ebde8a982da63fe3cff2f759f6,[train:CANCER 1] 315.jpeg <==> [test:CANCER] 284.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,5dfccf50b3885966176a4e44c3dacb20,[train:CANCER 1] 340.jpeg <==> [test:CANCER] 302.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,2a21ee1a17952492fe409a42044c4eba,[train:CANCER 1] 370.jpeg <==> [test:CANCER] 329.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,7d3d820c051826c221c34e93467649c5,[train:CANCER 1] 385.jpeg <==> [test:CANCER] 341.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,c8d53c04a3d6e9903cac688a200dbca5,[train:CANCER 1] 410.jpeg <==> [test:CANCER] 357.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,6389177c418f6bd0ebd62475c6a6ef9b,[train:CANCER 1] 452.jpeg <==> [test:CANCER] 388.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,b80341bf12ed86f3cd1a18bf57711ff5,[train:CANCER 1] 462.jpeg <==> [test:CANCER] 399.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,5e130aa88554ed84b8478e11131f50c8,[train:CANCER 1] 470.jpeg <==> [test:CANCER] 408.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,3d33f00775ca1ee88b529f6af58fbfca,[train:CANCER 1] 493.jpeg <==> [test:CANCER] 428.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,991d201ab63f038feb11e2b80c64ba40,[train:CANCER 1] 494.jpeg <==> [test:CANCER] 429.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,5e93e10d83c46985ad6c5e1137764b67,[train:NON CANCER] 001.jpeg <==> [test:NON CANCER 2] 001.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,6a8cb5e6b1e4702d45299f9415d2f8e3,[train:NON CANCER] 013.jpeg <==> [test:NON CANCER 2] 019.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,aea530c05cd1bdb11836b9adcbe4117b,[train:NON CANCER] 041.jpeg <==> [test:NON CANCER 2] 055.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,ed15c01b93dd6b6b56fbc26eadb74c5c,[train:NON CANCER] 061.jpeg <==> [test:NON CANCER 2] 076.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,69e71022fdc83dd2e7a8300cf89bfb19,[train:NON CANCER] 077.jpeg <==> [test:NON CANCER 2] 093.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,43450deb54973d57c914b35216c278d6,[train:NON CANCER] 084.jpeg <==> [test:NON CANCER 2] 100.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,2a300a4c121520879e134dbc21475ae3,[train:NON CANCER] 105.jpeg <==> [test:NON CANCER 2] 120.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,3962466ba9692360cba701f85045748c,[train:NON CANCER] 115.jpeg <==> [test:NON CANCER 2] 131.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,2de2c385125eb7d001db245f7f32967c,[train:NON CANCER] 127.jpeg <==> [test:NON CANCER 2] 143.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,837d405e3d9cae68c51039f72f545523,[train:NON CANCER] 139.jpeg <==> [test:NON CANCER 2] 155.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,d92e942047751a72dbcba5f95b0363b4,[train:NON CANCER] 142.jpeg <==> [test:NON CANCER 2] 158.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,3286fd27d92737225513c8d9b288c354,[train:NON CANCER] 149.jpeg <==> [test:NON CANCER 2] 165.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,7504f165b5d2c838ca0eb4329b09e3dc,[train:NON CANCER] 182.jpeg <==> [test:NON CANCER 2] 198.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,b4ed89c400d0b4594d1f7738d0733f00,[train:NON CANCER] 187.jpeg <==> [test:NON CANCER 2] 203.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,2065d81b61e93c2d9cfd28963239bb26,[train:NON CANCER] 195.jpeg <==> [test:NON CANCER 2] 212.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,35fe111af7e7aa56cba71e6b2b415aaa,[train:NON CANCER] 197.jpeg <==> [test:NON CANCER 2] 214.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,d6944434a4cf8b0782aab7838c77f634,[train:NON CANCER] 204.jpeg <==> [test:NON CANCER 2] 221.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,c634cb61e414a698454a87c108e68f71,[train:NON CANCER] 206.jpeg <==> [test:NON CANCER 2] 223.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,7861dafe72202b6f473e205919ec9630,[train:NON CANCER] 227.jpeg <==> [test:NON CANCER 2] 243.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,b20522ec911812885f9f8eb3e0b74850,[train:NON CANCER 2] 049.jpeg <==> [test:NON CANCER] 036.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,23823b0b28e4c86696170c8e3e68cfe6,[train:NON CANCER 2] 051.jpeg <==> [test:NON CANCER] 038.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,881f9647de86f564c27ced1806391a75,[train:NON CANCER 2] 054.jpeg <==> [test:NON CANCER] 040.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,c9b4eb9519da013c5297886ec25cd99a,[train:NON CANCER 2] 063.jpeg <==> [test:NON CANCER] 049.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,4a75528add664a9ab076196ed3326fe7,[train:NON CANCER 2] 072.jpeg <==> [test:NON CANCER] 058.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,cda1a1d8f5e02aee11f494c252bc6e75,[train:NON CANCER 2] 084.jpeg <==> [test:NON CANCER] 069.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,0353e5834ba0c5f0cacf824ba660cc2b,[train:NON CANCER 2] 090.jpeg <==> [test:NON CANCER] 074.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,2c1be1efb24c52e4d9fe054b4a6003ec,[train:NON CANCER 2] 106.jpeg <==> [test:NON CANCER] 089.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,98929d63c7207e698707178d074798a7,[train:NON CANCER 2] 118.jpeg <==> [test:NON CANCER] 103.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,9e6003edacab10de9d5fd379973744e1,[train:NON CANCER 2] 123.jpeg <==> [test:NON CANCER] 107.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,697e4baa62fe7c24509688f33a0c6ad5,[train:NON CANCER 2] 125.jpeg <==> [test:NON CANCER] 109.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,4d7fe6344dd3cd57f1c085d774fe626e,[train:NON CANCER 2] 136.jpeg <==> [test:NON CANCER] 120.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,f7448150ada39a245f767394913be827,[train:NON CANCER 2] 139.jpeg <==> [test:NON CANCER] 123.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,a02d230aa783d338c28d62763eca2e32,[train:NON CANCER 2] 140.jpeg <==> [test:NON CANCER] 124.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,a6fade93ebd9018181049e3e3bf3873d,[train:NON CANCER 2] 193.jpeg <==> [test:NON CANCER] 177.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,f0af7e68ef32323465a76c0ca887dd9e,[train:NON CANCER 2] 206.jpeg <==> [test:NON CANCER] 190.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,a4f30c1afbb1242ba5473033b3f5c3cd,[train:NON CANCER 2] 218.jpeg <==> [test:NON CANCER] 201.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,ae86a3b3a402eca64b0e763202ccc9c0,[train:NON CANCER 2] 220.jpeg <==> [test:NON CANCER] 203.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,982b8df8c7c0bd2b021e214288f38138,[train:NON CANCER 2] 226.jpeg <==> [test:NON CANCER] 209.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,1606b3d6fda84c0dcaaa169f6e06050f,[train:NON CANCER 2] 242.jpeg <==> [test:NON CANCER] 226.jpeg
+oral,TRAIN_TEST_LEAKAGE,2,316ef7d3410ac12418adb120fe51bb18,[train:NON CANCER 2] 245.jpeg <==> [test:NON CANCER] 229.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,81ef65654a658afca3117541ca940a4b,[train:CANCER] 005.jpeg <==> [validation:CANCER 1] 006.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,2ee2f8ecce46365ccba91cdfe4344931,[train:CANCER] 007.jpeg <==> [validation:CANCER 1] 008.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,b9a879fc004bafaa0cfc73132bac72f9,[train:CANCER] 020.jpeg <==> [validation:CANCER 1] 022.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,769f77031f7310fd4596d8d46f4e5a3f,[train:CANCER] 033.jpeg <==> [validation:CANCER 1] 041.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,436ab44120a8cc0ded4c74a08569f712,[train:CANCER] 035.jpeg <==> [validation:CANCER 1] 044.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,6b33a7cf63d2007610af27644fb7fde3,[train:CANCER] 051.jpeg <==> [validation:CANCER 1] 065.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,5076c11d1cadf4ef4264de5731adbb5d,[train:CANCER] 074.jpeg <==> [validation:CANCER 1] 092.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,f41a1160d98ea815b7011c19a473549d,[train:CANCER] 097.jpeg <==> [validation:CANCER 1] 116.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,801ad77c6dd4d1ee7ba0aca18f744922,[train:CANCER] 108.jpeg <==> [validation:CANCER 1] 126.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,4d933bc448e8974bfd8162d0b9056e20,[train:CANCER] 136.jpeg <==> [validation:CANCER 1] 157.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,c4410cf95f6755839dbefee236f5e113,[train:CANCER] 143.jpeg <==> [validation:CANCER 1] 164.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,d640b08a78e5a1bbafd35952a2a04bb0,[train:CANCER] 150.jpeg <==> [validation:CANCER 1] 170.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,40c826844225e353570bc907a5ed8770,[train:CANCER] 153.jpeg <==> [validation:CANCER 1] 173.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,12f7939445718fc1f7993d010fb21e50,[train:CANCER] 159.jpeg <==> [validation:CANCER 1] 179.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,9b3e9e52471aa27d17e6c327784b2e95,[train:CANCER] 167.jpeg <==> [validation:CANCER 1] 187.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,e8b5bea5ba0b8c70737890f9baf5466b,[train:CANCER] 190.jpeg <==> [validation:CANCER 1] 210.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,4d65376f315d88ab119f43dd5557c284,[train:CANCER] 201.jpeg <==> [validation:CANCER 1] 220.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,0b3a5ddde57f1f5323fad8f06c5f9c40,[train:CANCER] 206.jpeg <==> [validation:CANCER 1] 226.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,f98b16d2e02f6455002dd41519b8de5b,[train:CANCER] 217.jpeg <==> [validation:CANCER 1] 238.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,90741d4c110df121ec79f388b07468c6,[train:CANCER] 220.jpeg <==> [validation:CANCER 1] 241.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,12868d37b915f7f755a62820a87972ee,[train:CANCER] 224.jpeg <==> [validation:CANCER 1] 246.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,34fdbc05cb66e648e7e965d60c6833d3,[train:CANCER] 233.jpeg <==> [validation:CANCER 1] 255.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,e46db8a61eaba0660deccb734358dbbc,[train:CANCER] 264.jpeg <==> [validation:CANCER 1] 287.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,98aa82c48571075ab8b45141601fd419,[train:CANCER] 277.jpeg <==> [validation:CANCER 1] 304.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,4085b039a6f26df3aad738ba30d3460c,[train:CANCER] 321.jpeg <==> [validation:CANCER 1] 363.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,8a9763d92c5b930410e3f83ca7ba433f,[train:CANCER] 326.jpeg <==> [validation:CANCER 1] 368.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,90c5f0c6b746230083386bd520846a72,[train:CANCER] 333.jpeg <==> [validation:CANCER 1] 375.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,e4526f28d464ef71c58f7512e4c58676,[train:CANCER] 348.jpeg <==> [validation:CANCER 1] 398.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,75f7845ff3ba424f7f763a45b8653614,[train:CANCER] 353.jpeg <==> [validation:CANCER 1] 402.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,3864f95b9259f15d20d1a19b698e76c7,[train:CANCER] 358.jpeg <==> [validation:CANCER 1] 412.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,94f3468233965cc6fa22934720ee99f3,[train:CANCER] 377.jpeg <==> [validation:CANCER 1] 442.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,8326af63997384b8ad2cda4fad393620,[train:CANCER] 387.jpeg <==> [validation:CANCER 1] 451.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,267e30e88aad3ad547c5b7b80e51eac6,[train:CANCER] 403.jpeg <==> [validation:CANCER 1] 466.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,f4b253bff8c3dbc690cdf88f9d7de46d,[train:CANCER] 404.jpeg <==> [validation:CANCER 1] 467.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,cf2d16702d57fb70920fe8007a3adb15,[train:CANCER] 412.jpeg <==> [validation:CANCER 1] 477.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,061a0e0d29e6c7b736f94f218d96157d,[train:CANCER 1] 012.jpeg <==> [validation:CANCER] 011.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,b28a638acc4e0215a5843876dd914923,[train:CANCER 1] 013.jpeg <==> [validation:CANCER] 012.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,16127cfb7b05bf06a63401c5946abcdc,[train:CANCER 1] 091.jpeg <==> [validation:CANCER] 073.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,755a595021da3d710cdf318ab5847149,[train:CANCER 1] 127.jpeg <==> [validation:CANCER] 109.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,d3770260eb1b9eb91a149698c05b23a6,[train:CANCER 1] 139.jpeg <==> [validation:CANCER] 120.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,8a50987eb1fca18306bcf098dd39ab29,[train:CANCER 1] 150.jpeg <==> [validation:CANCER] 130.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,2c4ef677820b4898149ea7a17e10f54f,[train:CANCER 1] 190.jpeg <==> [validation:CANCER] 171.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,3728c343253d22765fd366f09442f9c2,[train:CANCER 1] 191.jpeg <==> [validation:CANCER] 172.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,c1a31dbe697e50108b59da9478023d2f,[train:CANCER 1] 204.jpeg <==> [validation:CANCER] 184.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,f94524dd909b27d8fffcea2ceda4836d,[train:CANCER 1] 218.jpeg <==> [validation:CANCER] 198.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,0848a07993365e3e10b17f4adda3dd7e,[train:CANCER 1] 221.jpeg <==> [validation:CANCER] 202.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,19aa756a8edcaf5fe09f3c03b4dda1cc,[train:CANCER 1] 243.jpeg <==> [validation:CANCER] 221.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,e77e23cbc4357302b3d58feca1bda451,[train:CANCER 1] 244.jpeg <==> [validation:CANCER] 222.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,a7234fda0b57c221707f564fceaae1b2,[train:CANCER 1] 253.jpeg <==> [validation:CANCER] 231.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,befed06da62cdaafaa467d1e4b14bb7d,[train:CANCER 1] 256.jpeg <==> [validation:CANCER] 234.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,a656c68d03a81732259d6ba5c4dfde2a,[train:CANCER 1] 268.jpeg <==> [validation:CANCER] 245.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,8e52ad7f0276b0cbb4a8df65d200fe38,[train:CANCER 1] 283.jpeg <==> [validation:CANCER] 260.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,25c1c04dfd12c5fad173408a150d5258,[train:CANCER 1] 285.jpeg <==> [validation:CANCER] 262.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,dc1f8c1c12790d6567d44478cfe75e49,[train:CANCER 1] 336.jpeg <==> [validation:CANCER] 297.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,e6edb895fff2c762ed34b1c6a397b3cb,[train:CANCER 1] 357.jpeg <==> [validation:CANCER] 314.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,24f66bce92dd8fcd7ea71552370389eb,[train:CANCER 1] 366.jpeg <==> [validation:CANCER] 324.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,5f9600f336a29c92a7c5125a8e4e8125,[train:CANCER 1] 384.jpeg <==> [validation:CANCER] 340.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,596bc965942a32f6bc56c914f39a2121,[train:CANCER 1] 390.jpeg <==> [validation:CANCER] 345.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,c4c319efcf4e145ceff846b8bced926a,[train:CANCER 1] 439.jpeg <==> [validation:CANCER] 373.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,94d1af34f57a2e965fc94d663671b12d,[train:CANCER 1] 441.jpeg <==> [validation:CANCER] 376.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,5ec5fe0babefdfa107ec9884585ddd48,[train:CANCER 1] 489.jpeg <==> [validation:CANCER] 423.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,f3089ed8a53e8f69ab409a9fcb52a15e,[train:CANCER 1] 498.jpeg <==> [validation:CANCER] 433.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,1edd2f1bb4cedc11db95d1c8a8b44b6d,[train:NON CANCER] 002.jpeg <==> [validation:NON CANCER 2] 002.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,12880810c54070600e72d7bc74176b92,[train:NON CANCER] 025.jpeg <==> [validation:NON CANCER 2] 034.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,e61f00ada6f3288091e6de0cf41183d0,[train:NON CANCER] 028.jpeg <==> [validation:NON CANCER 2] 040.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,22dbde6ab54c9d5344184ec57c0aeb9d,[train:NON CANCER] 034.jpeg <==> [validation:NON CANCER 2] 047.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,a9582af47826a533997e8889bbe7cdec,[train:NON CANCER] 057.jpeg <==> [validation:NON CANCER 2] 071.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,c7b1276023ec20de43eafb707f83c6e0,[train:NON CANCER] 071.jpeg <==> [validation:NON CANCER 2] 086.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,b2aee7a1a48882a170a4fd20c9892dd0,[train:NON CANCER] 080.jpeg <==> [validation:NON CANCER 2] 096.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,fd5757b22a441cb735ed7b4415abd20a,[train:NON CANCER] 088.jpeg <==> [validation:NON CANCER 2] 105.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,aee734e10c93ad2a6829cdc12a7c12f7,[train:NON CANCER] 094.jpeg <==> [validation:NON CANCER 2] 111.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,8e2b968dcc551d01fcf3144e71d06a47,[train:NON CANCER] 100.jpeg <==> [validation:NON CANCER 2] 115.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,4fae4b3587f55d8611f48e1afa262748,[train:NON CANCER] 102.jpeg <==> [validation:NON CANCER 2] 117.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,7568f790ceb9368d6ffa8c8ca59a3095,[train:NON CANCER] 128.jpeg <==> [validation:NON CANCER 2] 144.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,b1360e157a582b0586a45f86c6bc6f00,[train:NON CANCER] 130.jpeg <==> [validation:NON CANCER 2] 146.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,b4db2f235aae7b61174d43974b1f3c40,[train:NON CANCER] 154.jpeg <==> [validation:NON CANCER 2] 170.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,53ef106ad9b004d30c78532d13916259,[train:NON CANCER] 157.jpeg <==> [validation:NON CANCER 2] 173.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,db158e9da2142f160e5c5e2a4fe301e9,[train:NON CANCER] 171.jpeg <==> [validation:NON CANCER 2] 187.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,df9c9d1ab453cdb0e9ebfa7ba54bffea,[train:NON CANCER] 173.jpeg <==> [validation:NON CANCER 2] 189.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,c121773deeedc74be6a16fe91249c76b,[train:NON CANCER 2] 043.jpeg <==> [validation:NON CANCER] 031.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,ee824c6b6ff5b2cf56e4d539731736b7,[train:NON CANCER 2] 044.jpeg <==> [validation:NON CANCER] 032.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,9a7987204cb3c5fb3e97570e75342323,[train:NON CANCER 2] 048.jpeg <==> [validation:NON CANCER] 035.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,4a0f4b88bf83be932308d05ad3fa8425,[train:NON CANCER 2] 062.jpeg <==> [validation:NON CANCER] 048.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,0b95dfdfeba904bd4a0095db5ea1f1ec,[train:NON CANCER 2] 088.jpeg <==> [validation:NON CANCER] 073.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,78caad4f85141a6b20059f9f54b4f640,[train:NON CANCER 2] 110.jpeg <==> [validation:NON CANCER] 093.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,464926fb068cecc78cf7cc7b06229039,[train:NON CANCER 2] 134.jpeg <==> [validation:NON CANCER] 118.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,7f19d8fc0be6fb2b2c996eb8f761b363,[train:NON CANCER 2] 148.jpeg <==> [validation:NON CANCER] 132.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,d53aa30bee40d8364de72bf60be92e9b,[train:NON CANCER 2] 153.jpeg <==> [validation:NON CANCER] 137.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,45cd2ed5c6a263ad01c0ca223b0ddae9,[train:NON CANCER 2] 159.jpeg <==> [validation:NON CANCER] 143.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,c296df6812da57052bffa1077303663c,[train:NON CANCER 2] 178.jpeg <==> [validation:NON CANCER] 162.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,919ef927a62ecf2a14888c63836cb584,[train:NON CANCER 2] 184.jpeg <==> [validation:NON CANCER] 168.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,58393367e11881c75bba7daa1fd9db5d,[train:NON CANCER 2] 210.jpeg <==> [validation:NON CANCER] 194.jpeg
+oral,TRAIN_VAL_LEAKAGE,2,90b357dd13f7da5162b17f387a6aec8c,[train:NON CANCER 2] 222.jpeg <==> [validation:NON CANCER] 205.jpeg
+oral,VAL_TEST_LEAKAGE,2,b4eb15be575d66247dcbcf04aa70711f,[validation:CANCER] 195.jpeg <==> [test:CANCER 1] 215.jpeg
+oral,VAL_TEST_LEAKAGE,2,990b5f61a82693e9cbe3c8487b7ae1c6,[validation:CANCER] 397.jpeg <==> [test:CANCER 1] 460.jpeg
+oral,VAL_TEST_LEAKAGE,2,1eb48c25cc67535eb236e6ad77465df9,[validation:CANCER] 398.jpeg <==> [test:CANCER 1] 461.jpeg
+oral,VAL_TEST_LEAKAGE,2,5e00a5d64ccd3e1eb55a929ff9d1de23,[validation:CANCER 1] 194.jpeg <==> [test:CANCER] 175.jpeg
+oral,VAL_TEST_LEAKAGE,2,de67a7b594f07dc1a6c6ab823dbf5662,[validation:CANCER 1] 230.jpeg <==> [test:CANCER] 211.jpeg
+oral,VAL_TEST_LEAKAGE,2,1e4ca3127cd9afcf6c2795fef6a85883,[validation:CANCER 1] 457.jpeg <==> [test:CANCER] 393.jpeg
+oral,VAL_TEST_LEAKAGE,2,2275b2d33eedbd66beffc1c0271fb6e3,[validation:NON CANCER] 052.jpeg <==> [test:NON CANCER 2] 066.jpeg
+oral,VAL_TEST_LEAKAGE,2,6a084792c46d0dfd56e6e4b4e7ddac4d,[validation:NON CANCER] 189.jpeg <==> [test:NON CANCER 2] 205.jpeg
+oral,VAL_TEST_LEAKAGE,2,1ed6fbb2efa783b5dd3b3a1eb823f637,[validation:NON CANCER] 222.jpeg <==> [test:NON CANCER 2] 238.jpeg
+oral,VAL_TEST_LEAKAGE,2,4daf960ba39a2932bad3a1e70c78d967,[validation:NON CANCER 2] 046.jpeg <==> [test:NON CANCER] 033.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,7e70e2838bede63d52126dc19ef708c5,[train:CANCER] 002.jpeg <==> [train:CANCER 1] 003.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,baac62f53085c53ab46aefb4dbbf71f3,[train:CANCER] 003.jpeg <==> [train:CANCER 1] 004.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a1cffd774c78f4437f7df4ab4ba2265d,[train:CANCER] 004.jpeg <==> [train:CANCER 1] 005.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,93c8c5eb572ec3b8bf2136e90a49ec4b,[train:CANCER] 006.jpeg <==> [train:CANCER 1] 007.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,7dbdb49c0f74005fea7e338bd3b555d7,[train:CANCER] 008.jpeg <==> [train:CANCER 1] 009.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,f1fd104db9252f7a208db73c45d89400,[train:CANCER] 009.jpeg <==> [train:CANCER 1] 010.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,dc9013b973d7a22c46e98a4cd5702c36,[train:CANCER] 010.jpeg <==> [train:CANCER 1] 011.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,284d8efc23b7f9584d617865ce60f2df,[train:CANCER] 013.jpeg <==> [train:CANCER 1] 014.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,8f093c551dc200597ffee54f81aada5d,[train:CANCER] 014.jpeg <==> [train:CANCER 1] 015.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,389afa06cc913c6c0288a4dfb0b26e29,[train:CANCER] 015.jpeg <==> [train:CANCER 1] 016.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,0597ce8de38ff2645f45669094c9a9f9,[train:CANCER] 017.jpeg <==> [train:CANCER 1] 019.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,21ce3e03898be3df58948df92271c229,[train:CANCER] 018.jpeg <==> [train:CANCER 1] 020.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,029623869bb171e6d7c81c7a802f888b,[train:CANCER] 019.jpeg <==> [train:CANCER 1] 021.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,422f46da1a6da2ff72c995d34dc8dcef,[train:CANCER] 022.jpeg <==> [train:CANCER 1] 028.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,15b28dccc6631ad41861a075020f19b5,[train:CANCER] 023.jpeg <==> [train:CANCER 1] 031.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,c23eb2eee7e229605dc52352727c5e5a,[train:CANCER] 024.jpeg <==> [train:CANCER 1] 032.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,2eaa4c30f678b288a459a5a33b393c95,[train:CANCER] 025.jpeg <==> [train:CANCER 1] 033.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,2cbffc033d125a01419ea08b093efee2,[train:CANCER] 027.jpeg <==> [train:CANCER 1] 035.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,932f6233a72b0d18c0d0a62c873a515b,[train:CANCER] 028.jpeg <==> [train:CANCER 1] 036.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,2f1c944d615a2463e15742d0eda16b93,[train:CANCER] 029.jpeg <==> [train:CANCER 1] 037.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,c4dae698df305bd81fd5756f4608f9b8,[train:CANCER] 031.jpeg <==> [train:CANCER 1] 039.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,015824d3cda3634574c56b40a8925153,[train:CANCER] 032.jpeg <==> [train:CANCER 1] 040.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,b26a04726e692d10a4d84e46994ba94e,[train:CANCER] 034.jpeg <==> [train:CANCER 1] 043.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,00faf28779e8cd3efa4350c40a28b639,[train:CANCER] 036.jpeg <==> [train:CANCER 1] 045.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a2d7715f305399e6b6e81d5a7eccb340,[train:CANCER] 038.jpeg <==> [train:CANCER 1] 049.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,d041ecf179aad2d14da37c63de879c48,[train:CANCER] 039.jpeg <==> [train:CANCER 1] 050.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,36685be30465b516867c5ed197c8d183,[train:CANCER] 040.jpeg <==> [train:CANCER 1] 051.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,d180e5cf1bb53f73fca1ecaf76e91ba8,[train:CANCER] 042.jpeg <==> [train:CANCER 1] 025.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,bfc167697eca461b8f98478263a8f6f2,[train:CANCER] 043.jpeg <==> [train:CANCER 1] 029.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,dfceb7c94e154ac730c626f826e7e0f5,[train:CANCER] 044.jpeg <==> [train:CANCER 1] 030.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,24e35fc131729b0dbbfd090d4b6dc7ab,[train:CANCER] 048.jpeg <==> [train:CANCER 1] 061.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,64686bec25a2f1591a096b92b7d03500,[train:CANCER] 053.jpeg <==> [train:CANCER 1] 069.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,6296e49ecd461224c1f84bb3e9de5914,[train:CANCER] 054.jpeg <==> [train:CANCER 1] 070.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,985c45e449d3501c44f76679ceded15f,[train:CANCER] 055.jpeg <==> [train:CANCER 1] 071.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,8dbe3a305de8f99991e85e53dbe12a87,[train:CANCER] 057.jpeg <==> [train:CANCER 1] 073.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,cf8ffc7b58a4589e361c69f2a329603c,[train:CANCER] 058.jpeg <==> [train:CANCER 1] 074.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,305170e49b00db2c1badeae0dedf3b50,[train:CANCER] 063.jpeg <==> [train:CANCER 1] 081.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,f9ec7591b2e471a8555b2969aecedc1d,[train:CANCER] 067.jpeg <==> [train:CANCER 1] 085.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,fe17de62e2e493064423f6457384de64,[train:CANCER] 068.jpeg <==> [train:CANCER 1] 086.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,35ae2e854647f7c42b9f1ff4a1674c3a,[train:CANCER] 072.jpeg <==> [train:CANCER 1] 090.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,323e60f18d27bb846f5f11c4f50f0146,[train:CANCER] 075.jpeg <==> [train:CANCER 1] 093.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a53523482fedb01cc37d26e68acc2d11,[train:CANCER] 076.jpeg <==> [train:CANCER 1] 067.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,7a06c6fcce87d5dd29f7c2b4b561c4e4,[train:CANCER] 086.jpeg <==> [train:CANCER 1] 105.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,d2c860cbdb0e584cf90f31f85b813056,[train:CANCER] 087.jpeg <==> [train:CANCER 1] 106.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,5291144908aa96cb92b2dd96463754b9,[train:CANCER] 090.jpeg <==> [train:CANCER 1] 109.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,15da192f210e49bd1304af53044e22b6,[train:CANCER] 094.jpeg <==> [train:CANCER 1] 112.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a0af72dba9e5e771521eb5717343e63b,[train:CANCER] 096.jpeg <==> [train:CANCER 1] 115.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,604c665dc4d6c47ff7c736e2fded68a9,[train:CANCER] 098.jpeg <==> [train:CANCER 1] 117.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a49803dd166457283ad23925826b8ee1,[train:CANCER] 099.jpeg <==> [train:CANCER 1] 118.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,ea024fe86617fec4ff579dc3515807b1,[train:CANCER] 102.jpeg <==> [train:CANCER 1] 120.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,ea56a1304bb7c108bd6cfd2dfaad6549,[train:CANCER] 103.jpeg <==> [train:CANCER 1] 121.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,daceef712dc9264cba7bd7ed90283933,[train:CANCER] 105.jpeg <==> [train:CANCER 1] 123.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a36409093ffc64586b56dcb5ca2cb025,[train:CANCER] 106.jpeg <==> [train:CANCER 1] 124.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,013c15493eb570ed597a3c29f0c73ee1,[train:CANCER] 111.jpeg <==> [train:CANCER 1] 129.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,d83f78a21767fae1e13e91694c1420f1,[train:CANCER] 113.jpeg <==> [train:CANCER 1] 131.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,ae12bf2d60f1eaf56ae6584c0e040b52,[train:CANCER] 115.jpeg <==> [train:CANCER 1] 133.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,65889758cea7b9b1c69ea148c5215932,[train:CANCER] 117.jpeg <==> [train:CANCER 1] 136.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,517e3d01a19ee667eb76e3520671ea6f,[train:CANCER] 118.jpeg <==> [train:CANCER 1] 137.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,f133b8507c4a8246604134e7bc0c612b,[train:CANCER] 119.jpeg <==> [train:CANCER 1] 138.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,d95cc311b842bdc1ed7b49cc21cfb39a,[train:CANCER] 123.jpeg <==> [train:CANCER 1] 145.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,51557e3e936bd42a813a9ccbbf70ce88,[train:CANCER] 124.jpeg <==> [train:CANCER 1] 146.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,7726c348a5f091bdf1b1a6efff70327a,[train:CANCER] 125.jpeg <==> [train:CANCER 1] 147.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,23fa78174e2ffb81cbe1ef0017c5a3b6,[train:CANCER] 127.jpeg <==> [train:CANCER 1] 149.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,9662eb67c254698d40fccc39ae417c59,[train:CANCER] 131.jpeg <==> [train:CANCER 1] 151.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,eeb00f61ce0c5612760b7b5f7d79629a,[train:CANCER] 133.jpeg <==> [train:CANCER 1] 153.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,afbcaf412b38dbb642037dc2f6c2cd62,[train:CANCER] 134.jpeg <==> [train:CANCER 1] 155.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,cd32e94e545413617eaabb2264fbbce2,[train:CANCER] 138.jpeg <==> [train:CANCER 1] 159.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,56c75925b456e92c7393da6ff18401c1,[train:CANCER] 140.jpeg <==> [train:CANCER 1] 160.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,b29bd4d7ec73f835956b2ee248fbcd70,[train:CANCER] 141.jpeg <==> [train:CANCER 1] 161.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,b3d993ccc7c47b3ae2610587b66fa22d,[train:CANCER] 142.jpeg <==> [train:CANCER 1] 163.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,137b4ae358a9f2b2bd39ebf3cab22b07,[train:CANCER] 144.jpeg <==> [train:CANCER 1] 165.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,d24f5f8a546a9495a9f50cfc808287b8,[train:CANCER] 145.jpeg <==> [train:CANCER 1] 166.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,ecc5093df40530af8e71eae8c8af4521,[train:CANCER] 146.jpeg <==> [train:CANCER 1] 167.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,e61128251cfc2877ffdc5e6e83f3b68e,[train:CANCER] 148.jpeg <==> [train:CANCER 1] 169.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,4dbafb5dfad03825b87045441270b613,[train:CANCER] 151.jpeg <==> [train:CANCER 1] 171.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,b04074b490f6da62865d43ccd9031147,[train:CANCER] 154.jpeg <==> [train:CANCER 1] 174.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,65c3b771bf30055503bf5f11bbea84c8,[train:CANCER] 156.jpeg <==> [train:CANCER 1] 176.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,683fc0d1710ff7746d54460d206696b0,[train:CANCER] 158.jpeg <==> [train:CANCER 1] 178.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a9faf01ab12e91d643996e650cc396cc,[train:CANCER] 161.jpeg <==> [train:CANCER 1] 180.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,99e1a77e424a9455df536c57a0063c64,[train:CANCER] 162.jpeg <==> [train:CANCER 1] 181.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,5ab05f0acf764bf94b253c4a8d7472b1,[train:CANCER] 164.jpeg <==> [train:CANCER 1] 184.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,af0e77b6e8fcc4f5479e0879f0c6f925,[train:CANCER] 165.jpeg <==> [train:CANCER 1] 185.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,5b7aaa38340c5431807b39e1895e0010,[train:CANCER] 166.jpeg <==> [train:CANCER 1] 186.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,70d8bca804cb5f71710362d846219c79,[train:CANCER] 169.jpeg <==> [train:CANCER 1] 189.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,1a112bf6dc7228b3ca41cb31d4fa0b7c,[train:CANCER] 173.jpeg <==> [train:CANCER 1] 192.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,7f5ae2f426eb47e9d45f6b67c957e54c,[train:CANCER] 174.jpeg <==> [train:CANCER 1] 193.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,1cd67562d07cf6f76ce9864a1638bb5b,[train:CANCER] 176.jpeg <==> [train:CANCER 1] 195.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,c6a6de178173b7ca6e3ed54352769c67,[train:CANCER] 177.jpeg <==> [train:CANCER 1] 196.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,38b8b23e550bac83357d2031fe0ce3b3,[train:CANCER] 178.jpeg <==> [train:CANCER 1] 197.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,23265ac8d8b267bd5b4f973692665e1e,[train:CANCER] 179.jpeg <==> [train:CANCER 1] 198.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,14c62557dd2fbbd9d190efea5e765d48,[train:CANCER] 182.jpeg <==> [train:CANCER 1] 202.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,7577dcf027b87aa4ead9750037f0284d,[train:CANCER] 183.jpeg <==> [train:CANCER 1] 203.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a8571afad0a78221d9c9083b180d418e,[train:CANCER] 185.jpeg <==> [train:CANCER 1] 206.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,d7b32901dd6a44b60461ee6ff2729ccc,[train:CANCER] 186.jpeg <==> [train:CANCER 1] 207.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,24846db78f594eb7c2d8f6a44a04fdb7,[train:CANCER] 188.jpeg <==> [train:CANCER 1] 209.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,4133d3889443d0e25b061883af3ba8b8,[train:CANCER] 191.jpeg <==> [train:CANCER 1] 211.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,9044557664c4c5066e9dadb5d6028c70,[train:CANCER] 192.jpeg <==> [train:CANCER 1] 212.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,f45d40dcd900a2e0ff658191097b087a,[train:CANCER] 193.jpeg <==> [train:CANCER 1] 213.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,dcc0b88b5f59595fb7d788ca21c60249,[train:CANCER] 196.jpeg <==> [train:CANCER 1] 216.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,df1bfdf8f888bd73dfa320dec97f53dd,[train:CANCER] 197.jpeg <==> [train:CANCER 1] 217.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,f3bbcd244d5122323399455a6cc21075,[train:CANCER] 199.jpeg <==> [train:CANCER 1] 219.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,0b6dfae67e5e686312001d6a40b9f0a6,[train:CANCER] 203.jpeg <==> [train:CANCER 1] 222.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,13d24de63f1d571e69098bb760123fc4,[train:CANCER] 204.jpeg <==> [train:CANCER 1] 223.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,89a3cd0087fed4ef51b3836a7fc30625,[train:CANCER] 207.jpeg <==> [train:CANCER 1] 227.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,103d0e5025ab12e7000f6d3a458319e7,[train:CANCER] 208.jpeg <==> [train:CANCER 1] 228.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,7144d805aaaa6819f621d200811ebf3a,[train:CANCER] 212.jpeg <==> [train:CANCER 1] 231.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,69d156a8320166b1e2e36ddf843e6bd3,[train:CANCER] 213.jpeg <==> [train:CANCER 1] 232.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,fd528d42b35e6bb3cd653c0bdd69e0c7,[train:CANCER] 214.jpeg <==> [train:CANCER 1] 233.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,4796c4a2374c9006842c0d2a91e82e59,[train:CANCER] 216.jpeg <==> [train:CANCER 1] 237.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,c3f238d0ba1a9f265f639e06d5ad5bf1,[train:CANCER] 219.jpeg <==> [train:CANCER 1] 240.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,03f4be816ac772bad6141d30d95518c8,[train:CANCER] 223.jpeg <==> [train:CANCER 1] 245.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,82a156e2cb9c7ad62a9ac627caa70f96,[train:CANCER] 225.jpeg <==> [train:CANCER 1] 247.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a112534443ee8fc9ace0e785e428d118,[train:CANCER] 226.jpeg <==> [train:CANCER 1] 248.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,daad29da98869bcc9d2eb670f94380db,[train:CANCER] 230.jpeg <==> [train:CANCER 1] 251.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,f73d363f0b95c4a81a02bf96a76f0984,[train:CANCER] 232.jpeg <==> [train:CANCER 1] 254.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,fd50fa4b36a4d0076af4af05e69e43e3,[train:CANCER] 235.jpeg <==> [train:CANCER 1] 257.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,e6c6966cbfc1a2aad0a0bdd06b686065,[train:CANCER] 236.jpeg <==> [train:CANCER 1] 258.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,8cff29b5a5392c3ba8a30c9cbce9b02a,[train:CANCER] 239.jpeg <==> [train:CANCER 1] 260.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,3a511fde25fb440441794e96e926ac4d,[train:CANCER] 241.jpeg <==> [train:CANCER 1] 264.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,d725dfee538ca8ea3c9d2816090f6a47,[train:CANCER] 242.jpeg <==> [train:CANCER 1] 265.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,29ee9225c4771e21e7c3927331143fc6,[train:CANCER] 243.jpeg <==> [train:CANCER 1] 266.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,7003d5935521ab17a57a2bd58add2d55,[train:CANCER] 244.jpeg <==> [train:CANCER 1] 267.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,bac13997ec5a024dd69d8ff739366d6e,[train:CANCER] 248.jpeg <==> [train:CANCER 1] 270.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,c21c8bf03bc7bf32201d3b9acfd26dc6,[train:CANCER] 250.jpeg <==> [train:CANCER 1] 272.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a74137afd36909e582ee90343679b51b,[train:CANCER] 252.jpeg <==> [train:CANCER 1] 276.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,316b98bcbb37df20d25794e131729171,[train:CANCER] 254.jpeg <==> [train:CANCER 1] 278.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,abdf4de03fe509305cf3aeccc9a94be4,[train:CANCER] 257.jpeg <==> [train:CANCER 1] 280.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,7be65adb076701a0dfe18b4bad4fe2cf,[train:CANCER] 261.jpeg <==> [train:CANCER 1] 284.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,2ea4fd51c6ff23222b69db87fae7c329,[train:CANCER] 263.jpeg <==> [train:CANCER 1] 286.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,2a6460c54383b22e1a54d9f03e0fb7a6,[train:CANCER] 265.jpeg <==> [train:CANCER 1] 288.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,cc37feefb7527ef095a3d1d7172f1ef5,[train:CANCER] 266.jpeg <==> [train:CANCER 1] 289.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,e308bbd98dba2e3723dfc1fd47777ec6,[train:CANCER] 268.jpeg <==> [train:CANCER 1] 290.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,976e964ae87d73e69292436918b45364,[train:CANCER] 269.jpeg <==> [train:CANCER 1] 291.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,d3d5a4d7dbab91acc8910e2de26513cc,[train:CANCER] 270.jpeg <==> [train:CANCER 1] 292.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,10e7a14fdf8c34320b94b22d5bf232ae,[train:CANCER] 271.jpeg <==> [train:CANCER 1] 294.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,9840af42e2ebc8ad162a891ce56834e2,[train:CANCER] 274.jpeg <==> [train:CANCER 1] 301.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,e779e42e2ed6304416a5889a4a8cdcf7,[train:CANCER] 275.jpeg <==> [train:CANCER 1] 302.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,0243673c9a7e9f25fbe414f898c3eed5,[train:CANCER] 276.jpeg <==> [train:CANCER 1] 303.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,3727f12db1307b6cf74d73b4aca4ab89,[train:CANCER] 279.jpeg <==> [train:CANCER 1] 308.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,1c1ccc75c31afbff897266eec0b2c4c0,[train:CANCER] 282.jpeg <==> [train:CANCER 1] 313.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,01621a3eb8a41616d5ec24ed156541e5,[train:CANCER] 283.jpeg <==> [train:CANCER 1] 314.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,c3b3fc082b34ae221bde80b8c44a64eb,[train:CANCER] 285.jpeg <==> [train:CANCER 1] 317.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,10f40c6777c0c52a545e0c00231b1c38,[train:CANCER] 286.jpeg <==> [train:CANCER 1] 318.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,691f787b74341fb4e1b610e8d640da9f,[train:CANCER] 287.jpeg <==> [train:CANCER 1] 319.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,550a5a22bd881dcaeb9d9fa840dbdfd2,[train:CANCER] 289.jpeg <==> [train:CANCER 1] 321.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,b8a9022553797aa52389ce61d9ba94e9,[train:CANCER] 290.jpeg <==> [train:CANCER 1] 322.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,9baf776ec3be6bb808521f6e00c85e2f,[train:CANCER] 293.jpeg <==> [train:CANCER 1] 331.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,8fa2849a98a1c2b6c266dfd880750882,[train:CANCER] 294.jpeg <==> [train:CANCER 1] 333.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,b2e9bd740945d3c64ec3d58a2f855a4b,[train:CANCER] 295.jpeg <==> [train:CANCER 1] 334.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,348159973a4ae024e8d953aa96ada830,[train:CANCER] 296.jpeg <==> [train:CANCER 1] 335.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,b67b89e7f374f06eb754b3998cc5be1a,[train:CANCER] 298.jpeg <==> [train:CANCER 1] 337.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,2d8d52b475d1a3eccfaa5e992349313d,[train:CANCER] 299.jpeg <==> [train:CANCER 1] 338.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,f8166cdc59f6213a4d61c8b9393fd720,[train:CANCER] 300.jpeg <==> [train:CANCER 1] 339.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,d26ea3794dcbd0f99c6772c539ef3ce9,[train:CANCER] 304.jpeg <==> [train:CANCER 1] 343.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,bfde300837e2d4620c6a31fb308ad7ed,[train:CANCER] 305.jpeg <==> [train:CANCER 1] 345.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a076a18251230dc605863b6e0512a054,[train:CANCER] 306.jpeg <==> [train:CANCER 1] 346.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,cd222d877051a9a5ea88f3fe6c30efb1,[train:CANCER] 310.jpeg <==> [train:CANCER 1] 353.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,bd34a1b053d5f07643ccab1ce950952d,[train:CANCER] 311.jpeg <==> [train:CANCER 1] 354.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a0c1520a7be13d7c7f75ac7f3ae4801f,[train:CANCER] 312.jpeg <==> [train:CANCER 1] 355.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,aa91719ed8bed632f178710bb2b6a377,[train:CANCER] 313.jpeg <==> [train:CANCER 1] 356.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,f782d98071058fa0d072f5cd9dfa80f3,[train:CANCER] 315.jpeg <==> [train:CANCER 1] 358.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,253922f0ef2bfc6b4f3c0c4843d9b078,[train:CANCER] 316.jpeg <==> [train:CANCER 1] 359.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,098890d3c2c0b786f7c8e0264ec20e15,[train:CANCER] 318.jpeg <==> [train:CANCER 1] 360.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,9d988524257da385c58814dd4c864c6b,[train:CANCER] 319.jpeg <==> [train:CANCER 1] 361.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,e929032f910069243cc93d4baad61b55,[train:CANCER] 320.jpeg <==> [train:CANCER 1] 362.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,ca92d44b9f37349bf244f03757b81f4e,[train:CANCER] 322.jpeg <==> [train:CANCER 1] 364.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,dc4e97f9c316934cfdfa3bb8c8b8c706,[train:CANCER] 323.jpeg <==> [train:CANCER 1] 365.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,eb6fc7b709dea78da0fe09113b431c47,[train:CANCER] 325.jpeg <==> [train:CANCER 1] 367.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,7f3c7a11f3013006a71f33d28a8fb12d,[train:CANCER] 327.jpeg <==> [train:CANCER 1] 369.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,9c6c94e4a3e1b2afcc8866aab28ab203,[train:CANCER] 330.jpeg <==> [train:CANCER 1] 371.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,8b5f0c1bf82ec5eb83bf1707fc14d88e,[train:CANCER] 331.jpeg <==> [train:CANCER 1] 373.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,2394b9117a2836c00f245067947ff5e4,[train:CANCER] 332.jpeg <==> [train:CANCER 1] 374.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,7a8030cd70e4a1cec6083eaf8da4e995,[train:CANCER] 334.jpeg <==> [train:CANCER 1] 376.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a1a8bb1dca35d2ec229e18a84811184c,[train:CANCER] 335.jpeg <==> [train:CANCER 1] 377.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,154f75ed6db413cd23a0d53a1fe8f044,[train:CANCER] 336.jpeg <==> [train:CANCER 1] 378.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,b57e79d1b7b55a0749809383d7edc571,[train:CANCER] 337.jpeg <==> [train:CANCER 1] 379.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,e6b95d2010d4c3774ee86e2ee8c47646,[train:CANCER] 342.jpeg <==> [train:CANCER 1] 388.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,8a662961ec45d49160effa2cdbec517b,[train:CANCER] 346.jpeg <==> [train:CANCER 1] 395.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,cce751b5a8afac21be96cb2cb9b0b4a0,[train:CANCER] 347.jpeg <==> [train:CANCER 1] 396.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,aa924e870e3e95c24e85490404465837,[train:CANCER] 352.jpeg <==> [train:CANCER 1] 401.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,7a875648c03d013e65a3f1ac152df4ab,[train:CANCER] 354.jpeg <==> [train:CANCER 1] 403.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,22a9df6240ff7c9a87bd736d4831d870,[train:CANCER] 355.jpeg <==> [train:CANCER 1] 404.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,c5db5a3257ee8e4ff8f3f7fa1b984e7e,[train:CANCER] 359.jpeg <==> [train:CANCER 1] 413.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,bb74d6e885273a2492e6a8ba350a1a89,[train:CANCER] 361.jpeg <==> [train:CANCER 1] 420.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,aef38f1d18cbebabce997dd97a5f686f,[train:CANCER] 362.jpeg <==> [train:CANCER 1] 421.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,067101a6551931801424f2ca1ec3448f,[train:CANCER] 363.jpeg <==> [train:CANCER 1] 422.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,d6f0c5a8871184b0b9eae1b9bfa46918,[train:CANCER] 364.jpeg <==> [train:CANCER 1] 428.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,9f6c25e39e1e66b8dfb461b449859239,[train:CANCER] 365.jpeg <==> [train:CANCER 1] 429.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,4fa3f537a0d72892c1eb8aad57d17ac1,[train:CANCER] 369.jpeg <==> [train:CANCER 1] 435.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,848f37526e1f4e9bb1c64d0e31af3b3d,[train:CANCER] 370.jpeg <==> [train:CANCER 1] 436.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,53b0bcc33df26deafbc564f2d8b32358,[train:CANCER] 371.jpeg <==> [train:CANCER 1] 437.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,c6e59ac8d6c2be407f819a3a9b4845c4,[train:CANCER] 372.jpeg <==> [train:CANCER 1] 438.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,860f192c6b9a3b67a0ca08c2e58ca032,[train:CANCER] 374.jpeg <==> [train:CANCER 1] 483.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,1925a4c198cff1e6bb24cd064b4946a1,[train:CANCER] 378.jpeg <==> [train:CANCER 1] 443.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,fd7e74a48fc5e9777467052f2125b2a1,[train:CANCER] 379.jpeg <==> [train:CANCER 1] 444.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,0eba28c6959ee67b8341ad017873c5cc,[train:CANCER] 380.jpeg <==> [train:CANCER 1] 445.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,aead7e292e60cfd04089febb84da2504,[train:CANCER] 381.jpeg <==> [train:CANCER 1] 446.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,4353c16a6f0f0e6a0463ee35dd9fb09a,[train:CANCER] 382.jpeg <==> [train:CANCER 1] 447.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,4c71bfedbc67211944666b3d9d33fc4f,[train:CANCER] 383.jpeg <==> [train:CANCER 1] 448.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,361403898ebc9537356689f338fbd938,[train:CANCER] 386.jpeg <==> [train:CANCER 1] 450.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,36a3fbd53fb6df334e9f59bb0cc7c51f,[train:CANCER] 389.jpeg <==> [train:CANCER 1] 453.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,48014ad7c64ad1436097dcfb34167d0a,[train:CANCER] 390.jpeg <==> [train:CANCER 1] 454.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,eb6102037a4d268f22c3233b75f4ed7a,[train:CANCER] 391.jpeg <==> [train:CANCER 1] 455.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,fd64a760f7f1fa5822cc197ba43f05d4,[train:CANCER] 392.jpeg <==> [train:CANCER 1] 456.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,120b03e0b10c8d7500ef4111639e1403,[train:CANCER] 394.jpeg <==> [train:CANCER 1] 458.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a16efd6c43debc20b327a8243b26470d,[train:CANCER] 400.jpeg <==> [train:CANCER 1] 463.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,cc3dcbb73a3fc734506f85c012bc91b7,[train:CANCER] 401.jpeg <==> [train:CANCER 1] 464.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,e355c77e683c13e592918ef12697dc33,[train:CANCER] 402.jpeg <==> [train:CANCER 1] 465.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,1eba440b208039714ad46608f135b56e,[train:CANCER] 405.jpeg <==> [train:CANCER 1] 468.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,37362588d46e9cbbaba824ceb9249322,[train:CANCER] 406.jpeg <==> [train:CANCER 1] 469.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a7463f012860c67340d59f60afc9433f,[train:CANCER] 409.jpeg <==> [train:CANCER 1] 471.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,902aee8be97b77a980fad82118c0b905,[train:CANCER] 410.jpeg <==> [train:CANCER 1] 473.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,9115b5901c878e892916aa2be1981a21,[train:CANCER] 413.jpeg <==> [train:CANCER 1] 479.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,abf634164ce29f57d39637d59cd7face,[train:CANCER] 416.jpeg <==> [train:CANCER 1] 481.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,4e36ce2f7a06273bcedfa47a5a4b6580,[train:CANCER] 421.jpeg <==> [train:CANCER 1] 487.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,4d736a006ee1905da3f80729f2a84288,[train:CANCER] 422.jpeg <==> [train:CANCER 1] 488.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,2721da1a4592a60ae6aaa0f63804ea36,[train:CANCER] 425.jpeg <==> [train:CANCER 1] 490.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,74f1e32fe3591df5f181a29caeaca7ae,[train:CANCER] 426.jpeg <==> [train:CANCER 1] 491.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,8deb0ca37792c95a3f5ee86026c6729f,[train:CANCER] 427.jpeg <==> [train:CANCER 1] 492.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,5cd42cdb8d9dde7b4d4872a69b5dc8fc,[train:CANCER] 430.jpeg <==> [train:CANCER 1] 495.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,30179a3e25b9a19fdc5f95df131545be,[train:CANCER] 432.jpeg <==> [train:CANCER 1] 497.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,0d17d406bc9831a46079b722ea3c77f3,[train:CANCER] 434.jpeg <==> [train:CANCER 1] 499.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,62a2ccebd442cdf1dd5e8682a475e3ba,[train:CANCER] 437.jpeg <==> [train:CANCER 1] 500.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,00b5c56942f93a4b429141aceb71698b,[train:CANCER 1] 001.jpeg <==> [train:NON CANCER 2] 014.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,3871fb99c4c1822005df66291336b2b3,[train:NON CANCER] 003.jpeg <==> [train:NON CANCER 2] 003.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,af95d0009435af19bcb83f661f2c6bb0,[train:NON CANCER] 004.jpeg <==> [train:NON CANCER 2] 005.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,0d3dd6d38b8a166fb1871ad5fedc0b7f,[train:NON CANCER] 005.jpeg <==> [train:NON CANCER 2] 009.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,1da0ccb487b4e617422852b00f7cb4ef,[train:NON CANCER] 006.jpeg <==> [train:NON CANCER 2] 010.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,c271574fb1b0bf5a6ae40d689c4de66d,[train:NON CANCER] 007.jpeg <==> [train:NON CANCER 2] 011.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,426a070d437318bf15fe6eed9d5046a9,[train:NON CANCER] 008.jpeg <==> [train:NON CANCER 2] 013.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,10a10daf6bf73beb8aa79f4a286f6419,[train:NON CANCER] 009.jpeg <==> [train:NON CANCER 2] 015.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,304d96de7c3043289980bdb375514738,[train:NON CANCER] 010.jpeg <==> [train:NON CANCER 2] 016.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,92f7aaf211ffc951bce2a46134ca7ce4,[train:NON CANCER] 011.jpeg <==> [train:NON CANCER 2] 017.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,f4e4a60ca655f7158fd3c823de4ea511,[train:NON CANCER] 012.jpeg <==> [train:NON CANCER 2] 018.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,3b8f3921792b8e32601d691f4375dad0,[train:NON CANCER] 014.jpeg <==> [train:NON CANCER 2] 020.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,dd6e7ddc5fc136bafc672037f2df372b,[train:NON CANCER] 015.jpeg <==> [train:NON CANCER 2] 021.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,d89825ca5a87898bea909178a5a6120e,[train:NON CANCER] 016.jpeg <==> [train:NON CANCER 2] 022.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,b4713097dc904f74870fbefb1b538e14,[train:NON CANCER] 017.jpeg <==> [train:NON CANCER 2] 023.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,21cd2c9b2b567964693c04f3508fc68a,[train:NON CANCER] 018.jpeg <==> [train:NON CANCER 2] 025.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,92750b140024f03b39e54ab8cb952075,[train:NON CANCER] 019.jpeg <==> [train:NON CANCER 2] 026.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,50f4a9f56181be9b12e6de5d8dd0ca4e,[train:NON CANCER] 020.jpeg <==> [train:NON CANCER 2] 027.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,316432cbec4c54b765587959fdb62db2,[train:NON CANCER] 021.jpeg <==> [train:NON CANCER 2] 028.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,5bfb7ce257e3b2b3282fc4b842b827ea,[train:NON CANCER] 022.jpeg <==> [train:NON CANCER 2] 029.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,e452c0ebc70cb4d3a3e74d6e041d8798,[train:NON CANCER] 023.jpeg <==> [train:NON CANCER 2] 030.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,bfcbe1975d3d886c298bab41a9bbe5f5,[train:NON CANCER] 024.jpeg <==> [train:NON CANCER 2] 033.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,39eab37d91b57baac55d8b91d63f68c0,[train:NON CANCER] 026.jpeg <==> [train:NON CANCER 2] 038.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,f20d5b8f6ebcdd0b8326eef9cb73fd84,[train:NON CANCER] 027.jpeg <==> [train:NON CANCER 2] 039.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,4493c04b453ad290ea39f2c56f455a99,[train:NON CANCER] 029.jpeg <==> [train:NON CANCER 2] 041.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,ac150d77bc9057057a81cb1822a49433,[train:NON CANCER] 030.jpeg <==> [train:NON CANCER 2] 042.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,f3fbd08e049c09c6dd28f9ef2b394b12,[train:NON CANCER] 037.jpeg <==> [train:NON CANCER 2] 050.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,6871e0ca62c236047c60929dabf532dc,[train:NON CANCER] 039.jpeg <==> [train:NON CANCER 2] 052.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,0b75176b14daf31c0b4e85547dacf239,[train:NON CANCER] 042.jpeg <==> [train:NON CANCER 2] 056.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,4e0781e273fecd716fd71202c28c3319,[train:NON CANCER] 043.jpeg <==> [train:NON CANCER 2] 057.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,1bd6f77ec290edd054f3ee52e355101a,[train:NON CANCER] 045.jpeg <==> [train:NON CANCER 2] 059.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,656542f2b41a9b97567d2160f046df7a,[train:NON CANCER] 046.jpeg <==> [train:NON CANCER 2] 060.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,3115a08eac06097de4021954b34260d3,[train:NON CANCER] 047.jpeg <==> [train:NON CANCER 2] 061.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,cf77925a5b00faa6b5b31f4f30b3f059,[train:NON CANCER] 051.jpeg <==> [train:NON CANCER 2] 065.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,34aa566402df62539348023dd45dcad9,[train:NON CANCER] 053.jpeg <==> [train:NON CANCER 2] 067.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,5dc841c5439c45b252482fcd262a243c,[train:NON CANCER] 054.jpeg <==> [train:NON CANCER 2] 068.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,8b9daa37ca78f9adbdc39fc15c69a9d2,[train:NON CANCER] 055.jpeg <==> [train:NON CANCER 2] 069.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,5eed9ae7272f5532afc0d27b1d292f11,[train:NON CANCER] 056.jpeg <==> [train:NON CANCER 2] 070.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,0ef4689f2cb52c5fc2af8e830e02f4ef,[train:NON CANCER] 059.jpeg <==> [train:NON CANCER 2] 074.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,73c5fcf245443ba19950854bc9a0d7a7,[train:NON CANCER] 060.jpeg <==> [train:NON CANCER 2] 075.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,eaeb19ee459587068adc680c4919eb70,[train:NON CANCER] 062.jpeg <==> [train:NON CANCER 2] 077.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,b9400da7b42d2e2124c406db4836e83d,[train:NON CANCER] 063.jpeg <==> [train:NON CANCER 2] 078.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,fb2bb588c55c42e6b263c9227c92a25a,[train:NON CANCER] 064.jpeg <==> [train:NON CANCER 2] 079.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,fc7e5bf6f15fa65f834bcb99b832d632,[train:NON CANCER] 065.jpeg <==> [train:NON CANCER 2] 080.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,abe1bc659c011fc0098c2d059b175789,[train:NON CANCER] 066.jpeg <==> [train:NON CANCER 2] 081.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,9ee4674b218c36b00d4a49949a46235e,[train:NON CANCER] 067.jpeg <==> [train:NON CANCER 2] 082.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,95b611c6efa86154bb7275c5367d2bd5,[train:NON CANCER] 068.jpeg <==> [train:NON CANCER 2] 083.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,714b2fd34fbb6598bc6160af0e640e57,[train:NON CANCER] 070.jpeg <==> [train:NON CANCER 2] 085.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a123a2ebc560157bed7cc4dc86f927c9,[train:NON CANCER] 075.jpeg <==> [train:NON CANCER 2] 091.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,784fa7e2795042fbdf8b7f5dd39cb53e,[train:NON CANCER] 076.jpeg <==> [train:NON CANCER 2] 092.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,be2a0ae3d32041e0fc6a26e7fb6da299,[train:NON CANCER] 078.jpeg <==> [train:NON CANCER 2] 094.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,bb3a72b51b1cad8cb83c66cfe5e34280,[train:NON CANCER] 079.jpeg <==> [train:NON CANCER 2] 095.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,5f6262947961941163848b12d2709ad5,[train:NON CANCER] 081.jpeg <==> [train:NON CANCER 2] 097.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a62dd8d5c2fe8d3651d552d5bbdf1519,[train:NON CANCER] 082.jpeg <==> [train:NON CANCER 2] 098.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,d72ff10d6bd472c534781b1dd2d07a46,[train:NON CANCER] 083.jpeg <==> [train:NON CANCER 2] 099.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a8a43e71c569ecde78e0be80483653b8,[train:NON CANCER] 085.jpeg <==> [train:NON CANCER 2] 101.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,6be68b4f41c87453c30f6bb374f5b0ce,[train:NON CANCER] 086.jpeg <==> [train:NON CANCER 2] 102.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,9a2b517ec5f48aad5e29c95be35c9022,[train:NON CANCER] 087.jpeg <==> [train:NON CANCER 2] 103.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,af62e9642d1adf6f4bbae27e346e2b05,[train:NON CANCER] 090.jpeg <==> [train:NON CANCER 2] 107.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,afa169be0192d2e392895f26142c48f1,[train:NON CANCER] 091.jpeg <==> [train:NON CANCER 2] 108.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,305fb94f88663d9630f039602d937ad4,[train:NON CANCER] 092.jpeg <==> [train:NON CANCER 2] 109.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,d6f0665880b303939907438a0332e91e,[train:NON CANCER] 095.jpeg <==> [train:NON CANCER 2] 112.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,e7db05138206d11098075701170c440c,[train:NON CANCER] 096.jpeg <==> [train:NON CANCER 2] 113.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,9ee63b0e9dd06e5e486f722c0344ca73,[train:NON CANCER] 099.jpeg <==> [train:NON CANCER 2] 114.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,fe7bc008b4bc42092be75e731db41e9a,[train:NON CANCER] 101.jpeg <==> [train:NON CANCER 2] 116.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,962f0fa988eba7709576e3b11e8bb305,[train:NON CANCER] 104.jpeg <==> [train:NON CANCER 2] 119.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a6564c3fc7abc2dd40b6a5e383892125,[train:NON CANCER] 106.jpeg <==> [train:NON CANCER 2] 121.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,7087042b61dafb650f0a6b57689e888b,[train:NON CANCER] 108.jpeg <==> [train:NON CANCER 2] 124.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,15e6ad4c70523396b0397f74fa0d108f,[train:NON CANCER] 110.jpeg <==> [train:NON CANCER 2] 126.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a4f312b54466c81ea2723ac7692f87c9,[train:NON CANCER] 111.jpeg <==> [train:NON CANCER 2] 127.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,0c9d3bd021e7291f96365feff004d89a,[train:NON CANCER] 112.jpeg <==> [train:NON CANCER 2] 128.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,c383a1b95eac97cc9b1c243bd32aac61,[train:NON CANCER] 113.jpeg <==> [train:NON CANCER 2] 129.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,f0a907525bdf0105d9c0b6cfee6f62e8,[train:NON CANCER] 114.jpeg <==> [train:NON CANCER 2] 130.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,93354c4c91563dabce6e9de50069e4fe,[train:NON CANCER] 116.jpeg <==> [train:NON CANCER 2] 132.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,643f0535eef9b71ff49ce540eac7ed99,[train:NON CANCER] 119.jpeg <==> [train:NON CANCER 2] 135.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,1fbda07668526d327cdfa8d6c203cc8a,[train:NON CANCER] 122.jpeg <==> [train:NON CANCER 2] 138.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,8d87c46ce444ad454caf3131a789521a,[train:NON CANCER] 125.jpeg <==> [train:NON CANCER 2] 141.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,43cc7d2695d902457bcd7de4140d24d1,[train:NON CANCER] 126.jpeg <==> [train:NON CANCER 2] 142.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,27875c7892160bf96b72f9327565c021,[train:NON CANCER] 129.jpeg <==> [train:NON CANCER 2] 145.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,338339e9f68a5c823211c9282e96049c,[train:NON CANCER] 131.jpeg <==> [train:NON CANCER 2] 147.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,cf679c5f205e38d6cb3640f41db80e58,[train:NON CANCER] 133.jpeg <==> [train:NON CANCER 2] 149.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,62371c5f4cf1692e6a777d4c4664ffc2,[train:NON CANCER] 134.jpeg <==> [train:NON CANCER 2] 150.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,b7181cfb99db92d393bd472dea83934f,[train:NON CANCER] 135.jpeg <==> [train:NON CANCER 2] 151.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,06cfdfaf7c174c28c92afb0db3f494b4,[train:NON CANCER] 136.jpeg <==> [train:NON CANCER 2] 152.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,c55c4453fddc06eebf9e4b08597dd62f,[train:NON CANCER] 138.jpeg <==> [train:NON CANCER 2] 154.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,c7e43101620f3ea607e4d163b9f7ee37,[train:NON CANCER] 140.jpeg <==> [train:NON CANCER 2] 156.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,ca66750b79ffc5f5d6400cea8076a27a,[train:NON CANCER] 141.jpeg <==> [train:NON CANCER 2] 157.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,5a88aa7215c3549e864303c356f8b79a,[train:NON CANCER] 144.jpeg <==> [train:NON CANCER 2] 160.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,97f17ab0be0a0316a233341d7c147be4,[train:NON CANCER] 145.jpeg <==> [train:NON CANCER 2] 161.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,fa886e6ef1dde385c957f063808bffc7,[train:NON CANCER] 146.jpeg <==> [train:NON CANCER 2] 162.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a9fc2577f8665f1cb021e1f47265929b,[train:NON CANCER] 147.jpeg <==> [train:NON CANCER 2] 163.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,ecef749f34482a06a80a0c5798fb266f,[train:NON CANCER] 148.jpeg <==> [train:NON CANCER 2] 164.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,45b79f6fbc68747e94d6fcb0ed2221d9,[train:NON CANCER] 150.jpeg <==> [train:NON CANCER 2] 166.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,7525ca40152d79ce99c090035ca8e4ce,[train:NON CANCER] 151.jpeg <==> [train:NON CANCER 2] 167.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,9845f5f81923d3ea61357caa331d010e,[train:NON CANCER] 152.jpeg <==> [train:NON CANCER 2] 168.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,617093ca6906c18ab7ee3e76bb0857ee,[train:NON CANCER] 153.jpeg <==> [train:NON CANCER 2] 169.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,d77cf72712d69f20ddf42220559b223a,[train:NON CANCER] 155.jpeg <==> [train:NON CANCER 2] 171.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,32965415725fec9cfc642588e7514c0d,[train:NON CANCER] 156.jpeg <==> [train:NON CANCER 2] 172.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,7be68cabdfe98a6b1ca1ca41a8599e5b,[train:NON CANCER] 158.jpeg <==> [train:NON CANCER 2] 174.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,71524760075594408f11ae781a14afbb,[train:NON CANCER] 159.jpeg <==> [train:NON CANCER 2] 175.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,5a7b91e44f87238b32ad2e1f93bc77f6,[train:NON CANCER] 160.jpeg <==> [train:NON CANCER 2] 176.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,96f79fd549ff04d69efff9127c20074b,[train:NON CANCER] 163.jpeg <==> [train:NON CANCER 2] 179.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,8d67e5a29369b6492a39b50f656ab846,[train:NON CANCER] 164.jpeg <==> [train:NON CANCER 2] 180.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,af84dd50970b24e468e1c4ba51b738cb,[train:NON CANCER] 165.jpeg <==> [train:NON CANCER 2] 181.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,5b0711d0072a61b7de7fd2911b3ce995,[train:NON CANCER] 166.jpeg <==> [train:NON CANCER 2] 182.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,9f2d5073d454d88a823ded622929d919,[train:NON CANCER] 167.jpeg <==> [train:NON CANCER 2] 183.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,ece98800a1151a6a86c5875b18ffbd5e,[train:NON CANCER] 169.jpeg <==> [train:NON CANCER 2] 185.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,5c1ee48f132a8004e1a3866ee1c999c8,[train:NON CANCER] 170.jpeg <==> [train:NON CANCER 2] 186.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,b56e5df967ae2e8694b398b729114813,[train:NON CANCER] 172.jpeg <==> [train:NON CANCER 2] 188.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,8e2c6f020d9fd604be92d35e53638461,[train:NON CANCER] 174.jpeg <==> [train:NON CANCER 2] 190.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,fe4333abee5fc86c48ee42773b7824e6,[train:NON CANCER] 175.jpeg <==> [train:NON CANCER 2] 191.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,b7cbb1592aad3990578545030fbb68e8,[train:NON CANCER] 176.jpeg <==> [train:NON CANCER 2] 192.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,6123f90d6b4dfcedefb7fbe456429a73,[train:NON CANCER] 179.jpeg <==> [train:NON CANCER 2] 195.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,730c4ecd0740506f933e5cb46e9a9ed8,[train:NON CANCER] 184.jpeg <==> [train:NON CANCER 2] 200.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a99245e0c131f352007027540b25a77e,[train:NON CANCER] 185.jpeg <==> [train:NON CANCER 2] 201.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,235c1873cf86434156c7545788ff5613,[train:NON CANCER] 186.jpeg <==> [train:NON CANCER 2] 202.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,ebe36c34bcd2432dc9b0cffec961965a,[train:NON CANCER] 191.jpeg <==> [train:NON CANCER 2] 207.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,49bb94aeb4b2dee4f0c2246e5a4eda7c,[train:NON CANCER] 192.jpeg <==> [train:NON CANCER 2] 208.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,4234fe8e028f3bb69c4ee477aceca3f4,[train:NON CANCER] 193.jpeg <==> [train:NON CANCER 2] 209.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,ae455e8fecf7187d2cc06cbf777a6b67,[train:NON CANCER] 196.jpeg <==> [train:NON CANCER 2] 213.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,b7e81c3c64afa2eacff2fb1452c157ad,[train:NON CANCER] 198.jpeg <==> [train:NON CANCER 2] 215.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,49f1254b64c52caf7516b84a517e32f8,[train:NON CANCER] 199.jpeg <==> [train:NON CANCER 2] 216.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,aa41c293901ca68dec3ee571f16e1fd4,[train:NON CANCER] 200.jpeg <==> [train:NON CANCER 2] 217.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,2bcfc29b9697f3f8af21361aed451afb,[train:NON CANCER] 202.jpeg <==> [train:NON CANCER 2] 219.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,6b48cc0101d4173f802aa42b55e583a4,[train:NON CANCER] 207.jpeg <==> [train:NON CANCER 2] 224.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,8c4ce38823ecd5dc287fa883f392199f,[train:NON CANCER] 210.jpeg <==> [train:NON CANCER 2] 227.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,64b372c67449ff6e0bb4285957acc5e7,[train:NON CANCER] 211.jpeg <==> [train:NON CANCER 2] 228.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,743368bcfad62e24c27f3c673ba9eb5d,[train:NON CANCER] 212.jpeg <==> [train:NON CANCER 2] 229.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,77dc09e85dcdf8f4e1940af8cbb8cf73,[train:NON CANCER] 213.jpeg <==> [train:NON CANCER 2] 230.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,4d62208f4172bae66f1b7e719027f02d,[train:NON CANCER] 215.jpeg <==> [train:NON CANCER 2] 232.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,9874ad58701737fc78a633e76e09d50d,[train:NON CANCER] 217.jpeg <==> [train:NON CANCER 2] 233.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a89d9b08cfd7316277c65203349009c8,[train:NON CANCER] 218.jpeg <==> [train:NON CANCER 2] 234.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,354de1b1fcc483f9b9641e7e5047ed24,[train:NON CANCER] 219.jpeg <==> [train:NON CANCER 2] 235.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,86ae2b2ec6abcf0f29b7a53043320c77,[train:NON CANCER] 220.jpeg <==> [train:NON CANCER 2] 236.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,a40ce4dc29ef182bace3f4a6ed3dc62e,[train:NON CANCER] 223.jpeg <==> [train:NON CANCER 2] 239.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,9aaa6125adacb0dc978cd2706002c8a8,[train:NON CANCER] 224.jpeg <==> [train:NON CANCER 2] 240.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,f2d1af713251eee617165860e1caca3f,[train:NON CANCER] 225.jpeg <==> [train:NON CANCER 2] 241.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,db3c49bafe6dd5032d920e5b1879ef79,[train:NON CANCER] 228.jpeg <==> [train:NON CANCER 2] 244.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,e743d852ea18f784b917a1e021ef6187,[train:NON CANCER] 230.jpeg <==> [train:NON CANCER 2] 246.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,22d6ce8a1733d2db05b293c51e35f1e7,[train:NON CANCER] 231.jpeg <==> [train:NON CANCER 2] 248.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,26e2222d2b3d4e8114b92dc405c5a325,[train:NON CANCER] 232.jpeg <==> [train:NON CANCER 2] 249.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,3d8918bddefc1b8f8c92575c264981f9,[validation:CANCER] 026.jpeg <==> [validation:CANCER 1] 034.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,3705aa7623b636669fdc4a991bdb5d56,[validation:CANCER] 205.jpeg <==> [validation:CANCER 1] 225.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,8ee34a500f731097a066d4815c77995f,[validation:CANCER] 215.jpeg <==> [validation:CANCER 1] 234.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,fdc98b41f52d2689d310c359e8c28733,[validation:NON CANCER] 044.jpeg <==> [validation:NON CANCER 2] 058.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,d030aeb30121bd903cc80c7a8d4ea571,[validation:NON CANCER] 221.jpeg <==> [validation:NON CANCER 2] 237.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,232af8077a63a27ebd4db23cbe90f477,[validation:NON CANCER] 233.jpeg <==> [validation:NON CANCER 2] 250.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,dfe2c25f2a7149f705132cd172be523a,[test:CANCER] 041.jpeg <==> [test:CANCER 1] 053.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,9226b2277b05ddad5bfe903b98257243,[test:CANCER] 093.jpeg <==> [test:CANCER 1] 111.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,bc19d01f29016fd004b5bee27edf4d68,[test:CANCER] 152.jpeg <==> [test:CANCER 1] 172.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,7cce1f3abacb42616edf114d9efd832d,[test:CANCER] 278.jpeg <==> [test:CANCER 1] 307.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,21f1154e877d4ec9407d8d4af1dcaf22,[test:NON CANCER] 117.jpeg <==> [test:NON CANCER 2] 133.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,94cd3e8dffa02845c810ce6ffe5ae62c,[test:NON CANCER] 188.jpeg <==> [test:NON CANCER 2] 204.jpeg
+oral,WITHIN_SPLIT_DUPLICATE,2,3b1ba312b7c4f4b378a0a3b7dcc646c4,[test:NON CANCER] 208.jpeg <==> [test:NON CANCER 2] 225.jpeg

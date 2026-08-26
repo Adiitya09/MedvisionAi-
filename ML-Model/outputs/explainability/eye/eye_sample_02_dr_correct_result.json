@@ -1,0 +1,14 @@
+{
+  "image_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\data\\Test\\Eye disease\\D\\DR1203.jpg",
+  "image_filename": "DR1203.jpg",
+  "dataset": "eye",
+  "model": "eye_model.keras",
+  "predicted_class": "D",
+  "confidence": 0.9909522533416748,
+  "target_class": "D",
+  "target_class_index": 2,
+  "target_layer": "top_conv",
+  "original_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\eye\\eye_sample_02_dr_correct_original.png",
+  "heatmap_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\eye\\eye_sample_02_dr_correct_heatmap.png",
+  "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\eye\\eye_sample_02_dr_correct_overlay.png"
+}

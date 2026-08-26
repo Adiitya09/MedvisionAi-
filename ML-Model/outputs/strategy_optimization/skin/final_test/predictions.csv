@@ -1,0 +1,2281 @@
+index,true_class,predicted_class,confidence,is_correct
+0,Acne,Acne,0.9840,True
+1,Acne,Acne,0.7743,True
+2,Acne,Acne,0.9903,True
+3,Acne,Acne,0.9962,True
+4,Acne,Acne,0.9965,True
+5,Acne,Acne,0.9882,True
+6,Acne,Acne,0.9988,True
+7,Acne,Acne,0.7956,True
+8,Acne,Acne,0.9988,True
+9,Acne,Acne,0.9890,True
+10,Acne,Acne,0.9927,True
+11,Acne,Acne,0.9982,True
+12,Acne,Acne,0.9994,True
+13,Acne,Acne,0.3660,True
+14,Acne,Actinic Keratosis,0.3387,False
+15,Acne,Acne,0.9716,True
+16,Acne,Acne,0.9749,True
+17,Acne,Acne,0.9971,True
+18,Acne,Acne,0.9982,True
+19,Acne,Acne,0.2817,True
+20,Acne,Acne,0.9973,True
+21,Acne,Acne,0.8747,True
+22,Acne,Acne,0.9779,True
+23,Acne,Acne,0.9938,True
+24,Acne,Acne,0.9689,True
+25,Acne,Dermatofibroma,0.4021,False
+26,Acne,Acne,0.9997,True
+27,Acne,Acne,0.7775,True
+28,Acne,Acne,0.9998,True
+29,Acne,Acne,0.9750,True
+30,Acne,Actinic Keratosis,0.4025,False
+31,Acne,Acne,0.9148,True
+32,Acne,Actinic Keratosis,0.7776,False
+33,Acne,Acne,0.9992,True
+34,Acne,Acne,0.9260,True
+35,Acne,Seborrheic Keratosis,0.5786,False
+36,Acne,Seborrheic Keratosis,0.7401,False
+37,Acne,Acne,0.5272,True
+38,Acne,Seborrheic Keratosis,0.9247,False
+39,Acne,Acne,0.9979,True
+40,Acne,Seborrheic Keratosis,0.9078,False
+41,Acne,Acne,0.8843,True
+42,Acne,Acne,0.4964,True
+43,Acne,Acne,0.6364,True
+44,Acne,Acne,0.5767,True
+45,Acne,Acne,0.9328,True
+46,Acne,Acne,0.7168,True
+47,Acne,Acne,0.9648,True
+48,Acne,Acne,0.8553,True
+49,Acne,Seborrheic Keratosis,0.9494,False
+50,Acne,Seborrheic Keratosis,0.5078,False
+51,Acne,Acne,0.9971,True
+52,Acne,Acne,0.5719,True
+53,Acne,Acne,0.9634,True
+54,Acne,Acne,0.7667,True
+55,Acne,Seborrheic Keratosis,0.4582,False
+56,Acne,Acne,0.9546,True
+57,Acne,Acne,0.9969,True
+58,Acne,Acne,0.9044,True
+59,Acne,Acne,0.9198,True
+60,Acne,Acne,0.9967,True
+61,Acne,Acne,0.9973,True
+62,Acne,Acne,0.9993,True
+63,Acne,Acne,0.7716,True
+64,Acne,Acne,0.8132,True
+65,Acne,Acne,0.9909,True
+66,Acne,Basal Cell Carcinoma,0.4896,False
+67,Acne,Acne,0.9960,True
+68,Acne,Acne,0.6774,True
+69,Acne,Acne,0.9992,True
+70,Acne,Acne,0.9930,True
+71,Acne,Acne,0.9806,True
+72,Acne,Acne,0.9988,True
+73,Acne,Acne,0.9970,True
+74,Acne,Acne,0.9317,True
+75,Acne,Acne,0.9928,True
+76,Acne,Acne,0.3242,True
+77,Acne,Acne,0.9985,True
+78,Acne,Acne,0.9983,True
+79,Acne,Acne,0.9964,True
+80,Acne,Actinic Keratosis,0.3091,False
+81,Acne,Melanocytic Nevus (Nevus),0.4417,False
+82,Acne,Acne,0.9268,True
+83,Acne,Acne,0.9623,True
+84,Acne,Acne,0.3592,True
+85,Acne,Acne,0.9118,True
+86,Acne,Acne,0.7461,True
+87,Acne,Acne,0.9997,True
+88,Acne,Acne,0.9947,True
+89,Acne,Acne,0.9965,True
+90,Acne,Acne,0.9964,True
+91,Acne,Acne,0.9874,True
+92,Acne,Acne,0.9997,True
+93,Acne,Acne,0.9911,True
+94,Acne,Acne,0.9908,True
+95,Acne,Acne,0.9996,True
+96,Acne,Acne,0.9999,True
+97,Acne,Acne,0.9854,True
+98,Acne,Acne,0.9752,True
+99,Acne,Acne,0.9986,True
+100,Acne,Acne,0.9990,True
+101,Acne,Acne,0.9980,True
+102,Acne,Acne,0.9950,True
+103,Acne,Acne,0.9991,True
+104,Acne,Acne,0.9346,True
+105,Acne,Acne,0.9930,True
+106,Acne,Acne,0.9968,True
+107,Acne,Acne,0.9983,True
+108,Acne,Acne,0.9940,True
+109,Acne,Acne,0.9874,True
+110,Acne,Acne,0.9765,True
+111,Acne,Acne,0.9818,True
+112,Acne,Acne,0.8552,True
+113,Acne,Acne,0.9915,True
+114,Acne,Acne,0.9999,True
+115,Acne,Actinic Keratosis,0.3449,False
+116,Acne,Acne,0.7755,True
+117,Acne,Acne,0.8494,True
+118,Acne,Acne,0.9685,True
+119,Acne,Acne,0.6026,True
+120,Acne,Seborrheic Keratosis,0.7029,False
+121,Acne,Seborrheic Keratosis,0.7895,False
+122,Acne,Acne,0.8769,True
+123,Acne,Acne,0.9954,True
+124,Acne,Seborrheic Keratosis,0.7488,False
+125,Acne,Acne,0.6294,True
+126,Acne,Acne,0.9868,True
+127,Acne,Acne,0.9660,True
+128,Acne,Acne,0.4255,True
+129,Acne,Acne,0.8926,True
+130,Acne,Acne,0.9927,True
+131,Acne,Acne,0.9793,True
+132,Acne,Acne,0.9960,True
+133,Acne,Acne,0.9996,True
+134,Acne,Acne,0.9795,True
+135,Acne,Acne,0.9969,True
+136,Acne,Acne,0.9925,True
+137,Acne,Acne,0.9972,True
+138,Acne,Acne,0.9954,True
+139,Acne,Acne,0.9459,True
+140,Acne,Acne,0.7027,True
+141,Acne,Acne,0.9990,True
+142,Acne,Acne,0.9960,True
+143,Acne,Acne,0.9964,True
+144,Acne,Acne,0.9986,True
+145,Acne,Acne,0.9898,True
+146,Acne,Acne,0.9961,True
+147,Acne,Acne,0.9976,True
+148,Acne,Acne,0.9975,True
+149,Acne,Acne,0.9997,True
+150,Acne,Acne,0.9974,True
+151,Acne,Acne,0.9956,True
+152,Acne,Acne,0.9975,True
+153,Acne,Acne,0.9981,True
+154,Acne,Acne,0.9966,True
+155,Acne,Acne,0.9051,True
+156,Acne,Acne,0.9244,True
+157,Acne,Acne,0.9702,True
+158,Acne,Acne,0.9829,True
+159,Acne,Acne,0.7221,True
+160,Acne,Acne,0.9976,True
+161,Acne,Acne,0.9930,True
+162,Acne,Acne,0.9962,True
+163,Acne,Acne,0.9879,True
+164,Acne,Acne,0.9951,True
+165,Acne,Acne,0.9938,True
+166,Acne,Acne,0.9869,True
+167,Acne,Acne,0.9988,True
+168,Acne,Acne,0.9837,True
+169,Acne,Acne,0.9921,True
+170,Acne,Acne,0.9938,True
+171,Acne,Acne,0.9984,True
+172,Acne,Acne,0.9929,True
+173,Acne,Acne,0.9976,True
+174,Acne,Acne,0.9913,True
+175,Acne,Acne,0.9913,True
+176,Acne,Acne,0.9674,True
+177,Acne,Acne,0.9379,True
+178,Acne,Acne,0.9840,True
+179,Acne,Acne,0.9990,True
+180,Acne,Acne,0.9950,True
+181,Acne,Acne,0.9941,True
+182,Acne,Acne,0.9936,True
+183,Acne,Acne,0.9978,True
+184,Acne,Acne,0.9843,True
+185,Acne,Acne,0.9971,True
+186,Acne,Acne,0.9992,True
+187,Acne,Acne,0.9871,True
+188,Acne,Acne,0.9994,True
+189,Acne,Acne,0.9944,True
+190,Acne,Acne,0.9976,True
+191,Acne,Acne,0.9969,True
+192,Acne,Acne,0.9231,True
+193,Acne,Acne,0.9856,True
+194,Acne,Acne,0.9971,True
+195,Acne,Acne,0.9968,True
+196,Acne,Acne,0.9957,True
+197,Acne,Acne,0.9988,True
+198,Acne,Acne,0.9949,True
+199,Acne,Acne,0.9947,True
+200,Acne,Acne,0.9986,True
+201,Acne,Acne,0.9853,True
+202,Acne,Acne,0.9970,True
+203,Acne,Acne,0.9980,True
+204,Acne,Acne,0.9967,True
+205,Acne,Acne,0.9994,True
+206,Acne,Acne,0.9992,True
+207,Acne,Acne,0.9881,True
+208,Acne,Acne,0.9985,True
+209,Acne,Acne,0.9970,True
+210,Acne,Acne,0.9977,True
+211,Acne,Acne,0.9198,True
+212,Acne,Acne,0.9715,True
+213,Acne,Acne,0.9954,True
+214,Acne,Acne,0.9957,True
+215,Acne,Acne,0.9966,True
+216,Acne,Acne,0.9941,True
+217,Acne,Acne,0.9985,True
+218,Acne,Acne,0.9987,True
+219,Acne,Acne,0.9953,True
+220,Acne,Acne,0.9997,True
+221,Acne,Acne,0.9982,True
+222,Acne,Acne,0.9983,True
+223,Acne,Acne,0.9974,True
+224,Acne,Acne,0.9970,True
+225,Acne,Acne,0.9982,True
+226,Acne,Acne,0.9987,True
+227,Acne,Acne,0.9963,True
+228,Acne,Acne,0.9961,True
+229,Acne,Acne,0.9996,True
+230,Acne,Acne,0.9846,True
+231,Acne,Acne,0.9987,True
+232,Acne,Acne,0.9944,True
+233,Acne,Acne,0.9971,True
+234,Acne,Acne,0.9986,True
+235,Acne,Acne,0.9994,True
+236,Acne,Acne,0.9969,True
+237,Acne,Acne,0.9984,True
+238,Acne,Acne,0.9980,True
+239,Acne,Acne,0.9970,True
+240,Acne,Acne,0.9987,True
+241,Acne,Acne,0.9964,True
+242,Acne,Acne,0.8785,True
+243,Acne,Acne,0.8337,True
+244,Acne,Acne,0.9647,True
+245,Acne,Acne,0.8677,True
+246,Acne,Acne,0.9907,True
+247,Acne,Acne,0.8680,True
+248,Acne,Acne,0.9981,True
+249,Acne,Acne,0.9520,True
+250,Acne,Acne,0.9997,True
+251,Acne,Acne,0.9995,True
+252,Acne,Acne,0.9942,True
+253,Acne,Acne,0.9985,True
+254,Acne,Acne,0.9989,True
+255,Actinic Keratosis,Acne,0.3744,False
+256,Actinic Keratosis,Actinic Keratosis,0.4569,True
+257,Actinic Keratosis,Basal Cell Carcinoma,0.5205,False
+258,Actinic Keratosis,Actinic Keratosis,0.9563,True
+259,Actinic Keratosis,Actinic Keratosis,0.7486,True
+260,Actinic Keratosis,Actinic Keratosis,0.9035,True
+261,Actinic Keratosis,Actinic Keratosis,0.5038,True
+262,Actinic Keratosis,Actinic Keratosis,0.6591,True
+263,Actinic Keratosis,Actinic Keratosis,0.9481,True
+264,Actinic Keratosis,Actinic Keratosis,0.9260,True
+265,Actinic Keratosis,Actinic Keratosis,0.9859,True
+266,Actinic Keratosis,Actinic Keratosis,0.4633,True
+267,Actinic Keratosis,Actinic Keratosis,0.6381,True
+268,Actinic Keratosis,Actinic Keratosis,0.4355,True
+269,Actinic Keratosis,Actinic Keratosis,0.9242,True
+270,Actinic Keratosis,Dermatofibroma,0.3648,False
+271,Actinic Keratosis,Actinic Keratosis,0.9790,True
+272,Actinic Keratosis,Seborrheic Keratosis,0.5922,False
+273,Actinic Keratosis,Actinic Keratosis,0.9461,True
+274,Actinic Keratosis,Actinic Keratosis,0.8665,True
+275,Actinic Keratosis,Actinic Keratosis,0.6136,True
+276,Actinic Keratosis,Actinic Keratosis,0.5152,True
+277,Actinic Keratosis,Actinic Keratosis,0.7662,True
+278,Actinic Keratosis,Actinic Keratosis,0.6393,True
+279,Actinic Keratosis,Actinic Keratosis,0.7911,True
+280,Actinic Keratosis,Actinic Keratosis,0.5330,True
+281,Actinic Keratosis,Actinic Keratosis,0.5172,True
+282,Actinic Keratosis,Actinic Keratosis,0.8586,True
+283,Actinic Keratosis,Actinic Keratosis,0.9226,True
+284,Actinic Keratosis,Actinic Keratosis,0.8553,True
+285,Actinic Keratosis,Seborrheic Keratosis,0.4775,False
+286,Actinic Keratosis,Actinic Keratosis,0.6654,True
+287,Actinic Keratosis,Actinic Keratosis,0.7767,True
+288,Actinic Keratosis,Acne,0.2257,False
+289,Actinic Keratosis,Actinic Keratosis,0.7117,True
+290,Actinic Keratosis,Acne,0.8643,False
+291,Actinic Keratosis,Actinic Keratosis,0.8119,True
+292,Actinic Keratosis,Seborrheic Keratosis,0.3997,False
+293,Actinic Keratosis,Actinic Keratosis,0.7520,True
+294,Actinic Keratosis,Actinic Keratosis,0.5380,True
+295,Actinic Keratosis,Actinic Keratosis,0.6843,True
+296,Actinic Keratosis,Actinic Keratosis,0.7865,True
+297,Actinic Keratosis,Seborrheic Keratosis,0.4091,False
+298,Actinic Keratosis,Actinic Keratosis,0.5627,True
+299,Actinic Keratosis,Actinic Keratosis,0.7945,True
+300,Actinic Keratosis,Actinic Keratosis,0.8481,True
+301,Actinic Keratosis,Actinic Keratosis,0.8769,True
+302,Actinic Keratosis,Actinic Keratosis,0.5833,True
+303,Actinic Keratosis,Actinic Keratosis,0.8644,True
+304,Actinic Keratosis,Actinic Keratosis,0.4346,True
+305,Actinic Keratosis,Actinic Keratosis,0.3549,True
+306,Actinic Keratosis,Actinic Keratosis,0.7816,True
+307,Actinic Keratosis,Seborrheic Keratosis,0.5042,False
+308,Actinic Keratosis,Actinic Keratosis,0.4919,True
+309,Actinic Keratosis,Seborrheic Keratosis,0.6746,False
+310,Actinic Keratosis,Actinic Keratosis,0.2224,True
+311,Actinic Keratosis,Actinic Keratosis,0.5927,True
+312,Actinic Keratosis,Basal Cell Carcinoma,0.4822,False
+313,Actinic Keratosis,Actinic Keratosis,0.5691,True
+314,Actinic Keratosis,Actinic Keratosis,0.4216,True
+315,Actinic Keratosis,Actinic Keratosis,0.6267,True
+316,Actinic Keratosis,Actinic Keratosis,0.4636,True
+317,Actinic Keratosis,Actinic Keratosis,0.6815,True
+318,Actinic Keratosis,Actinic Keratosis,0.8076,True
+319,Actinic Keratosis,Actinic Keratosis,0.6948,True
+320,Actinic Keratosis,Actinic Keratosis,0.6654,True
+321,Actinic Keratosis,Basal Cell Carcinoma,0.8110,False
+322,Actinic Keratosis,Actinic Keratosis,0.8253,True
+323,Actinic Keratosis,Actinic Keratosis,0.4519,True
+324,Actinic Keratosis,Actinic Keratosis,0.8176,True
+325,Actinic Keratosis,Seborrheic Keratosis,0.2503,False
+326,Actinic Keratosis,Actinic Keratosis,0.6936,True
+327,Actinic Keratosis,Actinic Keratosis,0.7819,True
+328,Basal Cell Carcinoma,Basal Cell Carcinoma,0.5354,True
+329,Basal Cell Carcinoma,Basal Cell Carcinoma,0.8380,True
+330,Basal Cell Carcinoma,Basal Cell Carcinoma,0.5540,True
+331,Basal Cell Carcinoma,Basal Cell Carcinoma,0.5846,True
+332,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.5059,False
+333,Basal Cell Carcinoma,Basal Cell Carcinoma,0.7643,True
+334,Basal Cell Carcinoma,Basal Cell Carcinoma,0.8051,True
+335,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.6099,False
+336,Basal Cell Carcinoma,Basal Cell Carcinoma,0.5980,True
+337,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.7357,False
+338,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.4638,False
+339,Basal Cell Carcinoma,Actinic Keratosis,0.4894,False
+340,Basal Cell Carcinoma,Actinic Keratosis,0.2663,False
+341,Basal Cell Carcinoma,Basal Cell Carcinoma,0.8532,True
+342,Basal Cell Carcinoma,Basal Cell Carcinoma,0.5971,True
+343,Basal Cell Carcinoma,Actinic Keratosis,0.3349,False
+344,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6744,True
+345,Basal Cell Carcinoma,Basal Cell Carcinoma,0.5928,True
+346,Basal Cell Carcinoma,Basal Cell Carcinoma,0.7056,True
+347,Basal Cell Carcinoma,Basal Cell Carcinoma,0.7126,True
+348,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.5392,False
+349,Basal Cell Carcinoma,Melanoma,0.3452,False
+350,Basal Cell Carcinoma,Basal Cell Carcinoma,0.8647,True
+351,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.3674,False
+352,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.4964,False
+353,Basal Cell Carcinoma,Basal Cell Carcinoma,0.3709,True
+354,Basal Cell Carcinoma,Basal Cell Carcinoma,0.3605,True
+355,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6925,True
+356,Basal Cell Carcinoma,Basal Cell Carcinoma,0.3718,True
+357,Basal Cell Carcinoma,Seborrheic Keratosis,0.5327,False
+358,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.3829,False
+359,Basal Cell Carcinoma,Basal Cell Carcinoma,0.4251,True
+360,Basal Cell Carcinoma,Seborrheic Keratosis,0.4790,False
+361,Basal Cell Carcinoma,Melanoma,0.4709,False
+362,Basal Cell Carcinoma,Basal Cell Carcinoma,0.3833,True
+363,Basal Cell Carcinoma,Basal Cell Carcinoma,0.3972,True
+364,Basal Cell Carcinoma,Basal Cell Carcinoma,0.9661,True
+365,Basal Cell Carcinoma,Basal Cell Carcinoma,0.4760,True
+366,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6986,True
+367,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.4341,False
+368,Basal Cell Carcinoma,Basal Cell Carcinoma,0.7404,True
+369,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.4026,False
+370,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.4991,False
+371,Basal Cell Carcinoma,Basal Cell Carcinoma,0.7695,True
+372,Basal Cell Carcinoma,Basal Cell Carcinoma,0.5947,True
+373,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6173,True
+374,Basal Cell Carcinoma,Basal Cell Carcinoma,0.5532,True
+375,Basal Cell Carcinoma,Basal Cell Carcinoma,0.8252,True
+376,Basal Cell Carcinoma,Seborrheic Keratosis,0.3824,False
+377,Basal Cell Carcinoma,Basal Cell Carcinoma,0.3634,True
+378,Basal Cell Carcinoma,Basal Cell Carcinoma,0.8135,True
+379,Basal Cell Carcinoma,Basal Cell Carcinoma,0.5799,True
+380,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6767,True
+381,Basal Cell Carcinoma,Melanoma,0.3944,False
+382,Basal Cell Carcinoma,Basal Cell Carcinoma,0.4211,True
+383,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.3318,False
+384,Basal Cell Carcinoma,Basal Cell Carcinoma,0.8185,True
+385,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6491,True
+386,Basal Cell Carcinoma,Melanoma,0.3740,False
+387,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.6192,False
+388,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.5964,False
+389,Basal Cell Carcinoma,Basal Cell Carcinoma,0.8615,True
+390,Basal Cell Carcinoma,Basal Cell Carcinoma,0.5929,True
+391,Basal Cell Carcinoma,Actinic Keratosis,0.2799,False
+392,Basal Cell Carcinoma,Basal Cell Carcinoma,0.8411,True
+393,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.5909,False
+394,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.3004,False
+395,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.7767,False
+396,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.3735,False
+397,Basal Cell Carcinoma,Basal Cell Carcinoma,0.5878,True
+398,Basal Cell Carcinoma,Basal Cell Carcinoma,0.8944,True
+399,Basal Cell Carcinoma,Basal Cell Carcinoma,0.9347,True
+400,Basal Cell Carcinoma,Basal Cell Carcinoma,0.2941,True
+401,Basal Cell Carcinoma,Basal Cell Carcinoma,0.4896,True
+402,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.4556,False
+403,Basal Cell Carcinoma,Basal Cell Carcinoma,0.7881,True
+404,Basal Cell Carcinoma,Basal Cell Carcinoma,0.5499,True
+405,Basal Cell Carcinoma,Basal Cell Carcinoma,0.3624,True
+406,Basal Cell Carcinoma,Basal Cell Carcinoma,0.7104,True
+407,Basal Cell Carcinoma,Basal Cell Carcinoma,0.3824,True
+408,Basal Cell Carcinoma,Basal Cell Carcinoma,0.7639,True
+409,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.4244,False
+410,Basal Cell Carcinoma,Basal Cell Carcinoma,0.7093,True
+411,Basal Cell Carcinoma,Basal Cell Carcinoma,0.4446,True
+412,Basal Cell Carcinoma,Melanoma,0.3402,False
+413,Basal Cell Carcinoma,Actinic Keratosis,0.2541,False
+414,Basal Cell Carcinoma,Basal Cell Carcinoma,0.8943,True
+415,Basal Cell Carcinoma,Basal Cell Carcinoma,0.7178,True
+416,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.7934,False
+417,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.5962,False
+418,Basal Cell Carcinoma,Basal Cell Carcinoma,0.3260,True
+419,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.3157,False
+420,Basal Cell Carcinoma,Basal Cell Carcinoma,0.5629,True
+421,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.5766,False
+422,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.3915,False
+423,Basal Cell Carcinoma,Basal Cell Carcinoma,0.5259,True
+424,Basal Cell Carcinoma,Basal Cell Carcinoma,0.7727,True
+425,Basal Cell Carcinoma,Basal Cell Carcinoma,0.3635,True
+426,Basal Cell Carcinoma,Basal Cell Carcinoma,0.4377,True
+427,Basal Cell Carcinoma,Basal Cell Carcinoma,0.3414,True
+428,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.5952,False
+429,Basal Cell Carcinoma,Melanoma,0.4717,False
+430,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6066,True
+431,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.5252,False
+432,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.4639,False
+433,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.3836,False
+434,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.3921,False
+435,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.2605,False
+436,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.5240,False
+437,Basal Cell Carcinoma,Melanoma,0.3370,False
+438,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.4190,False
+439,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.5890,False
+440,Basal Cell Carcinoma,Melanoma,0.3061,False
+441,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.4693,False
+442,Basal Cell Carcinoma,Basal Cell Carcinoma,0.2343,True
+443,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.2774,False
+444,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.3189,False
+445,Basal Cell Carcinoma,Basal Cell Carcinoma,0.2187,True
+446,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.2754,False
+447,Basal Cell Carcinoma,Basal Cell Carcinoma,0.4185,True
+448,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.4803,False
+449,Basal Cell Carcinoma,Basal Cell Carcinoma,0.2663,True
+450,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.4539,False
+451,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.3754,False
+452,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.5119,False
+453,Basal Cell Carcinoma,Melanoma,0.5535,False
+454,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.5149,False
+455,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.3328,False
+456,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.4955,False
+457,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6347,True
+458,Basal Cell Carcinoma,Dermatofibroma,0.3633,False
+459,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.4142,False
+460,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.4788,False
+461,Basal Cell Carcinoma,Basal Cell Carcinoma,0.4048,True
+462,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.5840,False
+463,Basal Cell Carcinoma,Basal Cell Carcinoma,0.5351,True
+464,Basal Cell Carcinoma,Basal Cell Carcinoma,0.4608,True
+465,Basal Cell Carcinoma,Basal Cell Carcinoma,0.3359,True
+466,Basal Cell Carcinoma,Basal Cell Carcinoma,0.3650,True
+467,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.5644,False
+468,Basal Cell Carcinoma,Seborrheic Keratosis,0.2648,False
+469,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.6773,False
+470,Basal Cell Carcinoma,Melanoma,0.3592,False
+471,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.3712,False
+472,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.6189,False
+473,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.3944,False
+474,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.2376,False
+475,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.4101,False
+476,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.7744,False
+477,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.2143,False
+478,Basal Cell Carcinoma,Melanoma,0.3061,False
+479,Basal Cell Carcinoma,Basal Cell Carcinoma,0.2551,True
+480,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6704,True
+481,Basal Cell Carcinoma,Basal Cell Carcinoma,0.2972,True
+482,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.4316,False
+483,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.3907,False
+484,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.4761,False
+485,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.3239,False
+486,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.6898,False
+487,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.4159,False
+488,Basal Cell Carcinoma,Basal Cell Carcinoma,0.3557,True
+489,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.3224,False
+490,Basal Cell Carcinoma,Squamous Cell Carcinoma,0.4254,False
+491,Basal Cell Carcinoma,Basal Cell Carcinoma,0.5385,True
+492,Basal Cell Carcinoma,Basal Cell Carcinoma,0.4209,True
+493,Basal Cell Carcinoma,Actinic Keratosis,0.8318,False
+494,Basal Cell Carcinoma,Basal Cell Carcinoma,0.5702,True
+495,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6944,True
+496,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6074,True
+497,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6928,True
+498,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6580,True
+499,Basal Cell Carcinoma,Basal Cell Carcinoma,0.3643,True
+500,Basal Cell Carcinoma,Basal Cell Carcinoma,0.3888,True
+501,Basal Cell Carcinoma,Actinic Keratosis,0.4532,False
+502,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6311,True
+503,Basal Cell Carcinoma,Seborrheic Keratosis,0.3111,False
+504,Basal Cell Carcinoma,Basal Cell Carcinoma,0.7490,True
+505,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6582,True
+506,Basal Cell Carcinoma,Basal Cell Carcinoma,0.4131,True
+507,Basal Cell Carcinoma,Basal Cell Carcinoma,0.7949,True
+508,Basal Cell Carcinoma,Basal Cell Carcinoma,0.4617,True
+509,Basal Cell Carcinoma,Actinic Keratosis,0.4147,False
+510,Basal Cell Carcinoma,Basal Cell Carcinoma,0.5695,True
+511,Basal Cell Carcinoma,Basal Cell Carcinoma,0.4618,True
+512,Basal Cell Carcinoma,Actinic Keratosis,0.7418,False
+513,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6331,True
+514,Basal Cell Carcinoma,Actinic Keratosis,0.5398,False
+515,Basal Cell Carcinoma,Actinic Keratosis,0.4487,False
+516,Basal Cell Carcinoma,Actinic Keratosis,0.7609,False
+517,Basal Cell Carcinoma,Actinic Keratosis,0.8431,False
+518,Basal Cell Carcinoma,Seborrheic Keratosis,0.5958,False
+519,Basal Cell Carcinoma,Actinic Keratosis,0.5308,False
+520,Basal Cell Carcinoma,Actinic Keratosis,0.6297,False
+521,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6408,True
+522,Basal Cell Carcinoma,Basal Cell Carcinoma,0.5214,True
+523,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6895,True
+524,Basal Cell Carcinoma,Actinic Keratosis,0.8942,False
+525,Basal Cell Carcinoma,Basal Cell Carcinoma,0.4637,True
+526,Basal Cell Carcinoma,Basal Cell Carcinoma,0.4952,True
+527,Basal Cell Carcinoma,Actinic Keratosis,0.4239,False
+528,Basal Cell Carcinoma,Actinic Keratosis,0.5891,False
+529,Basal Cell Carcinoma,Basal Cell Carcinoma,0.4270,True
+530,Basal Cell Carcinoma,Basal Cell Carcinoma,0.8025,True
+531,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6111,True
+532,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6536,True
+533,Basal Cell Carcinoma,Basal Cell Carcinoma,0.5814,True
+534,Basal Cell Carcinoma,Basal Cell Carcinoma,0.4182,True
+535,Basal Cell Carcinoma,Basal Cell Carcinoma,0.7301,True
+536,Basal Cell Carcinoma,Actinic Keratosis,0.6404,False
+537,Basal Cell Carcinoma,Basal Cell Carcinoma,0.2833,True
+538,Basal Cell Carcinoma,Basal Cell Carcinoma,0.4057,True
+539,Basal Cell Carcinoma,Actinic Keratosis,0.3722,False
+540,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6880,True
+541,Basal Cell Carcinoma,Actinic Keratosis,0.5553,False
+542,Basal Cell Carcinoma,Actinic Keratosis,0.4247,False
+543,Basal Cell Carcinoma,Actinic Keratosis,0.7378,False
+544,Basal Cell Carcinoma,Basal Cell Carcinoma,0.7528,True
+545,Basal Cell Carcinoma,Basal Cell Carcinoma,0.3969,True
+546,Basal Cell Carcinoma,Actinic Keratosis,0.4534,False
+547,Basal Cell Carcinoma,Basal Cell Carcinoma,0.4952,True
+548,Basal Cell Carcinoma,Actinic Keratosis,0.5342,False
+549,Basal Cell Carcinoma,Actinic Keratosis,0.7215,False
+550,Basal Cell Carcinoma,Actinic Keratosis,0.6037,False
+551,Basal Cell Carcinoma,Basal Cell Carcinoma,0.3450,True
+552,Basal Cell Carcinoma,Basal Cell Carcinoma,0.3684,True
+553,Basal Cell Carcinoma,Actinic Keratosis,0.3169,False
+554,Basal Cell Carcinoma,Melanocytic Nevus (Nevus),0.2640,False
+555,Basal Cell Carcinoma,Acne,0.3057,False
+556,Basal Cell Carcinoma,Basal Cell Carcinoma,0.4539,True
+557,Basal Cell Carcinoma,Seborrheic Keratosis,0.3171,False
+558,Basal Cell Carcinoma,Seborrheic Keratosis,0.3542,False
+559,Basal Cell Carcinoma,Seborrheic Keratosis,0.7331,False
+560,Basal Cell Carcinoma,Actinic Keratosis,0.5798,False
+561,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6199,True
+562,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6253,True
+563,Basal Cell Carcinoma,Actinic Keratosis,0.3558,False
+564,Basal Cell Carcinoma,Basal Cell Carcinoma,0.4376,True
+565,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6206,True
+566,Basal Cell Carcinoma,Actinic Keratosis,0.4083,False
+567,Basal Cell Carcinoma,Actinic Keratosis,0.5384,False
+568,Basal Cell Carcinoma,Dermatofibroma,0.4598,False
+569,Basal Cell Carcinoma,Basal Cell Carcinoma,0.6632,True
+570,Basal Cell Carcinoma,Basal Cell Carcinoma,0.7330,True
+571,Basal Cell Carcinoma,Basal Cell Carcinoma,0.5277,True
+572,Basal Cell Carcinoma,Basal Cell Carcinoma,0.4196,True
+573,Basal Cell Carcinoma,Seborrheic Keratosis,0.3841,False
+574,Basal Cell Carcinoma,Basal Cell Carcinoma,0.8060,True
+575,Dermatofibroma,Dermatofibroma,0.5497,True
+576,Dermatofibroma,Seborrheic Keratosis,0.8818,False
+577,Dermatofibroma,Seborrheic Keratosis,0.4443,False
+578,Dermatofibroma,Dermatofibroma,0.6259,True
+579,Dermatofibroma,Dermatofibroma,0.8264,True
+580,Dermatofibroma,Dermatofibroma,0.5979,True
+581,Dermatofibroma,Seborrheic Keratosis,0.2926,False
+582,Dermatofibroma,Melanocytic Nevus (Nevus),0.7645,False
+583,Dermatofibroma,Melanocytic Nevus (Nevus),0.3843,False
+584,Dermatofibroma,Squamous Cell Carcinoma,0.3339,False
+585,Dermatofibroma,Melanocytic Nevus (Nevus),0.6986,False
+586,Dermatofibroma,Melanocytic Nevus (Nevus),0.7068,False
+587,Dermatofibroma,Melanocytic Nevus (Nevus),0.2325,False
+588,Dermatofibroma,Squamous Cell Carcinoma,0.4206,False
+589,Dermatofibroma,Melanoma,0.4216,False
+590,Dermatofibroma,Melanocytic Nevus (Nevus),0.8892,False
+591,Dermatofibroma,Melanoma,0.3195,False
+592,Dermatofibroma,Melanocytic Nevus (Nevus),0.3154,False
+593,Dermatofibroma,Melanocytic Nevus (Nevus),0.4114,False
+594,Dermatofibroma,Seborrheic Keratosis,0.4332,False
+595,Dermatofibroma,Dermatofibroma,0.5751,True
+596,Dermatofibroma,Dermatofibroma,0.6752,True
+597,Dermatofibroma,Seborrheic Keratosis,0.7925,False
+598,Dermatofibroma,Seborrheic Keratosis,0.6358,False
+599,Dermatofibroma,Dermatofibroma,0.6758,True
+600,Dermatofibroma,Seborrheic Keratosis,0.7522,False
+601,Dermatofibroma,Dermatofibroma,0.6076,True
+602,Dermatofibroma,Dermatofibroma,0.7986,True
+603,Dermatofibroma,Seborrheic Keratosis,0.5733,False
+604,Dermatofibroma,Actinic Keratosis,0.4868,False
+605,Dermatofibroma,Seborrheic Keratosis,0.7610,False
+606,Dermatofibroma,Seborrheic Keratosis,0.9259,False
+607,Dermatofibroma,Dermatofibroma,0.5053,True
+608,Dermatofibroma,Seborrheic Keratosis,0.8195,False
+609,Dermatofibroma,Dermatofibroma,0.5265,True
+610,Melanocytic Nevus (Nevus),Actinic Keratosis,0.5287,False
+611,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.4278,False
+612,Melanocytic Nevus (Nevus),Basal Cell Carcinoma,0.3107,False
+613,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.2684,True
+614,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.9032,False
+615,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5446,True
+616,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.2779,True
+617,Melanocytic Nevus (Nevus),Actinic Keratosis,0.7837,False
+618,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6034,True
+619,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5912,True
+620,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.3884,False
+621,Melanocytic Nevus (Nevus),Actinic Keratosis,0.4041,False
+622,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.5305,False
+623,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6025,True
+624,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7388,True
+625,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7888,True
+626,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7596,True
+627,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8352,True
+628,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8316,True
+629,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8231,True
+630,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7711,True
+631,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7622,True
+632,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6646,True
+633,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7470,True
+634,Melanocytic Nevus (Nevus),Melanoma,0.7201,False
+635,Melanocytic Nevus (Nevus),Basal Cell Carcinoma,0.2939,False
+636,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6957,True
+637,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5648,True
+638,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5678,True
+639,Melanocytic Nevus (Nevus),Melanoma,0.5025,False
+640,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5300,True
+641,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5753,True
+642,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6372,True
+643,Melanocytic Nevus (Nevus),Melanoma,0.4825,False
+644,Melanocytic Nevus (Nevus),Basal Cell Carcinoma,0.8591,False
+645,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5971,True
+646,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6537,True
+647,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6992,True
+648,Melanocytic Nevus (Nevus),Melanoma,0.5567,False
+649,Melanocytic Nevus (Nevus),Melanoma,0.4067,False
+650,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6010,True
+651,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7178,True
+652,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6479,True
+653,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6631,True
+654,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5041,True
+655,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5790,True
+656,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9030,True
+657,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9359,True
+658,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9459,True
+659,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8864,True
+660,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9580,True
+661,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7737,True
+662,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9361,True
+663,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7522,True
+664,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8900,True
+665,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9382,True
+666,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8207,True
+667,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5456,True
+668,Melanocytic Nevus (Nevus),Melanoma,0.6886,False
+669,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6709,True
+670,Melanocytic Nevus (Nevus),Melanoma,0.5717,False
+671,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7793,True
+672,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7519,True
+673,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7051,True
+674,Melanocytic Nevus (Nevus),Melanoma,0.4988,False
+675,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4089,True
+676,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4558,True
+677,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4042,True
+678,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6561,True
+679,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.3487,True
+680,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6832,True
+681,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6524,True
+682,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5455,True
+683,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6152,True
+684,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5103,True
+685,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8248,True
+686,Melanocytic Nevus (Nevus),Melanoma,0.2552,False
+687,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6078,True
+688,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5029,True
+689,Melanocytic Nevus (Nevus),Melanoma,0.3900,False
+690,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6117,True
+691,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6031,True
+692,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6024,True
+693,Melanocytic Nevus (Nevus),Squamous Cell Carcinoma,0.2196,False
+694,Melanocytic Nevus (Nevus),Melanoma,0.5255,False
+695,Melanocytic Nevus (Nevus),Melanoma,0.5630,False
+696,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7078,True
+697,Melanocytic Nevus (Nevus),Melanoma,0.7418,False
+698,Melanocytic Nevus (Nevus),Squamous Cell Carcinoma,0.2912,False
+699,Melanocytic Nevus (Nevus),Basal Cell Carcinoma,0.4249,False
+700,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5352,True
+701,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4131,True
+702,Melanocytic Nevus (Nevus),Melanoma,0.3657,False
+703,Melanocytic Nevus (Nevus),Basal Cell Carcinoma,0.2846,False
+704,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7332,True
+705,Melanocytic Nevus (Nevus),Melanoma,0.3464,False
+706,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7030,True
+707,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6698,True
+708,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5502,True
+709,Melanocytic Nevus (Nevus),Melanoma,0.6700,False
+710,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6774,True
+711,Melanocytic Nevus (Nevus),Melanoma,0.6487,False
+712,Melanocytic Nevus (Nevus),Melanoma,0.4281,False
+713,Melanocytic Nevus (Nevus),Melanoma,0.6228,False
+714,Melanocytic Nevus (Nevus),Melanoma,0.5556,False
+715,Melanocytic Nevus (Nevus),Melanoma,0.4543,False
+716,Melanocytic Nevus (Nevus),Melanoma,0.5711,False
+717,Melanocytic Nevus (Nevus),Melanoma,0.3491,False
+718,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.3674,True
+719,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.3295,True
+720,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.2938,False
+721,Melanocytic Nevus (Nevus),Melanoma,0.3984,False
+722,Melanocytic Nevus (Nevus),Melanoma,0.6112,False
+723,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5393,True
+724,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5213,True
+725,Melanocytic Nevus (Nevus),Melanoma,0.4017,False
+726,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4842,True
+727,Melanocytic Nevus (Nevus),Melanoma,0.5383,False
+728,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4265,True
+729,Melanocytic Nevus (Nevus),Melanoma,0.4780,False
+730,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5417,True
+731,Melanocytic Nevus (Nevus),Melanoma,0.4514,False
+732,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4166,True
+733,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.8499,False
+734,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.4331,False
+735,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.8524,False
+736,Melanocytic Nevus (Nevus),Melanoma,0.5112,False
+737,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.3656,False
+738,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.3090,True
+739,Melanocytic Nevus (Nevus),Melanoma,0.5390,False
+740,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5855,True
+741,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5723,True
+742,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.3958,True
+743,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5920,True
+744,Melanocytic Nevus (Nevus),Melanoma,0.5863,False
+745,Melanocytic Nevus (Nevus),Melanoma,0.4944,False
+746,Melanocytic Nevus (Nevus),Melanoma,0.6811,False
+747,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.6277,False
+748,Melanocytic Nevus (Nevus),Dermatofibroma,0.3472,False
+749,Melanocytic Nevus (Nevus),Melanoma,0.5241,False
+750,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.4244,False
+751,Melanocytic Nevus (Nevus),Melanoma,0.6748,False
+752,Melanocytic Nevus (Nevus),Melanoma,0.6854,False
+753,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.3669,False
+754,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4524,True
+755,Melanocytic Nevus (Nevus),Melanoma,0.4754,False
+756,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4325,True
+757,Melanocytic Nevus (Nevus),Melanoma,0.4045,False
+758,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4436,True
+759,Melanocytic Nevus (Nevus),Melanoma,0.4770,False
+760,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.6169,False
+761,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.7842,False
+762,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6956,True
+763,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.8256,False
+764,Melanocytic Nevus (Nevus),Melanoma,0.5672,False
+765,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.3201,False
+766,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.3279,False
+767,Melanocytic Nevus (Nevus),Melanoma,0.4859,False
+768,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.8883,False
+769,Melanocytic Nevus (Nevus),Melanoma,0.4241,False
+770,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.5819,False
+771,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4724,True
+772,Melanocytic Nevus (Nevus),Melanoma,0.3725,False
+773,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4739,True
+774,Melanocytic Nevus (Nevus),Dermatofibroma,0.1698,False
+775,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6879,True
+776,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7724,True
+777,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7205,True
+778,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7904,True
+779,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4305,True
+780,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6450,True
+781,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8583,True
+782,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6492,True
+783,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6464,True
+784,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6726,True
+785,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4973,True
+786,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.2874,True
+787,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5868,True
+788,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6789,True
+789,Melanocytic Nevus (Nevus),Melanoma,0.5402,False
+790,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8614,True
+791,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8051,True
+792,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.4812,False
+793,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6970,True
+794,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6239,True
+795,Melanocytic Nevus (Nevus),Melanoma,0.5223,False
+796,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6423,True
+797,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5411,True
+798,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8382,True
+799,Melanocytic Nevus (Nevus),Melanoma,0.4231,False
+800,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6592,True
+801,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5515,True
+802,Melanocytic Nevus (Nevus),Basal Cell Carcinoma,0.3824,False
+803,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6321,True
+804,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4791,True
+805,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6289,True
+806,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5889,True
+807,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4188,True
+808,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7058,True
+809,Melanocytic Nevus (Nevus),Melanoma,0.2783,False
+810,Melanocytic Nevus (Nevus),Melanoma,0.4617,False
+811,Melanocytic Nevus (Nevus),Basal Cell Carcinoma,0.2938,False
+812,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8383,True
+813,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4885,True
+814,Melanocytic Nevus (Nevus),Melanoma,0.2734,False
+815,Melanocytic Nevus (Nevus),Melanoma,0.5020,False
+816,Melanocytic Nevus (Nevus),Melanoma,0.4180,False
+817,Melanocytic Nevus (Nevus),Melanoma,0.4710,False
+818,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.6453,False
+819,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.5406,False
+820,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.3124,True
+821,Melanocytic Nevus (Nevus),Melanoma,0.5539,False
+822,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8132,True
+823,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8960,True
+824,Melanocytic Nevus (Nevus),Melanoma,0.4748,False
+825,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8641,True
+826,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8431,True
+827,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8712,True
+828,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7236,True
+829,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9344,True
+830,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8244,True
+831,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9111,True
+832,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6747,True
+833,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7796,True
+834,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8871,True
+835,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8977,True
+836,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6493,True
+837,Melanocytic Nevus (Nevus),Melanoma,0.7157,False
+838,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9170,True
+839,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8780,True
+840,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8587,True
+841,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9690,True
+842,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8149,True
+843,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8697,True
+844,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8834,True
+845,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7736,True
+846,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8934,True
+847,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8589,True
+848,Melanocytic Nevus (Nevus),Melanoma,0.5296,False
+849,Melanocytic Nevus (Nevus),Melanoma,0.7420,False
+850,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8306,True
+851,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7649,True
+852,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7765,True
+853,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7855,True
+854,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5808,True
+855,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9261,True
+856,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8499,True
+857,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8542,True
+858,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8455,True
+859,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4659,True
+860,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7325,True
+861,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8179,True
+862,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5090,True
+863,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5700,True
+864,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8671,True
+865,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9345,True
+866,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8189,True
+867,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8912,True
+868,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8614,True
+869,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8661,True
+870,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8100,True
+871,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7584,True
+872,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7154,True
+873,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7839,True
+874,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4957,True
+875,Melanocytic Nevus (Nevus),Basal Cell Carcinoma,0.5159,False
+876,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8581,True
+877,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6646,True
+878,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6988,True
+879,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9501,True
+880,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7877,True
+881,Melanocytic Nevus (Nevus),Squamous Cell Carcinoma,0.2936,False
+882,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9158,True
+883,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7388,True
+884,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9360,True
+885,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8053,True
+886,Melanocytic Nevus (Nevus),Seborrheic Keratosis,0.6417,False
+887,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4101,True
+888,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9213,True
+889,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8754,True
+890,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8567,True
+891,Melanocytic Nevus (Nevus),Melanoma,0.4962,False
+892,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9006,True
+893,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8825,True
+894,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8015,True
+895,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9189,True
+896,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8673,True
+897,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8884,True
+898,Melanocytic Nevus (Nevus),Melanoma,0.4021,False
+899,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9439,True
+900,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9119,True
+901,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5453,True
+902,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.3999,True
+903,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9564,True
+904,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7570,True
+905,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9739,True
+906,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8795,True
+907,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6149,True
+908,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9695,True
+909,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7246,True
+910,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6862,True
+911,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6577,True
+912,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8403,True
+913,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6949,True
+914,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5420,True
+915,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9533,True
+916,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8804,True
+917,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9307,True
+918,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8908,True
+919,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7868,True
+920,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5189,True
+921,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8998,True
+922,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8449,True
+923,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7505,True
+924,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9222,True
+925,Melanocytic Nevus (Nevus),Basal Cell Carcinoma,0.3158,False
+926,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9127,True
+927,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9185,True
+928,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6969,True
+929,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8659,True
+930,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9076,True
+931,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7015,True
+932,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7064,True
+933,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9160,True
+934,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9026,True
+935,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8789,True
+936,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8105,True
+937,Melanocytic Nevus (Nevus),Melanoma,0.7835,False
+938,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7029,True
+939,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8546,True
+940,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5955,True
+941,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8666,True
+942,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9402,True
+943,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6121,True
+944,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5527,True
+945,Melanocytic Nevus (Nevus),Melanoma,0.5671,False
+946,Melanocytic Nevus (Nevus),Basal Cell Carcinoma,0.2014,False
+947,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8584,True
+948,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7329,True
+949,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7061,True
+950,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9515,True
+951,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6742,True
+952,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4045,True
+953,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6723,True
+954,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7851,True
+955,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6263,True
+956,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8026,True
+957,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9025,True
+958,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7754,True
+959,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7281,True
+960,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9128,True
+961,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9595,True
+962,Melanocytic Nevus (Nevus),Melanoma,0.3614,False
+963,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7681,True
+964,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7524,True
+965,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6614,True
+966,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4596,True
+967,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7786,True
+968,Melanocytic Nevus (Nevus),Melanoma,0.4969,False
+969,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8821,True
+970,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9327,True
+971,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8615,True
+972,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8079,True
+973,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8496,True
+974,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6153,True
+975,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7533,True
+976,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6992,True
+977,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8625,True
+978,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9235,True
+979,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9315,True
+980,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7730,True
+981,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6093,True
+982,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8354,True
+983,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9476,True
+984,Melanocytic Nevus (Nevus),Melanoma,0.5989,False
+985,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8169,True
+986,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6127,True
+987,Melanocytic Nevus (Nevus),Melanoma,0.3974,False
+988,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.2792,True
+989,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9368,True
+990,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6282,True
+991,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9552,True
+992,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7191,True
+993,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8773,True
+994,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8194,True
+995,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8641,True
+996,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.2212,True
+997,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8935,True
+998,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8687,True
+999,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8680,True
+1000,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5328,True
+1001,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9120,True
+1002,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7833,True
+1003,Melanocytic Nevus (Nevus),Melanoma,0.5376,False
+1004,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.3496,True
+1005,Melanocytic Nevus (Nevus),Melanoma,0.5630,False
+1006,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9345,True
+1007,Melanocytic Nevus (Nevus),Melanoma,0.6304,False
+1008,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8211,True
+1009,Melanocytic Nevus (Nevus),Melanoma,0.4609,False
+1010,Melanocytic Nevus (Nevus),Melanoma,0.6838,False
+1011,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9165,True
+1012,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8201,True
+1013,Melanocytic Nevus (Nevus),Melanoma,0.5756,False
+1014,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8064,True
+1015,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6541,True
+1016,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8265,True
+1017,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8401,True
+1018,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8943,True
+1019,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9509,True
+1020,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8689,True
+1021,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5027,True
+1022,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9041,True
+1023,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6036,True
+1024,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8224,True
+1025,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6757,True
+1026,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8597,True
+1027,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9395,True
+1028,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9470,True
+1029,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7464,True
+1030,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8514,True
+1031,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9181,True
+1032,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9170,True
+1033,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9266,True
+1034,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8967,True
+1035,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9152,True
+1036,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8495,True
+1037,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7553,True
+1038,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7655,True
+1039,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8596,True
+1040,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7405,True
+1041,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9063,True
+1042,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9296,True
+1043,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8252,True
+1044,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8379,True
+1045,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9396,True
+1046,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6021,True
+1047,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7454,True
+1048,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7143,True
+1049,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9024,True
+1050,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7574,True
+1051,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6208,True
+1052,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9492,True
+1053,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6081,True
+1054,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9547,True
+1055,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9354,True
+1056,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8932,True
+1057,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9394,True
+1058,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7718,True
+1059,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5317,True
+1060,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7552,True
+1061,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5651,True
+1062,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7041,True
+1063,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9619,True
+1064,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8094,True
+1065,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8428,True
+1066,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8323,True
+1067,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5687,True
+1068,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5483,True
+1069,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7786,True
+1070,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6572,True
+1071,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4243,True
+1072,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7527,True
+1073,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9670,True
+1074,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8435,True
+1075,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8525,True
+1076,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9180,True
+1077,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6184,True
+1078,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8263,True
+1079,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8552,True
+1080,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9496,True
+1081,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9285,True
+1082,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8069,True
+1083,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9163,True
+1084,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8020,True
+1085,Melanocytic Nevus (Nevus),Melanoma,0.6407,False
+1086,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7948,True
+1087,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7658,True
+1088,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8788,True
+1089,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6887,True
+1090,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8866,True
+1091,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6924,True
+1092,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8775,True
+1093,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8993,True
+1094,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4755,True
+1095,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8774,True
+1096,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7176,True
+1097,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7944,True
+1098,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7996,True
+1099,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8897,True
+1100,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5891,True
+1101,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7699,True
+1102,Melanocytic Nevus (Nevus),Melanoma,0.5077,False
+1103,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.3409,True
+1104,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.3947,True
+1105,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7181,True
+1106,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8204,True
+1107,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9773,True
+1108,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8761,True
+1109,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6297,True
+1110,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5784,True
+1111,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8768,True
+1112,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8731,True
+1113,Melanocytic Nevus (Nevus),Melanoma,0.3721,False
+1114,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9002,True
+1115,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6444,True
+1116,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8175,True
+1117,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9091,True
+1118,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5112,True
+1119,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5422,True
+1120,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6090,True
+1121,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9425,True
+1122,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9433,True
+1123,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6131,True
+1124,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9546,True
+1125,Melanocytic Nevus (Nevus),Melanoma,0.4711,False
+1126,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7313,True
+1127,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9388,True
+1128,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4585,True
+1129,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7843,True
+1130,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8596,True
+1131,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9059,True
+1132,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7555,True
+1133,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8487,True
+1134,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6221,True
+1135,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5721,True
+1136,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8656,True
+1137,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6938,True
+1138,Melanocytic Nevus (Nevus),Melanoma,0.5199,False
+1139,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6972,True
+1140,Melanocytic Nevus (Nevus),Dermatofibroma,0.2231,False
+1141,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8575,True
+1142,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8904,True
+1143,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6227,True
+1144,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6694,True
+1145,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.2907,True
+1146,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8518,True
+1147,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7851,True
+1148,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7086,True
+1149,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7785,True
+1150,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8471,True
+1151,Melanocytic Nevus (Nevus),Melanoma,0.4095,False
+1152,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7639,True
+1153,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.3929,True
+1154,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6746,True
+1155,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6855,True
+1156,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9477,True
+1157,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7960,True
+1158,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9002,True
+1159,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9171,True
+1160,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9491,True
+1161,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8086,True
+1162,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7871,True
+1163,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8161,True
+1164,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8308,True
+1165,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8750,True
+1166,Melanocytic Nevus (Nevus),Melanoma,0.4137,False
+1167,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5820,True
+1168,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8748,True
+1169,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6078,True
+1170,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9683,True
+1171,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7409,True
+1172,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8679,True
+1173,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6149,True
+1174,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8790,True
+1175,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6222,True
+1176,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.3851,True
+1177,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8944,True
+1178,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9471,True
+1179,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9100,True
+1180,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7838,True
+1181,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9582,True
+1182,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7369,True
+1183,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8290,True
+1184,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6053,True
+1185,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8363,True
+1186,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6207,True
+1187,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8324,True
+1188,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8657,True
+1189,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9777,True
+1190,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6976,True
+1191,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8204,True
+1192,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9688,True
+1193,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5085,True
+1194,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8263,True
+1195,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5936,True
+1196,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7741,True
+1197,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7456,True
+1198,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9287,True
+1199,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6395,True
+1200,Melanocytic Nevus (Nevus),Melanoma,0.4157,False
+1201,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8855,True
+1202,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9546,True
+1203,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8205,True
+1204,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9323,True
+1205,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8643,True
+1206,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5669,True
+1207,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8435,True
+1208,Melanocytic Nevus (Nevus),Melanoma,0.5632,False
+1209,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9472,True
+1210,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8700,True
+1211,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5168,True
+1212,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7314,True
+1213,Melanocytic Nevus (Nevus),Melanoma,0.5137,False
+1214,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8674,True
+1215,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6236,True
+1216,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6571,True
+1217,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7991,True
+1218,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9453,True
+1219,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9098,True
+1220,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8710,True
+1221,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6030,True
+1222,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5185,True
+1223,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9639,True
+1224,Melanocytic Nevus (Nevus),Melanoma,0.5808,False
+1225,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8550,True
+1226,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9302,True
+1227,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8193,True
+1228,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8433,True
+1229,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6794,True
+1230,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9322,True
+1231,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9080,True
+1232,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9044,True
+1233,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9639,True
+1234,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8813,True
+1235,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8059,True
+1236,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7440,True
+1237,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5159,True
+1238,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9096,True
+1239,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5728,True
+1240,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9080,True
+1241,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8706,True
+1242,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7095,True
+1243,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9101,True
+1244,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9108,True
+1245,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6534,True
+1246,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6678,True
+1247,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8440,True
+1248,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6885,True
+1249,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5569,True
+1250,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7723,True
+1251,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4757,True
+1252,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8110,True
+1253,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8926,True
+1254,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7578,True
+1255,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6729,True
+1256,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8805,True
+1257,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8905,True
+1258,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6922,True
+1259,Melanocytic Nevus (Nevus),Melanoma,0.3749,False
+1260,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6797,True
+1261,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8585,True
+1262,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6292,True
+1263,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5098,True
+1264,Melanocytic Nevus (Nevus),Squamous Cell Carcinoma,0.2581,False
+1265,Melanocytic Nevus (Nevus),Melanoma,0.4789,False
+1266,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9465,True
+1267,Melanocytic Nevus (Nevus),Melanoma,0.5740,False
+1268,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4672,True
+1269,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7663,True
+1270,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9551,True
+1271,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6983,True
+1272,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9525,True
+1273,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8372,True
+1274,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9141,True
+1275,Melanocytic Nevus (Nevus),Basal Cell Carcinoma,0.4553,False
+1276,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5878,True
+1277,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7750,True
+1278,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8736,True
+1279,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8523,True
+1280,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9548,True
+1281,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6706,True
+1282,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8485,True
+1283,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9432,True
+1284,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9564,True
+1285,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8417,True
+1286,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7793,True
+1287,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8743,True
+1288,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8578,True
+1289,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5205,True
+1290,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9082,True
+1291,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8212,True
+1292,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7934,True
+1293,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6241,True
+1294,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8019,True
+1295,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9099,True
+1296,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7711,True
+1297,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8171,True
+1298,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7745,True
+1299,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7471,True
+1300,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8917,True
+1301,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7351,True
+1302,Melanocytic Nevus (Nevus),Melanoma,0.4264,False
+1303,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9011,True
+1304,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4540,True
+1305,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8434,True
+1306,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5915,True
+1307,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8669,True
+1308,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9207,True
+1309,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7945,True
+1310,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8204,True
+1311,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9519,True
+1312,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9021,True
+1313,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7293,True
+1314,Melanocytic Nevus (Nevus),Melanoma,0.5579,False
+1315,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6524,True
+1316,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8952,True
+1317,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9292,True
+1318,Melanocytic Nevus (Nevus),Melanoma,0.5197,False
+1319,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8823,True
+1320,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8655,True
+1321,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8906,True
+1322,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9262,True
+1323,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8720,True
+1324,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9059,True
+1325,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5266,True
+1326,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7827,True
+1327,Melanocytic Nevus (Nevus),Squamous Cell Carcinoma,0.4324,False
+1328,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9515,True
+1329,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8703,True
+1330,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8764,True
+1331,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8307,True
+1332,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9295,True
+1333,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7100,True
+1334,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8988,True
+1335,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5393,True
+1336,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8574,True
+1337,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6702,True
+1338,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6909,True
+1339,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6965,True
+1340,Melanocytic Nevus (Nevus),Melanoma,0.6032,False
+1341,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9185,True
+1342,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6730,True
+1343,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8782,True
+1344,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4827,True
+1345,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9375,True
+1346,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9832,True
+1347,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5609,True
+1348,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9240,True
+1349,Melanocytic Nevus (Nevus),Melanoma,0.3439,False
+1350,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6171,True
+1351,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6573,True
+1352,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8402,True
+1353,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.3556,True
+1354,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7367,True
+1355,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5452,True
+1356,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8364,True
+1357,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8748,True
+1358,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8782,True
+1359,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5877,True
+1360,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7701,True
+1361,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9154,True
+1362,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6228,True
+1363,Melanocytic Nevus (Nevus),Melanoma,0.4873,False
+1364,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7832,True
+1365,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7674,True
+1366,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7905,True
+1367,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7000,True
+1368,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9100,True
+1369,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8608,True
+1370,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7480,True
+1371,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5747,True
+1372,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6812,True
+1373,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8430,True
+1374,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6197,True
+1375,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7893,True
+1376,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5571,True
+1377,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9240,True
+1378,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7415,True
+1379,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9188,True
+1380,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6787,True
+1381,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6990,True
+1382,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7289,True
+1383,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6962,True
+1384,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5925,True
+1385,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4056,True
+1386,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9585,True
+1387,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6512,True
+1388,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7605,True
+1389,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8297,True
+1390,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6410,True
+1391,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7334,True
+1392,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7845,True
+1393,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7881,True
+1394,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6119,True
+1395,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8470,True
+1396,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4487,True
+1397,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6623,True
+1398,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4817,True
+1399,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8877,True
+1400,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6020,True
+1401,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8346,True
+1402,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7889,True
+1403,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6050,True
+1404,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4038,True
+1405,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8412,True
+1406,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7010,True
+1407,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8197,True
+1408,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6598,True
+1409,Melanocytic Nevus (Nevus),Basal Cell Carcinoma,0.3515,False
+1410,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8873,True
+1411,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7045,True
+1412,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6268,True
+1413,Melanocytic Nevus (Nevus),Melanoma,0.4065,False
+1414,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7338,True
+1415,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6895,True
+1416,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6299,True
+1417,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7417,True
+1418,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6077,True
+1419,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8814,True
+1420,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7321,True
+1421,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7167,True
+1422,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9081,True
+1423,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7021,True
+1424,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6829,True
+1425,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8646,True
+1426,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7375,True
+1427,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6647,True
+1428,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8178,True
+1429,Melanocytic Nevus (Nevus),Melanoma,0.5832,False
+1430,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6602,True
+1431,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6738,True
+1432,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6801,True
+1433,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7298,True
+1434,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.3337,True
+1435,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.9427,True
+1436,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7603,True
+1437,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6235,True
+1438,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6799,True
+1439,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7258,True
+1440,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8187,True
+1441,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8349,True
+1442,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6489,True
+1443,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8081,True
+1444,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6625,True
+1445,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6854,True
+1446,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6668,True
+1447,Melanocytic Nevus (Nevus),Basal Cell Carcinoma,0.5243,False
+1448,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8355,True
+1449,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8760,True
+1450,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4938,True
+1451,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6380,True
+1452,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7333,True
+1453,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7650,True
+1454,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7656,True
+1455,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4525,True
+1456,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6333,True
+1457,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7593,True
+1458,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7959,True
+1459,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8633,True
+1460,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6258,True
+1461,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7762,True
+1462,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7075,True
+1463,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7194,True
+1464,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8812,True
+1465,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7440,True
+1466,Melanocytic Nevus (Nevus),Actinic Keratosis,0.3614,False
+1467,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6663,True
+1468,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5147,True
+1469,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5943,True
+1470,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5520,True
+1471,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7853,True
+1472,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.2409,True
+1473,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5538,True
+1474,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4085,True
+1475,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5393,True
+1476,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8904,True
+1477,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.6560,True
+1478,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5225,True
+1479,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7054,True
+1480,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.5148,True
+1481,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7422,True
+1482,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.4847,True
+1483,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7840,True
+1484,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.7734,True
+1485,Melanocytic Nevus (Nevus),Melanocytic Nevus (Nevus),0.8833,True
+1486,Melanocytic Nevus (Nevus),Melanoma,0.5517,False
+1487,Melanoma,Melanocytic Nevus (Nevus),0.5089,False
+1488,Melanoma,Squamous Cell Carcinoma,0.3395,False
+1489,Melanoma,Melanocytic Nevus (Nevus),0.7526,False
+1490,Melanoma,Melanocytic Nevus (Nevus),0.5301,False
+1491,Melanoma,Melanocytic Nevus (Nevus),0.5792,False
+1492,Melanoma,Melanoma,0.5308,True
+1493,Melanoma,Melanocytic Nevus (Nevus),0.4930,False
+1494,Melanoma,Melanocytic Nevus (Nevus),0.8774,False
+1495,Melanoma,Basal Cell Carcinoma,0.5127,False
+1496,Melanoma,Basal Cell Carcinoma,0.7366,False
+1497,Melanoma,Melanoma,0.5714,True
+1498,Melanoma,Melanocytic Nevus (Nevus),0.5600,False
+1499,Melanoma,Melanoma,0.4096,True
+1500,Melanoma,Melanocytic Nevus (Nevus),0.7320,False
+1501,Melanoma,Melanocytic Nevus (Nevus),0.5849,False
+1502,Melanoma,Melanocytic Nevus (Nevus),0.4296,False
+1503,Melanoma,Melanoma,0.5120,True
+1504,Melanoma,Squamous Cell Carcinoma,0.4008,False
+1505,Melanoma,Basal Cell Carcinoma,0.2743,False
+1506,Melanoma,Melanocytic Nevus (Nevus),0.5129,False
+1507,Melanoma,Melanoma,0.5212,True
+1508,Melanoma,Melanoma,0.4561,True
+1509,Melanoma,Melanocytic Nevus (Nevus),0.5713,False
+1510,Melanoma,Melanocytic Nevus (Nevus),0.4039,False
+1511,Melanoma,Squamous Cell Carcinoma,0.3209,False
+1512,Melanoma,Melanoma,0.6330,True
+1513,Melanoma,Melanocytic Nevus (Nevus),0.6296,False
+1514,Melanoma,Melanoma,0.3893,True
+1515,Melanoma,Melanocytic Nevus (Nevus),0.3707,False
+1516,Melanoma,Melanoma,0.3954,True
+1517,Melanoma,Seborrheic Keratosis,0.5335,False
+1518,Melanoma,Seborrheic Keratosis,0.3998,False
+1519,Melanoma,Melanoma,0.4907,True
+1520,Melanoma,Seborrheic Keratosis,0.6099,False
+1521,Melanoma,Melanoma,0.4236,True
+1522,Melanoma,Basal Cell Carcinoma,0.5629,False
+1523,Melanoma,Seborrheic Keratosis,0.3443,False
+1524,Melanoma,Melanoma,0.4710,True
+1525,Melanoma,Seborrheic Keratosis,0.6134,False
+1526,Melanoma,Melanocytic Nevus (Nevus),0.5224,False
+1527,Melanoma,Melanoma,0.6347,True
+1528,Melanoma,Melanocytic Nevus (Nevus),0.3455,False
+1529,Melanoma,Melanoma,0.5841,True
+1530,Melanoma,Melanoma,0.4540,True
+1531,Melanoma,Melanoma,0.3523,True
+1532,Melanoma,Seborrheic Keratosis,0.2368,False
+1533,Melanoma,Melanoma,0.3000,True
+1534,Melanoma,Seborrheic Keratosis,0.4177,False
+1535,Melanoma,Melanoma,0.4477,True
+1536,Melanoma,Melanocytic Nevus (Nevus),0.3691,False
+1537,Melanoma,Melanoma,0.4235,True
+1538,Melanoma,Melanocytic Nevus (Nevus),0.2199,False
+1539,Melanoma,Melanocytic Nevus (Nevus),0.6469,False
+1540,Melanoma,Melanocytic Nevus (Nevus),0.5564,False
+1541,Melanoma,Melanocytic Nevus (Nevus),0.8183,False
+1542,Melanoma,Melanoma,0.3701,True
+1543,Melanoma,Melanocytic Nevus (Nevus),0.5329,False
+1544,Melanoma,Melanocytic Nevus (Nevus),0.3949,False
+1545,Melanoma,Melanoma,0.2895,True
+1546,Melanoma,Melanoma,0.4562,True
+1547,Melanoma,Melanoma,0.3699,True
+1548,Melanoma,Melanoma,0.3902,True
+1549,Melanoma,Melanocytic Nevus (Nevus),0.7364,False
+1550,Melanoma,Melanocytic Nevus (Nevus),0.6412,False
+1551,Melanoma,Melanocytic Nevus (Nevus),0.6230,False
+1552,Melanoma,Basal Cell Carcinoma,0.2910,False
+1553,Melanoma,Melanocytic Nevus (Nevus),0.6809,False
+1554,Melanoma,Melanoma,0.5650,True
+1555,Melanoma,Melanoma,0.4400,True
+1556,Melanoma,Melanoma,0.5174,True
+1557,Melanoma,Melanocytic Nevus (Nevus),0.7100,False
+1558,Melanoma,Squamous Cell Carcinoma,0.3245,False
+1559,Melanoma,Melanoma,0.5397,True
+1560,Melanoma,Basal Cell Carcinoma,0.2296,False
+1561,Melanoma,Melanocytic Nevus (Nevus),0.3077,False
+1562,Melanoma,Melanoma,0.3990,True
+1563,Melanoma,Melanocytic Nevus (Nevus),0.8404,False
+1564,Melanoma,Melanocytic Nevus (Nevus),0.6978,False
+1565,Melanoma,Melanocytic Nevus (Nevus),0.8660,False
+1566,Melanoma,Melanocytic Nevus (Nevus),0.6910,False
+1567,Melanoma,Melanoma,0.2834,True
+1568,Melanoma,Melanocytic Nevus (Nevus),0.7747,False
+1569,Melanoma,Melanocytic Nevus (Nevus),0.4953,False
+1570,Melanoma,Melanocytic Nevus (Nevus),0.3992,False
+1571,Melanoma,Melanocytic Nevus (Nevus),0.6305,False
+1572,Melanoma,Melanocytic Nevus (Nevus),0.6635,False
+1573,Melanoma,Melanocytic Nevus (Nevus),0.5027,False
+1574,Melanoma,Melanocytic Nevus (Nevus),0.4355,False
+1575,Melanoma,Melanocytic Nevus (Nevus),0.3113,False
+1576,Melanoma,Melanoma,0.4826,True
+1577,Melanoma,Melanoma,0.3078,True
+1578,Melanoma,Basal Cell Carcinoma,0.6284,False
+1579,Melanoma,Squamous Cell Carcinoma,0.3680,False
+1580,Melanoma,Melanocytic Nevus (Nevus),0.7210,False
+1581,Melanoma,Melanoma,0.5344,True
+1582,Melanoma,Basal Cell Carcinoma,0.3220,False
+1583,Melanoma,Melanoma,0.4051,True
+1584,Melanoma,Melanocytic Nevus (Nevus),0.7176,False
+1585,Melanoma,Melanoma,0.5594,True
+1586,Melanoma,Melanocytic Nevus (Nevus),0.4864,False
+1587,Melanoma,Melanocytic Nevus (Nevus),0.5468,False
+1588,Melanoma,Melanoma,0.5486,True
+1589,Melanoma,Melanocytic Nevus (Nevus),0.6134,False
+1590,Melanoma,Melanocytic Nevus (Nevus),0.3444,False
+1591,Melanoma,Melanocytic Nevus (Nevus),0.5835,False
+1592,Melanoma,Melanocytic Nevus (Nevus),0.5022,False
+1593,Melanoma,Basal Cell Carcinoma,0.3978,False
+1594,Melanoma,Melanocytic Nevus (Nevus),0.7782,False
+1595,Melanoma,Melanocytic Nevus (Nevus),0.5018,False
+1596,Melanoma,Melanocytic Nevus (Nevus),0.4917,False
+1597,Melanoma,Melanoma,0.3544,True
+1598,Melanoma,Melanocytic Nevus (Nevus),0.6988,False
+1599,Melanoma,Melanocytic Nevus (Nevus),0.7482,False
+1600,Melanoma,Melanocytic Nevus (Nevus),0.4269,False
+1601,Melanoma,Melanocytic Nevus (Nevus),0.8817,False
+1602,Melanoma,Melanocytic Nevus (Nevus),0.6190,False
+1603,Melanoma,Melanocytic Nevus (Nevus),0.6603,False
+1604,Melanoma,Basal Cell Carcinoma,0.7502,False
+1605,Melanoma,Melanocytic Nevus (Nevus),0.7407,False
+1606,Melanoma,Melanocytic Nevus (Nevus),0.3434,False
+1607,Melanoma,Seborrheic Keratosis,0.3225,False
+1608,Melanoma,Basal Cell Carcinoma,0.4645,False
+1609,Melanoma,Melanocytic Nevus (Nevus),0.5084,False
+1610,Melanoma,Melanocytic Nevus (Nevus),0.6910,False
+1611,Melanoma,Melanocytic Nevus (Nevus),0.6938,False
+1612,Melanoma,Melanocytic Nevus (Nevus),0.6621,False
+1613,Melanoma,Melanocytic Nevus (Nevus),0.7869,False
+1614,Melanoma,Basal Cell Carcinoma,0.4278,False
+1615,Melanoma,Basal Cell Carcinoma,0.3603,False
+1616,Melanoma,Melanocytic Nevus (Nevus),0.7660,False
+1617,Melanoma,Melanocytic Nevus (Nevus),0.5182,False
+1618,Melanoma,Melanocytic Nevus (Nevus),0.7539,False
+1619,Melanoma,Melanocytic Nevus (Nevus),0.7713,False
+1620,Melanoma,Melanocytic Nevus (Nevus),0.5482,False
+1621,Melanoma,Melanocytic Nevus (Nevus),0.8333,False
+1622,Melanoma,Melanocytic Nevus (Nevus),0.6068,False
+1623,Melanoma,Melanocytic Nevus (Nevus),0.7686,False
+1624,Melanoma,Melanocytic Nevus (Nevus),0.4938,False
+1625,Melanoma,Melanocytic Nevus (Nevus),0.5212,False
+1626,Melanoma,Melanocytic Nevus (Nevus),0.6493,False
+1627,Melanoma,Melanocytic Nevus (Nevus),0.7542,False
+1628,Melanoma,Melanocytic Nevus (Nevus),0.6339,False
+1629,Melanoma,Basal Cell Carcinoma,0.4414,False
+1630,Melanoma,Melanocytic Nevus (Nevus),0.6794,False
+1631,Melanoma,Melanocytic Nevus (Nevus),0.5491,False
+1632,Melanoma,Melanocytic Nevus (Nevus),0.7296,False
+1633,Melanoma,Melanocytic Nevus (Nevus),0.4611,False
+1634,Melanoma,Melanocytic Nevus (Nevus),0.6463,False
+1635,Melanoma,Melanocytic Nevus (Nevus),0.4643,False
+1636,Melanoma,Melanocytic Nevus (Nevus),0.6551,False
+1637,Melanoma,Melanoma,0.5368,True
+1638,Melanoma,Melanocytic Nevus (Nevus),0.6316,False
+1639,Melanoma,Melanoma,0.8402,True
+1640,Melanoma,Melanoma,0.9398,True
+1641,Melanoma,Melanoma,0.9124,True
+1642,Melanoma,Melanoma,0.9820,True
+1643,Melanoma,Melanoma,0.8715,True
+1644,Melanoma,Melanoma,0.9694,True
+1645,Melanoma,Melanoma,0.7236,True
+1646,Melanoma,Melanoma,0.7642,True
+1647,Melanoma,Melanoma,0.8879,True
+1648,Melanoma,Melanoma,0.8811,True
+1649,Melanoma,Melanoma,0.5300,True
+1650,Melanoma,Melanoma,0.5812,True
+1651,Melanoma,Melanoma,0.8671,True
+1652,Melanoma,Melanoma,0.8902,True
+1653,Melanoma,Melanoma,0.9233,True
+1654,Melanoma,Melanoma,0.7608,True
+1655,Melanoma,Melanoma,0.6227,True
+1656,Melanoma,Melanoma,0.9368,True
+1657,Melanoma,Melanoma,0.5655,True
+1658,Melanoma,Melanocytic Nevus (Nevus),0.9303,False
+1659,Melanoma,Melanoma,0.7974,True
+1660,Melanoma,Melanoma,0.8111,True
+1661,Melanoma,Melanocytic Nevus (Nevus),0.8418,False
+1662,Melanoma,Melanoma,0.9459,True
+1663,Melanoma,Melanoma,0.9355,True
+1664,Melanoma,Melanoma,0.4825,True
+1665,Melanoma,Melanoma,0.8982,True
+1666,Melanoma,Melanoma,0.7689,True
+1667,Melanoma,Melanoma,0.8526,True
+1668,Melanoma,Melanoma,0.8090,True
+1669,Melanoma,Melanoma,0.8268,True
+1670,Melanoma,Melanoma,0.6172,True
+1671,Melanoma,Melanocytic Nevus (Nevus),0.8655,False
+1672,Melanoma,Seborrheic Keratosis,0.2684,False
+1673,Melanoma,Basal Cell Carcinoma,0.4343,False
+1674,Melanoma,Actinic Keratosis,0.6235,False
+1675,Melanoma,Melanocytic Nevus (Nevus),0.7667,False
+1676,Melanoma,Melanoma,0.7198,True
+1677,Melanoma,Melanoma,0.7133,True
+1678,Melanoma,Melanoma,0.5418,True
+1679,Melanoma,Melanoma,0.8342,True
+1680,Melanoma,Melanoma,0.5841,True
+1681,Melanoma,Melanoma,0.9243,True
+1682,Melanoma,Melanoma,0.5519,True
+1683,Melanoma,Melanoma,0.4071,True
+1684,Melanoma,Melanocytic Nevus (Nevus),0.8428,False
+1685,Melanoma,Melanocytic Nevus (Nevus),0.4808,False
+1686,Melanoma,Melanoma,0.8293,True
+1687,Melanoma,Melanoma,0.8873,True
+1688,Melanoma,Melanocytic Nevus (Nevus),0.6450,False
+1689,Melanoma,Melanoma,0.8296,True
+1690,Melanoma,Melanoma,0.9477,True
+1691,Melanoma,Melanoma,0.9602,True
+1692,Melanoma,Melanoma,0.4140,True
+1693,Melanoma,Melanocytic Nevus (Nevus),0.6039,False
+1694,Melanoma,Melanocytic Nevus (Nevus),0.6589,False
+1695,Melanoma,Melanocytic Nevus (Nevus),0.3330,False
+1696,Melanoma,Melanoma,0.7806,True
+1697,Melanoma,Melanoma,0.7453,True
+1698,Melanoma,Melanoma,0.8989,True
+1699,Melanoma,Melanoma,0.9228,True
+1700,Melanoma,Melanoma,0.8811,True
+1701,Melanoma,Melanoma,0.6616,True
+1702,Melanoma,Melanoma,0.8389,True
+1703,Melanoma,Melanoma,0.4015,True
+1704,Melanoma,Melanocytic Nevus (Nevus),0.5961,False
+1705,Melanoma,Seborrheic Keratosis,0.2564,False
+1706,Melanoma,Melanoma,0.6405,True
+1707,Melanoma,Melanoma,0.5995,True
+1708,Melanoma,Melanoma,0.4247,True
+1709,Melanoma,Melanoma,0.8327,True
+1710,Melanoma,Melanoma,0.4812,True
+1711,Melanoma,Melanoma,0.7654,True
+1712,Melanoma,Melanocytic Nevus (Nevus),0.7791,False
+1713,Melanoma,Melanoma,0.6185,True
+1714,Melanoma,Melanoma,0.5170,True
+1715,Melanoma,Melanoma,0.3367,True
+1716,Melanoma,Melanoma,0.9759,True
+1717,Melanoma,Melanoma,0.3910,True
+1718,Melanoma,Melanoma,0.7213,True
+1719,Melanoma,Melanoma,0.5259,True
+1720,Melanoma,Melanocytic Nevus (Nevus),0.5855,False
+1721,Melanoma,Melanoma,0.9371,True
+1722,Melanoma,Melanoma,0.9520,True
+1723,Melanoma,Melanoma,0.9606,True
+1724,Melanoma,Melanoma,0.4136,True
+1725,Melanoma,Melanoma,0.7583,True
+1726,Melanoma,Melanoma,0.7598,True
+1727,Melanoma,Melanocytic Nevus (Nevus),0.5754,False
+1728,Melanoma,Melanoma,0.8612,True
+1729,Melanoma,Seborrheic Keratosis,0.4120,False
+1730,Melanoma,Actinic Keratosis,0.8106,False
+1731,Melanoma,Melanoma,0.7254,True
+1732,Melanoma,Melanocytic Nevus (Nevus),0.7958,False
+1733,Melanoma,Melanoma,0.5465,True
+1734,Melanoma,Melanocytic Nevus (Nevus),0.6056,False
+1735,Melanoma,Melanocytic Nevus (Nevus),0.5919,False
+1736,Melanoma,Melanoma,0.5641,True
+1737,Melanoma,Melanocytic Nevus (Nevus),0.5837,False
+1738,Melanoma,Melanoma,0.9680,True
+1739,Melanoma,Melanoma,0.6856,True
+1740,Melanoma,Melanoma,0.8901,True
+1741,Melanoma,Melanoma,0.7830,True
+1742,Melanoma,Melanocytic Nevus (Nevus),0.4375,False
+1743,Melanoma,Melanocytic Nevus (Nevus),0.4988,False
+1744,Melanoma,Melanoma,0.9413,True
+1745,Melanoma,Melanoma,0.5767,True
+1746,Melanoma,Melanoma,0.9580,True
+1747,Melanoma,Melanoma,0.9771,True
+1748,Melanoma,Melanoma,0.5285,True
+1749,Melanoma,Melanoma,0.4533,True
+1750,Melanoma,Melanoma,0.5052,True
+1751,Melanoma,Melanoma,0.7768,True
+1752,Melanoma,Melanoma,0.8971,True
+1753,Melanoma,Melanoma,0.6544,True
+1754,Melanoma,Melanoma,0.8243,True
+1755,Melanoma,Melanocytic Nevus (Nevus),0.5622,False
+1756,Melanoma,Melanoma,0.7203,True
+1757,Melanoma,Melanoma,0.7608,True
+1758,Melanoma,Melanoma,0.7743,True
+1759,Melanoma,Melanoma,0.4740,True
+1760,Melanoma,Melanocytic Nevus (Nevus),0.5653,False
+1761,Melanoma,Melanoma,0.6718,True
+1762,Melanoma,Melanoma,0.5910,True
+1763,Melanoma,Melanoma,0.5758,True
+1764,Melanoma,Melanoma,0.6384,True
+1765,Melanoma,Melanoma,0.5549,True
+1766,Melanoma,Melanocytic Nevus (Nevus),0.6357,False
+1767,Melanoma,Melanoma,0.8515,True
+1768,Melanoma,Melanoma,0.9129,True
+1769,Melanoma,Melanoma,0.5086,True
+1770,Melanoma,Melanoma,0.7346,True
+1771,Melanoma,Melanoma,0.8072,True
+1772,Melanoma,Melanoma,0.8692,True
+1773,Melanoma,Melanoma,0.8855,True
+1774,Melanoma,Melanoma,0.9436,True
+1775,Melanoma,Melanoma,0.5690,True
+1776,Melanoma,Melanocytic Nevus (Nevus),0.5470,False
+1777,Melanoma,Melanoma,0.5859,True
+1778,Melanoma,Melanocytic Nevus (Nevus),0.5084,False
+1779,Melanoma,Melanoma,0.8894,True
+1780,Melanoma,Actinic Keratosis,0.3223,False
+1781,Melanoma,Melanoma,0.7530,True
+1782,Melanoma,Melanoma,0.8785,True
+1783,Melanoma,Melanocytic Nevus (Nevus),0.5222,False
+1784,Melanoma,Melanoma,0.6588,True
+1785,Melanoma,Melanoma,0.8513,True
+1786,Melanoma,Melanoma,0.6576,True
+1787,Melanoma,Melanocytic Nevus (Nevus),0.4644,False
+1788,Melanoma,Melanocytic Nevus (Nevus),0.4762,False
+1789,Melanoma,Melanoma,0.9051,True
+1790,Melanoma,Melanoma,0.9573,True
+1791,Melanoma,Melanoma,0.9517,True
+1792,Melanoma,Melanocytic Nevus (Nevus),0.6626,False
+1793,Melanoma,Seborrheic Keratosis,0.5580,False
+1794,Melanoma,Melanoma,0.7996,True
+1795,Melanoma,Melanoma,0.8558,True
+1796,Melanoma,Melanoma,0.6803,True
+1797,Melanoma,Melanocytic Nevus (Nevus),0.6950,False
+1798,Melanoma,Melanoma,0.4345,True
+1799,Melanoma,Melanoma,0.9690,True
+1800,Melanoma,Melanoma,0.5476,True
+1801,Melanoma,Melanoma,0.5801,True
+1802,Melanoma,Melanoma,0.9492,True
+1803,Melanoma,Melanoma,0.8367,True
+1804,Melanoma,Melanoma,0.7708,True
+1805,Melanoma,Melanoma,0.9832,True
+1806,Melanoma,Melanocytic Nevus (Nevus),0.6774,False
+1807,Melanoma,Melanoma,0.6832,True
+1808,Melanoma,Melanoma,0.9284,True
+1809,Melanoma,Melanoma,0.5772,True
+1810,Melanoma,Melanocytic Nevus (Nevus),0.6554,False
+1811,Melanoma,Melanocytic Nevus (Nevus),0.7045,False
+1812,Melanoma,Melanoma,0.9732,True
+1813,Melanoma,Melanoma,0.3542,True
+1814,Melanoma,Melanoma,0.8665,True
+1815,Melanoma,Melanocytic Nevus (Nevus),0.4672,False
+1816,Melanoma,Melanoma,0.4463,True
+1817,Melanoma,Melanoma,0.6891,True
+1818,Melanoma,Melanoma,0.8664,True
+1819,Melanoma,Melanoma,0.6832,True
+1820,Melanoma,Melanoma,0.8902,True
+1821,Melanoma,Melanocytic Nevus (Nevus),0.9084,False
+1822,Melanoma,Melanocytic Nevus (Nevus),0.6215,False
+1823,Melanoma,Melanoma,0.8404,True
+1824,Melanoma,Melanocytic Nevus (Nevus),0.7666,False
+1825,Melanoma,Melanoma,0.8760,True
+1826,Melanoma,Melanoma,0.5249,True
+1827,Melanoma,Melanocytic Nevus (Nevus),0.7151,False
+1828,Melanoma,Melanoma,0.6484,True
+1829,Melanoma,Melanoma,0.7679,True
+1830,Melanoma,Melanocytic Nevus (Nevus),0.3910,False
+1831,Melanoma,Melanoma,0.8814,True
+1832,Melanoma,Melanoma,0.4697,True
+1833,Melanoma,Melanoma,0.4427,True
+1834,Melanoma,Melanoma,0.7956,True
+1835,Melanoma,Melanoma,0.5854,True
+1836,Melanoma,Melanoma,0.4620,True
+1837,Melanoma,Melanoma,0.5176,True
+1838,Melanoma,Melanocytic Nevus (Nevus),0.6760,False
+1839,Melanoma,Melanocytic Nevus (Nevus),0.5275,False
+1840,Melanoma,Melanoma,0.8495,True
+1841,Melanoma,Melanoma,0.8319,True
+1842,Melanoma,Melanocytic Nevus (Nevus),0.4711,False
+1843,Melanoma,Melanoma,0.4008,True
+1844,Melanoma,Melanoma,0.8342,True
+1845,Melanoma,Melanoma,0.4973,True
+1846,Melanoma,Melanocytic Nevus (Nevus),0.4995,False
+1847,Melanoma,Melanocytic Nevus (Nevus),0.5289,False
+1848,Melanoma,Melanoma,0.8042,True
+1849,Melanoma,Melanocytic Nevus (Nevus),0.8762,False
+1850,Melanoma,Melanoma,0.7764,True
+1851,Melanoma,Melanoma,0.8020,True
+1852,Melanoma,Melanoma,0.5175,True
+1853,Melanoma,Melanocytic Nevus (Nevus),0.5339,False
+1854,Melanoma,Melanocytic Nevus (Nevus),0.5482,False
+1855,Melanoma,Melanoma,0.7177,True
+1856,Melanoma,Melanoma,0.4984,True
+1857,Melanoma,Melanoma,0.7415,True
+1858,Melanoma,Melanoma,0.7605,True
+1859,Melanoma,Melanocytic Nevus (Nevus),0.7312,False
+1860,Melanoma,Melanoma,0.6182,True
+1861,Melanoma,Melanoma,0.4201,True
+1862,Melanoma,Melanocytic Nevus (Nevus),0.6199,False
+1863,Melanoma,Melanoma,0.7442,True
+1864,Melanoma,Melanocytic Nevus (Nevus),0.6285,False
+1865,Melanoma,Melanoma,0.7179,True
+1866,Melanoma,Melanoma,0.9746,True
+1867,Melanoma,Melanoma,0.9822,True
+1868,Melanoma,Melanoma,0.3685,True
+1869,Melanoma,Melanoma,0.5508,True
+1870,Melanoma,Melanoma,0.6977,True
+1871,Melanoma,Melanocytic Nevus (Nevus),0.7422,False
+1872,Melanoma,Melanocytic Nevus (Nevus),0.5929,False
+1873,Melanoma,Melanoma,0.9805,True
+1874,Melanoma,Melanocytic Nevus (Nevus),0.2340,False
+1875,Melanoma,Melanoma,0.9199,True
+1876,Melanoma,Melanoma,0.6834,True
+1877,Melanoma,Melanocytic Nevus (Nevus),0.7497,False
+1878,Melanoma,Melanoma,0.9748,True
+1879,Melanoma,Melanoma,0.9640,True
+1880,Melanoma,Melanoma,0.9702,True
+1881,Melanoma,Melanocytic Nevus (Nevus),0.7422,False
+1882,Melanoma,Melanoma,0.5571,True
+1883,Melanoma,Melanoma,0.7079,True
+1884,Melanoma,Melanoma,0.5575,True
+1885,Melanoma,Melanoma,0.6131,True
+1886,Melanoma,Melanoma,0.9067,True
+1887,Melanoma,Melanoma,0.8289,True
+1888,Melanoma,Melanocytic Nevus (Nevus),0.6010,False
+1889,Melanoma,Melanocytic Nevus (Nevus),0.6955,False
+1890,Melanoma,Melanoma,0.9061,True
+1891,Melanoma,Melanoma,0.6289,True
+1892,Melanoma,Melanoma,0.8565,True
+1893,Melanoma,Melanoma,0.5966,True
+1894,Melanoma,Melanocytic Nevus (Nevus),0.6027,False
+1895,Melanoma,Melanoma,0.6253,True
+1896,Melanoma,Dermatofibroma,0.4238,False
+1897,Melanoma,Melanoma,0.7039,True
+1898,Melanoma,Melanoma,0.6406,True
+1899,Melanoma,Melanocytic Nevus (Nevus),0.5905,False
+1900,Melanoma,Melanocytic Nevus (Nevus),0.9322,False
+1901,Melanoma,Melanocytic Nevus (Nevus),0.4407,False
+1902,Melanoma,Melanocytic Nevus (Nevus),0.3030,False
+1903,Melanoma,Melanocytic Nevus (Nevus),0.3350,False
+1904,Melanoma,Melanocytic Nevus (Nevus),0.8446,False
+1905,Melanoma,Melanocytic Nevus (Nevus),0.9315,False
+1906,Melanoma,Melanoma,0.8631,True
+1907,Melanoma,Melanoma,0.7129,True
+1908,Melanoma,Melanoma,0.7276,True
+1909,Melanoma,Melanocytic Nevus (Nevus),0.7918,False
+1910,Melanoma,Melanoma,0.8784,True
+1911,Melanoma,Melanoma,0.8892,True
+1912,Melanoma,Melanoma,0.8323,True
+1913,Melanoma,Melanocytic Nevus (Nevus),0.6094,False
+1914,Melanoma,Melanoma,0.7603,True
+1915,Melanoma,Melanoma,0.8627,True
+1916,Melanoma,Melanoma,0.5929,True
+1917,Melanoma,Melanoma,0.7093,True
+1918,Melanoma,Melanoma,0.9356,True
+1919,Melanoma,Melanocytic Nevus (Nevus),0.8783,False
+1920,Melanoma,Melanoma,0.4136,True
+1921,Melanoma,Melanoma,0.8848,True
+1922,Melanoma,Melanoma,0.4634,True
+1923,Melanoma,Melanoma,0.9572,True
+1924,Melanoma,Melanoma,0.9410,True
+1925,Melanoma,Melanocytic Nevus (Nevus),0.5589,False
+1926,Melanoma,Melanocytic Nevus (Nevus),0.5543,False
+1927,Melanoma,Melanoma,0.7575,True
+1928,Melanoma,Melanoma,0.5589,True
+1929,Melanoma,Melanocytic Nevus (Nevus),0.4887,False
+1930,Melanoma,Melanocytic Nevus (Nevus),0.6891,False
+1931,Melanoma,Melanoma,0.5994,True
+1932,Melanoma,Melanocytic Nevus (Nevus),0.7471,False
+1933,Melanoma,Melanocytic Nevus (Nevus),0.6855,False
+1934,Melanoma,Melanoma,0.7361,True
+1935,Melanoma,Melanoma,0.7430,True
+1936,Melanoma,Melanoma,0.2851,True
+1937,Melanoma,Melanoma,0.2511,True
+1938,Melanoma,Melanoma,0.2935,True
+1939,Melanoma,Melanoma,0.6673,True
+1940,Melanoma,Melanoma,0.5457,True
+1941,Melanoma,Melanocytic Nevus (Nevus),0.6251,False
+1942,Melanoma,Melanoma,0.9672,True
+1943,Melanoma,Melanoma,0.7699,True
+1944,Melanoma,Melanoma,0.8976,True
+1945,Melanoma,Melanoma,0.6209,True
+1946,Melanoma,Melanocytic Nevus (Nevus),0.5876,False
+1947,Melanoma,Melanoma,0.9648,True
+1948,Melanoma,Melanocytic Nevus (Nevus),0.6703,False
+1949,Melanoma,Melanocytic Nevus (Nevus),0.5620,False
+1950,Melanoma,Melanocytic Nevus (Nevus),0.6440,False
+1951,Melanoma,Melanocytic Nevus (Nevus),0.8690,False
+1952,Melanoma,Melanoma,0.5121,True
+1953,Melanoma,Melanoma,0.9415,True
+1954,Melanoma,Melanoma,0.4711,True
+1955,Melanoma,Melanoma,0.6246,True
+1956,Melanoma,Melanoma,0.5711,True
+1957,Melanoma,Melanoma,0.8948,True
+1958,Melanoma,Melanocytic Nevus (Nevus),0.5531,False
+1959,Melanoma,Melanocytic Nevus (Nevus),0.9031,False
+1960,Melanoma,Melanocytic Nevus (Nevus),0.6085,False
+1961,Melanoma,Melanoma,0.5814,True
+1962,Melanoma,Basal Cell Carcinoma,0.2591,False
+1963,Melanoma,Melanoma,0.5331,True
+1964,Melanoma,Melanoma,0.8159,True
+1965,Melanoma,Melanoma,0.5913,True
+1966,Melanoma,Melanocytic Nevus (Nevus),0.8033,False
+1967,Melanoma,Melanoma,0.5804,True
+1968,Seborrheic Keratosis,Seborrheic Keratosis,0.2825,True
+1969,Seborrheic Keratosis,Melanoma,0.3964,False
+1970,Seborrheic Keratosis,Seborrheic Keratosis,0.5490,True
+1971,Seborrheic Keratosis,Seborrheic Keratosis,0.7419,True
+1972,Seborrheic Keratosis,Seborrheic Keratosis,0.6806,True
+1973,Seborrheic Keratosis,Seborrheic Keratosis,0.7820,True
+1974,Seborrheic Keratosis,Seborrheic Keratosis,0.3245,True
+1975,Seborrheic Keratosis,Seborrheic Keratosis,0.9843,True
+1976,Seborrheic Keratosis,Seborrheic Keratosis,0.4643,True
+1977,Seborrheic Keratosis,Melanocytic Nevus (Nevus),0.4400,False
+1978,Seborrheic Keratosis,Seborrheic Keratosis,0.8244,True
+1979,Seborrheic Keratosis,Seborrheic Keratosis,0.4904,True
+1980,Seborrheic Keratosis,Seborrheic Keratosis,0.8966,True
+1981,Seborrheic Keratosis,Seborrheic Keratosis,0.9552,True
+1982,Seborrheic Keratosis,Seborrheic Keratosis,0.3552,True
+1983,Seborrheic Keratosis,Seborrheic Keratosis,0.2999,True
+1984,Seborrheic Keratosis,Actinic Keratosis,0.4688,False
+1985,Seborrheic Keratosis,Seborrheic Keratosis,0.8353,True
+1986,Seborrheic Keratosis,Melanoma,0.4559,False
+1987,Seborrheic Keratosis,Seborrheic Keratosis,0.7738,True
+1988,Seborrheic Keratosis,Melanoma,0.2233,False
+1989,Seborrheic Keratosis,Melanocytic Nevus (Nevus),0.5648,False
+1990,Seborrheic Keratosis,Actinic Keratosis,0.2703,False
+1991,Seborrheic Keratosis,Melanoma,0.2218,False
+1992,Seborrheic Keratosis,Seborrheic Keratosis,0.2941,True
+1993,Seborrheic Keratosis,Melanoma,0.4934,False
+1994,Seborrheic Keratosis,Seborrheic Keratosis,0.2481,True
+1995,Seborrheic Keratosis,Melanoma,0.4060,False
+1996,Seborrheic Keratosis,Seborrheic Keratosis,0.2897,True
+1997,Seborrheic Keratosis,Seborrheic Keratosis,0.5321,True
+1998,Seborrheic Keratosis,Melanoma,0.2860,False
+1999,Seborrheic Keratosis,Melanoma,0.2333,False
+2000,Seborrheic Keratosis,Seborrheic Keratosis,0.3369,True
+2001,Seborrheic Keratosis,Seborrheic Keratosis,0.3476,True
+2002,Seborrheic Keratosis,Melanoma,0.3266,False
+2003,Seborrheic Keratosis,Seborrheic Keratosis,0.4912,True
+2004,Seborrheic Keratosis,Melanoma,0.3603,False
+2005,Seborrheic Keratosis,Seborrheic Keratosis,0.8726,True
+2006,Seborrheic Keratosis,Seborrheic Keratosis,0.5555,True
+2007,Seborrheic Keratosis,Seborrheic Keratosis,0.4035,True
+2008,Seborrheic Keratosis,Melanocytic Nevus (Nevus),0.3881,False
+2009,Seborrheic Keratosis,Seborrheic Keratosis,0.8901,True
+2010,Seborrheic Keratosis,Seborrheic Keratosis,0.6957,True
+2011,Seborrheic Keratosis,Seborrheic Keratosis,0.3832,True
+2012,Seborrheic Keratosis,Melanoma,0.4803,False
+2013,Seborrheic Keratosis,Seborrheic Keratosis,0.5423,True
+2014,Seborrheic Keratosis,Seborrheic Keratosis,0.4577,True
+2015,Seborrheic Keratosis,Seborrheic Keratosis,0.3841,True
+2016,Seborrheic Keratosis,Seborrheic Keratosis,0.2660,True
+2017,Seborrheic Keratosis,Melanoma,0.3550,False
+2018,Seborrheic Keratosis,Melanocytic Nevus (Nevus),0.5921,False
+2019,Seborrheic Keratosis,Seborrheic Keratosis,0.5142,True
+2020,Seborrheic Keratosis,Melanocytic Nevus (Nevus),0.8322,False
+2021,Seborrheic Keratosis,Seborrheic Keratosis,0.6217,True
+2022,Seborrheic Keratosis,Melanoma,0.2935,False
+2023,Seborrheic Keratosis,Seborrheic Keratosis,0.7194,True
+2024,Seborrheic Keratosis,Basal Cell Carcinoma,0.3270,False
+2025,Seborrheic Keratosis,Seborrheic Keratosis,0.7449,True
+2026,Seborrheic Keratosis,Actinic Keratosis,0.5646,False
+2027,Seborrheic Keratosis,Actinic Keratosis,0.4075,False
+2028,Seborrheic Keratosis,Basal Cell Carcinoma,0.5064,False
+2029,Seborrheic Keratosis,Seborrheic Keratosis,0.4313,True
+2030,Seborrheic Keratosis,Seborrheic Keratosis,0.5060,True
+2031,Seborrheic Keratosis,Actinic Keratosis,0.6954,False
+2032,Seborrheic Keratosis,Basal Cell Carcinoma,0.5091,False
+2033,Seborrheic Keratosis,Seborrheic Keratosis,0.9736,True
+2034,Seborrheic Keratosis,Seborrheic Keratosis,0.6064,True
+2035,Seborrheic Keratosis,Basal Cell Carcinoma,0.8566,False
+2036,Seborrheic Keratosis,Seborrheic Keratosis,0.4150,True
+2037,Seborrheic Keratosis,Seborrheic Keratosis,0.6942,True
+2038,Seborrheic Keratosis,Seborrheic Keratosis,0.6762,True
+2039,Seborrheic Keratosis,Seborrheic Keratosis,0.6483,True
+2040,Seborrheic Keratosis,Basal Cell Carcinoma,0.5980,False
+2041,Seborrheic Keratosis,Basal Cell Carcinoma,0.4191,False
+2042,Seborrheic Keratosis,Seborrheic Keratosis,0.8292,True
+2043,Seborrheic Keratosis,Seborrheic Keratosis,0.9418,True
+2044,Seborrheic Keratosis,Seborrheic Keratosis,0.8878,True
+2045,Seborrheic Keratosis,Seborrheic Keratosis,0.7416,True
+2046,Seborrheic Keratosis,Seborrheic Keratosis,0.5942,True
+2047,Seborrheic Keratosis,Seborrheic Keratosis,0.8765,True
+2048,Seborrheic Keratosis,Seborrheic Keratosis,0.9762,True
+2049,Seborrheic Keratosis,Seborrheic Keratosis,0.8901,True
+2050,Seborrheic Keratosis,Seborrheic Keratosis,0.9067,True
+2051,Seborrheic Keratosis,Seborrheic Keratosis,0.9503,True
+2052,Seborrheic Keratosis,Seborrheic Keratosis,0.9837,True
+2053,Seborrheic Keratosis,Seborrheic Keratosis,0.5686,True
+2054,Seborrheic Keratosis,Seborrheic Keratosis,0.9727,True
+2055,Seborrheic Keratosis,Seborrheic Keratosis,0.9917,True
+2056,Seborrheic Keratosis,Seborrheic Keratosis,0.7768,True
+2057,Seborrheic Keratosis,Seborrheic Keratosis,0.7908,True
+2058,Seborrheic Keratosis,Acne,0.7520,False
+2059,Seborrheic Keratosis,Seborrheic Keratosis,0.6794,True
+2060,Seborrheic Keratosis,Dermatofibroma,0.6117,False
+2061,Seborrheic Keratosis,Seborrheic Keratosis,0.6053,True
+2062,Seborrheic Keratosis,Seborrheic Keratosis,0.4472,True
+2063,Seborrheic Keratosis,Seborrheic Keratosis,0.4123,True
+2064,Seborrheic Keratosis,Seborrheic Keratosis,0.5308,True
+2065,Seborrheic Keratosis,Seborrheic Keratosis,0.7878,True
+2066,Seborrheic Keratosis,Seborrheic Keratosis,0.5010,True
+2067,Seborrheic Keratosis,Seborrheic Keratosis,0.7232,True
+2068,Seborrheic Keratosis,Dermatofibroma,0.8185,False
+2069,Seborrheic Keratosis,Dermatofibroma,0.3716,False
+2070,Seborrheic Keratosis,Seborrheic Keratosis,0.7579,True
+2071,Seborrheic Keratosis,Dermatofibroma,0.6090,False
+2072,Seborrheic Keratosis,Seborrheic Keratosis,0.7024,True
+2073,Seborrheic Keratosis,Seborrheic Keratosis,0.7472,True
+2074,Seborrheic Keratosis,Acne,0.9064,False
+2075,Seborrheic Keratosis,Seborrheic Keratosis,0.9308,True
+2076,Seborrheic Keratosis,Seborrheic Keratosis,0.9096,True
+2077,Seborrheic Keratosis,Seborrheic Keratosis,0.9382,True
+2078,Seborrheic Keratosis,Seborrheic Keratosis,0.9915,True
+2079,Seborrheic Keratosis,Seborrheic Keratosis,0.5468,True
+2080,Seborrheic Keratosis,Seborrheic Keratosis,0.8917,True
+2081,Seborrheic Keratosis,Seborrheic Keratosis,0.7338,True
+2082,Seborrheic Keratosis,Seborrheic Keratosis,0.9800,True
+2083,Seborrheic Keratosis,Seborrheic Keratosis,0.5464,True
+2084,Seborrheic Keratosis,Acne,0.8358,False
+2085,Seborrheic Keratosis,Seborrheic Keratosis,0.4238,True
+2086,Seborrheic Keratosis,Seborrheic Keratosis,0.9325,True
+2087,Seborrheic Keratosis,Seborrheic Keratosis,0.9474,True
+2088,Seborrheic Keratosis,Seborrheic Keratosis,0.6065,True
+2089,Seborrheic Keratosis,Seborrheic Keratosis,0.9165,True
+2090,Seborrheic Keratosis,Seborrheic Keratosis,0.8154,True
+2091,Seborrheic Keratosis,Seborrheic Keratosis,0.7536,True
+2092,Seborrheic Keratosis,Seborrheic Keratosis,0.6847,True
+2093,Seborrheic Keratosis,Seborrheic Keratosis,0.7025,True
+2094,Seborrheic Keratosis,Seborrheic Keratosis,0.7691,True
+2095,Seborrheic Keratosis,Seborrheic Keratosis,0.9513,True
+2096,Seborrheic Keratosis,Acne,0.5136,False
+2097,Seborrheic Keratosis,Seborrheic Keratosis,0.8565,True
+2098,Seborrheic Keratosis,Seborrheic Keratosis,0.9859,True
+2099,Seborrheic Keratosis,Seborrheic Keratosis,0.9440,True
+2100,Seborrheic Keratosis,Seborrheic Keratosis,0.8264,True
+2101,Seborrheic Keratosis,Seborrheic Keratosis,0.7571,True
+2102,Seborrheic Keratosis,Seborrheic Keratosis,0.4934,True
+2103,Seborrheic Keratosis,Seborrheic Keratosis,0.8127,True
+2104,Seborrheic Keratosis,Seborrheic Keratosis,0.9153,True
+2105,Seborrheic Keratosis,Seborrheic Keratosis,0.8966,True
+2106,Seborrheic Keratosis,Seborrheic Keratosis,0.6600,True
+2107,Seborrheic Keratosis,Actinic Keratosis,0.7763,False
+2108,Seborrheic Keratosis,Actinic Keratosis,0.4556,False
+2109,Seborrheic Keratosis,Seborrheic Keratosis,0.7297,True
+2110,Seborrheic Keratosis,Seborrheic Keratosis,0.9490,True
+2111,Seborrheic Keratosis,Seborrheic Keratosis,0.9119,True
+2112,Seborrheic Keratosis,Seborrheic Keratosis,0.9148,True
+2113,Seborrheic Keratosis,Dermatofibroma,0.3976,False
+2114,Seborrheic Keratosis,Seborrheic Keratosis,0.9802,True
+2115,Seborrheic Keratosis,Seborrheic Keratosis,0.9896,True
+2116,Seborrheic Keratosis,Seborrheic Keratosis,0.6978,True
+2117,Seborrheic Keratosis,Seborrheic Keratosis,0.7080,True
+2118,Seborrheic Keratosis,Seborrheic Keratosis,0.7195,True
+2119,Seborrheic Keratosis,Seborrheic Keratosis,0.7515,True
+2120,Seborrheic Keratosis,Seborrheic Keratosis,0.9409,True
+2121,Seborrheic Keratosis,Seborrheic Keratosis,0.9637,True
+2122,Seborrheic Keratosis,Seborrheic Keratosis,0.6878,True
+2123,Seborrheic Keratosis,Seborrheic Keratosis,0.8958,True
+2124,Seborrheic Keratosis,Seborrheic Keratosis,0.8033,True
+2125,Seborrheic Keratosis,Seborrheic Keratosis,0.9311,True
+2126,Seborrheic Keratosis,Seborrheic Keratosis,0.9588,True
+2127,Seborrheic Keratosis,Seborrheic Keratosis,0.9639,True
+2128,Seborrheic Keratosis,Seborrheic Keratosis,0.8588,True
+2129,Seborrheic Keratosis,Seborrheic Keratosis,0.8931,True
+2130,Seborrheic Keratosis,Seborrheic Keratosis,0.7932,True
+2131,Seborrheic Keratosis,Seborrheic Keratosis,0.9410,True
+2132,Seborrheic Keratosis,Basal Cell Carcinoma,0.4610,False
+2133,Seborrheic Keratosis,Seborrheic Keratosis,0.6478,True
+2134,Seborrheic Keratosis,Seborrheic Keratosis,0.9401,True
+2135,Seborrheic Keratosis,Seborrheic Keratosis,0.6611,True
+2136,Seborrheic Keratosis,Seborrheic Keratosis,0.8553,True
+2137,Seborrheic Keratosis,Seborrheic Keratosis,0.6372,True
+2138,Seborrheic Keratosis,Seborrheic Keratosis,0.6231,True
+2139,Seborrheic Keratosis,Seborrheic Keratosis,0.4432,True
+2140,Seborrheic Keratosis,Seborrheic Keratosis,0.9671,True
+2141,Seborrheic Keratosis,Seborrheic Keratosis,0.8485,True
+2142,Seborrheic Keratosis,Seborrheic Keratosis,0.9592,True
+2143,Seborrheic Keratosis,Seborrheic Keratosis,0.9538,True
+2144,Seborrheic Keratosis,Seborrheic Keratosis,0.9354,True
+2145,Seborrheic Keratosis,Seborrheic Keratosis,0.9724,True
+2146,Seborrheic Keratosis,Seborrheic Keratosis,0.6868,True
+2147,Seborrheic Keratosis,Seborrheic Keratosis,0.7174,True
+2148,Seborrheic Keratosis,Seborrheic Keratosis,0.9818,True
+2149,Seborrheic Keratosis,Seborrheic Keratosis,0.9923,True
+2150,Seborrheic Keratosis,Seborrheic Keratosis,0.9675,True
+2151,Seborrheic Keratosis,Seborrheic Keratosis,0.9825,True
+2152,Seborrheic Keratosis,Seborrheic Keratosis,0.7983,True
+2153,Seborrheic Keratosis,Seborrheic Keratosis,0.8866,True
+2154,Seborrheic Keratosis,Seborrheic Keratosis,0.9761,True
+2155,Seborrheic Keratosis,Seborrheic Keratosis,0.9749,True
+2156,Seborrheic Keratosis,Seborrheic Keratosis,0.9803,True
+2157,Seborrheic Keratosis,Seborrheic Keratosis,0.9292,True
+2158,Seborrheic Keratosis,Seborrheic Keratosis,0.9732,True
+2159,Seborrheic Keratosis,Seborrheic Keratosis,0.9467,True
+2160,Seborrheic Keratosis,Seborrheic Keratosis,0.9833,True
+2161,Seborrheic Keratosis,Seborrheic Keratosis,0.8383,True
+2162,Seborrheic Keratosis,Seborrheic Keratosis,0.7012,True
+2163,Seborrheic Keratosis,Seborrheic Keratosis,0.8949,True
+2164,Seborrheic Keratosis,Seborrheic Keratosis,0.9437,True
+2165,Seborrheic Keratosis,Seborrheic Keratosis,0.8713,True
+2166,Seborrheic Keratosis,Seborrheic Keratosis,0.9775,True
+2167,Seborrheic Keratosis,Seborrheic Keratosis,0.8997,True
+2168,Seborrheic Keratosis,Seborrheic Keratosis,0.9170,True
+2169,Seborrheic Keratosis,Seborrheic Keratosis,0.9410,True
+2170,Seborrheic Keratosis,Seborrheic Keratosis,0.6016,True
+2171,Seborrheic Keratosis,Seborrheic Keratosis,0.9752,True
+2172,Seborrheic Keratosis,Seborrheic Keratosis,0.5171,True
+2173,Seborrheic Keratosis,Seborrheic Keratosis,0.7590,True
+2174,Seborrheic Keratosis,Seborrheic Keratosis,0.8573,True
+2175,Seborrheic Keratosis,Seborrheic Keratosis,0.9751,True
+2176,Seborrheic Keratosis,Seborrheic Keratosis,0.9332,True
+2177,Seborrheic Keratosis,Seborrheic Keratosis,0.9472,True
+2178,Seborrheic Keratosis,Seborrheic Keratosis,0.6104,True
+2179,Seborrheic Keratosis,Seborrheic Keratosis,0.9932,True
+2180,Seborrheic Keratosis,Seborrheic Keratosis,0.8584,True
+2181,Seborrheic Keratosis,Seborrheic Keratosis,0.9499,True
+2182,Seborrheic Keratosis,Seborrheic Keratosis,0.7784,True
+2183,Seborrheic Keratosis,Seborrheic Keratosis,0.8177,True
+2184,Seborrheic Keratosis,Seborrheic Keratosis,0.9429,True
+2185,Seborrheic Keratosis,Seborrheic Keratosis,0.6755,True
+2186,Seborrheic Keratosis,Seborrheic Keratosis,0.9845,True
+2187,Seborrheic Keratosis,Seborrheic Keratosis,0.8374,True
+2188,Seborrheic Keratosis,Seborrheic Keratosis,0.9166,True
+2189,Seborrheic Keratosis,Seborrheic Keratosis,0.7119,True
+2190,Seborrheic Keratosis,Seborrheic Keratosis,0.8696,True
+2191,Seborrheic Keratosis,Seborrheic Keratosis,0.9145,True
+2192,Seborrheic Keratosis,Seborrheic Keratosis,0.9665,True
+2193,Seborrheic Keratosis,Seborrheic Keratosis,0.7147,True
+2194,Seborrheic Keratosis,Seborrheic Keratosis,0.9430,True
+2195,Seborrheic Keratosis,Seborrheic Keratosis,0.9855,True
+2196,Seborrheic Keratosis,Seborrheic Keratosis,0.9528,True
+2197,Seborrheic Keratosis,Seborrheic Keratosis,0.7920,True
+2198,Seborrheic Keratosis,Seborrheic Keratosis,0.8974,True
+2199,Seborrheic Keratosis,Seborrheic Keratosis,0.9539,True
+2200,Seborrheic Keratosis,Seborrheic Keratosis,0.8526,True
+2201,Seborrheic Keratosis,Seborrheic Keratosis,0.9261,True
+2202,Seborrheic Keratosis,Seborrheic Keratosis,0.4210,True
+2203,Seborrheic Keratosis,Seborrheic Keratosis,0.7710,True
+2204,Seborrheic Keratosis,Seborrheic Keratosis,0.8980,True
+2205,Seborrheic Keratosis,Seborrheic Keratosis,0.8460,True
+2206,Seborrheic Keratosis,Seborrheic Keratosis,0.8937,True
+2207,Seborrheic Keratosis,Seborrheic Keratosis,0.8387,True
+2208,Seborrheic Keratosis,Seborrheic Keratosis,0.9408,True
+2209,Seborrheic Keratosis,Seborrheic Keratosis,0.9875,True
+2210,Seborrheic Keratosis,Seborrheic Keratosis,0.9919,True
+2211,Seborrheic Keratosis,Seborrheic Keratosis,0.6732,True
+2212,Seborrheic Keratosis,Seborrheic Keratosis,0.9286,True
+2213,Seborrheic Keratosis,Seborrheic Keratosis,0.9335,True
+2214,Seborrheic Keratosis,Seborrheic Keratosis,0.9205,True
+2215,Seborrheic Keratosis,Seborrheic Keratosis,0.9657,True
+2216,Squamous Cell Carcinoma,Melanocytic Nevus (Nevus),0.3055,False
+2217,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.3100,True
+2218,Squamous Cell Carcinoma,Melanoma,0.6179,False
+2219,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.5302,True
+2220,Squamous Cell Carcinoma,Melanocytic Nevus (Nevus),0.5751,False
+2221,Squamous Cell Carcinoma,Melanoma,0.4190,False
+2222,Squamous Cell Carcinoma,Melanoma,0.7538,False
+2223,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.7452,True
+2224,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.3968,True
+2225,Squamous Cell Carcinoma,Melanocytic Nevus (Nevus),0.3769,False
+2226,Squamous Cell Carcinoma,Basal Cell Carcinoma,0.2569,False
+2227,Squamous Cell Carcinoma,Melanoma,0.3766,False
+2228,Squamous Cell Carcinoma,Melanocytic Nevus (Nevus),0.3488,False
+2229,Squamous Cell Carcinoma,Melanoma,0.3429,False
+2230,Squamous Cell Carcinoma,Melanocytic Nevus (Nevus),0.3368,False
+2231,Squamous Cell Carcinoma,Melanocytic Nevus (Nevus),0.3002,False
+2232,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.4750,True
+2233,Squamous Cell Carcinoma,Melanocytic Nevus (Nevus),0.5108,False
+2234,Squamous Cell Carcinoma,Melanocytic Nevus (Nevus),0.4721,False
+2235,Squamous Cell Carcinoma,Melanoma,0.4046,False
+2236,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.4684,True
+2237,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.3073,True
+2238,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.4535,True
+2239,Squamous Cell Carcinoma,Basal Cell Carcinoma,0.5253,False
+2240,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.4258,True
+2241,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.6036,True
+2242,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.8299,True
+2243,Squamous Cell Carcinoma,Basal Cell Carcinoma,0.6214,False
+2244,Squamous Cell Carcinoma,Melanoma,0.2751,False
+2245,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.3616,True
+2246,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.6961,True
+2247,Squamous Cell Carcinoma,Basal Cell Carcinoma,0.5470,False
+2248,Squamous Cell Carcinoma,Basal Cell Carcinoma,0.6000,False
+2249,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.7834,True
+2250,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.5863,True
+2251,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.4271,True
+2252,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.7603,True
+2253,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.6764,True
+2254,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.5016,True
+2255,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.6377,True
+2256,Squamous Cell Carcinoma,Basal Cell Carcinoma,0.6109,False
+2257,Squamous Cell Carcinoma,Basal Cell Carcinoma,0.5938,False
+2258,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.7672,True
+2259,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.5132,True
+2260,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.4660,True
+2261,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.3710,True
+2262,Squamous Cell Carcinoma,Melanocytic Nevus (Nevus),0.4512,False
+2263,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.5246,True
+2264,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.6714,True
+2265,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.8055,True
+2266,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.6409,True
+2267,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.6306,True
+2268,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.6603,True
+2269,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.8990,True
+2270,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.7518,True
+2271,Squamous Cell Carcinoma,Basal Cell Carcinoma,0.4772,False
+2272,Squamous Cell Carcinoma,Basal Cell Carcinoma,0.7372,False
+2273,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.6978,True
+2274,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.8143,True
+2275,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.5789,True
+2276,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.5783,True
+2277,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.6528,True
+2278,Squamous Cell Carcinoma,Melanocytic Nevus (Nevus),0.4889,False
+2279,Squamous Cell Carcinoma,Squamous Cell Carcinoma,0.4130,True

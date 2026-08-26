@@ -1,0 +1,14 @@
+{
+  "image_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\data\\Test\\FYP skin disease Dataset\\Actinic Keratosis\\PAT_1884_3730_813.png",
+  "image_filename": "PAT_1884_3730_813.png",
+  "dataset": "skin",
+  "model": "skin_model.keras",
+  "predicted_class": "Acne",
+  "confidence": 0.7225277423858643,
+  "target_class": "Acne",
+  "target_class_index": 0,
+  "target_layer": "top_conv",
+  "original_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\error_analysis\\skin\\gradcam_error_cases\\error_case_02_Actinic Keratosis_pred_Acne_original.png",
+  "heatmap_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\error_analysis\\skin\\gradcam_error_cases\\error_case_02_Actinic Keratosis_pred_Acne_heatmap.png",
+  "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\error_analysis\\skin\\gradcam_error_cases\\error_case_02_Actinic Keratosis_pred_Acne_overlay.png"
+}

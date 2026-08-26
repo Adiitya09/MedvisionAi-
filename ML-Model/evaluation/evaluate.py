@@ -36,6 +36,7 @@ from utils.metrics import (
     classification_report,
     confusion_matrix,
     predict_dataset,
+    roc_auc_score,
 )
 from utils.visualization import plot_confusion_matrix
 
@@ -202,11 +203,20 @@ def _write_predictions(
         raise RuntimeError(f"Unable to write prediction CSV: {path}") from error
 
 
-def evaluate_model(dataset_name: str) -> dict[str, Any]:
-    """Evaluate the configured model on one complete, unmodified test split.
+import shutil
+
+
+def evaluate_model(
+    dataset_name: str,
+    model_path: Path | str | None = None,
+    output_directory: Path | str | None = None,
+) -> dict[str, Any]:
+    """Evaluate a trained model on one complete, unmodified test split.
 
     Args:
         dataset_name: One configured disease domain: skin, eye, or oral.
+        model_path: Optional explicit model file path (defaults to configured model).
+        output_directory: Optional explicit output directory for artifacts.
 
     Returns:
         Test metrics and the paths of generated evaluation artifacts.
@@ -218,9 +228,13 @@ def evaluate_model(dataset_name: str) -> dict[str, Any]:
     create_directories()
     logger = setup_logging()
     test_directory = CONFIG.split_dir(dataset_key, "test")
-    model_path = CONFIG.model_path_for(dataset_key)
+    model_path = Path(model_path) if model_path is not None else CONFIG.model_path_for(dataset_key)
     class_mapping_path = CONFIG.class_names_path_for(dataset_key)
-    output_directory = CONFIG.outputs_dir / "evaluation" / dataset_key
+    output_directory = (
+        Path(output_directory)
+        if output_directory is not None
+        else CONFIG.outputs_dir / "evaluation" / dataset_key
+    )
 
     try:
         output_directory.mkdir(parents=True, exist_ok=True)
@@ -261,17 +275,31 @@ def evaluate_model(dataset_name: str) -> dict[str, Any]:
         raise RuntimeError("The loaded model did not return a test loss during evaluation.")
     report = classification_report(true_labels, predicted_labels, class_names)
     matrix = confusion_matrix(true_labels, predicted_labels)
+    try:
+        auc = roc_auc_score(true_labels, probabilities, average="macro")
+    except Exception as error:
+        logger.warning("ROC-AUC calculation skipped: %s", error)
+        auc = None
+
     metrics: dict[str, Any] = {
         "dataset": dataset_key,
         "model_path": str(model_path),
         "class_mapping_path": str(class_mapping_path),
         "test_loss": float(evaluation_values["loss"]),
         "test_accuracy": calculate_accuracy(true_labels, predicted_labels),
+        "macro_precision": calculate_precision(true_labels, predicted_labels, average="macro"),
+        "macro_recall": calculate_recall(true_labels, predicted_labels, average="macro"),
+        "macro_f1": calculate_f1_score(true_labels, predicted_labels, average="macro"),
+        "weighted_precision": calculate_precision(true_labels, predicted_labels, average="weighted"),
+        "weighted_recall": calculate_recall(true_labels, predicted_labels, average="weighted"),
+        "weighted_f1": calculate_f1_score(true_labels, predicted_labels, average="weighted"),
+        "micro_precision": calculate_precision(true_labels, predicted_labels, average="micro"),
+        "micro_recall": calculate_recall(true_labels, predicted_labels, average="micro"),
+        "micro_f1": calculate_f1_score(true_labels, predicted_labels, average="micro"),
         "precision": calculate_precision(true_labels, predicted_labels, average="macro"),
         "recall": calculate_recall(true_labels, predicted_labels, average="macro"),
         "f1_score": calculate_f1_score(true_labels, predicted_labels, average="macro"),
-        "macro_f1": calculate_f1_score(true_labels, predicted_labels, average="macro"),
-        "weighted_f1": calculate_f1_score(true_labels, predicted_labels, average="weighted"),
+        "roc_auc": auc,
         "test_samples": int(len(true_labels)),
     }
 
@@ -294,7 +322,8 @@ def evaluate_model(dataset_name: str) -> dict[str, Any]:
         model_path.stem,
     )
     try:
-        source_matrix_path.replace(matrix_path)
+        if source_matrix_path.resolve() != matrix_path.resolve():
+            shutil.move(str(source_matrix_path), str(matrix_path))
     except OSError as error:
         raise RuntimeError(f"Unable to place confusion matrix at: {matrix_path}") from error
 
@@ -329,13 +358,25 @@ def evaluate_model(dataset_name: str) -> dict[str, Any]:
 
 
 def _parse_arguments(arguments: Sequence[str] | None = None) -> argparse.Namespace:
-    """Parse the single supported command-line dataset selection."""
+    """Parse command-line dataset selection and optional paths."""
     parser = argparse.ArgumentParser(description="Evaluate one trained disease classifier.")
     parser.add_argument(
         "--dataset",
         choices=("skin", "eye", "oral"),
         required=True,
         help="Disease domain whose configured model and test split are evaluated.",
+    )
+    parser.add_argument(
+        "--model-path",
+        type=str,
+        default=None,
+        help="Optional custom model file path to evaluate.",
+    )
+    parser.add_argument(
+        "--output-dir",
+        type=str,
+        default=None,
+        help="Optional custom output directory for generated evaluation artifacts.",
     )
     return parser.parse_args(arguments)
 
@@ -344,7 +385,11 @@ def main(arguments: Sequence[str] | None = None) -> int:
     """Run evaluation and return a conventional process exit code."""
     try:
         args = _parse_arguments(arguments)
-        results = evaluate_model(args.dataset)
+        results = evaluate_model(
+            args.dataset,
+            model_path=args.model_path,
+            output_directory=args.output_dir,
+        )
     except KeyboardInterrupt:
         LOGGER.warning("Evaluation cancelled by user.")
         return 130
@@ -357,12 +402,24 @@ def main(arguments: Sequence[str] | None = None) -> int:
         print(f"Evaluation failed: {error}", file=sys.stderr)
         return 1
 
+    auc_display = f"{results['roc_auc']:.4f}" if results.get("roc_auc") is not None else "N/A"
     print(
-        f"Test loss: {results['test_loss']:.4f}\n"
-        f"Test accuracy: {results['test_accuracy']:.4f}\n"
-        f"Macro F1: {results['macro_f1']:.4f}\n"
-        f"Weighted F1: {results['weighted_f1']:.4f}\n"
-        f"Evaluation outputs: {CONFIG.outputs_dir / 'evaluation' / args.dataset}"
+        f"\n========================================\n"
+        f"Evaluation Summary for {args.dataset.upper()}\n"
+        f"========================================\n"
+        f"Test Samples:       {results['test_samples']}\n"
+        f"Test Loss:          {results['test_loss']:.4f}\n"
+        f"Test Accuracy:      {results['test_accuracy']:.4f} ({results['test_accuracy']*100:.2f}%)\n"
+        f"Macro Precision:    {results['macro_precision']:.4f}\n"
+        f"Macro Recall:       {results['macro_recall']:.4f}\n"
+        f"Macro F1:           {results['macro_f1']:.4f}\n"
+        f"Weighted Precision: {results['weighted_precision']:.4f}\n"
+        f"Weighted Recall:    {results['weighted_recall']:.4f}\n"
+        f"Weighted F1:        {results['weighted_f1']:.4f}\n"
+        f"Micro F1:           {results['micro_f1']:.4f}\n"
+        f"ROC-AUC (Macro):    {auc_display}\n"
+        f"Evaluation outputs: {CONFIG.outputs_dir / 'evaluation' / args.dataset}\n"
+        f"========================================"
     )
     return 0
 

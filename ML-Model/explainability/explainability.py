@@ -140,13 +140,19 @@ def _save_visuals(
     original_image: np.ndarray,
     heatmap: np.ndarray,
     dataset_name: str,
+    output_directory: Path | str | None = None,
+    filename_prefix: str | None = None,
 ) -> tuple[Path, Path, Path]:
     """Save the resized image, colored heatmap, and transparent overlay."""
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
-    output_directory = CONFIG.outputs_dir / "explainability" / dataset_name
-    original_path = output_directory / f"{timestamp}_original.png"
-    heatmap_path = output_directory / f"{timestamp}_heatmap.png"
-    overlay_path = output_directory / f"{timestamp}_overlay.png"
+    prefix = filename_prefix or datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+    out_dir = (
+        Path(output_directory)
+        if output_directory is not None
+        else CONFIG.outputs_dir / "explainability" / dataset_name
+    )
+    original_path = out_dir / f"{prefix}_original.png"
+    heatmap_path = out_dir / f"{prefix}_heatmap.png"
+    overlay_path = out_dir / f"{prefix}_overlay.png"
     color_map = matplotlib.colormaps["jet"]
     colored_heatmap = np.asarray(color_map(heatmap)[..., :3] * 255, dtype=np.uint8)
     overlay = np.asarray(
@@ -154,21 +160,32 @@ def _save_visuals(
         dtype=np.uint8,
     )
     try:
-        output_directory.mkdir(parents=True, exist_ok=True)
+        out_dir.mkdir(parents=True, exist_ok=True)
         tf.keras.utils.save_img(original_path, original_image)
         tf.keras.utils.save_img(heatmap_path, colored_heatmap)
         tf.keras.utils.save_img(overlay_path, overlay)
     except (OSError, ValueError) as error:
-        raise RuntimeError(f"Unable to save Grad-CAM images in: {output_directory}") from error
+        raise RuntimeError(f"Unable to save Grad-CAM images in: {out_dir}") from error
     return original_path, heatmap_path, overlay_path
 
 
-def generate_gradcam(image_path: str, dataset_name: str) -> dict[str, Any]:
+def generate_gradcam(
+    image_path: str,
+    dataset_name: str,
+    model_path: Path | str | None = None,
+    output_directory: Path | str | None = None,
+    filename_prefix: str | None = None,
+    target_class_index: int | None = None,
+) -> dict[str, Any]:
     """Generate a Grad-CAM explanation for the predicted class of one image.
 
     Args:
         image_path: Supported RGB medical image path.
         dataset_name: One configured domain: skin, eye, or oral.
+        model_path: Optional explicit path to model file.
+        output_directory: Optional explicit directory to save visual outputs.
+        filename_prefix: Optional custom prefix for saved image files.
+        target_class_index: Optional target class index (defaults to predicted class).
 
     Returns:
         Prediction metadata, selected convolutional layer, and saved artifact
@@ -179,17 +196,19 @@ def generate_gradcam(image_path: str, dataset_name: str) -> dict[str, Any]:
     dataset_key = dataset_name.strip().lower()
     CONFIG.get_dataset(dataset_key)
     resolved_image_path = _validate_image_path(image_path)
-    model_path = CONFIG.model_path_for(dataset_key)
+    model_file_path = (
+        Path(model_path) if model_path is not None else CONFIG.model_path_for(dataset_key)
+    )
     class_names = _load_class_names(dataset_key)
     logger = setup_logging()
     logger.info(
         "Grad-CAM started | dataset: %s | image: %s | model: %s",
         dataset_key,
         resolved_image_path,
-        model_path,
+        model_file_path,
     )
 
-    model = load_model(model_path)
+    model = load_model(model_file_path)
     _validate_model_shapes(model, class_names)
     image_batch = _load_and_prepare_image(resolved_image_path)
     try:
@@ -199,23 +218,30 @@ def generate_gradcam(image_path: str, dataset_name: str) -> dict[str, Any]:
     if probabilities.shape != (1, len(class_names)) or not np.all(np.isfinite(probabilities)):
         raise ValueError("Model returned invalid probabilities for the input image.")
 
-    target_class_index = int(np.argmax(probabilities[0]))
+    pred_class_index = int(np.argmax(probabilities[0]))
+    actual_target_index = (
+        target_class_index if target_class_index is not None else pred_class_index
+    )
     backbone, target_layer = _find_target_layer(model)
     gradcam_model = _build_gradcam_model(model, backbone, target_layer)
-    heatmap = _create_heatmap(gradcam_model, image_batch, target_class_index)
+    heatmap = _create_heatmap(gradcam_model, image_batch, actual_target_index)
     original_image = np.asarray(image_batch[0], dtype=np.uint8)
     original_path, heatmap_path, overlay_path = _save_visuals(
         original_image,
         heatmap,
         dataset_key,
+        output_directory=output_directory,
+        filename_prefix=filename_prefix,
     )
     result: dict[str, Any] = {
         "image_path": str(resolved_image_path),
+        "image_filename": resolved_image_path.name,
         "dataset": dataset_key,
-        "model": model_path.name,
-        "predicted_class": class_names[target_class_index],
-        "confidence": float(probabilities[0, target_class_index]),
-        "target_class_index": target_class_index,
+        "model": model_file_path.name,
+        "predicted_class": class_names[pred_class_index],
+        "confidence": float(probabilities[0, pred_class_index]),
+        "target_class": class_names[actual_target_index],
+        "target_class_index": actual_target_index,
         "target_layer": target_layer.name,
         "original_path": str(original_path),
         "heatmap_path": str(heatmap_path),
@@ -246,6 +272,8 @@ def _parse_arguments(arguments: Sequence[str] | None = None) -> argparse.Namespa
         help="Disease domain associated with the trained model.",
     )
     parser.add_argument("--image", required=True, help="Path to a supported image file.")
+    parser.add_argument("--model-path", default=None, help="Optional model file path.")
+    parser.add_argument("--output-dir", default=None, help="Optional output directory.")
     return parser.parse_args(arguments)
 
 
@@ -253,7 +281,12 @@ def main(arguments: Sequence[str] | None = None) -> int:
     """Run Grad-CAM generation and return a conventional process exit code."""
     try:
         args = _parse_arguments(arguments)
-        result = generate_gradcam(args.image, args.dataset)
+        result = generate_gradcam(
+            args.image,
+            args.dataset,
+            model_path=args.model_path,
+            output_directory=args.output_dir,
+        )
     except KeyboardInterrupt:
         LOGGER.warning("Grad-CAM generation cancelled by user.")
         return 130

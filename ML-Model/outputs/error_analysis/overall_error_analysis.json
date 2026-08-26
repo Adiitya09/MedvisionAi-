@@ -1,0 +1,95 @@
+[
+  {
+    "dataset": "skin",
+    "test_accuracy": 0.7631578947368421,
+    "macro_f1": 0.6851002649564445,
+    "weighted_f1": 0.7566959055563696,
+    "total_images": 22719,
+    "train_samples": 18171,
+    "test_samples": 2280,
+    "imbalance_ratio": 25.67765567765568,
+    "worst_classes": [
+      "Dermatofibroma (F1=0.4000, Rec=0.3429)",
+      "Squamous Cell Carcinoma (F1=0.5208, Rec=0.3906)",
+      "Melanoma (F1=0.6457, Rec=0.5988)"
+    ],
+    "top_confusion_pairs": [
+      "Melanoma -> Melanocytic Nevus (Nevus) (N=172, 35.8%)",
+      "Melanocytic Nevus (Nevus) -> Melanoma (N=75, 8.6%)",
+      "Basal Cell Carcinoma -> Melanocytic Nevus (Nevus) (N=47, 19.0%)"
+    ],
+    "total_misclassifications": 540,
+    "high_confidence_errors": 95,
+    "high_confidence_error_pct": 17.59259259259259,
+    "correct_mean_conf": 0.7949443459510803,
+    "incorrect_mean_conf": 0.5792900323867798,
+    "corrupted_images": 0,
+    "non_rgb_images": 1190,
+    "small_resolution_images": 0,
+    "train_test_leakage_groups": 0,
+    "train_val_leakage_groups": 0,
+    "within_split_duplicate_groups": 0
+  },
+  {
+    "dataset": "eye",
+    "test_accuracy": 0.681255946717412,
+    "macro_f1": 0.6125337090399474,
+    "weighted_f1": 0.6679652665104879,
+    "total_images": 10438,
+    "train_samples": 8347,
+    "test_samples": 1051,
+    "imbalance_ratio": 7.598784194528875,
+    "worst_classes": [
+      "A (F1=0.2069, Rec=0.1154)",
+      "M (F1=0.4528, Rec=0.3200)",
+      "H (F1=0.6452, Rec=0.4762)"
+    ],
+    "top_confusion_pairs": [
+      "D -> N (N=81, 25.8%)",
+      "N -> D (N=52, 17.3%)",
+      "A -> D (N=39, 75.0%)"
+    ],
+    "total_misclassifications": 335,
+    "high_confidence_errors": 27,
+    "high_confidence_error_pct": 8.059701492537313,
+    "correct_mean_conf": 0.6768943071365356,
+    "incorrect_mean_conf": 0.54646235704422,
+    "corrupted_images": 0,
+    "non_rgb_images": 0,
+    "small_resolution_images": 0,
+    "train_test_leakage_groups": 26,
+    "train_val_leakage_groups": 28,
+    "within_split_duplicate_groups": 103
+  },
+  {
+    "dataset": "oral",
+    "test_accuracy": 0.48823529411764705,
+    "macro_f1": 0.42622916044545117,
+    "weighted_f1": 0.45376060320048606,
+    "total_images": 1651,
+    "train_samples": 1319,
+    "test_samples": 170,
+    "imbalance_ratio": 1.9441624365482233,
+    "worst_classes": [
+      "NON CANCER 2 (F1=0.1935, Rec=0.1154)",
+      "CANCER (F1=0.3953, Rec=0.3469)",
+      "CANCER 1 (F1=0.4660, Rec=0.4898)"
+    ],
+    "top_confusion_pairs": [
+      "CANCER -> CANCER 1 (N=24, 49.0%)",
+      "NON CANCER 2 -> NON CANCER (N=19, 73.1%)",
+      "CANCER 1 -> CANCER (N=16, 32.7%)"
+    ],
+    "total_misclassifications": 87,
+    "high_confidence_errors": 1,
+    "high_confidence_error_pct": 1.1494252873563218,
+    "correct_mean_conf": 0.5257821679115295,
+    "incorrect_mean_conf": 0.4906398355960846,
+    "corrupted_images": 0,
+    "non_rgb_images": 196,
+    "small_resolution_images": 14,
+    "train_test_leakage_groups": 108,
+    "train_val_leakage_groups": 93,
+    "within_split_duplicate_groups": 377
+  }
+]

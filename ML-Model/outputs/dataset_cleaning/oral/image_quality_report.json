@@ -1,0 +1,27 @@
+{
+  "dataset": "oral",
+  "total_original_scanned": 1651,
+  "corrupted_images_detected": 0,
+  "non_rgb_images_detected": 196,
+  "small_images_detected": 14,
+  "cleaned_images_verified": 1062,
+  "cleaned_corruptions": 0,
+  "classes_verified": [
+    "CANCER",
+    "NON CANCER"
+  ],
+  "class_distribution_cleaned": {
+    "Train": {
+      "CANCER": 412,
+      "NON CANCER": 341
+    },
+    "Validation": {
+      "CANCER": 85,
+      "NON CANCER": 61
+    },
+    "Test": {
+      "CANCER": 94,
+      "NON CANCER": 69
+    }
+  }
+}

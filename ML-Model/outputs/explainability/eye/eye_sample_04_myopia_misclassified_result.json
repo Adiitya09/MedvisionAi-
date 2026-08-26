@@ -1,0 +1,14 @@
+{
+  "image_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\data\\Test\\Eye disease\\M\\Myopia164.jpg",
+  "image_filename": "Myopia164.jpg",
+  "dataset": "eye",
+  "model": "eye_model.keras",
+  "predicted_class": "G",
+  "confidence": 0.9089766144752502,
+  "target_class": "G",
+  "target_class_index": 3,
+  "target_layer": "top_conv",
+  "original_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\eye\\eye_sample_04_myopia_misclassified_original.png",
+  "heatmap_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\eye\\eye_sample_04_myopia_misclassified_heatmap.png",
+  "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\eye\\eye_sample_04_myopia_misclassified_overlay.png"
+}

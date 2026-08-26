@@ -1,0 +1,60 @@
+{
+  "trial_number": 3,
+  "trial_label": "higher_learning_rate",
+  "description": "Higher initial learning rate for faster adaptation (lr=3e-4, dropout=0.30)",
+  "dataset": "oral",
+  "backbone": "efficientnetb0",
+  "learning_rate": 0.0003,
+  "batch_size": 32,
+  "dropout": 0.3,
+  "optimizer": "adam",
+  "fine_tune_layers": 0,
+  "fine_tuning_strategy": "frozen",
+  "parameter_count": 4054695,
+  "trainable_parameters": 5124,
+  "training_accuracy": 0.46853676438331604,
+  "best_validation_accuracy": 0.5555555820465088,
+  "best_validation_loss": 0.9414768815040588,
+  "validation_macro_precision": 0.5247564935064934,
+  "validation_macro_recall": 0.501974532559639,
+  "validation_macro_f1": 0.47665333963806206,
+  "validation_weighted_f1": 0.5214492450321966,
+  "best_epoch": 4,
+  "training_time_seconds": 134.68982929999765,
+  "validation_inference_time_seconds": 5.967952300008619,
+  "checkpoint_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\checkpoints\\oral_tuning_efficientnetb0_trial_3_best.keras",
+  "history": {
+    "accuracy": [
+      0.3525398075580597,
+      0.4268385171890259,
+      0.4601971209049225,
+      0.46853676438331604
+    ],
+    "loss": [
+      1.3569954633712769,
+      1.1889983415603638,
+      1.1281846761703491,
+      1.1003271341323853
+    ],
+    "val_accuracy": [
+      0.5308641791343689,
+      0.5493826866149902,
+      0.5555555820465088,
+      0.5555555820465088
+    ],
+    "val_loss": [
+      1.0829497575759888,
+      1.0030536651611328,
+      0.9696528911590576,
+      0.9414768815040588
+    ],
+    "learning_rate": [
+      0.0003000000142492354,
+      0.0003000000142492354,
+      0.0003000000142492354,
+      0.0003000000142492354
+    ]
+  },
+  "rank_by_validation_macro_f1": 1,
+  "is_best_configuration": true
+}

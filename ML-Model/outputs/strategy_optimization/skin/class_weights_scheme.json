@@ -1,0 +1,32 @@
+{
+  "standard_weights": {
+    "Acne": 1.1189039408866994,
+    "Actinic Keratosis": 3.936525129982669,
+    "Basal Cell Carcinoma": 1.1559160305343512,
+    "Dermatofibroma": 8.320054945054945,
+    "Melanocytic Nevus (Nevus)": 0.3240192582025678,
+    "Melanoma": 0.5919663799843627,
+    "Seborrheic Keratosis": 1.1488998482549317,
+    "Squamous Cell Carcinoma": 4.52465139442231
+  },
+  "sqrt_moderated_weights": {
+    "Acne": 1.057782558414866,
+    "Actinic Keratosis": 1.9840678239371428,
+    "Basal Cell Carcinoma": 1.0751353545179096,
+    "Dermatofibroma": 2.8844505447407043,
+    "Melanocytic Nevus (Nevus)": 0.5692268951855383,
+    "Melanoma": 0.7693935143893291,
+    "Seborrheic Keratosis": 1.071867458343116,
+    "Squamous Cell Carcinoma": 2.1271227972127775
+  },
+  "power075_moderated_weights": {
+    "Acne": 1.0879140927534714,
+    "Actinic Keratosis": 2.7946972731440147,
+    "Basal Cell Carcinoma": 1.1147942371942388,
+    "Dermatofibroma": 4.898855684599856,
+    "Melanocytic Nevus (Nevus)": 0.4294653377479595,
+    "Melanoma": 0.6748741315952907,
+    "Seborrheic Keratosis": 1.1097154411108308,
+    "Squamous Cell Carcinoma": 3.102336076332846
+  }
+}

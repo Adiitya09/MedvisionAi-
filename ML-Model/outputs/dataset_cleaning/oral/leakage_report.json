@@ -1,0 +1,53 @@
+{
+  "dataset": "oral",
+  "original_total_images": 1651,
+  "cleaned_total_images": 1062,
+  "removed_duplicate_instances": 587,
+  "original_train_test_leakage_groups": 108,
+  "original_train_val_leakage_groups": 93,
+  "original_val_test_leakage_groups": 10,
+  "original_within_split_duplicate_groups": 377,
+  "cleaned_train_test_leakage": 0,
+  "cleaned_train_val_leakage": 0,
+  "cleaned_val_test_leakage": 0,
+  "cleaned_within_split_duplicates": 0,
+  "conflicting_cross_class_hashes_removed": 1,
+  "conflicting_hashes_detail": [
+    {
+      "md5": "00b5c56942f93a4b429141aceb71698b",
+      "classes": [
+        "NON CANCER",
+        "CANCER"
+      ],
+      "occurrences": [
+        {
+          "filepath": "E:\\Mega project\\MedvisionAi-\\ML-Model\\data\\Train\\Oral Cancer\\CANCER 1\\001.jpeg",
+          "filename": "001.jpeg",
+          "split": "train",
+          "original_folder": "CANCER 1",
+          "consolidated_class": "CANCER",
+          "md5": "00b5c56942f93a4b429141aceb71698b",
+          "dhash": "1101110010011100111100001111000010101100101011001001010011000110",
+          "width": 1280,
+          "height": 960,
+          "mode": "RGB",
+          "size_bytes": 90779
+        },
+        {
+          "filepath": "E:\\Mega project\\MedvisionAi-\\ML-Model\\data\\Train\\Oral Cancer\\NON CANCER 2\\014.jpeg",
+          "filename": "014.jpeg",
+          "split": "train",
+          "original_folder": "NON CANCER 2",
+          "consolidated_class": "NON CANCER",
+          "md5": "00b5c56942f93a4b429141aceb71698b",
+          "dhash": "1101110010011100111100001111000010101100101011001001010011000110",
+          "width": 1280,
+          "height": 960,
+          "mode": "RGB",
+          "size_bytes": 90779
+        }
+      ],
+      "reason": "Identical image labeled as both CANCER and NON CANCER in original data"
+    }
+  ]
+}

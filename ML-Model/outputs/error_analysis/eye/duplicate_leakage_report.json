@@ -1,0 +1,1137 @@
+{
+  "exact_duplicate_groups_count": 161,
+  "perceptual_duplicate_groups_count": 664,
+  "train_test_leakage_groups": 26,
+  "train_val_leakage_groups": 28,
+  "val_test_leakage_groups": 4,
+  "within_split_duplicate_groups": 103,
+  "leakage_details": [
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "b59a05770d8cd7d82287b1ef11e5eeec",
+      "file_pairs": "[train:G] Glaucoma125.jpg <==> [test:M] Myopia102.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "923c4985a650f90cde80ef016a0a0c0a",
+      "file_pairs": "[train:G] Glaucoma1280.jpg <==> [test:M] Myopia76.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "307c5655aa02024d4802e641ac63b628",
+      "file_pairs": "[train:G] Glaucoma143.jpg <==> [test:M] Myopia113.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "dd769a515da60791298894e677e10b82",
+      "file_pairs": "[train:G] Glaucoma379.jpg <==> [test:M] Myopia164.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "c8ab71f43eecb841aae24e4e8210c567",
+      "file_pairs": "[train:G] Glaucoma398.jpg <==> [test:M] Myopia171.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "0a27d6b12ff91ccc26b52400a43944b5",
+      "file_pairs": "[train:G] Glaucoma455.jpg <==> [test:M] Myopia189.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "fcbd5f5af68ec5cb9505b3de515e5b3c",
+      "file_pairs": "[train:G] Glaucoma518.jpg <==> [test:M] Myopia198.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "6fa9c8c6521333cb7c8949a6ba532f0d",
+      "file_pairs": "[train:G] Glaucoma623.jpg <==> [test:M] Myopia256.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "53838f998cfb54129ec161fa7b5fa3cb",
+      "file_pairs": "[train:G] Glaucoma628.jpg <==> [test:D] DR597.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "11e175a99cd9afaaf04c7ff42db567d0",
+      "file_pairs": "[train:G] Glaucoma644.jpg <==> [test:M] Myopia273.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "82c539ef8c963d39142643de2cd8eef4",
+      "file_pairs": "[train:G] Glaucoma666.jpg <==> [test:M] Myopia281.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "f76ea7c2d7afa1faf5c504e46ce70c10",
+      "file_pairs": "[train:G] Glaucoma697.jpg <==> [test:M] Myopia307.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "a9c66ad5df51e2b57c05fa099497e975",
+      "file_pairs": "[train:G] Glaucoma724.jpg <==> [test:M] Myopia337.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "80e52b83eff7acca408871fea6ff8fcf",
+      "file_pairs": "[train:G] Glaucoma744.jpg <==> [test:M] Myopia352.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "6ff41219f57ff2bc5483051d9484e7fa",
+      "file_pairs": "[train:M] Myopia101.jpg <==> [test:G] Glaucoma123.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "49d94709e7b463253b168d902506ce37",
+      "file_pairs": "[train:M] Myopia139.jpg <==> [test:G] Glaucoma294.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "d4df6b10066edbcd11e2711753258972",
+      "file_pairs": "[train:M] Myopia153.jpg <==> [test:G] Glaucoma350.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "72252ba311dc6e934ab41aefc5fce870",
+      "file_pairs": "[train:M] Myopia157.jpg <==> [test:G] Glaucoma361.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "93254165af45f3ce3095646876e82bdc",
+      "file_pairs": "[train:M] Myopia172.jpg <==> [test:G] Glaucoma405.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "52afe917cc98fb24fd87de9d8457639e",
+      "file_pairs": "[train:M] Myopia181.jpg <==> [test:G] Glaucoma423.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "bb7be37b5451e40308f397d7f10b86ca",
+      "file_pairs": "[train:M] Myopia284.jpg <==> [test:G] Glaucoma668.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "3bd186d4d4444a94aa31bc4c1454ce0e",
+      "file_pairs": "[train:M] Myopia30.jpg <==> [test:G] Glaucoma1099.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "778937ac5efa8433ad08c2ac0788e981",
+      "file_pairs": "[train:M] Myopia393.jpg <==> [test:G] Glaucoma804.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "345d45947ec3064685d970b2ce42f6b8",
+      "file_pairs": "[train:M] Myopia50.jpg <==> [test:G] Glaucoma1190.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "36ffa6d43931891467788d8a3cd8de3f",
+      "file_pairs": "[train:M] Myopia87.jpg <==> [test:G] Glaucoma27.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "b2f876094eb05b2dd77c077359630370",
+      "file_pairs": "[train:M] Myopia93.jpg <==> [test:G] Glaucoma70.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "85df20bc27413b092e1e4ac69177d22f",
+      "file_pairs": "[train:D] DR571.jpg <==> [validation:M] Myopia244.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "6e9fe8283d41d0f0cba8290cfe85a9da",
+      "file_pairs": "[train:D] DR992.jpg <==> [validation:G] Glaucoma984.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "ab2e4b4d42b07fc79187e09affeadf68",
+      "file_pairs": "[train:G] Glaucoma1039.jpg <==> [validation:M] Myopia16.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "4b69e207dc57dded72adda2d46c260c2",
+      "file_pairs": "[train:G] Glaucoma1162.jpg <==> [validation:M] Myopia43.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "eef30e4f58459c1be5c42a59547f4dc3",
+      "file_pairs": "[train:G] Glaucoma1215.jpg <==> [validation:M] Myopia60.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "da8a2c37ea8c2ecb6288d67f5ee6c1de",
+      "file_pairs": "[train:G] Glaucoma1251.jpg <==> [validation:M] Myopia72.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "e97eefe654e44decf7af2ecd13cc8ee3",
+      "file_pairs": "[train:G] Glaucoma1332.jpg <==> [validation:M] Myopia82.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "fdf505beddadf1ff823fc9998c5889ea",
+      "file_pairs": "[train:G] Glaucoma528.jpg <==> [validation:M] Myopia199.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "7b5a203ad3e83b107fb2b80681e27b56",
+      "file_pairs": "[train:G] Glaucoma565.jpg <==> [validation:M] Myopia211.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "1fc635b7c556a0160cbbb914efb87dcf",
+      "file_pairs": "[train:G] Glaucoma585.jpg <==> [validation:M] Myopia230.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "f528340a10f7ff8bc874973c9108a8d5",
+      "file_pairs": "[train:G] Glaucoma685.jpg <==> [validation:M] Myopia294.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "ad7006d0b85e3cd1e5cedcf4906cab59",
+      "file_pairs": "[train:G] Glaucoma758.jpg <==> [validation:M] Myopia369.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "47aa8f3bf59e974354d601d5e490fd04",
+      "file_pairs": "[train:G] Glaucoma834.jpg <==> [validation:D] DR855.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "4b48d5e019d71587b6ef925b065efecb",
+      "file_pairs": "[train:M] Myopia130.jpg <==> [validation:G] Glaucoma274.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "f4a6716a945cce582b75a7ed9eb897ca",
+      "file_pairs": "[train:M] Myopia133.jpg <==> [validation:G] Glaucoma276.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "e351feb24efd0f34ea9be6a534c21e34",
+      "file_pairs": "[train:M] Myopia156.jpg <==> [validation:G] Glaucoma362.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "a83d69d9024e74eaea554bc88bb6e12e",
+      "file_pairs": "[train:M] Myopia176.jpg <==> [validation:G] Glaucoma421.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "99484a519d5a83566ae2f74c4b3d2d03",
+      "file_pairs": "[train:M] Myopia179.jpg <==> [validation:G] Glaucoma425.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "b090d5b144cf0dca54f5da82100e7922",
+      "file_pairs": "[train:M] Myopia231.jpg <==> [validation:G] Glaucoma584.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "f6c3e3f3be512a05426371d15d195998",
+      "file_pairs": "[train:M] Myopia245.jpg <==> [validation:D] DR572.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "422fa87c1d70ff160376afd838627998",
+      "file_pairs": "[train:M] Myopia271.jpg <==> [validation:G] Glaucoma643.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "dd6d0050d0f9217c75b48adcac05a4a9",
+      "file_pairs": "[train:M] Myopia31.jpg <==> [validation:G] Glaucoma1106.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "6529033cbe802d960058b314c49ecae8",
+      "file_pairs": "[train:M] Myopia371.jpg <==> [validation:G] Glaucoma757.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "86b33dc03adc8a4cf67b31a06ef12566",
+      "file_pairs": "[train:M] Myopia390.jpg <==> [validation:G] Glaucoma803.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "4adb2f22d2783874e956a1ae1fa57fcc",
+      "file_pairs": "[train:M] Myopia399.jpg <==> [validation:G] Glaucoma809.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "2486587881618e2f9ed2e70f16db70ac",
+      "file_pairs": "[train:M] Myopia500.jpg <==> [validation:G] Glaucoma1000.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "15f007c435328547b764754acb4781fe",
+      "file_pairs": "[train:M] Myopia52.jpg <==> [validation:G] Glaucoma1192.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "da42b27354f26437a940b6277b53e74d",
+      "file_pairs": "[train:M] Myopia94.jpg <==> [validation:G] Glaucoma92.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "VAL_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "d819e76ea9b8a9518ffd2f586f52275c",
+      "file_pairs": "[validation:G] Glaucoma138.jpg <==> [test:M] Myopia112.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "VAL_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "60dc7d701923867d35d4e347fefacfea",
+      "file_pairs": "[validation:G] Glaucoma390.jpg <==> [test:M] Myopia166.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "VAL_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "5bd3e3b879f15ffae9971b623aef51fc",
+      "file_pairs": "[validation:M] Myopia407.jpg <==> [test:G] Glaucoma812.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "VAL_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "b715edac4e4bffb0e14bb370c91d6114",
+      "file_pairs": "[validation:M] Myopia472.jpg <==> [test:G] Glaucoma882.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "0429772825c775bf1fa4cf946387dc31",
+      "file_pairs": "[train:D] DR1447.jpg <==> [train:G] Glaucoma78.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "bc4a0e034ade6feffdbecc8dd9c21423",
+      "file_pairs": "[train:D] DR1448.jpg <==> [train:G] Glaucoma77.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "15dd380cde6249e4c0c3a5b6cdd171d4",
+      "file_pairs": "[train:D] DR168.jpg <==> [train:G] Glaucoma315.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "9e748c2ca69e31f001904e5c54d63e58",
+      "file_pairs": "[train:D] DR675.jpg <==> [train:M] Myopia326.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "23868abf83c314d8e810ce4f40c25333",
+      "file_pairs": "[train:D] DR676.jpg <==> [train:M] Myopia325.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "49bb79e6c68d1a249dfdfb64dbeefcf2",
+      "file_pairs": "[train:D] DR698.jpg <==> [train:M] Myopia333.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "09d896e53056321dae2d3c26ca764d96",
+      "file_pairs": "[train:D] DR699.jpg <==> [train:M] Myopia334.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "017a3a3649d417bbb187be00fef01034",
+      "file_pairs": "[train:D] DR790.jpg <==> [train:G] Glaucoma802.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "d4964cb733a5d9ff1a00a4a78a56c145",
+      "file_pairs": "[train:D] DR807.jpg <==> [train:G] Glaucoma810.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "83136fb1fa30cd3881f6eaa2c1c8c738",
+      "file_pairs": "[train:G] Glaucoma1010.jpg <==> [train:M] Myopia8.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "dc877ccd608e80d8086f8610c2a9a7e0",
+      "file_pairs": "[train:G] Glaucoma1063.jpg <==> [train:M] Myopia20.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "fea8e533eb44f44be370250d8ba5e9a2",
+      "file_pairs": "[train:G] Glaucoma1098.jpg <==> [train:M] Myopia29.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "cdf384818d301b8c8f2f148e04e7831a",
+      "file_pairs": "[train:G] Glaucoma114.jpg <==> [train:M] Myopia99.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "27ad299641277e935108e77da366769b",
+      "file_pairs": "[train:G] Glaucoma1181.jpg <==> [train:M] Myopia47.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "77f623885e2cc4228b7ed3344beae0aa",
+      "file_pairs": "[train:G] Glaucoma1194.jpg <==> [train:M] Myopia51.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "8b6a868a8ff541ef97d9e53efbbb0b6b",
+      "file_pairs": "[train:G] Glaucoma1207.jpg <==> [train:M] Myopia59.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "8fd74b560a8977f2b74d5de7ea3bb14a",
+      "file_pairs": "[train:G] Glaucoma124.jpg <==> [train:M] Myopia100.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "fd6338d6bd1b821992e91ed394ef3772",
+      "file_pairs": "[train:G] Glaucoma1252.jpg <==> [train:M] Myopia73.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "2611bbc0820ef9ca5dbb42a714b1a4c1",
+      "file_pairs": "[train:G] Glaucoma126.jpg <==> [train:M] Myopia104.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "e24c2363600348bd58c4cfbe57ab9a9a",
+      "file_pairs": "[train:G] Glaucoma1302.jpg <==> [train:M] Myopia79.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "5ebb92a153291accabd53203a82bc4d3",
+      "file_pairs": "[train:G] Glaucoma1311.jpg <==> [train:M] Myopia80.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "7c55c502403ec106fc6eec1d80899f0e",
+      "file_pairs": "[train:G] Glaucoma1312.jpg <==> [train:M] Myopia81.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "8e37d145868b13fc013e3f6c738601ad",
+      "file_pairs": "[train:G] Glaucoma144.jpg <==> [train:M] Myopia117.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "e047e55aeda623ba43cbf5a4cd4b82d9",
+      "file_pairs": "[train:G] Glaucoma146.jpg <==> [train:M] Myopia118.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "c581bc04d8f964809aa0b04139afc349",
+      "file_pairs": "[train:G] Glaucoma161.jpg <==> [train:M] Myopia120.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "8c7edef11335c8ca34f13e8f51dba027",
+      "file_pairs": "[train:G] Glaucoma225.jpg <==> [train:M] Myopia127.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "d89efb63b544a659acc1895936270625",
+      "file_pairs": "[train:G] Glaucoma226.jpg <==> [train:M] Myopia128.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "3d9debdaeb7abf469b82ab6d2f9d89f8",
+      "file_pairs": "[train:G] Glaucoma272.jpg <==> [train:M] Myopia129.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "4b629e61d80629dbd682ff517fa578ea",
+      "file_pairs": "[train:G] Glaucoma275.jpg <==> [train:M] Myopia132.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "ab2394a7574bf6d12ed7f5bbaaf14d1d",
+      "file_pairs": "[train:G] Glaucoma277.jpg <==> [train:M] Myopia135.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "892d8d164e0ed78168a5ea9aa6d28861",
+      "file_pairs": "[train:G] Glaucoma28.jpg <==> [train:M] Myopia86.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "648fb7175606e41e06514d8a490710cc",
+      "file_pairs": "[train:G] Glaucoma331.jpg <==> [train:M] Myopia148.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "c4f21ba4fdc4e31aac191593ed53cf6c",
+      "file_pairs": "[train:G] Glaucoma333.jpg <==> [train:M] Myopia150.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "72f0e77cec36080906325fc4ca659049",
+      "file_pairs": "[train:G] Glaucoma342.jpg <==> [train:M] Myopia152.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "89992cbeb864178417247f1f5a0bb2db",
+      "file_pairs": "[train:G] Glaucoma343.jpg <==> [train:M] Myopia151.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "ddb5ae989e2e716f94d4666f2486fdbb",
+      "file_pairs": "[train:G] Glaucoma351.jpg <==> [train:M] Myopia154.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "fcd1275609fbed59270f7e748913445a",
+      "file_pairs": "[train:G] Glaucoma365.jpg <==> [train:M] Myopia158.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "4b45a08ea2c0fa796b391cc135dff584",
+      "file_pairs": "[train:G] Glaucoma378.jpg <==> [train:M] Myopia165.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "70c211cd2c95b73c75407178d543168e",
+      "file_pairs": "[train:G] Glaucoma391.jpg <==> [train:M] Myopia167.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "fbf5ff5559b0e6539ea4738273111d40",
+      "file_pairs": "[train:G] Glaucoma392.jpg <==> [train:M] Myopia169.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "3949f2d174fb7a1ef4164e219c199a1d",
+      "file_pairs": "[train:G] Glaucoma393.jpg <==> [train:M] Myopia168.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "72c42cfedd9af5b00d1821fde192e288",
+      "file_pairs": "[train:G] Glaucoma404.jpg <==> [train:M] Myopia173.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "69f7ac23b8576685f59bbe1b68756cb2",
+      "file_pairs": "[train:G] Glaucoma420.jpg <==> [train:M] Myopia175.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "29d55f82a929d5dcba2dd6ddc2dd7487",
+      "file_pairs": "[train:G] Glaucoma424.jpg <==> [train:M] Myopia180.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "b64cc755d2a68201af8928a38221ba8e",
+      "file_pairs": "[train:G] Glaucoma434.jpg <==> [train:M] Myopia185.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "1e7742d1fe7ce3f5326edc3e4033a970",
+      "file_pairs": "[train:G] Glaucoma435.jpg <==> [train:M] Myopia186.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "22047f6b07a7fbf492ec995de6488fdf",
+      "file_pairs": "[train:G] Glaucoma454.jpg <==> [train:M] Myopia188.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "382b3d8cee42f1255ecc02609867b739",
+      "file_pairs": "[train:G] Glaucoma482.jpg <==> [train:M] Myopia196.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "060fe430deeafa319705c90ceac930e0",
+      "file_pairs": "[train:G] Glaucoma50.jpg <==> [train:M] Myopia91.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "f8df535bc81a8b4dc48912f28266d2ec",
+      "file_pairs": "[train:G] Glaucoma517.jpg <==> [train:M] Myopia197.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "7ec1a120963344527a97f2ad7942828d",
+      "file_pairs": "[train:G] Glaucoma570.jpg <==> [train:M] Myopia218.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "4c04a85e5a7195eafa3d3d7a1a0783e2",
+      "file_pairs": "[train:G] Glaucoma571.jpg <==> [train:M] Myopia217.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "c16b30033182afd7a2a5e30508930ce7",
+      "file_pairs": "[train:G] Glaucoma582.jpg <==> [train:M] Myopia233.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "6e1c095a20eda956f69aadcf64b28bb4",
+      "file_pairs": "[train:G] Glaucoma583.jpg <==> [train:M] Myopia232.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "4b2fe2bcda77200b814358f645088ea1",
+      "file_pairs": "[train:G] Glaucoma589.jpg <==> [train:M] Myopia235.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "e3a977a80c9a2e746061019760cea90e",
+      "file_pairs": "[train:G] Glaucoma590.jpg <==> [train:M] Myopia237.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "75476c98e5aaa8b68e4ef8ef53eb73d2",
+      "file_pairs": "[train:G] Glaucoma591.jpg <==> [train:M] Myopia236.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "ba02fc158c08c1179906f7911105fa47",
+      "file_pairs": "[train:G] Glaucoma597.jpg <==> [train:M] Myopia240.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "14394057a10053a17980ddb736652b34",
+      "file_pairs": "[train:G] Glaucoma598.jpg <==> [train:M] Myopia241.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "7870133d27cdd6372925cced122d5659",
+      "file_pairs": "[train:G] Glaucoma622.jpg <==> [train:M] Myopia255.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "b3b2e0bc4396f826cb696ea206c84542",
+      "file_pairs": "[train:G] Glaucoma645.jpg <==> [train:M] Myopia272.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "02433d097ae72b47f30ad5e578fc1e4b",
+      "file_pairs": "[train:G] Glaucoma665.jpg <==> [train:M] Myopia283.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "56d56b1aa9974137957a9a9c83261e56",
+      "file_pairs": "[train:G] Glaucoma686.jpg <==> [train:M] Myopia291.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "cfaaf2e91ddcc1a78f9486570e47b504",
+      "file_pairs": "[train:G] Glaucoma698.jpg <==> [train:M] Myopia308.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "e0e99912a7d37618df3f99ce3eb4e7cc",
+      "file_pairs": "[train:G] Glaucoma699.jpg <==> [train:M] Myopia309.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "9e1c3ebf483929c89f1dc7dfb0a427c9",
+      "file_pairs": "[train:G] Glaucoma700.jpg <==> [train:M] Myopia310.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "27bbf85ef3896a73b9e06beb66585d14",
+      "file_pairs": "[train:G] Glaucoma708.jpg <==> [train:M] Myopia316.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "c133065ad1060cb5a6b5d8e615654811",
+      "file_pairs": "[train:G] Glaucoma709.jpg <==> [train:M] Myopia315.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "bfb3f7727eaecc785409cbcd73d5c498",
+      "file_pairs": "[train:G] Glaucoma725.jpg <==> [train:M] Myopia338.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "6c2a4f6353477e754935e7ecf2f2a290",
+      "file_pairs": "[train:G] Glaucoma726.jpg <==> [train:M] Myopia341.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "3fed2b75c1ed22ad0fbff027df8719d4",
+      "file_pairs": "[train:G] Glaucoma727.jpg <==> [train:M] Myopia342.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "47927a822a2dc6bb00a116e3a71e498f",
+      "file_pairs": "[train:G] Glaucoma729.jpg <==> [train:M] Myopia343.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "4ea1c9256f2c8346264813c2871636f0",
+      "file_pairs": "[train:G] Glaucoma743.jpg <==> [train:M] Myopia353.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "95c12a2d82364fb8f4c0ac724c787814",
+      "file_pairs": "[train:G] Glaucoma759.jpg <==> [train:M] Myopia370.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a4501cd3a94b24e9c1677523770b55ca",
+      "file_pairs": "[train:G] Glaucoma760.jpg <==> [train:M] Myopia372.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "ec17f43dab8069ca8315f89c696b3ab8",
+      "file_pairs": "[train:G] Glaucoma811.jpg <==> [train:M] Myopia408.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "f878f1d68a1a1dff1da0f9c10b49416a",
+      "file_pairs": "[train:G] Glaucoma817.jpg <==> [train:M] Myopia420.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "6532d1a7f5b7a5b5176758fbab34cecd",
+      "file_pairs": "[train:G] Glaucoma818.jpg <==> [train:M] Myopia419.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "b1458a1aee9ab719daf751454703ef4c",
+      "file_pairs": "[train:G] Glaucoma822.jpg <==> [train:M] Myopia423.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "d816acef06206b7d5d2c75d3b7378211",
+      "file_pairs": "[train:G] Glaucoma823.jpg <==> [train:M] Myopia424.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "bf84663158f7888fbd8dd2860c6c483c",
+      "file_pairs": "[train:G] Glaucoma825.jpg <==> [train:M] Myopia426.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "4b7e52a5427a86a10972663a3b9bf372",
+      "file_pairs": "[train:G] Glaucoma826.jpg <==> [train:M] Myopia425.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "c50abfa6ffa9cda101826d9002745146",
+      "file_pairs": "[train:G] Glaucoma828.jpg <==> [train:M] Myopia427.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "0d3a252265036dd38f89b14c51b18f7a",
+      "file_pairs": "[train:G] Glaucoma839.jpg <==> [train:M] Myopia438.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "b04e06b57fed8a5aef67ca239d5d8b95",
+      "file_pairs": "[train:G] Glaucoma847.jpg <==> [train:M] Myopia441.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "c51c29fc3ecec95f7e07cb26aa72dc36",
+      "file_pairs": "[train:G] Glaucoma848.jpg <==> [train:M] Myopia442.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "e841c63bd73a09211bea0b1da17708db",
+      "file_pairs": "[train:G] Glaucoma861.jpg <==> [train:M] Myopia460.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "fec46145e10864127a94fa41e44aaacf",
+      "file_pairs": "[train:G] Glaucoma862.jpg <==> [train:M] Myopia461.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "edcc3d86684217146e35f73e4f6177f0",
+      "file_pairs": "[train:G] Glaucoma869.jpg <==> [train:M] Myopia462.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "46131f82357326af0bab65b67f0d1834",
+      "file_pairs": "[train:G] Glaucoma870.jpg <==> [train:M] Myopia463.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "79404734e0f3ecb48e7e3794656da936",
+      "file_pairs": "[train:G] Glaucoma880.jpg <==> [train:M] Myopia469.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "5bdfcf5922c3576db5082193d367d127",
+      "file_pairs": "[train:G] Glaucoma881.jpg <==> [train:M] Myopia471.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "9365d3628d5bc53ca9016781fea0f264",
+      "file_pairs": "[train:G] Glaucoma883.jpg <==> [train:M] Myopia470.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "8357deb02c1a7750eb26ab3cdfa67763",
+      "file_pairs": "[train:G] Glaucoma905.jpg <==> [train:M] Myopia479.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "570f64f520a8b33bdbac4c14acb5d761",
+      "file_pairs": "[train:G] Glaucoma952.jpg <==> [train:M] Myopia487.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "ad485c803198f597ff9f63fdf5fd3cd9",
+      "file_pairs": "[train:G] Glaucoma969.jpg <==> [train:M] Myopia489.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "27ac329f0d72920007dab4fbe7a64e26",
+      "file_pairs": "[train:G] Glaucoma970.jpg <==> [train:M] Myopia490.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "611b249b444e4916c85937c48ad1d864",
+      "file_pairs": "[train:G] Glaucoma971.jpg <==> [train:M] Myopia491.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "dd3aa7e82d018c63a4aef9030f22e79a",
+      "file_pairs": "[validation:G] Glaucoma137.jpg <==> [validation:M] Myopia108.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "52ad1c299c50ff5e3fb81793f3f5cfdd",
+      "file_pairs": "[validation:G] Glaucoma667.jpg <==> [validation:M] Myopia282.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "5ebe41e2b25fb4a8e539fc787ae6093c",
+      "file_pairs": "[validation:G] Glaucoma885.jpg <==> [validation:M] Myopia473.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "d1b45e5f8eb2e1b3dccc91491e13a482",
+      "file_pairs": "[test:G] Glaucoma1161.jpg <==> [test:M] Myopia41.jpg"
+    },
+    {
+      "dataset": "eye",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "5d9b5b6ea55442e97ae0b540ec9f4e08",
+      "file_pairs": "[test:G] Glaucoma588.jpg <==> [test:M] Myopia234.jpg"
+    }
+  ]
+}

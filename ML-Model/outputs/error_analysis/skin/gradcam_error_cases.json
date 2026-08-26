@@ -1,0 +1,38 @@
+[
+  {
+    "case_index": 1,
+    "image_filename": "acne-182_jpg.rf.7c2e3699a804e6c8aa7910f55b5ca1d5.jpg",
+    "true_class": "Acne",
+    "predicted_class": "Seborrheic Keratosis",
+    "confidence": 0.8646774888038635,
+    "target_layer": "top_conv",
+    "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\error_analysis\\skin\\gradcam_error_cases\\error_case_01_Acne_pred_Seborrheic Keratosis_overlay.png"
+  },
+  {
+    "case_index": 2,
+    "image_filename": "PAT_1884_3730_813.png",
+    "true_class": "Actinic Keratosis",
+    "predicted_class": "Acne",
+    "confidence": 0.8686500191688538,
+    "target_layer": "top_conv",
+    "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\error_analysis\\skin\\gradcam_error_cases\\error_case_02_Actinic Keratosis_pred_Acne_overlay.png"
+  },
+  {
+    "case_index": 3,
+    "image_filename": "01F3MMXF7AMVDPVDESXA1YJNX5_jpeg.rf.2f68f8fc2e43a07550b631a462f6d90d.jpg",
+    "true_class": "Acne",
+    "predicted_class": "Seborrheic Keratosis",
+    "confidence": 0.3964228928089142,
+    "target_layer": "top_conv",
+    "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\error_analysis\\skin\\gradcam_error_cases\\error_case_03_Acne_pred_Seborrheic Keratosis_overlay.png"
+  },
+  {
+    "case_index": 4,
+    "image_filename": "01F3MMXF7AMVDPVDESXA1YJNX5_jpeg.rf.7d1bdeeb28c5b919eaa26199176ac4dc.jpg",
+    "true_class": "Acne",
+    "predicted_class": "Seborrheic Keratosis",
+    "confidence": 0.2865023910999298,
+    "target_layer": "top_conv",
+    "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\error_analysis\\skin\\gradcam_error_cases\\error_case_04_Acne_pred_Seborrheic Keratosis_overlay.png"
+  }
+]

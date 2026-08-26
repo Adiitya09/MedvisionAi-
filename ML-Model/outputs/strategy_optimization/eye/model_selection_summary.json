@@ -1,0 +1,73 @@
+{
+  "domain": "eye",
+  "selected_champion_configuration": "Config 1 (Sqrt-Moderated Weights)",
+  "selection_metric": "Validation Macro F1",
+  "champion_validation_metrics": {
+    "config_id": "config_1",
+    "config_name": "Config 1 (Sqrt-Moderated Weights)",
+    "best_epoch": 8,
+    "val_accuracy": 0.6340755082284608,
+    "val_macro_f1": 0.5960878518131013,
+    "val_macro_recall": 0.5924348950197826,
+    "training_time_sec": 1600.0,
+    "checkpoint_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\checkpoints\\strategy_optimization\\eye\\eye_config_1_best.keras",
+    "recall_A": 0.23529411764705882,
+    "recall_H": 0.5609756097560976,
+    "recall_M": 0.5294117647058824
+  },
+  "all_configurations": [
+    {
+      "config_id": "config_1",
+      "config_name": "Config 1 (Sqrt-Moderated Weights)",
+      "best_epoch": 8,
+      "val_accuracy": 0.6340755082284608,
+      "val_macro_f1": 0.5960878518131013,
+      "val_macro_recall": 0.5924348950197826,
+      "training_time_sec": 1600.0,
+      "checkpoint_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\checkpoints\\strategy_optimization\\eye\\eye_config_1_best.keras",
+      "recall_A": 0.23529411764705882,
+      "recall_H": 0.5609756097560976,
+      "recall_M": 0.5294117647058824
+    },
+    {
+      "config_id": "config_2",
+      "config_name": "Config 2 (Power-0.75 Weights)",
+      "best_epoch": 8,
+      "val_accuracy": 0.5856727976766699,
+      "val_macro_f1": 0.5665104135345785,
+      "val_macro_recall": 0.6095619254127769,
+      "training_time_sec": 1600.0,
+      "checkpoint_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\checkpoints\\strategy_optimization\\eye\\eye_config_2_best.keras",
+      "recall_A": 0.35294117647058826,
+      "recall_H": 0.7073170731707317,
+      "recall_M": 0.6029411764705882
+    },
+    {
+      "config_id": "config_3",
+      "config_name": "Config 3 (Sparse Focal Loss)",
+      "best_epoch": 8,
+      "val_accuracy": 0.6282671829622459,
+      "val_macro_f1": 0.5237746991200257,
+      "val_macro_recall": 0.5018148911321514,
+      "training_time_sec": 1600.0,
+      "checkpoint_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\checkpoints\\strategy_optimization\\eye\\eye_config_3_best.keras",
+      "recall_A": 0.0784313725490196,
+      "recall_H": 0.12195121951219512,
+      "recall_M": 0.4411764705882353
+    },
+    {
+      "config_id": "config_4",
+      "config_name": "Config 4 (Unweighted Baseline)",
+      "best_epoch": 8,
+      "val_accuracy": 0.6311713455953534,
+      "val_macro_f1": 0.49649596284900305,
+      "val_macro_recall": 0.4868503592292917,
+      "training_time_sec": 1600.0,
+      "checkpoint_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\checkpoints\\strategy_optimization\\eye\\eye_config_4_best.keras",
+      "recall_A": 0.0196078431372549,
+      "recall_H": 0.07317073170731707,
+      "recall_M": 0.39705882352941174
+    }
+  ],
+  "final_model_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\models\\strategy_optimization\\eye_efficientnetb0.keras"
+}

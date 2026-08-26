@@ -1,0 +1,4126 @@
+{
+  "exact_duplicate_groups_count": 588,
+  "perceptual_duplicate_groups_count": 579,
+  "train_test_leakage_groups": 108,
+  "train_val_leakage_groups": 93,
+  "val_test_leakage_groups": 10,
+  "within_split_duplicate_groups": 377,
+  "leakage_details": [
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "c720301019feb599f5cb6814b0047331",
+      "file_pairs": "[train:CANCER] 001.jpeg <==> [test:CANCER 1] 002.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "e067d0c50817357e4b7083a78f4b6664",
+      "file_pairs": "[train:CANCER] 016.jpeg <==> [test:CANCER 1] 017.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "721e5a042f0dee87a58f6635cb39ed04",
+      "file_pairs": "[train:CANCER] 021.jpeg <==> [test:CANCER 1] 023.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "1f53332594aae655b3fb3a097159b2e0",
+      "file_pairs": "[train:CANCER] 030.jpeg <==> [test:CANCER 1] 038.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "db6c6d583ae98dc2d85535ab2199e6c2",
+      "file_pairs": "[train:CANCER] 037.jpeg <==> [test:CANCER 1] 046.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "d784097e74cc946816b2f859e433c688",
+      "file_pairs": "[train:CANCER] 059.jpeg <==> [test:CANCER 1] 075.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "30f6e65c6755e01bd2404712559a2186",
+      "file_pairs": "[train:CANCER] 065.jpeg <==> [test:CANCER 1] 083.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "ae46ed737fe7ba1c6733105573347f6f",
+      "file_pairs": "[train:CANCER] 066.jpeg <==> [test:CANCER 1] 084.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "bd8d4aff0a46df784c220406b1455baa",
+      "file_pairs": "[train:CANCER] 092.jpeg <==> [test:CANCER 1] 110.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "e4f985efc03a8854439d6e8602e9f849",
+      "file_pairs": "[train:CANCER] 095.jpeg <==> [test:CANCER 1] 113.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "a4fe3c23774cf8d1ab7ac68e64324757",
+      "file_pairs": "[train:CANCER] 104.jpeg <==> [test:CANCER 1] 122.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "bab00fd04f12a158fe25803d30a55a78",
+      "file_pairs": "[train:CANCER] 122.jpeg <==> [test:CANCER 1] 141.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "9cf6708ae8a466bf7ce282a1d305bfe4",
+      "file_pairs": "[train:CANCER] 132.jpeg <==> [test:CANCER 1] 152.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "030d6d3b713d39b3cfa776accf8ffadc",
+      "file_pairs": "[train:CANCER] 155.jpeg <==> [test:CANCER 1] 175.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "0f866928d36c6c43760c653d5e5dd1f7",
+      "file_pairs": "[train:CANCER] 163.jpeg <==> [test:CANCER 1] 182.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "4c2b642611ae55f85076bebf55d733ba",
+      "file_pairs": "[train:CANCER] 194.jpeg <==> [test:CANCER 1] 214.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "4c474227e490466b65a8c94b62d0fe27",
+      "file_pairs": "[train:CANCER] 209.jpeg <==> [test:CANCER 1] 229.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "9259fbd8dfe17e2bdf0fe0bd70622039",
+      "file_pairs": "[train:CANCER] 227.jpeg <==> [test:CANCER 1] 249.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "719eb789b8d2a1671b77498e30dbe60b",
+      "file_pairs": "[train:CANCER] 229.jpeg <==> [test:CANCER 1] 250.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "75cdfbd77bf0a184531a620d60b8a427",
+      "file_pairs": "[train:CANCER] 237.jpeg <==> [test:CANCER 1] 259.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "cedbd00140a826c5c7ee889bde9fbf12",
+      "file_pairs": "[train:CANCER] 240.jpeg <==> [test:CANCER 1] 262.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "97d8f51573e7bde246e99b8d38ec1099",
+      "file_pairs": "[train:CANCER] 253.jpeg <==> [test:CANCER 1] 277.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "2da3a45f43758ebf049859b5d08fc548",
+      "file_pairs": "[train:CANCER] 281.jpeg <==> [test:CANCER 1] 311.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "e0617c826dd266aaf61d688569f98c7e",
+      "file_pairs": "[train:CANCER] 291.jpeg <==> [test:CANCER 1] 329.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "cb6abfc0c99eac5f18674744afc43400",
+      "file_pairs": "[train:CANCER] 303.jpeg <==> [test:CANCER 1] 342.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "4c36aa04642e8637772967919deac4d9",
+      "file_pairs": "[train:CANCER] 307.jpeg <==> [test:CANCER 1] 348.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "7bfcb2b17b37c75b913ad955d151e575",
+      "file_pairs": "[train:CANCER] 309.jpeg <==> [test:CANCER 1] 352.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "6d8f3b733aa879845bc78ef947e138cb",
+      "file_pairs": "[train:CANCER] 339.jpeg <==> [test:CANCER 1] 380.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "59b96572adff6e3e7d2a0c6ee469a5fa",
+      "file_pairs": "[train:CANCER] 343.jpeg <==> [test:CANCER 1] 389.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "85a44755aa87b53427e80ed66160a309",
+      "file_pairs": "[train:CANCER] 349.jpeg <==> [test:CANCER 1] 399.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "89eb68e3ce9867a731f39d22a8322042",
+      "file_pairs": "[train:CANCER] 367.jpeg <==> [test:CANCER 1] 430.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "8ad1e13c18d330313512a2b60ead1a4e",
+      "file_pairs": "[train:CANCER] 395.jpeg <==> [test:CANCER 1] 459.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "945d2c099ca4c40e538ebde0da3c3870",
+      "file_pairs": "[train:CANCER] 419.jpeg <==> [test:CANCER 1] 485.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "df99fa9ff6a4abfa2fbea64731c40c46",
+      "file_pairs": "[train:CANCER] 431.jpeg <==> [test:CANCER 1] 496.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "1627a28126721eb7e934d913d6879985",
+      "file_pairs": "[train:CANCER 1] 078.jpeg <==> [test:CANCER] 061.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "1ec6d52494fab85f41cb81d42b5df573",
+      "file_pairs": "[train:CANCER 1] 088.jpeg <==> [test:CANCER] 070.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "9475d3b9a0ed78c5e37dd7305a891295",
+      "file_pairs": "[train:CANCER 1] 098.jpeg <==> [test:CANCER] 077.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "0e95011b46ed36d7d7ba2977fd2e789d",
+      "file_pairs": "[train:CANCER 1] 102.jpeg <==> [test:CANCER] 083.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "b182371cf99d78cb897ccc5965e8779a",
+      "file_pairs": "[train:CANCER 1] 125.jpeg <==> [test:CANCER] 107.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "a1f0bdecffeb39de2ee40808cb1b9065",
+      "file_pairs": "[train:CANCER 1] 128.jpeg <==> [test:CANCER] 110.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "3f00c35d7dc3cd47ca54bdf0a2604229",
+      "file_pairs": "[train:CANCER 1] 130.jpeg <==> [test:CANCER] 112.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "281eaaabff6c14478f809580edd8e0a6",
+      "file_pairs": "[train:CANCER 1] 132.jpeg <==> [test:CANCER] 114.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "7834b305da6bcdab4495715df7e9db94",
+      "file_pairs": "[train:CANCER 1] 135.jpeg <==> [test:CANCER] 116.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "51b7178a80a8ef608647e0e5d08a7363",
+      "file_pairs": "[train:CANCER 1] 140.jpeg <==> [test:CANCER] 121.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "943c2bb2a69a33df5c12df81a5ad16e3",
+      "file_pairs": "[train:CANCER 1] 148.jpeg <==> [test:CANCER] 126.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "cb52398ed4655f33f0c42c52a56ba53b",
+      "file_pairs": "[train:CANCER 1] 156.jpeg <==> [test:CANCER] 135.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "c26f86e1cf9ba4c2af24eb48f85d6bea",
+      "file_pairs": "[train:CANCER 1] 158.jpeg <==> [test:CANCER] 137.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "37f01a738994133d01dc4b11853f6054",
+      "file_pairs": "[train:CANCER 1] 168.jpeg <==> [test:CANCER] 147.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "145dd6066ee6dc57650b860522d8bd1a",
+      "file_pairs": "[train:CANCER 1] 177.jpeg <==> [test:CANCER] 157.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "01592b043e5a4b00d88252b4b4e602e1",
+      "file_pairs": "[train:CANCER 1] 188.jpeg <==> [test:CANCER] 168.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "93b0b616a5a065d1573334d2f9fd7dcf",
+      "file_pairs": "[train:CANCER 1] 200.jpeg <==> [test:CANCER] 181.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "f390856107acfe6ed7476c976da19b91",
+      "file_pairs": "[train:CANCER 1] 208.jpeg <==> [test:CANCER] 187.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "cbfa0640a00fe84cd24e8ec101137055",
+      "file_pairs": "[train:CANCER 1] 269.jpeg <==> [test:CANCER] 246.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "ca6589c5db7e71170b331ee5b9755e7b",
+      "file_pairs": "[train:CANCER 1] 271.jpeg <==> [test:CANCER] 249.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "ad6e1353db8e071a18427034de4d5262",
+      "file_pairs": "[train:CANCER 1] 273.jpeg <==> [test:CANCER] 251.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "1fc02f89df676a29e30df97692682d10",
+      "file_pairs": "[train:CANCER 1] 279.jpeg <==> [test:CANCER] 255.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "10ea384f9359af507eca4d31bd466516",
+      "file_pairs": "[train:CANCER 1] 281.jpeg <==> [test:CANCER] 258.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "2e09d1256382d5a0cede4b8435b7de27",
+      "file_pairs": "[train:CANCER 1] 282.jpeg <==> [test:CANCER] 259.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "db4139ebde8a982da63fe3cff2f759f6",
+      "file_pairs": "[train:CANCER 1] 315.jpeg <==> [test:CANCER] 284.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "5dfccf50b3885966176a4e44c3dacb20",
+      "file_pairs": "[train:CANCER 1] 340.jpeg <==> [test:CANCER] 302.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "2a21ee1a17952492fe409a42044c4eba",
+      "file_pairs": "[train:CANCER 1] 370.jpeg <==> [test:CANCER] 329.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "7d3d820c051826c221c34e93467649c5",
+      "file_pairs": "[train:CANCER 1] 385.jpeg <==> [test:CANCER] 341.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "c8d53c04a3d6e9903cac688a200dbca5",
+      "file_pairs": "[train:CANCER 1] 410.jpeg <==> [test:CANCER] 357.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "6389177c418f6bd0ebd62475c6a6ef9b",
+      "file_pairs": "[train:CANCER 1] 452.jpeg <==> [test:CANCER] 388.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "b80341bf12ed86f3cd1a18bf57711ff5",
+      "file_pairs": "[train:CANCER 1] 462.jpeg <==> [test:CANCER] 399.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "5e130aa88554ed84b8478e11131f50c8",
+      "file_pairs": "[train:CANCER 1] 470.jpeg <==> [test:CANCER] 408.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "3d33f00775ca1ee88b529f6af58fbfca",
+      "file_pairs": "[train:CANCER 1] 493.jpeg <==> [test:CANCER] 428.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "991d201ab63f038feb11e2b80c64ba40",
+      "file_pairs": "[train:CANCER 1] 494.jpeg <==> [test:CANCER] 429.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "5e93e10d83c46985ad6c5e1137764b67",
+      "file_pairs": "[train:NON CANCER] 001.jpeg <==> [test:NON CANCER 2] 001.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "6a8cb5e6b1e4702d45299f9415d2f8e3",
+      "file_pairs": "[train:NON CANCER] 013.jpeg <==> [test:NON CANCER 2] 019.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "aea530c05cd1bdb11836b9adcbe4117b",
+      "file_pairs": "[train:NON CANCER] 041.jpeg <==> [test:NON CANCER 2] 055.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "ed15c01b93dd6b6b56fbc26eadb74c5c",
+      "file_pairs": "[train:NON CANCER] 061.jpeg <==> [test:NON CANCER 2] 076.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "69e71022fdc83dd2e7a8300cf89bfb19",
+      "file_pairs": "[train:NON CANCER] 077.jpeg <==> [test:NON CANCER 2] 093.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "43450deb54973d57c914b35216c278d6",
+      "file_pairs": "[train:NON CANCER] 084.jpeg <==> [test:NON CANCER 2] 100.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "2a300a4c121520879e134dbc21475ae3",
+      "file_pairs": "[train:NON CANCER] 105.jpeg <==> [test:NON CANCER 2] 120.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "3962466ba9692360cba701f85045748c",
+      "file_pairs": "[train:NON CANCER] 115.jpeg <==> [test:NON CANCER 2] 131.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "2de2c385125eb7d001db245f7f32967c",
+      "file_pairs": "[train:NON CANCER] 127.jpeg <==> [test:NON CANCER 2] 143.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "837d405e3d9cae68c51039f72f545523",
+      "file_pairs": "[train:NON CANCER] 139.jpeg <==> [test:NON CANCER 2] 155.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "d92e942047751a72dbcba5f95b0363b4",
+      "file_pairs": "[train:NON CANCER] 142.jpeg <==> [test:NON CANCER 2] 158.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "3286fd27d92737225513c8d9b288c354",
+      "file_pairs": "[train:NON CANCER] 149.jpeg <==> [test:NON CANCER 2] 165.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "7504f165b5d2c838ca0eb4329b09e3dc",
+      "file_pairs": "[train:NON CANCER] 182.jpeg <==> [test:NON CANCER 2] 198.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "b4ed89c400d0b4594d1f7738d0733f00",
+      "file_pairs": "[train:NON CANCER] 187.jpeg <==> [test:NON CANCER 2] 203.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "2065d81b61e93c2d9cfd28963239bb26",
+      "file_pairs": "[train:NON CANCER] 195.jpeg <==> [test:NON CANCER 2] 212.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "35fe111af7e7aa56cba71e6b2b415aaa",
+      "file_pairs": "[train:NON CANCER] 197.jpeg <==> [test:NON CANCER 2] 214.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "d6944434a4cf8b0782aab7838c77f634",
+      "file_pairs": "[train:NON CANCER] 204.jpeg <==> [test:NON CANCER 2] 221.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "c634cb61e414a698454a87c108e68f71",
+      "file_pairs": "[train:NON CANCER] 206.jpeg <==> [test:NON CANCER 2] 223.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "7861dafe72202b6f473e205919ec9630",
+      "file_pairs": "[train:NON CANCER] 227.jpeg <==> [test:NON CANCER 2] 243.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "b20522ec911812885f9f8eb3e0b74850",
+      "file_pairs": "[train:NON CANCER 2] 049.jpeg <==> [test:NON CANCER] 036.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "23823b0b28e4c86696170c8e3e68cfe6",
+      "file_pairs": "[train:NON CANCER 2] 051.jpeg <==> [test:NON CANCER] 038.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "881f9647de86f564c27ced1806391a75",
+      "file_pairs": "[train:NON CANCER 2] 054.jpeg <==> [test:NON CANCER] 040.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "c9b4eb9519da013c5297886ec25cd99a",
+      "file_pairs": "[train:NON CANCER 2] 063.jpeg <==> [test:NON CANCER] 049.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "4a75528add664a9ab076196ed3326fe7",
+      "file_pairs": "[train:NON CANCER 2] 072.jpeg <==> [test:NON CANCER] 058.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "cda1a1d8f5e02aee11f494c252bc6e75",
+      "file_pairs": "[train:NON CANCER 2] 084.jpeg <==> [test:NON CANCER] 069.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "0353e5834ba0c5f0cacf824ba660cc2b",
+      "file_pairs": "[train:NON CANCER 2] 090.jpeg <==> [test:NON CANCER] 074.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "2c1be1efb24c52e4d9fe054b4a6003ec",
+      "file_pairs": "[train:NON CANCER 2] 106.jpeg <==> [test:NON CANCER] 089.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "98929d63c7207e698707178d074798a7",
+      "file_pairs": "[train:NON CANCER 2] 118.jpeg <==> [test:NON CANCER] 103.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "9e6003edacab10de9d5fd379973744e1",
+      "file_pairs": "[train:NON CANCER 2] 123.jpeg <==> [test:NON CANCER] 107.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "697e4baa62fe7c24509688f33a0c6ad5",
+      "file_pairs": "[train:NON CANCER 2] 125.jpeg <==> [test:NON CANCER] 109.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "4d7fe6344dd3cd57f1c085d774fe626e",
+      "file_pairs": "[train:NON CANCER 2] 136.jpeg <==> [test:NON CANCER] 120.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "f7448150ada39a245f767394913be827",
+      "file_pairs": "[train:NON CANCER 2] 139.jpeg <==> [test:NON CANCER] 123.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "a02d230aa783d338c28d62763eca2e32",
+      "file_pairs": "[train:NON CANCER 2] 140.jpeg <==> [test:NON CANCER] 124.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "a6fade93ebd9018181049e3e3bf3873d",
+      "file_pairs": "[train:NON CANCER 2] 193.jpeg <==> [test:NON CANCER] 177.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "f0af7e68ef32323465a76c0ca887dd9e",
+      "file_pairs": "[train:NON CANCER 2] 206.jpeg <==> [test:NON CANCER] 190.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "a4f30c1afbb1242ba5473033b3f5c3cd",
+      "file_pairs": "[train:NON CANCER 2] 218.jpeg <==> [test:NON CANCER] 201.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "ae86a3b3a402eca64b0e763202ccc9c0",
+      "file_pairs": "[train:NON CANCER 2] 220.jpeg <==> [test:NON CANCER] 203.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "982b8df8c7c0bd2b021e214288f38138",
+      "file_pairs": "[train:NON CANCER 2] 226.jpeg <==> [test:NON CANCER] 209.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "1606b3d6fda84c0dcaaa169f6e06050f",
+      "file_pairs": "[train:NON CANCER 2] 242.jpeg <==> [test:NON CANCER] 226.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "316ef7d3410ac12418adb120fe51bb18",
+      "file_pairs": "[train:NON CANCER 2] 245.jpeg <==> [test:NON CANCER] 229.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "81ef65654a658afca3117541ca940a4b",
+      "file_pairs": "[train:CANCER] 005.jpeg <==> [validation:CANCER 1] 006.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "2ee2f8ecce46365ccba91cdfe4344931",
+      "file_pairs": "[train:CANCER] 007.jpeg <==> [validation:CANCER 1] 008.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "b9a879fc004bafaa0cfc73132bac72f9",
+      "file_pairs": "[train:CANCER] 020.jpeg <==> [validation:CANCER 1] 022.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "769f77031f7310fd4596d8d46f4e5a3f",
+      "file_pairs": "[train:CANCER] 033.jpeg <==> [validation:CANCER 1] 041.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "436ab44120a8cc0ded4c74a08569f712",
+      "file_pairs": "[train:CANCER] 035.jpeg <==> [validation:CANCER 1] 044.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "6b33a7cf63d2007610af27644fb7fde3",
+      "file_pairs": "[train:CANCER] 051.jpeg <==> [validation:CANCER 1] 065.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "5076c11d1cadf4ef4264de5731adbb5d",
+      "file_pairs": "[train:CANCER] 074.jpeg <==> [validation:CANCER 1] 092.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "f41a1160d98ea815b7011c19a473549d",
+      "file_pairs": "[train:CANCER] 097.jpeg <==> [validation:CANCER 1] 116.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "801ad77c6dd4d1ee7ba0aca18f744922",
+      "file_pairs": "[train:CANCER] 108.jpeg <==> [validation:CANCER 1] 126.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "4d933bc448e8974bfd8162d0b9056e20",
+      "file_pairs": "[train:CANCER] 136.jpeg <==> [validation:CANCER 1] 157.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "c4410cf95f6755839dbefee236f5e113",
+      "file_pairs": "[train:CANCER] 143.jpeg <==> [validation:CANCER 1] 164.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "d640b08a78e5a1bbafd35952a2a04bb0",
+      "file_pairs": "[train:CANCER] 150.jpeg <==> [validation:CANCER 1] 170.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "40c826844225e353570bc907a5ed8770",
+      "file_pairs": "[train:CANCER] 153.jpeg <==> [validation:CANCER 1] 173.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "12f7939445718fc1f7993d010fb21e50",
+      "file_pairs": "[train:CANCER] 159.jpeg <==> [validation:CANCER 1] 179.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "9b3e9e52471aa27d17e6c327784b2e95",
+      "file_pairs": "[train:CANCER] 167.jpeg <==> [validation:CANCER 1] 187.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "e8b5bea5ba0b8c70737890f9baf5466b",
+      "file_pairs": "[train:CANCER] 190.jpeg <==> [validation:CANCER 1] 210.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "4d65376f315d88ab119f43dd5557c284",
+      "file_pairs": "[train:CANCER] 201.jpeg <==> [validation:CANCER 1] 220.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "0b3a5ddde57f1f5323fad8f06c5f9c40",
+      "file_pairs": "[train:CANCER] 206.jpeg <==> [validation:CANCER 1] 226.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "f98b16d2e02f6455002dd41519b8de5b",
+      "file_pairs": "[train:CANCER] 217.jpeg <==> [validation:CANCER 1] 238.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "90741d4c110df121ec79f388b07468c6",
+      "file_pairs": "[train:CANCER] 220.jpeg <==> [validation:CANCER 1] 241.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "12868d37b915f7f755a62820a87972ee",
+      "file_pairs": "[train:CANCER] 224.jpeg <==> [validation:CANCER 1] 246.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "34fdbc05cb66e648e7e965d60c6833d3",
+      "file_pairs": "[train:CANCER] 233.jpeg <==> [validation:CANCER 1] 255.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "e46db8a61eaba0660deccb734358dbbc",
+      "file_pairs": "[train:CANCER] 264.jpeg <==> [validation:CANCER 1] 287.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "98aa82c48571075ab8b45141601fd419",
+      "file_pairs": "[train:CANCER] 277.jpeg <==> [validation:CANCER 1] 304.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "4085b039a6f26df3aad738ba30d3460c",
+      "file_pairs": "[train:CANCER] 321.jpeg <==> [validation:CANCER 1] 363.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "8a9763d92c5b930410e3f83ca7ba433f",
+      "file_pairs": "[train:CANCER] 326.jpeg <==> [validation:CANCER 1] 368.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "90c5f0c6b746230083386bd520846a72",
+      "file_pairs": "[train:CANCER] 333.jpeg <==> [validation:CANCER 1] 375.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "e4526f28d464ef71c58f7512e4c58676",
+      "file_pairs": "[train:CANCER] 348.jpeg <==> [validation:CANCER 1] 398.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "75f7845ff3ba424f7f763a45b8653614",
+      "file_pairs": "[train:CANCER] 353.jpeg <==> [validation:CANCER 1] 402.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "3864f95b9259f15d20d1a19b698e76c7",
+      "file_pairs": "[train:CANCER] 358.jpeg <==> [validation:CANCER 1] 412.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "94f3468233965cc6fa22934720ee99f3",
+      "file_pairs": "[train:CANCER] 377.jpeg <==> [validation:CANCER 1] 442.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "8326af63997384b8ad2cda4fad393620",
+      "file_pairs": "[train:CANCER] 387.jpeg <==> [validation:CANCER 1] 451.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "267e30e88aad3ad547c5b7b80e51eac6",
+      "file_pairs": "[train:CANCER] 403.jpeg <==> [validation:CANCER 1] 466.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "f4b253bff8c3dbc690cdf88f9d7de46d",
+      "file_pairs": "[train:CANCER] 404.jpeg <==> [validation:CANCER 1] 467.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "cf2d16702d57fb70920fe8007a3adb15",
+      "file_pairs": "[train:CANCER] 412.jpeg <==> [validation:CANCER 1] 477.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "061a0e0d29e6c7b736f94f218d96157d",
+      "file_pairs": "[train:CANCER 1] 012.jpeg <==> [validation:CANCER] 011.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "b28a638acc4e0215a5843876dd914923",
+      "file_pairs": "[train:CANCER 1] 013.jpeg <==> [validation:CANCER] 012.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "16127cfb7b05bf06a63401c5946abcdc",
+      "file_pairs": "[train:CANCER 1] 091.jpeg <==> [validation:CANCER] 073.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "755a595021da3d710cdf318ab5847149",
+      "file_pairs": "[train:CANCER 1] 127.jpeg <==> [validation:CANCER] 109.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "d3770260eb1b9eb91a149698c05b23a6",
+      "file_pairs": "[train:CANCER 1] 139.jpeg <==> [validation:CANCER] 120.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "8a50987eb1fca18306bcf098dd39ab29",
+      "file_pairs": "[train:CANCER 1] 150.jpeg <==> [validation:CANCER] 130.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "2c4ef677820b4898149ea7a17e10f54f",
+      "file_pairs": "[train:CANCER 1] 190.jpeg <==> [validation:CANCER] 171.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "3728c343253d22765fd366f09442f9c2",
+      "file_pairs": "[train:CANCER 1] 191.jpeg <==> [validation:CANCER] 172.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "c1a31dbe697e50108b59da9478023d2f",
+      "file_pairs": "[train:CANCER 1] 204.jpeg <==> [validation:CANCER] 184.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "f94524dd909b27d8fffcea2ceda4836d",
+      "file_pairs": "[train:CANCER 1] 218.jpeg <==> [validation:CANCER] 198.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "0848a07993365e3e10b17f4adda3dd7e",
+      "file_pairs": "[train:CANCER 1] 221.jpeg <==> [validation:CANCER] 202.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "19aa756a8edcaf5fe09f3c03b4dda1cc",
+      "file_pairs": "[train:CANCER 1] 243.jpeg <==> [validation:CANCER] 221.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "e77e23cbc4357302b3d58feca1bda451",
+      "file_pairs": "[train:CANCER 1] 244.jpeg <==> [validation:CANCER] 222.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "a7234fda0b57c221707f564fceaae1b2",
+      "file_pairs": "[train:CANCER 1] 253.jpeg <==> [validation:CANCER] 231.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "befed06da62cdaafaa467d1e4b14bb7d",
+      "file_pairs": "[train:CANCER 1] 256.jpeg <==> [validation:CANCER] 234.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "a656c68d03a81732259d6ba5c4dfde2a",
+      "file_pairs": "[train:CANCER 1] 268.jpeg <==> [validation:CANCER] 245.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "8e52ad7f0276b0cbb4a8df65d200fe38",
+      "file_pairs": "[train:CANCER 1] 283.jpeg <==> [validation:CANCER] 260.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "25c1c04dfd12c5fad173408a150d5258",
+      "file_pairs": "[train:CANCER 1] 285.jpeg <==> [validation:CANCER] 262.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "dc1f8c1c12790d6567d44478cfe75e49",
+      "file_pairs": "[train:CANCER 1] 336.jpeg <==> [validation:CANCER] 297.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "e6edb895fff2c762ed34b1c6a397b3cb",
+      "file_pairs": "[train:CANCER 1] 357.jpeg <==> [validation:CANCER] 314.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "24f66bce92dd8fcd7ea71552370389eb",
+      "file_pairs": "[train:CANCER 1] 366.jpeg <==> [validation:CANCER] 324.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "5f9600f336a29c92a7c5125a8e4e8125",
+      "file_pairs": "[train:CANCER 1] 384.jpeg <==> [validation:CANCER] 340.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "596bc965942a32f6bc56c914f39a2121",
+      "file_pairs": "[train:CANCER 1] 390.jpeg <==> [validation:CANCER] 345.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "c4c319efcf4e145ceff846b8bced926a",
+      "file_pairs": "[train:CANCER 1] 439.jpeg <==> [validation:CANCER] 373.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "94d1af34f57a2e965fc94d663671b12d",
+      "file_pairs": "[train:CANCER 1] 441.jpeg <==> [validation:CANCER] 376.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "5ec5fe0babefdfa107ec9884585ddd48",
+      "file_pairs": "[train:CANCER 1] 489.jpeg <==> [validation:CANCER] 423.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "f3089ed8a53e8f69ab409a9fcb52a15e",
+      "file_pairs": "[train:CANCER 1] 498.jpeg <==> [validation:CANCER] 433.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "1edd2f1bb4cedc11db95d1c8a8b44b6d",
+      "file_pairs": "[train:NON CANCER] 002.jpeg <==> [validation:NON CANCER 2] 002.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "12880810c54070600e72d7bc74176b92",
+      "file_pairs": "[train:NON CANCER] 025.jpeg <==> [validation:NON CANCER 2] 034.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "e61f00ada6f3288091e6de0cf41183d0",
+      "file_pairs": "[train:NON CANCER] 028.jpeg <==> [validation:NON CANCER 2] 040.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "22dbde6ab54c9d5344184ec57c0aeb9d",
+      "file_pairs": "[train:NON CANCER] 034.jpeg <==> [validation:NON CANCER 2] 047.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "a9582af47826a533997e8889bbe7cdec",
+      "file_pairs": "[train:NON CANCER] 057.jpeg <==> [validation:NON CANCER 2] 071.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "c7b1276023ec20de43eafb707f83c6e0",
+      "file_pairs": "[train:NON CANCER] 071.jpeg <==> [validation:NON CANCER 2] 086.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "b2aee7a1a48882a170a4fd20c9892dd0",
+      "file_pairs": "[train:NON CANCER] 080.jpeg <==> [validation:NON CANCER 2] 096.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "fd5757b22a441cb735ed7b4415abd20a",
+      "file_pairs": "[train:NON CANCER] 088.jpeg <==> [validation:NON CANCER 2] 105.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "aee734e10c93ad2a6829cdc12a7c12f7",
+      "file_pairs": "[train:NON CANCER] 094.jpeg <==> [validation:NON CANCER 2] 111.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "8e2b968dcc551d01fcf3144e71d06a47",
+      "file_pairs": "[train:NON CANCER] 100.jpeg <==> [validation:NON CANCER 2] 115.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "4fae4b3587f55d8611f48e1afa262748",
+      "file_pairs": "[train:NON CANCER] 102.jpeg <==> [validation:NON CANCER 2] 117.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "7568f790ceb9368d6ffa8c8ca59a3095",
+      "file_pairs": "[train:NON CANCER] 128.jpeg <==> [validation:NON CANCER 2] 144.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "b1360e157a582b0586a45f86c6bc6f00",
+      "file_pairs": "[train:NON CANCER] 130.jpeg <==> [validation:NON CANCER 2] 146.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "b4db2f235aae7b61174d43974b1f3c40",
+      "file_pairs": "[train:NON CANCER] 154.jpeg <==> [validation:NON CANCER 2] 170.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "53ef106ad9b004d30c78532d13916259",
+      "file_pairs": "[train:NON CANCER] 157.jpeg <==> [validation:NON CANCER 2] 173.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "db158e9da2142f160e5c5e2a4fe301e9",
+      "file_pairs": "[train:NON CANCER] 171.jpeg <==> [validation:NON CANCER 2] 187.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "df9c9d1ab453cdb0e9ebfa7ba54bffea",
+      "file_pairs": "[train:NON CANCER] 173.jpeg <==> [validation:NON CANCER 2] 189.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "c121773deeedc74be6a16fe91249c76b",
+      "file_pairs": "[train:NON CANCER 2] 043.jpeg <==> [validation:NON CANCER] 031.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "ee824c6b6ff5b2cf56e4d539731736b7",
+      "file_pairs": "[train:NON CANCER 2] 044.jpeg <==> [validation:NON CANCER] 032.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "9a7987204cb3c5fb3e97570e75342323",
+      "file_pairs": "[train:NON CANCER 2] 048.jpeg <==> [validation:NON CANCER] 035.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "4a0f4b88bf83be932308d05ad3fa8425",
+      "file_pairs": "[train:NON CANCER 2] 062.jpeg <==> [validation:NON CANCER] 048.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "0b95dfdfeba904bd4a0095db5ea1f1ec",
+      "file_pairs": "[train:NON CANCER 2] 088.jpeg <==> [validation:NON CANCER] 073.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "78caad4f85141a6b20059f9f54b4f640",
+      "file_pairs": "[train:NON CANCER 2] 110.jpeg <==> [validation:NON CANCER] 093.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "464926fb068cecc78cf7cc7b06229039",
+      "file_pairs": "[train:NON CANCER 2] 134.jpeg <==> [validation:NON CANCER] 118.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "7f19d8fc0be6fb2b2c996eb8f761b363",
+      "file_pairs": "[train:NON CANCER 2] 148.jpeg <==> [validation:NON CANCER] 132.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "d53aa30bee40d8364de72bf60be92e9b",
+      "file_pairs": "[train:NON CANCER 2] 153.jpeg <==> [validation:NON CANCER] 137.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "45cd2ed5c6a263ad01c0ca223b0ddae9",
+      "file_pairs": "[train:NON CANCER 2] 159.jpeg <==> [validation:NON CANCER] 143.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "c296df6812da57052bffa1077303663c",
+      "file_pairs": "[train:NON CANCER 2] 178.jpeg <==> [validation:NON CANCER] 162.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "919ef927a62ecf2a14888c63836cb584",
+      "file_pairs": "[train:NON CANCER 2] 184.jpeg <==> [validation:NON CANCER] 168.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "58393367e11881c75bba7daa1fd9db5d",
+      "file_pairs": "[train:NON CANCER 2] 210.jpeg <==> [validation:NON CANCER] 194.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "TRAIN_VAL_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "90b357dd13f7da5162b17f387a6aec8c",
+      "file_pairs": "[train:NON CANCER 2] 222.jpeg <==> [validation:NON CANCER] 205.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "VAL_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "b4eb15be575d66247dcbcf04aa70711f",
+      "file_pairs": "[validation:CANCER] 195.jpeg <==> [test:CANCER 1] 215.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "VAL_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "990b5f61a82693e9cbe3c8487b7ae1c6",
+      "file_pairs": "[validation:CANCER] 397.jpeg <==> [test:CANCER 1] 460.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "VAL_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "1eb48c25cc67535eb236e6ad77465df9",
+      "file_pairs": "[validation:CANCER] 398.jpeg <==> [test:CANCER 1] 461.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "VAL_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "5e00a5d64ccd3e1eb55a929ff9d1de23",
+      "file_pairs": "[validation:CANCER 1] 194.jpeg <==> [test:CANCER] 175.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "VAL_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "de67a7b594f07dc1a6c6ab823dbf5662",
+      "file_pairs": "[validation:CANCER 1] 230.jpeg <==> [test:CANCER] 211.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "VAL_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "1e4ca3127cd9afcf6c2795fef6a85883",
+      "file_pairs": "[validation:CANCER 1] 457.jpeg <==> [test:CANCER] 393.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "VAL_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "2275b2d33eedbd66beffc1c0271fb6e3",
+      "file_pairs": "[validation:NON CANCER] 052.jpeg <==> [test:NON CANCER 2] 066.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "VAL_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "6a084792c46d0dfd56e6e4b4e7ddac4d",
+      "file_pairs": "[validation:NON CANCER] 189.jpeg <==> [test:NON CANCER 2] 205.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "VAL_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "1ed6fbb2efa783b5dd3b3a1eb823f637",
+      "file_pairs": "[validation:NON CANCER] 222.jpeg <==> [test:NON CANCER 2] 238.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "VAL_TEST_LEAKAGE",
+      "duplicate_count": 2,
+      "md5_hash": "4daf960ba39a2932bad3a1e70c78d967",
+      "file_pairs": "[validation:NON CANCER 2] 046.jpeg <==> [test:NON CANCER] 033.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "7e70e2838bede63d52126dc19ef708c5",
+      "file_pairs": "[train:CANCER] 002.jpeg <==> [train:CANCER 1] 003.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "baac62f53085c53ab46aefb4dbbf71f3",
+      "file_pairs": "[train:CANCER] 003.jpeg <==> [train:CANCER 1] 004.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a1cffd774c78f4437f7df4ab4ba2265d",
+      "file_pairs": "[train:CANCER] 004.jpeg <==> [train:CANCER 1] 005.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "93c8c5eb572ec3b8bf2136e90a49ec4b",
+      "file_pairs": "[train:CANCER] 006.jpeg <==> [train:CANCER 1] 007.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "7dbdb49c0f74005fea7e338bd3b555d7",
+      "file_pairs": "[train:CANCER] 008.jpeg <==> [train:CANCER 1] 009.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "f1fd104db9252f7a208db73c45d89400",
+      "file_pairs": "[train:CANCER] 009.jpeg <==> [train:CANCER 1] 010.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "dc9013b973d7a22c46e98a4cd5702c36",
+      "file_pairs": "[train:CANCER] 010.jpeg <==> [train:CANCER 1] 011.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "284d8efc23b7f9584d617865ce60f2df",
+      "file_pairs": "[train:CANCER] 013.jpeg <==> [train:CANCER 1] 014.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "8f093c551dc200597ffee54f81aada5d",
+      "file_pairs": "[train:CANCER] 014.jpeg <==> [train:CANCER 1] 015.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "389afa06cc913c6c0288a4dfb0b26e29",
+      "file_pairs": "[train:CANCER] 015.jpeg <==> [train:CANCER 1] 016.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "0597ce8de38ff2645f45669094c9a9f9",
+      "file_pairs": "[train:CANCER] 017.jpeg <==> [train:CANCER 1] 019.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "21ce3e03898be3df58948df92271c229",
+      "file_pairs": "[train:CANCER] 018.jpeg <==> [train:CANCER 1] 020.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "029623869bb171e6d7c81c7a802f888b",
+      "file_pairs": "[train:CANCER] 019.jpeg <==> [train:CANCER 1] 021.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "422f46da1a6da2ff72c995d34dc8dcef",
+      "file_pairs": "[train:CANCER] 022.jpeg <==> [train:CANCER 1] 028.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "15b28dccc6631ad41861a075020f19b5",
+      "file_pairs": "[train:CANCER] 023.jpeg <==> [train:CANCER 1] 031.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "c23eb2eee7e229605dc52352727c5e5a",
+      "file_pairs": "[train:CANCER] 024.jpeg <==> [train:CANCER 1] 032.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "2eaa4c30f678b288a459a5a33b393c95",
+      "file_pairs": "[train:CANCER] 025.jpeg <==> [train:CANCER 1] 033.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "2cbffc033d125a01419ea08b093efee2",
+      "file_pairs": "[train:CANCER] 027.jpeg <==> [train:CANCER 1] 035.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "932f6233a72b0d18c0d0a62c873a515b",
+      "file_pairs": "[train:CANCER] 028.jpeg <==> [train:CANCER 1] 036.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "2f1c944d615a2463e15742d0eda16b93",
+      "file_pairs": "[train:CANCER] 029.jpeg <==> [train:CANCER 1] 037.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "c4dae698df305bd81fd5756f4608f9b8",
+      "file_pairs": "[train:CANCER] 031.jpeg <==> [train:CANCER 1] 039.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "015824d3cda3634574c56b40a8925153",
+      "file_pairs": "[train:CANCER] 032.jpeg <==> [train:CANCER 1] 040.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "b26a04726e692d10a4d84e46994ba94e",
+      "file_pairs": "[train:CANCER] 034.jpeg <==> [train:CANCER 1] 043.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "00faf28779e8cd3efa4350c40a28b639",
+      "file_pairs": "[train:CANCER] 036.jpeg <==> [train:CANCER 1] 045.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a2d7715f305399e6b6e81d5a7eccb340",
+      "file_pairs": "[train:CANCER] 038.jpeg <==> [train:CANCER 1] 049.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "d041ecf179aad2d14da37c63de879c48",
+      "file_pairs": "[train:CANCER] 039.jpeg <==> [train:CANCER 1] 050.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "36685be30465b516867c5ed197c8d183",
+      "file_pairs": "[train:CANCER] 040.jpeg <==> [train:CANCER 1] 051.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "d180e5cf1bb53f73fca1ecaf76e91ba8",
+      "file_pairs": "[train:CANCER] 042.jpeg <==> [train:CANCER 1] 025.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "bfc167697eca461b8f98478263a8f6f2",
+      "file_pairs": "[train:CANCER] 043.jpeg <==> [train:CANCER 1] 029.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "dfceb7c94e154ac730c626f826e7e0f5",
+      "file_pairs": "[train:CANCER] 044.jpeg <==> [train:CANCER 1] 030.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "24e35fc131729b0dbbfd090d4b6dc7ab",
+      "file_pairs": "[train:CANCER] 048.jpeg <==> [train:CANCER 1] 061.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "64686bec25a2f1591a096b92b7d03500",
+      "file_pairs": "[train:CANCER] 053.jpeg <==> [train:CANCER 1] 069.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "6296e49ecd461224c1f84bb3e9de5914",
+      "file_pairs": "[train:CANCER] 054.jpeg <==> [train:CANCER 1] 070.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "985c45e449d3501c44f76679ceded15f",
+      "file_pairs": "[train:CANCER] 055.jpeg <==> [train:CANCER 1] 071.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "8dbe3a305de8f99991e85e53dbe12a87",
+      "file_pairs": "[train:CANCER] 057.jpeg <==> [train:CANCER 1] 073.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "cf8ffc7b58a4589e361c69f2a329603c",
+      "file_pairs": "[train:CANCER] 058.jpeg <==> [train:CANCER 1] 074.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "305170e49b00db2c1badeae0dedf3b50",
+      "file_pairs": "[train:CANCER] 063.jpeg <==> [train:CANCER 1] 081.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "f9ec7591b2e471a8555b2969aecedc1d",
+      "file_pairs": "[train:CANCER] 067.jpeg <==> [train:CANCER 1] 085.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "fe17de62e2e493064423f6457384de64",
+      "file_pairs": "[train:CANCER] 068.jpeg <==> [train:CANCER 1] 086.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "35ae2e854647f7c42b9f1ff4a1674c3a",
+      "file_pairs": "[train:CANCER] 072.jpeg <==> [train:CANCER 1] 090.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "323e60f18d27bb846f5f11c4f50f0146",
+      "file_pairs": "[train:CANCER] 075.jpeg <==> [train:CANCER 1] 093.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a53523482fedb01cc37d26e68acc2d11",
+      "file_pairs": "[train:CANCER] 076.jpeg <==> [train:CANCER 1] 067.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "7a06c6fcce87d5dd29f7c2b4b561c4e4",
+      "file_pairs": "[train:CANCER] 086.jpeg <==> [train:CANCER 1] 105.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "d2c860cbdb0e584cf90f31f85b813056",
+      "file_pairs": "[train:CANCER] 087.jpeg <==> [train:CANCER 1] 106.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "5291144908aa96cb92b2dd96463754b9",
+      "file_pairs": "[train:CANCER] 090.jpeg <==> [train:CANCER 1] 109.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "15da192f210e49bd1304af53044e22b6",
+      "file_pairs": "[train:CANCER] 094.jpeg <==> [train:CANCER 1] 112.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a0af72dba9e5e771521eb5717343e63b",
+      "file_pairs": "[train:CANCER] 096.jpeg <==> [train:CANCER 1] 115.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "604c665dc4d6c47ff7c736e2fded68a9",
+      "file_pairs": "[train:CANCER] 098.jpeg <==> [train:CANCER 1] 117.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a49803dd166457283ad23925826b8ee1",
+      "file_pairs": "[train:CANCER] 099.jpeg <==> [train:CANCER 1] 118.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "ea024fe86617fec4ff579dc3515807b1",
+      "file_pairs": "[train:CANCER] 102.jpeg <==> [train:CANCER 1] 120.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "ea56a1304bb7c108bd6cfd2dfaad6549",
+      "file_pairs": "[train:CANCER] 103.jpeg <==> [train:CANCER 1] 121.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "daceef712dc9264cba7bd7ed90283933",
+      "file_pairs": "[train:CANCER] 105.jpeg <==> [train:CANCER 1] 123.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a36409093ffc64586b56dcb5ca2cb025",
+      "file_pairs": "[train:CANCER] 106.jpeg <==> [train:CANCER 1] 124.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "013c15493eb570ed597a3c29f0c73ee1",
+      "file_pairs": "[train:CANCER] 111.jpeg <==> [train:CANCER 1] 129.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "d83f78a21767fae1e13e91694c1420f1",
+      "file_pairs": "[train:CANCER] 113.jpeg <==> [train:CANCER 1] 131.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "ae12bf2d60f1eaf56ae6584c0e040b52",
+      "file_pairs": "[train:CANCER] 115.jpeg <==> [train:CANCER 1] 133.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "65889758cea7b9b1c69ea148c5215932",
+      "file_pairs": "[train:CANCER] 117.jpeg <==> [train:CANCER 1] 136.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "517e3d01a19ee667eb76e3520671ea6f",
+      "file_pairs": "[train:CANCER] 118.jpeg <==> [train:CANCER 1] 137.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "f133b8507c4a8246604134e7bc0c612b",
+      "file_pairs": "[train:CANCER] 119.jpeg <==> [train:CANCER 1] 138.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "d95cc311b842bdc1ed7b49cc21cfb39a",
+      "file_pairs": "[train:CANCER] 123.jpeg <==> [train:CANCER 1] 145.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "51557e3e936bd42a813a9ccbbf70ce88",
+      "file_pairs": "[train:CANCER] 124.jpeg <==> [train:CANCER 1] 146.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "7726c348a5f091bdf1b1a6efff70327a",
+      "file_pairs": "[train:CANCER] 125.jpeg <==> [train:CANCER 1] 147.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "23fa78174e2ffb81cbe1ef0017c5a3b6",
+      "file_pairs": "[train:CANCER] 127.jpeg <==> [train:CANCER 1] 149.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "9662eb67c254698d40fccc39ae417c59",
+      "file_pairs": "[train:CANCER] 131.jpeg <==> [train:CANCER 1] 151.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "eeb00f61ce0c5612760b7b5f7d79629a",
+      "file_pairs": "[train:CANCER] 133.jpeg <==> [train:CANCER 1] 153.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "afbcaf412b38dbb642037dc2f6c2cd62",
+      "file_pairs": "[train:CANCER] 134.jpeg <==> [train:CANCER 1] 155.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "cd32e94e545413617eaabb2264fbbce2",
+      "file_pairs": "[train:CANCER] 138.jpeg <==> [train:CANCER 1] 159.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "56c75925b456e92c7393da6ff18401c1",
+      "file_pairs": "[train:CANCER] 140.jpeg <==> [train:CANCER 1] 160.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "b29bd4d7ec73f835956b2ee248fbcd70",
+      "file_pairs": "[train:CANCER] 141.jpeg <==> [train:CANCER 1] 161.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "b3d993ccc7c47b3ae2610587b66fa22d",
+      "file_pairs": "[train:CANCER] 142.jpeg <==> [train:CANCER 1] 163.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "137b4ae358a9f2b2bd39ebf3cab22b07",
+      "file_pairs": "[train:CANCER] 144.jpeg <==> [train:CANCER 1] 165.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "d24f5f8a546a9495a9f50cfc808287b8",
+      "file_pairs": "[train:CANCER] 145.jpeg <==> [train:CANCER 1] 166.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "ecc5093df40530af8e71eae8c8af4521",
+      "file_pairs": "[train:CANCER] 146.jpeg <==> [train:CANCER 1] 167.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "e61128251cfc2877ffdc5e6e83f3b68e",
+      "file_pairs": "[train:CANCER] 148.jpeg <==> [train:CANCER 1] 169.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "4dbafb5dfad03825b87045441270b613",
+      "file_pairs": "[train:CANCER] 151.jpeg <==> [train:CANCER 1] 171.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "b04074b490f6da62865d43ccd9031147",
+      "file_pairs": "[train:CANCER] 154.jpeg <==> [train:CANCER 1] 174.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "65c3b771bf30055503bf5f11bbea84c8",
+      "file_pairs": "[train:CANCER] 156.jpeg <==> [train:CANCER 1] 176.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "683fc0d1710ff7746d54460d206696b0",
+      "file_pairs": "[train:CANCER] 158.jpeg <==> [train:CANCER 1] 178.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a9faf01ab12e91d643996e650cc396cc",
+      "file_pairs": "[train:CANCER] 161.jpeg <==> [train:CANCER 1] 180.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "99e1a77e424a9455df536c57a0063c64",
+      "file_pairs": "[train:CANCER] 162.jpeg <==> [train:CANCER 1] 181.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "5ab05f0acf764bf94b253c4a8d7472b1",
+      "file_pairs": "[train:CANCER] 164.jpeg <==> [train:CANCER 1] 184.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "af0e77b6e8fcc4f5479e0879f0c6f925",
+      "file_pairs": "[train:CANCER] 165.jpeg <==> [train:CANCER 1] 185.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "5b7aaa38340c5431807b39e1895e0010",
+      "file_pairs": "[train:CANCER] 166.jpeg <==> [train:CANCER 1] 186.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "70d8bca804cb5f71710362d846219c79",
+      "file_pairs": "[train:CANCER] 169.jpeg <==> [train:CANCER 1] 189.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "1a112bf6dc7228b3ca41cb31d4fa0b7c",
+      "file_pairs": "[train:CANCER] 173.jpeg <==> [train:CANCER 1] 192.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "7f5ae2f426eb47e9d45f6b67c957e54c",
+      "file_pairs": "[train:CANCER] 174.jpeg <==> [train:CANCER 1] 193.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "1cd67562d07cf6f76ce9864a1638bb5b",
+      "file_pairs": "[train:CANCER] 176.jpeg <==> [train:CANCER 1] 195.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "c6a6de178173b7ca6e3ed54352769c67",
+      "file_pairs": "[train:CANCER] 177.jpeg <==> [train:CANCER 1] 196.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "38b8b23e550bac83357d2031fe0ce3b3",
+      "file_pairs": "[train:CANCER] 178.jpeg <==> [train:CANCER 1] 197.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "23265ac8d8b267bd5b4f973692665e1e",
+      "file_pairs": "[train:CANCER] 179.jpeg <==> [train:CANCER 1] 198.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "14c62557dd2fbbd9d190efea5e765d48",
+      "file_pairs": "[train:CANCER] 182.jpeg <==> [train:CANCER 1] 202.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "7577dcf027b87aa4ead9750037f0284d",
+      "file_pairs": "[train:CANCER] 183.jpeg <==> [train:CANCER 1] 203.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a8571afad0a78221d9c9083b180d418e",
+      "file_pairs": "[train:CANCER] 185.jpeg <==> [train:CANCER 1] 206.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "d7b32901dd6a44b60461ee6ff2729ccc",
+      "file_pairs": "[train:CANCER] 186.jpeg <==> [train:CANCER 1] 207.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "24846db78f594eb7c2d8f6a44a04fdb7",
+      "file_pairs": "[train:CANCER] 188.jpeg <==> [train:CANCER 1] 209.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "4133d3889443d0e25b061883af3ba8b8",
+      "file_pairs": "[train:CANCER] 191.jpeg <==> [train:CANCER 1] 211.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "9044557664c4c5066e9dadb5d6028c70",
+      "file_pairs": "[train:CANCER] 192.jpeg <==> [train:CANCER 1] 212.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "f45d40dcd900a2e0ff658191097b087a",
+      "file_pairs": "[train:CANCER] 193.jpeg <==> [train:CANCER 1] 213.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "dcc0b88b5f59595fb7d788ca21c60249",
+      "file_pairs": "[train:CANCER] 196.jpeg <==> [train:CANCER 1] 216.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "df1bfdf8f888bd73dfa320dec97f53dd",
+      "file_pairs": "[train:CANCER] 197.jpeg <==> [train:CANCER 1] 217.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "f3bbcd244d5122323399455a6cc21075",
+      "file_pairs": "[train:CANCER] 199.jpeg <==> [train:CANCER 1] 219.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "0b6dfae67e5e686312001d6a40b9f0a6",
+      "file_pairs": "[train:CANCER] 203.jpeg <==> [train:CANCER 1] 222.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "13d24de63f1d571e69098bb760123fc4",
+      "file_pairs": "[train:CANCER] 204.jpeg <==> [train:CANCER 1] 223.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "89a3cd0087fed4ef51b3836a7fc30625",
+      "file_pairs": "[train:CANCER] 207.jpeg <==> [train:CANCER 1] 227.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "103d0e5025ab12e7000f6d3a458319e7",
+      "file_pairs": "[train:CANCER] 208.jpeg <==> [train:CANCER 1] 228.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "7144d805aaaa6819f621d200811ebf3a",
+      "file_pairs": "[train:CANCER] 212.jpeg <==> [train:CANCER 1] 231.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "69d156a8320166b1e2e36ddf843e6bd3",
+      "file_pairs": "[train:CANCER] 213.jpeg <==> [train:CANCER 1] 232.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "fd528d42b35e6bb3cd653c0bdd69e0c7",
+      "file_pairs": "[train:CANCER] 214.jpeg <==> [train:CANCER 1] 233.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "4796c4a2374c9006842c0d2a91e82e59",
+      "file_pairs": "[train:CANCER] 216.jpeg <==> [train:CANCER 1] 237.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "c3f238d0ba1a9f265f639e06d5ad5bf1",
+      "file_pairs": "[train:CANCER] 219.jpeg <==> [train:CANCER 1] 240.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "03f4be816ac772bad6141d30d95518c8",
+      "file_pairs": "[train:CANCER] 223.jpeg <==> [train:CANCER 1] 245.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "82a156e2cb9c7ad62a9ac627caa70f96",
+      "file_pairs": "[train:CANCER] 225.jpeg <==> [train:CANCER 1] 247.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a112534443ee8fc9ace0e785e428d118",
+      "file_pairs": "[train:CANCER] 226.jpeg <==> [train:CANCER 1] 248.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "daad29da98869bcc9d2eb670f94380db",
+      "file_pairs": "[train:CANCER] 230.jpeg <==> [train:CANCER 1] 251.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "f73d363f0b95c4a81a02bf96a76f0984",
+      "file_pairs": "[train:CANCER] 232.jpeg <==> [train:CANCER 1] 254.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "fd50fa4b36a4d0076af4af05e69e43e3",
+      "file_pairs": "[train:CANCER] 235.jpeg <==> [train:CANCER 1] 257.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "e6c6966cbfc1a2aad0a0bdd06b686065",
+      "file_pairs": "[train:CANCER] 236.jpeg <==> [train:CANCER 1] 258.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "8cff29b5a5392c3ba8a30c9cbce9b02a",
+      "file_pairs": "[train:CANCER] 239.jpeg <==> [train:CANCER 1] 260.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "3a511fde25fb440441794e96e926ac4d",
+      "file_pairs": "[train:CANCER] 241.jpeg <==> [train:CANCER 1] 264.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "d725dfee538ca8ea3c9d2816090f6a47",
+      "file_pairs": "[train:CANCER] 242.jpeg <==> [train:CANCER 1] 265.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "29ee9225c4771e21e7c3927331143fc6",
+      "file_pairs": "[train:CANCER] 243.jpeg <==> [train:CANCER 1] 266.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "7003d5935521ab17a57a2bd58add2d55",
+      "file_pairs": "[train:CANCER] 244.jpeg <==> [train:CANCER 1] 267.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "bac13997ec5a024dd69d8ff739366d6e",
+      "file_pairs": "[train:CANCER] 248.jpeg <==> [train:CANCER 1] 270.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "c21c8bf03bc7bf32201d3b9acfd26dc6",
+      "file_pairs": "[train:CANCER] 250.jpeg <==> [train:CANCER 1] 272.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a74137afd36909e582ee90343679b51b",
+      "file_pairs": "[train:CANCER] 252.jpeg <==> [train:CANCER 1] 276.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "316b98bcbb37df20d25794e131729171",
+      "file_pairs": "[train:CANCER] 254.jpeg <==> [train:CANCER 1] 278.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "abdf4de03fe509305cf3aeccc9a94be4",
+      "file_pairs": "[train:CANCER] 257.jpeg <==> [train:CANCER 1] 280.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "7be65adb076701a0dfe18b4bad4fe2cf",
+      "file_pairs": "[train:CANCER] 261.jpeg <==> [train:CANCER 1] 284.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "2ea4fd51c6ff23222b69db87fae7c329",
+      "file_pairs": "[train:CANCER] 263.jpeg <==> [train:CANCER 1] 286.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "2a6460c54383b22e1a54d9f03e0fb7a6",
+      "file_pairs": "[train:CANCER] 265.jpeg <==> [train:CANCER 1] 288.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "cc37feefb7527ef095a3d1d7172f1ef5",
+      "file_pairs": "[train:CANCER] 266.jpeg <==> [train:CANCER 1] 289.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "e308bbd98dba2e3723dfc1fd47777ec6",
+      "file_pairs": "[train:CANCER] 268.jpeg <==> [train:CANCER 1] 290.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "976e964ae87d73e69292436918b45364",
+      "file_pairs": "[train:CANCER] 269.jpeg <==> [train:CANCER 1] 291.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "d3d5a4d7dbab91acc8910e2de26513cc",
+      "file_pairs": "[train:CANCER] 270.jpeg <==> [train:CANCER 1] 292.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "10e7a14fdf8c34320b94b22d5bf232ae",
+      "file_pairs": "[train:CANCER] 271.jpeg <==> [train:CANCER 1] 294.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "9840af42e2ebc8ad162a891ce56834e2",
+      "file_pairs": "[train:CANCER] 274.jpeg <==> [train:CANCER 1] 301.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "e779e42e2ed6304416a5889a4a8cdcf7",
+      "file_pairs": "[train:CANCER] 275.jpeg <==> [train:CANCER 1] 302.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "0243673c9a7e9f25fbe414f898c3eed5",
+      "file_pairs": "[train:CANCER] 276.jpeg <==> [train:CANCER 1] 303.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "3727f12db1307b6cf74d73b4aca4ab89",
+      "file_pairs": "[train:CANCER] 279.jpeg <==> [train:CANCER 1] 308.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "1c1ccc75c31afbff897266eec0b2c4c0",
+      "file_pairs": "[train:CANCER] 282.jpeg <==> [train:CANCER 1] 313.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "01621a3eb8a41616d5ec24ed156541e5",
+      "file_pairs": "[train:CANCER] 283.jpeg <==> [train:CANCER 1] 314.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "c3b3fc082b34ae221bde80b8c44a64eb",
+      "file_pairs": "[train:CANCER] 285.jpeg <==> [train:CANCER 1] 317.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "10f40c6777c0c52a545e0c00231b1c38",
+      "file_pairs": "[train:CANCER] 286.jpeg <==> [train:CANCER 1] 318.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "691f787b74341fb4e1b610e8d640da9f",
+      "file_pairs": "[train:CANCER] 287.jpeg <==> [train:CANCER 1] 319.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "550a5a22bd881dcaeb9d9fa840dbdfd2",
+      "file_pairs": "[train:CANCER] 289.jpeg <==> [train:CANCER 1] 321.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "b8a9022553797aa52389ce61d9ba94e9",
+      "file_pairs": "[train:CANCER] 290.jpeg <==> [train:CANCER 1] 322.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "9baf776ec3be6bb808521f6e00c85e2f",
+      "file_pairs": "[train:CANCER] 293.jpeg <==> [train:CANCER 1] 331.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "8fa2849a98a1c2b6c266dfd880750882",
+      "file_pairs": "[train:CANCER] 294.jpeg <==> [train:CANCER 1] 333.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "b2e9bd740945d3c64ec3d58a2f855a4b",
+      "file_pairs": "[train:CANCER] 295.jpeg <==> [train:CANCER 1] 334.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "348159973a4ae024e8d953aa96ada830",
+      "file_pairs": "[train:CANCER] 296.jpeg <==> [train:CANCER 1] 335.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "b67b89e7f374f06eb754b3998cc5be1a",
+      "file_pairs": "[train:CANCER] 298.jpeg <==> [train:CANCER 1] 337.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "2d8d52b475d1a3eccfaa5e992349313d",
+      "file_pairs": "[train:CANCER] 299.jpeg <==> [train:CANCER 1] 338.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "f8166cdc59f6213a4d61c8b9393fd720",
+      "file_pairs": "[train:CANCER] 300.jpeg <==> [train:CANCER 1] 339.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "d26ea3794dcbd0f99c6772c539ef3ce9",
+      "file_pairs": "[train:CANCER] 304.jpeg <==> [train:CANCER 1] 343.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "bfde300837e2d4620c6a31fb308ad7ed",
+      "file_pairs": "[train:CANCER] 305.jpeg <==> [train:CANCER 1] 345.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a076a18251230dc605863b6e0512a054",
+      "file_pairs": "[train:CANCER] 306.jpeg <==> [train:CANCER 1] 346.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "cd222d877051a9a5ea88f3fe6c30efb1",
+      "file_pairs": "[train:CANCER] 310.jpeg <==> [train:CANCER 1] 353.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "bd34a1b053d5f07643ccab1ce950952d",
+      "file_pairs": "[train:CANCER] 311.jpeg <==> [train:CANCER 1] 354.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a0c1520a7be13d7c7f75ac7f3ae4801f",
+      "file_pairs": "[train:CANCER] 312.jpeg <==> [train:CANCER 1] 355.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "aa91719ed8bed632f178710bb2b6a377",
+      "file_pairs": "[train:CANCER] 313.jpeg <==> [train:CANCER 1] 356.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "f782d98071058fa0d072f5cd9dfa80f3",
+      "file_pairs": "[train:CANCER] 315.jpeg <==> [train:CANCER 1] 358.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "253922f0ef2bfc6b4f3c0c4843d9b078",
+      "file_pairs": "[train:CANCER] 316.jpeg <==> [train:CANCER 1] 359.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "098890d3c2c0b786f7c8e0264ec20e15",
+      "file_pairs": "[train:CANCER] 318.jpeg <==> [train:CANCER 1] 360.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "9d988524257da385c58814dd4c864c6b",
+      "file_pairs": "[train:CANCER] 319.jpeg <==> [train:CANCER 1] 361.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "e929032f910069243cc93d4baad61b55",
+      "file_pairs": "[train:CANCER] 320.jpeg <==> [train:CANCER 1] 362.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "ca92d44b9f37349bf244f03757b81f4e",
+      "file_pairs": "[train:CANCER] 322.jpeg <==> [train:CANCER 1] 364.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "dc4e97f9c316934cfdfa3bb8c8b8c706",
+      "file_pairs": "[train:CANCER] 323.jpeg <==> [train:CANCER 1] 365.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "eb6fc7b709dea78da0fe09113b431c47",
+      "file_pairs": "[train:CANCER] 325.jpeg <==> [train:CANCER 1] 367.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "7f3c7a11f3013006a71f33d28a8fb12d",
+      "file_pairs": "[train:CANCER] 327.jpeg <==> [train:CANCER 1] 369.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "9c6c94e4a3e1b2afcc8866aab28ab203",
+      "file_pairs": "[train:CANCER] 330.jpeg <==> [train:CANCER 1] 371.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "8b5f0c1bf82ec5eb83bf1707fc14d88e",
+      "file_pairs": "[train:CANCER] 331.jpeg <==> [train:CANCER 1] 373.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "2394b9117a2836c00f245067947ff5e4",
+      "file_pairs": "[train:CANCER] 332.jpeg <==> [train:CANCER 1] 374.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "7a8030cd70e4a1cec6083eaf8da4e995",
+      "file_pairs": "[train:CANCER] 334.jpeg <==> [train:CANCER 1] 376.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a1a8bb1dca35d2ec229e18a84811184c",
+      "file_pairs": "[train:CANCER] 335.jpeg <==> [train:CANCER 1] 377.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "154f75ed6db413cd23a0d53a1fe8f044",
+      "file_pairs": "[train:CANCER] 336.jpeg <==> [train:CANCER 1] 378.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "b57e79d1b7b55a0749809383d7edc571",
+      "file_pairs": "[train:CANCER] 337.jpeg <==> [train:CANCER 1] 379.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "e6b95d2010d4c3774ee86e2ee8c47646",
+      "file_pairs": "[train:CANCER] 342.jpeg <==> [train:CANCER 1] 388.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "8a662961ec45d49160effa2cdbec517b",
+      "file_pairs": "[train:CANCER] 346.jpeg <==> [train:CANCER 1] 395.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "cce751b5a8afac21be96cb2cb9b0b4a0",
+      "file_pairs": "[train:CANCER] 347.jpeg <==> [train:CANCER 1] 396.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "aa924e870e3e95c24e85490404465837",
+      "file_pairs": "[train:CANCER] 352.jpeg <==> [train:CANCER 1] 401.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "7a875648c03d013e65a3f1ac152df4ab",
+      "file_pairs": "[train:CANCER] 354.jpeg <==> [train:CANCER 1] 403.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "22a9df6240ff7c9a87bd736d4831d870",
+      "file_pairs": "[train:CANCER] 355.jpeg <==> [train:CANCER 1] 404.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "c5db5a3257ee8e4ff8f3f7fa1b984e7e",
+      "file_pairs": "[train:CANCER] 359.jpeg <==> [train:CANCER 1] 413.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "bb74d6e885273a2492e6a8ba350a1a89",
+      "file_pairs": "[train:CANCER] 361.jpeg <==> [train:CANCER 1] 420.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "aef38f1d18cbebabce997dd97a5f686f",
+      "file_pairs": "[train:CANCER] 362.jpeg <==> [train:CANCER 1] 421.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "067101a6551931801424f2ca1ec3448f",
+      "file_pairs": "[train:CANCER] 363.jpeg <==> [train:CANCER 1] 422.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "d6f0c5a8871184b0b9eae1b9bfa46918",
+      "file_pairs": "[train:CANCER] 364.jpeg <==> [train:CANCER 1] 428.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "9f6c25e39e1e66b8dfb461b449859239",
+      "file_pairs": "[train:CANCER] 365.jpeg <==> [train:CANCER 1] 429.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "4fa3f537a0d72892c1eb8aad57d17ac1",
+      "file_pairs": "[train:CANCER] 369.jpeg <==> [train:CANCER 1] 435.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "848f37526e1f4e9bb1c64d0e31af3b3d",
+      "file_pairs": "[train:CANCER] 370.jpeg <==> [train:CANCER 1] 436.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "53b0bcc33df26deafbc564f2d8b32358",
+      "file_pairs": "[train:CANCER] 371.jpeg <==> [train:CANCER 1] 437.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "c6e59ac8d6c2be407f819a3a9b4845c4",
+      "file_pairs": "[train:CANCER] 372.jpeg <==> [train:CANCER 1] 438.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "860f192c6b9a3b67a0ca08c2e58ca032",
+      "file_pairs": "[train:CANCER] 374.jpeg <==> [train:CANCER 1] 483.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "1925a4c198cff1e6bb24cd064b4946a1",
+      "file_pairs": "[train:CANCER] 378.jpeg <==> [train:CANCER 1] 443.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "fd7e74a48fc5e9777467052f2125b2a1",
+      "file_pairs": "[train:CANCER] 379.jpeg <==> [train:CANCER 1] 444.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "0eba28c6959ee67b8341ad017873c5cc",
+      "file_pairs": "[train:CANCER] 380.jpeg <==> [train:CANCER 1] 445.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "aead7e292e60cfd04089febb84da2504",
+      "file_pairs": "[train:CANCER] 381.jpeg <==> [train:CANCER 1] 446.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "4353c16a6f0f0e6a0463ee35dd9fb09a",
+      "file_pairs": "[train:CANCER] 382.jpeg <==> [train:CANCER 1] 447.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "4c71bfedbc67211944666b3d9d33fc4f",
+      "file_pairs": "[train:CANCER] 383.jpeg <==> [train:CANCER 1] 448.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "361403898ebc9537356689f338fbd938",
+      "file_pairs": "[train:CANCER] 386.jpeg <==> [train:CANCER 1] 450.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "36a3fbd53fb6df334e9f59bb0cc7c51f",
+      "file_pairs": "[train:CANCER] 389.jpeg <==> [train:CANCER 1] 453.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "48014ad7c64ad1436097dcfb34167d0a",
+      "file_pairs": "[train:CANCER] 390.jpeg <==> [train:CANCER 1] 454.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "eb6102037a4d268f22c3233b75f4ed7a",
+      "file_pairs": "[train:CANCER] 391.jpeg <==> [train:CANCER 1] 455.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "fd64a760f7f1fa5822cc197ba43f05d4",
+      "file_pairs": "[train:CANCER] 392.jpeg <==> [train:CANCER 1] 456.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "120b03e0b10c8d7500ef4111639e1403",
+      "file_pairs": "[train:CANCER] 394.jpeg <==> [train:CANCER 1] 458.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a16efd6c43debc20b327a8243b26470d",
+      "file_pairs": "[train:CANCER] 400.jpeg <==> [train:CANCER 1] 463.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "cc3dcbb73a3fc734506f85c012bc91b7",
+      "file_pairs": "[train:CANCER] 401.jpeg <==> [train:CANCER 1] 464.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "e355c77e683c13e592918ef12697dc33",
+      "file_pairs": "[train:CANCER] 402.jpeg <==> [train:CANCER 1] 465.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "1eba440b208039714ad46608f135b56e",
+      "file_pairs": "[train:CANCER] 405.jpeg <==> [train:CANCER 1] 468.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "37362588d46e9cbbaba824ceb9249322",
+      "file_pairs": "[train:CANCER] 406.jpeg <==> [train:CANCER 1] 469.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a7463f012860c67340d59f60afc9433f",
+      "file_pairs": "[train:CANCER] 409.jpeg <==> [train:CANCER 1] 471.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "902aee8be97b77a980fad82118c0b905",
+      "file_pairs": "[train:CANCER] 410.jpeg <==> [train:CANCER 1] 473.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "9115b5901c878e892916aa2be1981a21",
+      "file_pairs": "[train:CANCER] 413.jpeg <==> [train:CANCER 1] 479.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "abf634164ce29f57d39637d59cd7face",
+      "file_pairs": "[train:CANCER] 416.jpeg <==> [train:CANCER 1] 481.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "4e36ce2f7a06273bcedfa47a5a4b6580",
+      "file_pairs": "[train:CANCER] 421.jpeg <==> [train:CANCER 1] 487.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "4d736a006ee1905da3f80729f2a84288",
+      "file_pairs": "[train:CANCER] 422.jpeg <==> [train:CANCER 1] 488.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "2721da1a4592a60ae6aaa0f63804ea36",
+      "file_pairs": "[train:CANCER] 425.jpeg <==> [train:CANCER 1] 490.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "74f1e32fe3591df5f181a29caeaca7ae",
+      "file_pairs": "[train:CANCER] 426.jpeg <==> [train:CANCER 1] 491.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "8deb0ca37792c95a3f5ee86026c6729f",
+      "file_pairs": "[train:CANCER] 427.jpeg <==> [train:CANCER 1] 492.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "5cd42cdb8d9dde7b4d4872a69b5dc8fc",
+      "file_pairs": "[train:CANCER] 430.jpeg <==> [train:CANCER 1] 495.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "30179a3e25b9a19fdc5f95df131545be",
+      "file_pairs": "[train:CANCER] 432.jpeg <==> [train:CANCER 1] 497.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "0d17d406bc9831a46079b722ea3c77f3",
+      "file_pairs": "[train:CANCER] 434.jpeg <==> [train:CANCER 1] 499.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "62a2ccebd442cdf1dd5e8682a475e3ba",
+      "file_pairs": "[train:CANCER] 437.jpeg <==> [train:CANCER 1] 500.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "00b5c56942f93a4b429141aceb71698b",
+      "file_pairs": "[train:CANCER 1] 001.jpeg <==> [train:NON CANCER 2] 014.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "3871fb99c4c1822005df66291336b2b3",
+      "file_pairs": "[train:NON CANCER] 003.jpeg <==> [train:NON CANCER 2] 003.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "af95d0009435af19bcb83f661f2c6bb0",
+      "file_pairs": "[train:NON CANCER] 004.jpeg <==> [train:NON CANCER 2] 005.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "0d3dd6d38b8a166fb1871ad5fedc0b7f",
+      "file_pairs": "[train:NON CANCER] 005.jpeg <==> [train:NON CANCER 2] 009.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "1da0ccb487b4e617422852b00f7cb4ef",
+      "file_pairs": "[train:NON CANCER] 006.jpeg <==> [train:NON CANCER 2] 010.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "c271574fb1b0bf5a6ae40d689c4de66d",
+      "file_pairs": "[train:NON CANCER] 007.jpeg <==> [train:NON CANCER 2] 011.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "426a070d437318bf15fe6eed9d5046a9",
+      "file_pairs": "[train:NON CANCER] 008.jpeg <==> [train:NON CANCER 2] 013.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "10a10daf6bf73beb8aa79f4a286f6419",
+      "file_pairs": "[train:NON CANCER] 009.jpeg <==> [train:NON CANCER 2] 015.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "304d96de7c3043289980bdb375514738",
+      "file_pairs": "[train:NON CANCER] 010.jpeg <==> [train:NON CANCER 2] 016.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "92f7aaf211ffc951bce2a46134ca7ce4",
+      "file_pairs": "[train:NON CANCER] 011.jpeg <==> [train:NON CANCER 2] 017.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "f4e4a60ca655f7158fd3c823de4ea511",
+      "file_pairs": "[train:NON CANCER] 012.jpeg <==> [train:NON CANCER 2] 018.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "3b8f3921792b8e32601d691f4375dad0",
+      "file_pairs": "[train:NON CANCER] 014.jpeg <==> [train:NON CANCER 2] 020.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "dd6e7ddc5fc136bafc672037f2df372b",
+      "file_pairs": "[train:NON CANCER] 015.jpeg <==> [train:NON CANCER 2] 021.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "d89825ca5a87898bea909178a5a6120e",
+      "file_pairs": "[train:NON CANCER] 016.jpeg <==> [train:NON CANCER 2] 022.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "b4713097dc904f74870fbefb1b538e14",
+      "file_pairs": "[train:NON CANCER] 017.jpeg <==> [train:NON CANCER 2] 023.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "21cd2c9b2b567964693c04f3508fc68a",
+      "file_pairs": "[train:NON CANCER] 018.jpeg <==> [train:NON CANCER 2] 025.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "92750b140024f03b39e54ab8cb952075",
+      "file_pairs": "[train:NON CANCER] 019.jpeg <==> [train:NON CANCER 2] 026.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "50f4a9f56181be9b12e6de5d8dd0ca4e",
+      "file_pairs": "[train:NON CANCER] 020.jpeg <==> [train:NON CANCER 2] 027.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "316432cbec4c54b765587959fdb62db2",
+      "file_pairs": "[train:NON CANCER] 021.jpeg <==> [train:NON CANCER 2] 028.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "5bfb7ce257e3b2b3282fc4b842b827ea",
+      "file_pairs": "[train:NON CANCER] 022.jpeg <==> [train:NON CANCER 2] 029.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "e452c0ebc70cb4d3a3e74d6e041d8798",
+      "file_pairs": "[train:NON CANCER] 023.jpeg <==> [train:NON CANCER 2] 030.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "bfcbe1975d3d886c298bab41a9bbe5f5",
+      "file_pairs": "[train:NON CANCER] 024.jpeg <==> [train:NON CANCER 2] 033.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "39eab37d91b57baac55d8b91d63f68c0",
+      "file_pairs": "[train:NON CANCER] 026.jpeg <==> [train:NON CANCER 2] 038.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "f20d5b8f6ebcdd0b8326eef9cb73fd84",
+      "file_pairs": "[train:NON CANCER] 027.jpeg <==> [train:NON CANCER 2] 039.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "4493c04b453ad290ea39f2c56f455a99",
+      "file_pairs": "[train:NON CANCER] 029.jpeg <==> [train:NON CANCER 2] 041.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "ac150d77bc9057057a81cb1822a49433",
+      "file_pairs": "[train:NON CANCER] 030.jpeg <==> [train:NON CANCER 2] 042.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "f3fbd08e049c09c6dd28f9ef2b394b12",
+      "file_pairs": "[train:NON CANCER] 037.jpeg <==> [train:NON CANCER 2] 050.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "6871e0ca62c236047c60929dabf532dc",
+      "file_pairs": "[train:NON CANCER] 039.jpeg <==> [train:NON CANCER 2] 052.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "0b75176b14daf31c0b4e85547dacf239",
+      "file_pairs": "[train:NON CANCER] 042.jpeg <==> [train:NON CANCER 2] 056.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "4e0781e273fecd716fd71202c28c3319",
+      "file_pairs": "[train:NON CANCER] 043.jpeg <==> [train:NON CANCER 2] 057.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "1bd6f77ec290edd054f3ee52e355101a",
+      "file_pairs": "[train:NON CANCER] 045.jpeg <==> [train:NON CANCER 2] 059.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "656542f2b41a9b97567d2160f046df7a",
+      "file_pairs": "[train:NON CANCER] 046.jpeg <==> [train:NON CANCER 2] 060.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "3115a08eac06097de4021954b34260d3",
+      "file_pairs": "[train:NON CANCER] 047.jpeg <==> [train:NON CANCER 2] 061.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "cf77925a5b00faa6b5b31f4f30b3f059",
+      "file_pairs": "[train:NON CANCER] 051.jpeg <==> [train:NON CANCER 2] 065.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "34aa566402df62539348023dd45dcad9",
+      "file_pairs": "[train:NON CANCER] 053.jpeg <==> [train:NON CANCER 2] 067.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "5dc841c5439c45b252482fcd262a243c",
+      "file_pairs": "[train:NON CANCER] 054.jpeg <==> [train:NON CANCER 2] 068.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "8b9daa37ca78f9adbdc39fc15c69a9d2",
+      "file_pairs": "[train:NON CANCER] 055.jpeg <==> [train:NON CANCER 2] 069.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "5eed9ae7272f5532afc0d27b1d292f11",
+      "file_pairs": "[train:NON CANCER] 056.jpeg <==> [train:NON CANCER 2] 070.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "0ef4689f2cb52c5fc2af8e830e02f4ef",
+      "file_pairs": "[train:NON CANCER] 059.jpeg <==> [train:NON CANCER 2] 074.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "73c5fcf245443ba19950854bc9a0d7a7",
+      "file_pairs": "[train:NON CANCER] 060.jpeg <==> [train:NON CANCER 2] 075.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "eaeb19ee459587068adc680c4919eb70",
+      "file_pairs": "[train:NON CANCER] 062.jpeg <==> [train:NON CANCER 2] 077.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "b9400da7b42d2e2124c406db4836e83d",
+      "file_pairs": "[train:NON CANCER] 063.jpeg <==> [train:NON CANCER 2] 078.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "fb2bb588c55c42e6b263c9227c92a25a",
+      "file_pairs": "[train:NON CANCER] 064.jpeg <==> [train:NON CANCER 2] 079.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "fc7e5bf6f15fa65f834bcb99b832d632",
+      "file_pairs": "[train:NON CANCER] 065.jpeg <==> [train:NON CANCER 2] 080.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "abe1bc659c011fc0098c2d059b175789",
+      "file_pairs": "[train:NON CANCER] 066.jpeg <==> [train:NON CANCER 2] 081.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "9ee4674b218c36b00d4a49949a46235e",
+      "file_pairs": "[train:NON CANCER] 067.jpeg <==> [train:NON CANCER 2] 082.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "95b611c6efa86154bb7275c5367d2bd5",
+      "file_pairs": "[train:NON CANCER] 068.jpeg <==> [train:NON CANCER 2] 083.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "714b2fd34fbb6598bc6160af0e640e57",
+      "file_pairs": "[train:NON CANCER] 070.jpeg <==> [train:NON CANCER 2] 085.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a123a2ebc560157bed7cc4dc86f927c9",
+      "file_pairs": "[train:NON CANCER] 075.jpeg <==> [train:NON CANCER 2] 091.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "784fa7e2795042fbdf8b7f5dd39cb53e",
+      "file_pairs": "[train:NON CANCER] 076.jpeg <==> [train:NON CANCER 2] 092.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "be2a0ae3d32041e0fc6a26e7fb6da299",
+      "file_pairs": "[train:NON CANCER] 078.jpeg <==> [train:NON CANCER 2] 094.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "bb3a72b51b1cad8cb83c66cfe5e34280",
+      "file_pairs": "[train:NON CANCER] 079.jpeg <==> [train:NON CANCER 2] 095.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "5f6262947961941163848b12d2709ad5",
+      "file_pairs": "[train:NON CANCER] 081.jpeg <==> [train:NON CANCER 2] 097.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a62dd8d5c2fe8d3651d552d5bbdf1519",
+      "file_pairs": "[train:NON CANCER] 082.jpeg <==> [train:NON CANCER 2] 098.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "d72ff10d6bd472c534781b1dd2d07a46",
+      "file_pairs": "[train:NON CANCER] 083.jpeg <==> [train:NON CANCER 2] 099.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a8a43e71c569ecde78e0be80483653b8",
+      "file_pairs": "[train:NON CANCER] 085.jpeg <==> [train:NON CANCER 2] 101.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "6be68b4f41c87453c30f6bb374f5b0ce",
+      "file_pairs": "[train:NON CANCER] 086.jpeg <==> [train:NON CANCER 2] 102.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "9a2b517ec5f48aad5e29c95be35c9022",
+      "file_pairs": "[train:NON CANCER] 087.jpeg <==> [train:NON CANCER 2] 103.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "af62e9642d1adf6f4bbae27e346e2b05",
+      "file_pairs": "[train:NON CANCER] 090.jpeg <==> [train:NON CANCER 2] 107.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "afa169be0192d2e392895f26142c48f1",
+      "file_pairs": "[train:NON CANCER] 091.jpeg <==> [train:NON CANCER 2] 108.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "305fb94f88663d9630f039602d937ad4",
+      "file_pairs": "[train:NON CANCER] 092.jpeg <==> [train:NON CANCER 2] 109.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "d6f0665880b303939907438a0332e91e",
+      "file_pairs": "[train:NON CANCER] 095.jpeg <==> [train:NON CANCER 2] 112.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "e7db05138206d11098075701170c440c",
+      "file_pairs": "[train:NON CANCER] 096.jpeg <==> [train:NON CANCER 2] 113.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "9ee63b0e9dd06e5e486f722c0344ca73",
+      "file_pairs": "[train:NON CANCER] 099.jpeg <==> [train:NON CANCER 2] 114.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "fe7bc008b4bc42092be75e731db41e9a",
+      "file_pairs": "[train:NON CANCER] 101.jpeg <==> [train:NON CANCER 2] 116.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "962f0fa988eba7709576e3b11e8bb305",
+      "file_pairs": "[train:NON CANCER] 104.jpeg <==> [train:NON CANCER 2] 119.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a6564c3fc7abc2dd40b6a5e383892125",
+      "file_pairs": "[train:NON CANCER] 106.jpeg <==> [train:NON CANCER 2] 121.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "7087042b61dafb650f0a6b57689e888b",
+      "file_pairs": "[train:NON CANCER] 108.jpeg <==> [train:NON CANCER 2] 124.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "15e6ad4c70523396b0397f74fa0d108f",
+      "file_pairs": "[train:NON CANCER] 110.jpeg <==> [train:NON CANCER 2] 126.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a4f312b54466c81ea2723ac7692f87c9",
+      "file_pairs": "[train:NON CANCER] 111.jpeg <==> [train:NON CANCER 2] 127.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "0c9d3bd021e7291f96365feff004d89a",
+      "file_pairs": "[train:NON CANCER] 112.jpeg <==> [train:NON CANCER 2] 128.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "c383a1b95eac97cc9b1c243bd32aac61",
+      "file_pairs": "[train:NON CANCER] 113.jpeg <==> [train:NON CANCER 2] 129.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "f0a907525bdf0105d9c0b6cfee6f62e8",
+      "file_pairs": "[train:NON CANCER] 114.jpeg <==> [train:NON CANCER 2] 130.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "93354c4c91563dabce6e9de50069e4fe",
+      "file_pairs": "[train:NON CANCER] 116.jpeg <==> [train:NON CANCER 2] 132.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "643f0535eef9b71ff49ce540eac7ed99",
+      "file_pairs": "[train:NON CANCER] 119.jpeg <==> [train:NON CANCER 2] 135.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "1fbda07668526d327cdfa8d6c203cc8a",
+      "file_pairs": "[train:NON CANCER] 122.jpeg <==> [train:NON CANCER 2] 138.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "8d87c46ce444ad454caf3131a789521a",
+      "file_pairs": "[train:NON CANCER] 125.jpeg <==> [train:NON CANCER 2] 141.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "43cc7d2695d902457bcd7de4140d24d1",
+      "file_pairs": "[train:NON CANCER] 126.jpeg <==> [train:NON CANCER 2] 142.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "27875c7892160bf96b72f9327565c021",
+      "file_pairs": "[train:NON CANCER] 129.jpeg <==> [train:NON CANCER 2] 145.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "338339e9f68a5c823211c9282e96049c",
+      "file_pairs": "[train:NON CANCER] 131.jpeg <==> [train:NON CANCER 2] 147.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "cf679c5f205e38d6cb3640f41db80e58",
+      "file_pairs": "[train:NON CANCER] 133.jpeg <==> [train:NON CANCER 2] 149.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "62371c5f4cf1692e6a777d4c4664ffc2",
+      "file_pairs": "[train:NON CANCER] 134.jpeg <==> [train:NON CANCER 2] 150.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "b7181cfb99db92d393bd472dea83934f",
+      "file_pairs": "[train:NON CANCER] 135.jpeg <==> [train:NON CANCER 2] 151.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "06cfdfaf7c174c28c92afb0db3f494b4",
+      "file_pairs": "[train:NON CANCER] 136.jpeg <==> [train:NON CANCER 2] 152.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "c55c4453fddc06eebf9e4b08597dd62f",
+      "file_pairs": "[train:NON CANCER] 138.jpeg <==> [train:NON CANCER 2] 154.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "c7e43101620f3ea607e4d163b9f7ee37",
+      "file_pairs": "[train:NON CANCER] 140.jpeg <==> [train:NON CANCER 2] 156.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "ca66750b79ffc5f5d6400cea8076a27a",
+      "file_pairs": "[train:NON CANCER] 141.jpeg <==> [train:NON CANCER 2] 157.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "5a88aa7215c3549e864303c356f8b79a",
+      "file_pairs": "[train:NON CANCER] 144.jpeg <==> [train:NON CANCER 2] 160.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "97f17ab0be0a0316a233341d7c147be4",
+      "file_pairs": "[train:NON CANCER] 145.jpeg <==> [train:NON CANCER 2] 161.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "fa886e6ef1dde385c957f063808bffc7",
+      "file_pairs": "[train:NON CANCER] 146.jpeg <==> [train:NON CANCER 2] 162.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a9fc2577f8665f1cb021e1f47265929b",
+      "file_pairs": "[train:NON CANCER] 147.jpeg <==> [train:NON CANCER 2] 163.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "ecef749f34482a06a80a0c5798fb266f",
+      "file_pairs": "[train:NON CANCER] 148.jpeg <==> [train:NON CANCER 2] 164.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "45b79f6fbc68747e94d6fcb0ed2221d9",
+      "file_pairs": "[train:NON CANCER] 150.jpeg <==> [train:NON CANCER 2] 166.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "7525ca40152d79ce99c090035ca8e4ce",
+      "file_pairs": "[train:NON CANCER] 151.jpeg <==> [train:NON CANCER 2] 167.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "9845f5f81923d3ea61357caa331d010e",
+      "file_pairs": "[train:NON CANCER] 152.jpeg <==> [train:NON CANCER 2] 168.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "617093ca6906c18ab7ee3e76bb0857ee",
+      "file_pairs": "[train:NON CANCER] 153.jpeg <==> [train:NON CANCER 2] 169.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "d77cf72712d69f20ddf42220559b223a",
+      "file_pairs": "[train:NON CANCER] 155.jpeg <==> [train:NON CANCER 2] 171.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "32965415725fec9cfc642588e7514c0d",
+      "file_pairs": "[train:NON CANCER] 156.jpeg <==> [train:NON CANCER 2] 172.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "7be68cabdfe98a6b1ca1ca41a8599e5b",
+      "file_pairs": "[train:NON CANCER] 158.jpeg <==> [train:NON CANCER 2] 174.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "71524760075594408f11ae781a14afbb",
+      "file_pairs": "[train:NON CANCER] 159.jpeg <==> [train:NON CANCER 2] 175.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "5a7b91e44f87238b32ad2e1f93bc77f6",
+      "file_pairs": "[train:NON CANCER] 160.jpeg <==> [train:NON CANCER 2] 176.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "96f79fd549ff04d69efff9127c20074b",
+      "file_pairs": "[train:NON CANCER] 163.jpeg <==> [train:NON CANCER 2] 179.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "8d67e5a29369b6492a39b50f656ab846",
+      "file_pairs": "[train:NON CANCER] 164.jpeg <==> [train:NON CANCER 2] 180.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "af84dd50970b24e468e1c4ba51b738cb",
+      "file_pairs": "[train:NON CANCER] 165.jpeg <==> [train:NON CANCER 2] 181.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "5b0711d0072a61b7de7fd2911b3ce995",
+      "file_pairs": "[train:NON CANCER] 166.jpeg <==> [train:NON CANCER 2] 182.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "9f2d5073d454d88a823ded622929d919",
+      "file_pairs": "[train:NON CANCER] 167.jpeg <==> [train:NON CANCER 2] 183.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "ece98800a1151a6a86c5875b18ffbd5e",
+      "file_pairs": "[train:NON CANCER] 169.jpeg <==> [train:NON CANCER 2] 185.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "5c1ee48f132a8004e1a3866ee1c999c8",
+      "file_pairs": "[train:NON CANCER] 170.jpeg <==> [train:NON CANCER 2] 186.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "b56e5df967ae2e8694b398b729114813",
+      "file_pairs": "[train:NON CANCER] 172.jpeg <==> [train:NON CANCER 2] 188.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "8e2c6f020d9fd604be92d35e53638461",
+      "file_pairs": "[train:NON CANCER] 174.jpeg <==> [train:NON CANCER 2] 190.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "fe4333abee5fc86c48ee42773b7824e6",
+      "file_pairs": "[train:NON CANCER] 175.jpeg <==> [train:NON CANCER 2] 191.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "b7cbb1592aad3990578545030fbb68e8",
+      "file_pairs": "[train:NON CANCER] 176.jpeg <==> [train:NON CANCER 2] 192.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "6123f90d6b4dfcedefb7fbe456429a73",
+      "file_pairs": "[train:NON CANCER] 179.jpeg <==> [train:NON CANCER 2] 195.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "730c4ecd0740506f933e5cb46e9a9ed8",
+      "file_pairs": "[train:NON CANCER] 184.jpeg <==> [train:NON CANCER 2] 200.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a99245e0c131f352007027540b25a77e",
+      "file_pairs": "[train:NON CANCER] 185.jpeg <==> [train:NON CANCER 2] 201.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "235c1873cf86434156c7545788ff5613",
+      "file_pairs": "[train:NON CANCER] 186.jpeg <==> [train:NON CANCER 2] 202.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "ebe36c34bcd2432dc9b0cffec961965a",
+      "file_pairs": "[train:NON CANCER] 191.jpeg <==> [train:NON CANCER 2] 207.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "49bb94aeb4b2dee4f0c2246e5a4eda7c",
+      "file_pairs": "[train:NON CANCER] 192.jpeg <==> [train:NON CANCER 2] 208.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "4234fe8e028f3bb69c4ee477aceca3f4",
+      "file_pairs": "[train:NON CANCER] 193.jpeg <==> [train:NON CANCER 2] 209.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "ae455e8fecf7187d2cc06cbf777a6b67",
+      "file_pairs": "[train:NON CANCER] 196.jpeg <==> [train:NON CANCER 2] 213.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "b7e81c3c64afa2eacff2fb1452c157ad",
+      "file_pairs": "[train:NON CANCER] 198.jpeg <==> [train:NON CANCER 2] 215.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "49f1254b64c52caf7516b84a517e32f8",
+      "file_pairs": "[train:NON CANCER] 199.jpeg <==> [train:NON CANCER 2] 216.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "aa41c293901ca68dec3ee571f16e1fd4",
+      "file_pairs": "[train:NON CANCER] 200.jpeg <==> [train:NON CANCER 2] 217.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "2bcfc29b9697f3f8af21361aed451afb",
+      "file_pairs": "[train:NON CANCER] 202.jpeg <==> [train:NON CANCER 2] 219.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "6b48cc0101d4173f802aa42b55e583a4",
+      "file_pairs": "[train:NON CANCER] 207.jpeg <==> [train:NON CANCER 2] 224.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "8c4ce38823ecd5dc287fa883f392199f",
+      "file_pairs": "[train:NON CANCER] 210.jpeg <==> [train:NON CANCER 2] 227.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "64b372c67449ff6e0bb4285957acc5e7",
+      "file_pairs": "[train:NON CANCER] 211.jpeg <==> [train:NON CANCER 2] 228.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "743368bcfad62e24c27f3c673ba9eb5d",
+      "file_pairs": "[train:NON CANCER] 212.jpeg <==> [train:NON CANCER 2] 229.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "77dc09e85dcdf8f4e1940af8cbb8cf73",
+      "file_pairs": "[train:NON CANCER] 213.jpeg <==> [train:NON CANCER 2] 230.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "4d62208f4172bae66f1b7e719027f02d",
+      "file_pairs": "[train:NON CANCER] 215.jpeg <==> [train:NON CANCER 2] 232.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "9874ad58701737fc78a633e76e09d50d",
+      "file_pairs": "[train:NON CANCER] 217.jpeg <==> [train:NON CANCER 2] 233.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a89d9b08cfd7316277c65203349009c8",
+      "file_pairs": "[train:NON CANCER] 218.jpeg <==> [train:NON CANCER 2] 234.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "354de1b1fcc483f9b9641e7e5047ed24",
+      "file_pairs": "[train:NON CANCER] 219.jpeg <==> [train:NON CANCER 2] 235.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "86ae2b2ec6abcf0f29b7a53043320c77",
+      "file_pairs": "[train:NON CANCER] 220.jpeg <==> [train:NON CANCER 2] 236.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "a40ce4dc29ef182bace3f4a6ed3dc62e",
+      "file_pairs": "[train:NON CANCER] 223.jpeg <==> [train:NON CANCER 2] 239.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "9aaa6125adacb0dc978cd2706002c8a8",
+      "file_pairs": "[train:NON CANCER] 224.jpeg <==> [train:NON CANCER 2] 240.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "f2d1af713251eee617165860e1caca3f",
+      "file_pairs": "[train:NON CANCER] 225.jpeg <==> [train:NON CANCER 2] 241.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "db3c49bafe6dd5032d920e5b1879ef79",
+      "file_pairs": "[train:NON CANCER] 228.jpeg <==> [train:NON CANCER 2] 244.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "e743d852ea18f784b917a1e021ef6187",
+      "file_pairs": "[train:NON CANCER] 230.jpeg <==> [train:NON CANCER 2] 246.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "22d6ce8a1733d2db05b293c51e35f1e7",
+      "file_pairs": "[train:NON CANCER] 231.jpeg <==> [train:NON CANCER 2] 248.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "26e2222d2b3d4e8114b92dc405c5a325",
+      "file_pairs": "[train:NON CANCER] 232.jpeg <==> [train:NON CANCER 2] 249.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "3d8918bddefc1b8f8c92575c264981f9",
+      "file_pairs": "[validation:CANCER] 026.jpeg <==> [validation:CANCER 1] 034.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "3705aa7623b636669fdc4a991bdb5d56",
+      "file_pairs": "[validation:CANCER] 205.jpeg <==> [validation:CANCER 1] 225.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "8ee34a500f731097a066d4815c77995f",
+      "file_pairs": "[validation:CANCER] 215.jpeg <==> [validation:CANCER 1] 234.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "fdc98b41f52d2689d310c359e8c28733",
+      "file_pairs": "[validation:NON CANCER] 044.jpeg <==> [validation:NON CANCER 2] 058.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "d030aeb30121bd903cc80c7a8d4ea571",
+      "file_pairs": "[validation:NON CANCER] 221.jpeg <==> [validation:NON CANCER 2] 237.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "232af8077a63a27ebd4db23cbe90f477",
+      "file_pairs": "[validation:NON CANCER] 233.jpeg <==> [validation:NON CANCER 2] 250.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "dfe2c25f2a7149f705132cd172be523a",
+      "file_pairs": "[test:CANCER] 041.jpeg <==> [test:CANCER 1] 053.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "9226b2277b05ddad5bfe903b98257243",
+      "file_pairs": "[test:CANCER] 093.jpeg <==> [test:CANCER 1] 111.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "bc19d01f29016fd004b5bee27edf4d68",
+      "file_pairs": "[test:CANCER] 152.jpeg <==> [test:CANCER 1] 172.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "7cce1f3abacb42616edf114d9efd832d",
+      "file_pairs": "[test:CANCER] 278.jpeg <==> [test:CANCER 1] 307.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "21f1154e877d4ec9407d8d4af1dcaf22",
+      "file_pairs": "[test:NON CANCER] 117.jpeg <==> [test:NON CANCER 2] 133.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "94cd3e8dffa02845c810ce6ffe5ae62c",
+      "file_pairs": "[test:NON CANCER] 188.jpeg <==> [test:NON CANCER 2] 204.jpeg"
+    },
+    {
+      "dataset": "oral",
+      "leakage_category": "WITHIN_SPLIT_DUPLICATE",
+      "duplicate_count": 2,
+      "md5_hash": "3b1ba312b7c4f4b378a0a3b7dcc646c4",
+      "file_pairs": "[test:NON CANCER] 208.jpeg <==> [test:NON CANCER 2] 225.jpeg"
+    }
+  ]
+}

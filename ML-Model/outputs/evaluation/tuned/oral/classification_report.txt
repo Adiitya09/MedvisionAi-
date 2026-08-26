@@ -1,0 +1,9 @@
+Class                         Precision    Recall  F1-score   Support
+CANCER                          0.4595    0.3469    0.3953        49
+CANCER 1                        0.4444    0.4898    0.4660        49
+NON CANCER                      0.5270    0.8478    0.6500        46
+NON CANCER 2                    0.6000    0.1154    0.1935        26
+macro avg                       0.5077    0.4500    0.4262       170
+weighted avg                    0.4949    0.4882    0.4538       170
+
+Accuracy: 0.4882

@@ -1,0 +1,171 @@
+image_path,true_class,predicted_class,predicted_probability,correct
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\041.jpeg,CANCER,CANCER,0.35799295,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\061.jpeg,CANCER,CANCER,0.51378793,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\070.jpeg,CANCER,NON CANCER,0.37948018,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\077.jpeg,CANCER,CANCER 1,0.49785915,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\083.jpeg,CANCER,CANCER 1,0.44150379,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\093.jpeg,CANCER,CANCER 1,0.48736498,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\101.jpeg,CANCER,CANCER,0.40663925,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\107.jpeg,CANCER,CANCER 1,0.45199531,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\110.jpeg,CANCER,CANCER,0.40426973,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\112.jpeg,CANCER,CANCER 1,0.45807067,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\114.jpeg,CANCER,CANCER 1,0.72626978,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\116.jpeg,CANCER,CANCER 1,0.73600733,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\121.jpeg,CANCER,CANCER 1,0.55671149,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\126.jpeg,CANCER,CANCER,0.41227371,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\135.jpeg,CANCER,CANCER 1,0.50508344,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\137.jpeg,CANCER,CANCER 1,0.53125590,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\147.jpeg,CANCER,CANCER 1,0.58126551,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\152.jpeg,CANCER,CANCER 1,0.51646197,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\157.jpeg,CANCER,CANCER 1,0.77174234,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\168.jpeg,CANCER,CANCER 1,0.52117407,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\175.jpeg,CANCER,CANCER 1,0.56350696,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\181.jpeg,CANCER,CANCER 1,0.45325652,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\187.jpeg,CANCER,CANCER,0.44872606,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\211.jpeg,CANCER,CANCER,0.52249813,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\246.jpeg,CANCER,CANCER 1,0.58118808,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\249.jpeg,CANCER,CANCER 1,0.61188132,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\251.jpeg,CANCER,CANCER,0.64610863,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\255.jpeg,CANCER,CANCER 1,0.67321008,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\258.jpeg,CANCER,CANCER,0.55681950,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\259.jpeg,CANCER,CANCER,0.57106251,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\278.jpeg,CANCER,NON CANCER,0.47510523,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\284.jpeg,CANCER,CANCER 1,0.50914139,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\288.jpeg,CANCER,CANCER,0.31432807,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\302.jpeg,CANCER,NON CANCER,0.54077941,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\308.jpeg,CANCER,CANCER,0.62005281,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\329.jpeg,CANCER,CANCER,0.51368582,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\341.jpeg,CANCER,NON CANCER,0.47099102,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\357.jpeg,CANCER,NON CANCER,0.45487159,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\388.jpeg,CANCER,CANCER,0.38610619,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\393.jpeg,CANCER,CANCER,0.68869138,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\399.jpeg,CANCER,CANCER,0.59578341,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\408.jpeg,CANCER,CANCER,0.52383733,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\428.jpeg,CANCER,CANCER,0.42680410,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\429.jpeg,CANCER,CANCER 1,0.67891359,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\441.jpeg,CANCER,CANCER,0.57506561,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\467.jpeg,CANCER,CANCER 1,0.44278967,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\486.jpeg,CANCER,CANCER,0.70037580,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\493.jpeg,CANCER,CANCER 1,0.58692443,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER\496.jpeg,CANCER,CANCER,0.43673426,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\002.jpeg,CANCER 1,CANCER,0.46026158,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\017.jpeg,CANCER 1,CANCER,0.51339614,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\023.jpeg,CANCER 1,CANCER,0.49119693,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\038.jpeg,CANCER 1,CANCER,0.69000947,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\046.jpeg,CANCER 1,CANCER 1,0.37636507,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\053.jpeg,CANCER 1,CANCER,0.35799295,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\075.jpeg,CANCER 1,CANCER 1,0.45121416,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\083.jpeg,CANCER 1,NON CANCER,0.34845263,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\084.jpeg,CANCER 1,NON CANCER 2,0.33421907,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\110.jpeg,CANCER 1,CANCER,0.37228015,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\111.jpeg,CANCER 1,CANCER 1,0.48736498,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\113.jpeg,CANCER 1,CANCER,0.65198022,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\122.jpeg,CANCER 1,CANCER,0.62574774,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\141.jpeg,CANCER 1,CANCER,0.57404059,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\152.jpeg,CANCER 1,CANCER,0.63994563,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\162.jpeg,CANCER 1,CANCER,0.50001246,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\172.jpeg,CANCER 1,CANCER 1,0.51646197,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\175.jpeg,CANCER 1,CANCER 1,0.58988047,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\182.jpeg,CANCER 1,CANCER,0.55543077,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\214.jpeg,CANCER 1,CANCER 1,0.56277734,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\215.jpeg,CANCER 1,CANCER 1,0.66865796,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\224.jpeg,CANCER 1,CANCER 1,0.54911566,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\229.jpeg,CANCER 1,CANCER,0.54328245,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\249.jpeg,CANCER 1,CANCER,0.51444238,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\250.jpeg,CANCER 1,CANCER,0.54065371,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\259.jpeg,CANCER 1,CANCER,0.47933841,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\262.jpeg,CANCER 1,CANCER,0.53874916,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\277.jpeg,CANCER 1,CANCER,0.51709121,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\307.jpeg,CANCER 1,NON CANCER,0.47510517,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\311.jpeg,CANCER 1,NON CANCER,0.37880152,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\329.jpeg,CANCER 1,NON CANCER,0.44637394,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\342.jpeg,CANCER 1,CANCER 1,0.60033238,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\348.jpeg,CANCER 1,CANCER 1,0.54980463,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\350.jpeg,CANCER 1,CANCER 1,0.39673239,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\352.jpeg,CANCER 1,CANCER,0.34361708,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\380.jpeg,CANCER 1,CANCER 1,0.49579039,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\389.jpeg,CANCER 1,CANCER 1,0.42098451,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\392.jpeg,CANCER 1,CANCER 1,0.62236071,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\393.jpeg,CANCER 1,NON CANCER,0.66569912,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\399.jpeg,CANCER 1,CANCER 1,0.52359140,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\416.jpeg,CANCER 1,NON CANCER,0.46883136,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\418.jpeg,CANCER 1,CANCER 1,0.30647451,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\424.jpeg,CANCER 1,CANCER 1,0.63956708,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\430.jpeg,CANCER 1,CANCER 1,0.51274103,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\459.jpeg,CANCER 1,NON CANCER,0.44501847,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\460.jpeg,CANCER 1,CANCER 1,0.60802883,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\461.jpeg,CANCER 1,NON CANCER,0.48551956,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\485.jpeg,CANCER 1,CANCER,0.38625225,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\CANCER 1\496.jpeg,CANCER 1,CANCER,0.41753522,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\033.jpeg,NON CANCER,NON CANCER,0.51366282,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\036.jpeg,NON CANCER,NON CANCER 2,0.55443662,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\038.jpeg,NON CANCER,NON CANCER 2,0.57054633,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\040.jpeg,NON CANCER,NON CANCER 2,0.56677920,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\049.jpeg,NON CANCER,NON CANCER 2,0.47108513,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\058.jpeg,NON CANCER,NON CANCER 2,0.53796196,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\069.jpeg,NON CANCER,NON CANCER,0.49740583,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\074.jpeg,NON CANCER,CANCER 1,0.55441684,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\089.jpeg,NON CANCER,CANCER 1,0.49506697,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\098.jpeg,NON CANCER,NON CANCER,0.75031751,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\103.jpeg,NON CANCER,NON CANCER,0.34544235,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\107.jpeg,NON CANCER,CANCER 1,0.34230515,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\109.jpeg,NON CANCER,CANCER 1,0.59567106,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\117.jpeg,NON CANCER,CANCER,0.38283825,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\120.jpeg,NON CANCER,NON CANCER,0.53196508,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\123.jpeg,NON CANCER,NON CANCER,0.50892371,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\124.jpeg,NON CANCER,NON CANCER 2,0.49314177,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\177.jpeg,NON CANCER,NON CANCER,0.45557687,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\188.jpeg,NON CANCER,NON CANCER,0.47357851,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\190.jpeg,NON CANCER,NON CANCER 2,0.46376833,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\201.jpeg,NON CANCER,NON CANCER,0.47005442,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\203.jpeg,NON CANCER,NON CANCER,0.61243701,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\208.jpeg,NON CANCER,NON CANCER,0.64769500,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\209.jpeg,NON CANCER,NON CANCER,0.73946017,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\226.jpeg,NON CANCER,NON CANCER,0.64769471,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\229.jpeg,NON CANCER,NON CANCER 2,0.57774067,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\242.jpeg,NON CANCER,NON CANCER,0.39107874,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\244.jpeg,NON CANCER,NON CANCER,0.67490560,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\285.jpeg,NON CANCER,CANCER 1,0.39376947,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\327.jpeg,NON CANCER,NON CANCER,0.85283118,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\332.jpeg,NON CANCER,NON CANCER,0.48616004,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\339.jpeg,NON CANCER,NON CANCER,0.77894133,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\350.jpeg,NON CANCER,CANCER 1,0.44691509,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\363.jpeg,NON CANCER,NON CANCER,0.81433928,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\371.jpeg,NON CANCER,NON CANCER,0.69120842,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\382.jpeg,NON CANCER,NON CANCER,0.88044566,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\384.jpeg,NON CANCER,NON CANCER,0.91084844,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\386.jpeg,NON CANCER,NON CANCER,0.80017233,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\391.jpeg,NON CANCER,NON CANCER,0.72790748,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\397.jpeg,NON CANCER,NON CANCER,0.67242926,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\399.jpeg,NON CANCER,NON CANCER,0.73735255,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\422.jpeg,NON CANCER,NON CANCER,0.55021244,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\425.jpeg,NON CANCER,NON CANCER,0.89605641,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\426.jpeg,NON CANCER,NON CANCER,0.80219394,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\445.jpeg,NON CANCER,NON CANCER,0.52706087,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER\446.jpeg,NON CANCER,NON CANCER,0.53564781,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\001.jpeg,NON CANCER 2,NON CANCER,0.29543442,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\019.jpeg,NON CANCER 2,NON CANCER,0.60650319,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\055.jpeg,NON CANCER 2,NON CANCER,0.60660505,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\066.jpeg,NON CANCER 2,NON CANCER 2,0.62337571,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\076.jpeg,NON CANCER 2,NON CANCER 2,0.45716339,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\093.jpeg,NON CANCER 2,CANCER 1,0.38883859,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\100.jpeg,NON CANCER 2,NON CANCER,0.50691622,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\120.jpeg,NON CANCER 2,NON CANCER,0.50749338,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\131.jpeg,NON CANCER 2,NON CANCER 2,0.62553281,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\133.jpeg,NON CANCER 2,CANCER,0.38283825,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\143.jpeg,NON CANCER 2,NON CANCER,0.58609450,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\155.jpeg,NON CANCER 2,NON CANCER,0.63571340,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\158.jpeg,NON CANCER 2,NON CANCER,0.41315880,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\165.jpeg,NON CANCER 2,NON CANCER 2,0.48397478,True
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\198.jpeg,NON CANCER 2,NON CANCER,0.73162830,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\203.jpeg,NON CANCER 2,NON CANCER,0.69256514,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\204.jpeg,NON CANCER 2,NON CANCER,0.47357851,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\205.jpeg,NON CANCER 2,CANCER,0.54806471,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\211.jpeg,NON CANCER 2,NON CANCER,0.45715630,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\212.jpeg,NON CANCER 2,NON CANCER,0.57232338,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\214.jpeg,NON CANCER 2,NON CANCER,0.54360169,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\221.jpeg,NON CANCER 2,NON CANCER,0.48750591,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\223.jpeg,NON CANCER 2,NON CANCER,0.51689541,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\225.jpeg,NON CANCER 2,NON CANCER,0.64769500,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\238.jpeg,NON CANCER 2,NON CANCER,0.61824399,False
+E:\Mega project\MedvisionAi-\ML-Model\data\Test\Oral Cancer\NON CANCER 2\243.jpeg,NON CANCER 2,CANCER,0.38283825,False

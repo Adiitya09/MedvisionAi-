@@ -19,6 +19,7 @@ logs/
 
 # Datasets and quarantine backups
 data/
+cleaned_data/
 quarantine/
 temp_Datasets_repo/
 

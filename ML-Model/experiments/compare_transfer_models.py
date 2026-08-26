@@ -159,19 +159,86 @@ def _write_results(
     return csv_path, json_path
 
 
-def _save_comparison_plot(
+def _save_comparison_plots(
     results: Sequence[Mapping[str, Any]],
     output_directory: Path,
-) -> Path:
-    """Reuse the project comparison plot and place it in this experiment folder."""
+    dataset_name: str,
+) -> dict[str, Path]:
+    """Generate all required comparison visualizations for the evaluated backbones."""
+    model_names = [str(r["model_name"]) for r in results]
+    macro_f1s = [float(r["validation_macro_f1"]) for r in results]
+    val_accuracies = [float(r["best_val_accuracy"]) for r in results]
+    training_times = [float(r["training_time_seconds"]) for r in results]
+    param_counts = [int(r["parameter_count"]) for r in results]
+
+    import matplotlib.pyplot as plt
+
+    saved_plots: dict[str, Path] = {}
+    colors = ["#2b5c8f", "#d95f02", "#7570b3"]
+
+    # 1. Validation Macro F1 Comparison
+    fig, ax = plt.subplots(figsize=(8, 6))
+    bars = ax.bar(model_names, macro_f1s, color=colors[: len(model_names)])
+    ax.set_title(f"Validation Macro F1 Score - {dataset_name.title()} Domain", fontsize=14, pad=12)
+    ax.set_ylabel("Macro F1 Score", fontsize=12)
+    ax.set_ylim(0, 1.0)
+    ax.grid(axis="y", linestyle="--", alpha=0.5)
+    ax.bar_label(bars, fmt="%.4f", padding=3, fontsize=11)
+    plot_path = output_directory / "validation_macro_f1_comparison.png"
+    fig.tight_layout()
+    fig.savefig(plot_path, dpi=300, bbox_inches="tight")
+    plt.close(fig)
+    saved_plots["macro_f1"] = plot_path
+
+    # 2. Validation Accuracy Comparison
+    fig, ax = plt.subplots(figsize=(8, 6))
+    bars = ax.bar(model_names, val_accuracies, color=colors[: len(model_names)])
+    ax.set_title(f"Validation Accuracy - {dataset_name.title()} Domain", fontsize=14, pad=12)
+    ax.set_ylabel("Accuracy", fontsize=12)
+    ax.set_ylim(0, 1.0)
+    ax.grid(axis="y", linestyle="--", alpha=0.5)
+    ax.bar_label(bars, fmt="%.4f", padding=3, fontsize=11)
+    plot_path = output_directory / "validation_accuracy_comparison.png"
+    fig.tight_layout()
+    fig.savefig(plot_path, dpi=300, bbox_inches="tight")
+    plt.close(fig)
+    saved_plots["accuracy"] = plot_path
+
+    # 3. Training Time Comparison
+    fig, ax = plt.subplots(figsize=(8, 6))
+    bars = ax.bar(model_names, training_times, color=colors[: len(model_names)])
+    ax.set_title(f"Training Time (Seconds) - {dataset_name.title()} Domain", fontsize=14, pad=12)
+    ax.set_ylabel("Time (seconds)", fontsize=12)
+    ax.grid(axis="y", linestyle="--", alpha=0.5)
+    ax.bar_label(bars, fmt="%.1f s", padding=3, fontsize=11)
+    plot_path = output_directory / "training_time_comparison.png"
+    fig.tight_layout()
+    fig.savefig(plot_path, dpi=300, bbox_inches="tight")
+    plt.close(fig)
+    saved_plots["training_time"] = plot_path
+
+    # 4. Parameter Count Comparison
+    fig, ax = plt.subplots(figsize=(8, 6))
+    bars = ax.bar(model_names, [p / 1e6 for p in param_counts], color=colors[: len(model_names)])
+    ax.set_title(f"Total Parameters (Millions) - {dataset_name.title()} Domain", fontsize=14, pad=12)
+    ax.set_ylabel("Parameters (Millions)", fontsize=12)
+    ax.grid(axis="y", linestyle="--", alpha=0.5)
+    ax.bar_label(bars, fmt="%.2f M", padding=3, fontsize=11)
+    plot_path = output_directory / "parameter_count_comparison.png"
+    fig.tight_layout()
+    fig.savefig(plot_path, dpi=300, bbox_inches="tight")
+    plt.close(fig)
+    saved_plots["parameters"] = plot_path
+
+    # 5. Combined 6-panel summary plot using project visualization utility
     plot_input = {
         str(result["model_name"]): {
-            "accuracy": float(result["test_accuracy"]),
-            "precision": float(result["precision"]),
-            "recall": float(result["recall"]),
-            "f1_score": float(result["macro_f1"]),
+            "accuracy": float(result["best_val_accuracy"]),
+            "precision": float(result["validation_macro_precision"]),
+            "recall": float(result["validation_macro_recall"]),
+            "f1_score": float(result["validation_macro_f1"]),
             "training_time": float(result["training_time_seconds"]),
-            "inference_time": float(result["test_inference_time_seconds"]),
+            "inference_time": float(result.get("validation_inference_time_seconds", 0.0)),
         }
         for result in results
     }
@@ -179,9 +246,11 @@ def _save_comparison_plot(
     target_path = output_directory / "comparison_plot.png"
     try:
         source_path.replace(target_path)
-    except OSError as error:
-        raise RuntimeError(f"Unable to save comparison plot: {target_path}") from error
-    return target_path
+        saved_plots["combined"] = target_path
+    except OSError:
+        pass
+
+    return saved_plots
 
 
 def compare_models(
@@ -192,7 +261,7 @@ def compare_models(
     """Train and fairly compare selected backbones for one disease dataset.
 
     Models are ranked by validation macro F1, with validation accuracy as a
-    deterministic tie breaker. Test metrics are saved for final reporting only.
+    deterministic tie breaker. Test split is strictly isolated and untouched.
     """
     if not isinstance(dataset_name, str) or not dataset_name.strip():
         raise ValueError("dataset_name must be a non-empty string.")
@@ -231,7 +300,7 @@ def compare_models(
 
     results: list[dict[str, Any]] = []
     for model_name in selected_models:
-        logger.info("Starting independent %s run.", model_name)
+        logger.info("Starting independent %s run on %s dataset.", model_name, dataset_key)
         set_random_seed(CONFIG.random_seed)
         train_dataset = load_train_dataset(dataset_key)
         validation_dataset = load_validation_dataset(dataset_key)
@@ -242,7 +311,7 @@ def compare_models(
             model = _build_model(model_name, len(class_names))
             callbacks = _configure_unique_callbacks(dataset_key, model_name, output_directory)
             started_at = perf_counter()
-            model.fit(
+            history = model.fit(
                 train_dataset,
                 validation_data=validation_dataset,
                 epochs=epochs,
@@ -252,31 +321,41 @@ def compare_models(
             )
             training_time = perf_counter() - started_at
         except (tf.errors.OpError, TypeError, ValueError, RuntimeError) as error:
-            logger.exception("Training failed for %s.", model_name)
-            raise RuntimeError(f"Training failed for '{model_name}'.") from error
+            logger.exception("Training failed for %s on %s.", model_name, dataset_key)
+            raise RuntimeError(f"Training failed for '{model_name}' on '{dataset_key}'.") from error
 
+        # Evaluate validation set with restored best weights from EarlyStopping
+        val_eval_start = perf_counter()
         validation_metrics = _evaluate_split(model, validation_dataset)
-        inference_started_at = perf_counter()
-        test_metrics = _evaluate_split(model, test_dataset)
-        test_inference_time = perf_counter() - inference_started_at
+        val_inference_time = perf_counter() - val_eval_start
+
+        # Extract training progress history metrics
+        train_accuracies = history.history.get("accuracy", [0.0])
+        val_accuracies_hist = history.history.get("val_accuracy", [0.0])
+        val_losses_hist = history.history.get("val_loss", [float("inf")])
+        training_accuracy = float(train_accuracies[-1])
+        best_val_accuracy = float(max(val_accuracies_hist))
+        best_epoch = int(np.argmin(val_losses_hist) + 1)
+
         model_path = model_directory / f"{model_name}.keras"
         save_model(model, model_path, overwrite=True)
+
         result = {
-            "model_name": model_name,
             "dataset": dataset_key,
+            "model_name": model_name,
             "parameter_count": int(model.count_params()),
             "trainable_parameters": _parameter_count(model.trainable_weights),
+            "training_accuracy": training_accuracy,
+            "best_val_accuracy": best_val_accuracy,
             "validation_accuracy": validation_metrics["accuracy"],
             "validation_loss": validation_metrics["loss"],
+            "validation_macro_precision": validation_metrics["precision"],
+            "validation_macro_recall": validation_metrics["recall"],
             "validation_macro_f1": validation_metrics["macro_f1"],
-            "test_accuracy": test_metrics["accuracy"],
-            "test_loss": test_metrics["loss"],
-            "precision": test_metrics["precision"],
-            "recall": test_metrics["recall"],
-            "macro_f1": test_metrics["macro_f1"],
-            "weighted_f1": test_metrics["weighted_f1"],
+            "validation_weighted_f1": validation_metrics["weighted_f1"],
+            "best_epoch": best_epoch,
             "training_time_seconds": training_time,
-            "test_inference_time_seconds": test_inference_time,
+            "validation_inference_time_seconds": val_inference_time,
             "model_path": str(model_path),
             "checkpoint_path": str(
                 CONFIG.checkpoints_dir / f"{dataset_key}_comparison_{model_name}_best.keras"
@@ -284,42 +363,61 @@ def compare_models(
         }
         results.append(result)
         logger.info(
-            "%s completed | validation macro F1: %.4f | test accuracy: %.4f",
+            "%s completed | Best Val Acc: %.4f | Val Macro F1: %.4f | Best Epoch: %d | Time: %.1fs",
             model_name,
+            result["best_val_accuracy"],
             result["validation_macro_f1"],
-            result["test_accuracy"],
+            result["best_epoch"],
+            result["training_time_seconds"],
         )
         tf.keras.backend.clear_session()
 
     results.sort(
-        key=lambda result: (result["validation_macro_f1"], result["validation_accuracy"]),
+        key=lambda r: (r["validation_macro_f1"], r["best_val_accuracy"]),
         reverse=True,
     )
     best_model = results[0]
     for rank, result in enumerate(results, start=1):
         result["rank_by_validation_macro_f1"] = rank
         result["is_best_model"] = rank == 1
+
     csv_path, json_path = _write_results(results, output_directory)
-    plot_path = _save_comparison_plot(results, output_directory)
+    saved_plots = _save_comparison_plots(results, output_directory, dataset_key)
     logger.info(
-        "Comparison completed | best model: %s | validation macro F1: %.4f",
+        "Comparison completed for %s | winner: %s (Val Macro F1: %.4f)",
+        dataset_key,
         best_model["model_name"],
         best_model["validation_macro_f1"],
     )
-    logger.info("Results saved | CSV: %s | JSON: %s | plot: %s", csv_path, json_path, plot_path)
+    logger.info("Results saved | CSV: %s | JSON: %s | plots: %s", csv_path, json_path, list(saved_plots.values()))
     return results
+
+
+def run_all_comparisons(
+    model_names: Sequence[str] = SUPPORTED_MODELS,
+    epochs: int = DEFAULT_COMPARISON_EPOCHS,
+) -> dict[str, list[dict[str, Any]]]:
+    """Run model comparison sequentially across Skin, Eye, and Oral datasets."""
+    all_results: dict[str, list[dict[str, Any]]] = {}
+    datasets = ("skin", "eye", "oral")
+    for dataset_name in datasets:
+        print(f"\n{'=' * 60}")
+        print(f"RUNNING COMPARISON FOR DOMAIN: {dataset_name.upper()}")
+        print(f"{'=' * 60}\n")
+        all_results[dataset_name] = compare_models(dataset_name, model_names, epochs)
+    return all_results
 
 
 def _parse_arguments(arguments: Sequence[str] | None = None) -> argparse.Namespace:
     """Parse a comparison experiment request without executing it on import."""
     parser = argparse.ArgumentParser(
-        description="Fairly compare transfer-learning backbones for one disease dataset."
+        description="Fairly compare transfer-learning backbones for medical image datasets."
     )
     parser.add_argument(
         "--dataset",
-        choices=("skin", "eye", "oral"),
-        required=True,
-        help="Disease dataset to use for the controlled experiment.",
+        choices=("skin", "eye", "oral", "all"),
+        default="all",
+        help="Disease dataset to use for comparison (default: all).",
     )
     parser.add_argument(
         "--models",
@@ -341,7 +439,23 @@ def main(arguments: Sequence[str] | None = None) -> int:
     """Run an explicitly requested comparison experiment."""
     try:
         args = _parse_arguments(arguments)
-        results = compare_models(args.dataset, args.models, args.epochs)
+        if args.dataset == "all":
+            all_results = run_all_comparisons(args.models, args.epochs)
+            print("\n" + "=" * 60)
+            print("ALL TRANSFER LEARNING COMPARISONS COMPLETED")
+            print("=" * 60)
+            for ds, res in all_results.items():
+                winner = res[0]
+                print(f"Dataset: {ds.upper():<6} | Winner: {winner['model_name']:<15} | Val Macro F1: {winner['validation_macro_f1']:.4f} | Best Val Acc: {winner['best_val_accuracy']:.4f}")
+        else:
+            results = compare_models(args.dataset, args.models, args.epochs)
+            best_model = results[0]
+            print(
+                f"\nBest model by validation macro F1: {best_model['model_name']}\n"
+                f"Validation macro F1: {best_model['validation_macro_f1']:.4f}\n"
+                f"Best validation accuracy: {best_model['best_val_accuracy']:.4f}\n"
+                f"Results directory: {CONFIG.outputs_dir / 'comparisons' / args.dataset}"
+            )
     except KeyboardInterrupt:
         LOGGER.warning("Comparison cancelled by user.")
         return 130
@@ -354,12 +468,6 @@ def main(arguments: Sequence[str] | None = None) -> int:
         print(f"Comparison failed: {error}", file=sys.stderr)
         return 1
 
-    best_model = results[0]
-    print(
-        f"Best model by validation macro F1: {best_model['model_name']}\n"
-        f"Validation macro F1: {best_model['validation_macro_f1']:.4f}\n"
-        f"Results: {CONFIG.outputs_dir / 'comparisons' / args.dataset}"
-    )
     return 0
 
 

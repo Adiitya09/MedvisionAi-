@@ -1,0 +1,14 @@
+{
+  "image_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\data\\Test\\Oral Cancer\\CANCER\\157.jpeg",
+  "image_filename": "157.jpeg",
+  "dataset": "oral",
+  "model": "efficientnetb0_best_tuned.keras",
+  "predicted_class": "CANCER 1",
+  "confidence": 0.6856943964958191,
+  "target_class": "CANCER 1",
+  "target_class_index": 1,
+  "target_layer": "top_conv",
+  "original_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\oral\\oral_sample_04_cancer_misclassified_original.png",
+  "heatmap_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\oral\\oral_sample_04_cancer_misclassified_heatmap.png",
+  "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\oral\\oral_sample_04_cancer_misclassified_overlay.png"
+}

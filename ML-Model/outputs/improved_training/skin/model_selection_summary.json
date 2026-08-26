@@ -1,0 +1,22 @@
+{
+  "domain": "skin",
+  "selected_configuration": "Config B",
+  "selection_metric": "Validation Macro F1",
+  "config_a": {
+    "config_name": "Config A (Class-Weighted Frozen)",
+    "best_epoch": 6,
+    "best_val_macro_f1": 0.584760587096421,
+    "best_val_accuracy": 0.667989417989418,
+    "training_time_sec": 2756.7779702999997,
+    "checkpoint_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\checkpoints\\improved\\skin\\skin_config_a_best.keras"
+  },
+  "config_b": {
+    "config_name": "Config B (Class-Weighted Progressive Fine-Tuning)",
+    "best_epoch": 8,
+    "best_val_macro_f1": 0.5986173739208172,
+    "best_val_accuracy": 0.6697530864197531,
+    "training_time_sec": 4012.3708017999998,
+    "checkpoint_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\checkpoints\\improved\\skin\\skin_config_b_best.keras"
+  },
+  "final_model_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\models\\improved\\skin_efficientnetb0.keras"
+}

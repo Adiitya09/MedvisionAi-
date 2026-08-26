@@ -1,0 +1,31 @@
+{
+  "dataset": "eye",
+  "total_test_samples": 1051,
+  "total_correct": 716,
+  "total_incorrect": 335,
+  "accuracy": 0.681255946717412,
+  "macro_f1": 0.6125337090399474,
+  "weighted_f1": 0.6679652665104879,
+  "correct_confidence": {
+    "mean": 0.6768943071365356,
+    "std": 0.17303700745105743,
+    "median": 0.662135124206543,
+    "min": 0.3048301041126251,
+    "max": 0.9965311884880066,
+    "q25": 0.5416222810745239,
+    "q75": 0.8151035308837891
+  },
+  "incorrect_confidence": {
+    "mean": 0.54646235704422,
+    "std": 0.13233938813209534,
+    "median": 0.5313889384269714,
+    "min": 0.24432185292243958,
+    "max": 0.9161368608474731,
+    "q25": 0.4477538466453552,
+    "q75": 0.6374654769897461
+  },
+  "high_confidence_error_count": 27,
+  "high_confidence_error_pct": 8.059701492537313,
+  "low_confidence_error_count": 131,
+  "low_confidence_error_pct": 39.1044776119403
+}

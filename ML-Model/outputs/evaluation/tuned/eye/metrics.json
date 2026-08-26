@@ -1,0 +1,21 @@
+{
+  "dataset": "eye",
+  "model_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\models\\tuning\\eye\\resnet50_best_tuned.keras",
+  "class_mapping_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\models\\eye_class_names.json",
+  "test_loss": 1.2768223285675049,
+  "test_accuracy": 0.560418648905804,
+  "macro_precision": 0.5622413051142162,
+  "macro_recall": 0.44044638628960403,
+  "macro_f1": 0.4109429355351978,
+  "weighted_precision": 0.6378690875584584,
+  "weighted_recall": 0.560418648905804,
+  "weighted_f1": 0.5087608640695209,
+  "micro_precision": 0.560418648905804,
+  "micro_recall": 0.560418648905804,
+  "micro_f1": 0.560418648905804,
+  "precision": 0.5622413051142162,
+  "recall": 0.44044638628960403,
+  "f1_score": 0.4109429355351978,
+  "roc_auc": 0.8773671583864969,
+  "test_samples": 1051
+}

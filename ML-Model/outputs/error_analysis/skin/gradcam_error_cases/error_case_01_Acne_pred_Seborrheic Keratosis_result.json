@@ -1,0 +1,14 @@
+{
+  "image_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\data\\Test\\FYP skin disease Dataset\\Acne\\acne-182_jpg.rf.7c2e3699a804e6c8aa7910f55b5ca1d5.jpg",
+  "image_filename": "acne-182_jpg.rf.7c2e3699a804e6c8aa7910f55b5ca1d5.jpg",
+  "dataset": "skin",
+  "model": "skin_model.keras",
+  "predicted_class": "Seborrheic Keratosis",
+  "confidence": 0.95722895860672,
+  "target_class": "Seborrheic Keratosis",
+  "target_class_index": 6,
+  "target_layer": "top_conv",
+  "original_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\error_analysis\\skin\\gradcam_error_cases\\error_case_01_Acne_pred_Seborrheic Keratosis_original.png",
+  "heatmap_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\error_analysis\\skin\\gradcam_error_cases\\error_case_01_Acne_pred_Seborrheic Keratosis_heatmap.png",
+  "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\error_analysis\\skin\\gradcam_error_cases\\error_case_01_Acne_pred_Seborrheic Keratosis_overlay.png"
+}

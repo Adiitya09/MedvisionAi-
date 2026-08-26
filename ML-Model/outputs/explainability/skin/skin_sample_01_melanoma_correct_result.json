@@ -1,0 +1,14 @@
+{
+  "image_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\data\\Test\\FYP skin disease Dataset\\Melanoma\\ISIC_7340247.jpg",
+  "image_filename": "ISIC_7340247.jpg",
+  "dataset": "skin",
+  "model": "skin_model.keras",
+  "predicted_class": "Melanoma",
+  "confidence": 0.9548656940460205,
+  "target_class": "Melanoma",
+  "target_class_index": 5,
+  "target_layer": "top_conv",
+  "original_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\skin\\skin_sample_01_melanoma_correct_original.png",
+  "heatmap_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\skin\\skin_sample_01_melanoma_correct_heatmap.png",
+  "overlay_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\outputs\\explainability\\skin\\skin_sample_01_melanoma_correct_overlay.png"
+}

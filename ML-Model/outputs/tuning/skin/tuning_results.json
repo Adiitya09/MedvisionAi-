@@ -1,0 +1,302 @@
+[
+  {
+    "trial_number": 3,
+    "trial_label": "higher_learning_rate",
+    "description": "Higher initial learning rate for faster adaptation (lr=3e-4, dropout=0.30)",
+    "dataset": "skin",
+    "backbone": "resnet50",
+    "learning_rate": 0.0003,
+    "batch_size": 32,
+    "dropout": 0.3,
+    "optimizer": "adam",
+    "fine_tune_layers": 0,
+    "fine_tuning_strategy": "frozen",
+    "parameter_count": 23604104,
+    "trainable_parameters": 16392,
+    "training_accuracy": 0.7487204670906067,
+    "best_validation_accuracy": 0.7698412537574768,
+    "best_validation_loss": 0.5826754570007324,
+    "validation_macro_precision": 0.724515178100869,
+    "validation_macro_recall": 0.698904859868068,
+    "validation_macro_f1": 0.7070187484670584,
+    "validation_weighted_f1": 0.7678351569925597,
+    "best_epoch": 4,
+    "training_time_seconds": 2747.1859591999964,
+    "validation_inference_time_seconds": 131.5866618,
+    "checkpoint_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\checkpoints\\skin_tuning_resnet50_trial_3_best.keras",
+    "history": {
+      "accuracy": [
+        0.6125694513320923,
+        0.7091519236564636,
+        0.7380991578102112,
+        0.7487204670906067
+      ],
+      "loss": [
+        1.0507991313934326,
+        0.7737680077552795,
+        0.6972495913505554,
+        0.6570185422897339
+      ],
+      "val_accuracy": [
+        0.7239859104156494,
+        0.7632275223731995,
+        0.7685185074806213,
+        0.7698412537574768
+      ],
+      "val_loss": [
+        0.7088650465011597,
+        0.6199488043785095,
+        0.5947469472885132,
+        0.5826754570007324
+      ],
+      "learning_rate": [
+        0.0003000000142492354,
+        0.0003000000142492354,
+        0.0003000000142492354,
+        0.0003000000142492354
+      ]
+    },
+    "rank_by_validation_macro_f1": 1,
+    "is_best_configuration": true
+  },
+  {
+    "trial_number": 5,
+    "trial_label": "fine_tune_top_layers",
+    "description": "Unfreeze top 15 backbone layers with low learning rate (lr=1e-5, dropout=0.30)",
+    "dataset": "skin",
+    "backbone": "resnet50",
+    "learning_rate": 1e-05,
+    "batch_size": 32,
+    "dropout": 0.3,
+    "optimizer": "adam",
+    "fine_tune_layers": 15,
+    "fine_tuning_strategy": "unfreeze_top_15_layers",
+    "parameter_count": 23604104,
+    "trainable_parameters": 5536776,
+    "training_accuracy": 0.7629189491271973,
+    "best_validation_accuracy": 0.78924161195755,
+    "best_validation_loss": 0.5443717241287231,
+    "validation_macro_precision": 0.7382073342272963,
+    "validation_macro_recall": 0.6830663096734637,
+    "validation_macro_f1": 0.7051432628517011,
+    "validation_weighted_f1": 0.7857555758016728,
+    "best_epoch": 4,
+    "training_time_seconds": 3469.514386899995,
+    "validation_inference_time_seconds": 134.50146620000305,
+    "checkpoint_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\checkpoints\\skin_tuning_resnet50_trial_5_best.keras",
+    "history": {
+      "accuracy": [
+        0.5489516258239746,
+        0.6967695951461792,
+        0.7357327342033386,
+        0.7629189491271973
+      ],
+      "loss": [
+        1.2578357458114624,
+        0.8380307555198669,
+        0.7137261033058167,
+        0.6394895315170288
+      ],
+      "val_accuracy": [
+        0.7063491940498352,
+        0.7539682388305664,
+        0.7729277014732361,
+        0.78924161195755
+      ],
+      "val_loss": [
+        0.7782634496688843,
+        0.6457388997077942,
+        0.5890212059020996,
+        0.5443717241287231
+      ],
+      "learning_rate": [
+        9.999999747378752e-06,
+        9.999999747378752e-06,
+        9.999999747378752e-06,
+        9.999999747378752e-06
+      ]
+    },
+    "rank_by_validation_macro_f1": 2,
+    "is_best_configuration": false
+  },
+  {
+    "trial_number": 1,
+    "trial_label": "baseline_frozen",
+    "description": "Baseline transfer learning with frozen backbone (lr=1e-4, dropout=0.30)",
+    "dataset": "skin",
+    "backbone": "resnet50",
+    "learning_rate": 0.0001,
+    "batch_size": 32,
+    "dropout": 0.3,
+    "optimizer": "adam",
+    "fine_tune_layers": 0,
+    "fine_tuning_strategy": "frozen",
+    "parameter_count": 23604104,
+    "trainable_parameters": 16392,
+    "training_accuracy": 0.7059600353240967,
+    "best_validation_accuracy": 0.7398589253425598,
+    "best_validation_loss": 0.6553981900215149,
+    "validation_macro_precision": 0.6980524398555594,
+    "validation_macro_recall": 0.6322787318081553,
+    "validation_macro_f1": 0.6559491142923217,
+    "validation_weighted_f1": 0.7354540798954189,
+    "best_epoch": 4,
+    "training_time_seconds": 2785.823374200001,
+    "validation_inference_time_seconds": 135.1772439999986,
+    "checkpoint_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\checkpoints\\skin_tuning_resnet50_trial_1_best.keras",
+    "history": {
+      "accuracy": [
+        0.5166473984718323,
+        0.6543943881988525,
+        0.6832865476608276,
+        0.7059600353240967
+      ],
+      "loss": [
+        1.3265353441238403,
+        0.9445101022720337,
+        0.8398406505584717,
+        0.7779703140258789
+      ],
+      "val_accuracy": [
+        0.6728395223617554,
+        0.7094356417655945,
+        0.726190447807312,
+        0.7398589253425598
+      ],
+      "val_loss": [
+        0.8481673002243042,
+        0.7288210988044739,
+        0.6802229285240173,
+        0.6553981900215149
+      ],
+      "learning_rate": [
+        9.999999747378752e-05,
+        9.999999747378752e-05,
+        9.999999747378752e-05,
+        9.999999747378752e-05
+      ]
+    },
+    "rank_by_validation_macro_f1": 3,
+    "is_best_configuration": false
+  },
+  {
+    "trial_number": 4,
+    "trial_label": "higher_dropout",
+    "description": "Increased dropout regularization to mitigate overfitting (lr=1e-4, dropout=0.45)",
+    "dataset": "skin",
+    "backbone": "resnet50",
+    "learning_rate": 0.0001,
+    "batch_size": 32,
+    "dropout": 0.45,
+    "optimizer": "adam",
+    "fine_tune_layers": 0,
+    "fine_tuning_strategy": "frozen",
+    "parameter_count": 23604104,
+    "trainable_parameters": 16392,
+    "training_accuracy": 0.6808651089668274,
+    "best_validation_accuracy": 0.7372134327888489,
+    "best_validation_loss": 0.6669964790344238,
+    "validation_macro_precision": 0.679824630484817,
+    "validation_macro_recall": 0.5903140354246957,
+    "validation_macro_f1": 0.6169909346904804,
+    "validation_weighted_f1": 0.7292959650452262,
+    "best_epoch": 4,
+    "training_time_seconds": 2801.1438686000038,
+    "validation_inference_time_seconds": 136.33791599999677,
+    "checkpoint_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\checkpoints\\skin_tuning_resnet50_trial_4_best.keras",
+    "history": {
+      "accuracy": [
+        0.4810962378978729,
+        0.6182378530502319,
+        0.6606680750846863,
+        0.6808651089668274
+      ],
+      "loss": [
+        1.494842767715454,
+        1.0502904653549194,
+        0.9170974493026733,
+        0.8503168225288391
+      ],
+      "val_accuracy": [
+        0.6693121790885925,
+        0.7054673433303833,
+        0.722663164138794,
+        0.7372134327888489
+      ],
+      "val_loss": [
+        0.8710699081420898,
+        0.7452294826507568,
+        0.6936331987380981,
+        0.6669964790344238
+      ],
+      "learning_rate": [
+        9.999999747378752e-05,
+        9.999999747378752e-05,
+        9.999999747378752e-05,
+        9.999999747378752e-05
+      ]
+    },
+    "rank_by_validation_macro_f1": 4,
+    "is_best_configuration": false
+  },
+  {
+    "trial_number": 2,
+    "trial_label": "lower_learning_rate",
+    "description": "Lower initial learning rate for smoother optimization (lr=5e-5, dropout=0.30)",
+    "dataset": "skin",
+    "backbone": "resnet50",
+    "learning_rate": 5e-05,
+    "batch_size": 32,
+    "dropout": 0.3,
+    "optimizer": "adam",
+    "fine_tune_layers": 0,
+    "fine_tuning_strategy": "frozen",
+    "parameter_count": 23604104,
+    "trainable_parameters": 16392,
+    "training_accuracy": 0.6656760573387146,
+    "best_validation_accuracy": 0.7063491940498352,
+    "best_validation_loss": 0.729962170124054,
+    "validation_macro_precision": 0.6417358209069276,
+    "validation_macro_recall": 0.5424787867835328,
+    "validation_macro_f1": 0.564885240559441,
+    "validation_weighted_f1": 0.6953311941840198,
+    "best_epoch": 4,
+    "training_time_seconds": 2811.5023997000026,
+    "validation_inference_time_seconds": 137.80840239999816,
+    "checkpoint_path": "E:\\Mega project\\MedvisionAi-\\ML-Model\\checkpoints\\skin_tuning_resnet50_trial_2_best.keras",
+    "history": {
+      "accuracy": [
+        0.44460955262184143,
+        0.5955093502998352,
+        0.6365087032318115,
+        0.6656760573387146
+      ],
+      "loss": [
+        1.552412509918213,
+        1.1019903421401978,
+        0.9699460864067078,
+        0.8915225863456726
+      ],
+      "val_accuracy": [
+        0.6278659701347351,
+        0.6790123581886292,
+        0.6957672238349915,
+        0.7063491940498352
+      ],
+      "val_loss": [
+        0.9954227805137634,
+        0.8404691219329834,
+        0.7689903974533081,
+        0.729962170124054
+      ],
+      "learning_rate": [
+        4.999999873689376e-05,
+        4.999999873689376e-05,
+        4.999999873689376e-05,
+        4.999999873689376e-05
+      ]
+    },
+    "rank_by_validation_macro_f1": 5,
+    "is_best_configuration": false
+  }
+]
